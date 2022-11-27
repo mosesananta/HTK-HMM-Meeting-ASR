@@ -1,0 +1,486 @@
+acara	a c a r a
+ada	a d a
+adalah	a d a l a h
+adopsi	a d o p s i
+agar	a g a r
+agenda	a g e n d a
+akan	a k a n
+akhir	a k h i r
+akhirnya	a k h i r n y a
+aktivitas	a k t i v i t a s
+akuntan	a k u n t a n
+alami	a l a m i
+aman	a m a n
+ambil	a m b i l
+anda	a n d a
+anggota	a n g g o t a
+antara	a n t a r a
+apa	a p a
+area	a r e a
+arus	a r u s
+aset	a s e t
+atas	a t a s
+atau	a t a u
+awal	a w a l
+bagaimana	b a g a i m a n a
+bagi	b a g i
+bagian	b a g i a n
+bahwa	b a h w a
+baik	b a i k
+bangga	b a n g g a
+banyak	b a n y a k
+bapak	b a p a k
+baru	b a r u
+bebas	b e b a s
+beberapa	b e b e r a p a
+bekerja	b e k e r j a
+belas	b e l a s
+belum	b e l u m
+bencana	b e n c a n a
+beralih	b e r a l i h
+berbagai	b e r b a g a i
+berbeda	b e r b e d a
+berfokus	b e r f o k u s
+berharga	b e r h a r g a
+berikut	b e r i k u t
+berkelanjutan	b e r k e l a n j u t a n
+berkomitmen	b e r k o m i t m e n
+berpartisipasi	b e r p a r t i s i p a s i
+berpikir	b e r p i k i r
+berpusat	b e r p u s a t
+bersamaan	b e r s a m a a n
+bertahan	b e r t a h a n
+besar	b e s a r
+biasa	b i a s a
+biaya	b i a y a
+bisa	b i s a
+bisnis	b i s n i s
+budaya	b u d a y a
+butir	b u t i r
+calon	c a l o n
+caranya	c a r a n y a
+cepat	c e p a t
+cukup	c u k u p
+dalam	d a l a m
+dampak	d a m p a k
+dan	d a n
+dapat	d a p a t
+dari	d a r i
+daring	d a r i n g
+daripada	d a r i p a d a
+dasar	d a s a r
+data	d a t a
+datang	d a t a n g
+daya	d a y a
+dedikasi	d e d i k a s i
+delapan	d e l a p a n
+demikian	d e m i k i a n
+dengan	d e n g a n
+depan	d e p a n
+dewan	d e w a n
+di	d i
+diadakan	d i a d a k a n
+diambil	d i a m b i l
+dibahas	d i b a h a s
+dibandingkan	d i b a n d i n g k a n
+dibebaskan	d i b e b a s k a n
+dicatat	d i c a t a t
+didorong	d i d o r o n g
+dihadapi	d i h a d a p i
+diingat	d i i n g a t
+dikarenakan	d i k a r e n a k a n
+dipandu	d i p a n d u
+diperhatikan	d i p e r h a t i k a n
+diperparah	d i p e r p a r a h
+diposisikan	d i p o s i s i k a n
+diragukan	d i r a g u k a n
+direksi	d i r e k s i
+direktur	d i r e k t u r
+disebabkan	d i s e b a b k a n
+disiplin	d i s i p l i n
+diterima	d i t e r i m a
+ditunjukkan	d i t u n j u k k a n
+diungkapkan	d i u n g k a p k a n
+dua	d u a
+dukungan	d u k u n g a n
+dukungannya	d u k u n g a n n y a
+dunia	d u n i a
+ekonomi	e k o n o m i
+eksekutif	e k s e k u t i f
+empat	e m p a t
+enam	e n a m
+filosofi	f i l o s o f i
+finansial	f i n a n s i a l
+fleksibilitas	f l e k s i b i l i t a s
+fokus	f o k u s
+gelap	g e l a p
+global	g l o b a l
+hal	h a l
+hanya	h a n y a
+harap	h a r a p
+harga	h a r g a
+hari	h a r i
+harus	h a r u s
+hati	h a t i
+hitungan	h i t u n g a n
+ibu	i b u
+industri	i n d u s t r i
+ingin	i n g i n
+ini	i n i
+inilah	i n i l a h
+inovasi	i n o v a s i
+integritas	i n t e g r i t a s
+internal	i n t e r n a l
+item	i y t e m
+itu	i t u
+itulah	i t u l a h
+izinkan	i z i n k a n
+jabatan	j a b a t a n
+jadi	j a d i
+jalur	j a l u r
+jangka	j a n g k a
+jawab	j a w a b
+jiwa	j i w a
+juga	j u g a
+jumlah	j u m l a h
+kalah	k a l a h
+kali	k a l i
+kami	k a m i
+kantor	k a n t o r
+kapan	k a p a n
+karena	k a r e n a
+karyawan	k a r y a w a n
+kas	k a s
+kasih	k a s i h
+ke	k e
+keadaan	k e a d a a n
+kebanyakan	k e b a n y a k a n
+keberjalanan	k e b e r j a l a n a n
+kedepannya	k e d e p a n n y a
+kedua	k e d u a
+kegagalan	k e g a g a l a n
+kejutan	k e j u t a n
+kekhawatiran	k e k h a w a t i r a n
+kekuatan	k e k u a t a n
+kelas	k e l a s
+kemampuan	k e m a m p u a n
+kemanusiaan	k e m a n u s i a a n
+kembali	k e m b a l i
+kepada	k e p a d a
+kepemimpinan	k e p e m i m p i n a n
+keputusan	k e p u t u s a n
+kerja	k e r j a
+kerugian	k e r u g i a n
+kesediaan	k e s e d i a a n
+kesehatan	k e s e h a t a n
+kesejahteraan	k e s e j a h t e r a a n
+keselamatan	k e s e l a m a t a n
+keseluruhan	k e s e l u r u h a n
+kesempatan	k e s e m p a t a n
+kesulitan	k e s u l i t a n
+ketika	k e t i k a
+ketua	k e t u a
+keuangan	k e u a n g a n
+keunggulan	k e u n g g u l a n
+keuntungan	k e u n t u n g a n
+khususnya	k h u s u s n y a
+kita	k i t a
+komentar	k o m e n t a r
+kompas	k o m p a s
+kompensasi	k o m p e n s a s i
+kompetitif	k o m p e t i t i f
+kondisi	k o n d i s i
+kontraktor	k o n t r a k t o r
+konvensional	k o n v e n s i o n a l
+kotak	k o t a k
+kuasa	k u a s a
+kuat	k u a t
+kultur	k u l t u r
+kuorum	k u o r u m
+lagi	l a g i
+lakukan	l a k u k a n
+lama	l a m a
+lampau	l a m p a u
+langsung	l a n g s u n g
+layar	l a y a r
+lebih	l e b i h
+lemah	l e m a h
+likuiditas	l i k u i d i t a s
+lima	l i m a
+luar	l u a r
+luring	l u r i n g
+mampu	m a m p u
+maret	m a r e t
+masa	m a s a
+masa-masa	m a s a - m a s a
+masalah	m a s a l a h
+mata	m a t a
+melalui	m e l a l u i
+melanjutkan	m e l a n j u t k a n
+melayani	m e l a y a n i
+melemahkan	m e l e m a h k a n
+melepaskan	m e l e p a s k a n
+melewati	m e l e w a t i
+melihat	m e l i h a t
+memanfaatkan	m e m a n f a a t k a n
+memantau	m e m a n t a u
+memastikan	m e m a s t i k a n
+membahayakan	m e m b a h a y a k a n
+memberikan	m e m b e r i k a n
+membimbing	m e m b i m b i n g
+membuat	m e m b u a t
+memegang	m e m e g a n g
+memikirkan	m e m i k i r k a n
+memilih	m e m i l i h
+memiliki	m e m i l i k i
+memitigasi	m e m i t i g a s i
+memotong	m e m o t o n g
+memperkirakan	m e m p e r k i r a k a n
+memperkuat	m e m p e r k u a t
+mempersiapkan	m e m p e r s i a p k a n
+mempertahankan	m e m p e r t a h a n k a n
+mempertimbangkan	m e m p e r t i m b a n g k a n
+memulai	m e m u l a i
+memungkinkan	m e m u n g k i n k a n
+memutuskan	m e m u t u s k a n
+menangani	m e n a n g a n i
+menantang	m e n a n t a n g
+menavigasi	m e n a v i g a s i
+mencakup	m e n c a k u p
+mencapai	m e n c a p a i
+mendorong	m e n d o r o n g
+menempatkan	m e n e m p a t k a n
+menerapkan	m e n e r a p k a n
+menerima	m e n e r i m a
+mengalami	m e n g a l a m i
+mengambil	m e n g a m b i l
+menganalisis	m e n g a n a l i s i s
+mengapresiasi	m e n g a p r e s i a s i
+mengelola	m e n g e l o l a
+mengembalikan	m e n g e m b a l i k a n
+mengesahkan	m e n g e s a h k a n
+mengetahui	m e n g e t a h u i
+mengevaluasi	m e n g e v a l u a s i
+menggunakan	m e n g g u n a k a n
+menghabiskan	m e n g h a b i s k a n
+menghadapi	m e n g h a d a p i
+menghargai	m e n g h a r g a i
+menghasilkan	m e n g h a s i l k a n
+mengingat	m e n g i n g a t
+mengirimkan	m e n g i r i m k a n
+mengkhawatirkan	m e n g k h a w a t i r k a n
+mengoptimalkan	m e n g o p t i m a l k a n
+mengucapkan	m e n g u c a p k a n
+menguntungkan	m e n g u n t u n g k a n
+mengurangi	m e n g u r a n g i
+menjadi	m e n j a d i
+menjaga	m e n j a g a
+menjalani	m e n j a l a n i
+menjalankan	m e n j a l a n k a n
+menjawab	m e n j a w a b
+menyambut	m e n y a m b u t
+menyetujui	m e n y e t u j u i
+menyimpang	m e n y i m p a n g
+menyimpulkan	m e n y i m p u l k a n
+meramalkan	m e r a m a l k a n
+mereka	m e r e k a
+merekalah	m e r e k a l a h
+merekap	m e r e k a p
+merekomendasikan	m e r e k o m e n d a s i k a n
+merespon	m e r e s p o n
+merespons	m e r e s p o n s 
+meskipun	m e s k i p u n
+mewakili	m e w a k i l i
+meyakinkan	m e y a k i n k a n
+miliar	m i l i a r
+minggu	m i n g g u
+mitra	m i t r a
+modal	m o d a l
+model	m o d e l
+moral	m o r a l
+mulai	m u l a i
+musim	m u s i m
+namun	n a m u n
+negara	n e g a r a
+nilai	n i l a i
+nilai-nilai	n i l a i - n i l a i
+oleh	o l e h
+operasi	o p e r a s i
+operasional	o p e r a s i o n a l
+orang	o r a n g
+organisasi	o r g a n i s a s i
+pada	p a d a
+pagi	p a g i
+paling	p a l i n g
+pandemi	p a n d e m i
+pandemik	p a n d e m i k
+panjang	p a n j a n g
+para	p a r a
+pasar	p a s a r
+pasokan	p a s o k a n
+pasti	p a s t i
+pekerjaan	p e k e r j a a n
+pelaksanaan	p e l a k s a n a a n
+pembaruan	p e m b a r u a n
+pemegang	p e m e g a n g
+pemotongan	p e m o t o n g a n
+pemulihan	p e m u l i h a n
+pemungutan	p e m u n g u t a n
+penawaran	p e n a w a r a n
+penciptaan	p e n c i p t a a n
+pendek	p e n d e k
+pendekatan	p e n d e k a t a n
+pengambilan	p e n g a m b i l a n
+pengeluaran	p e n g e l u a r a n
+pengembangan	p e n g e m b a n g a n
+penggunaan	p e n g g u n a a n
+peningkatan	p e n i n g k a t a n
+penjualan	p e n j u a l a n
+penopang	p e n o p a n g
+penting	p e n t i n g
+pentingnya	p e n t i n g n y a
+penuh	p e n u h
+penurunan	p e n u r u n a n
+penutupan	p e n u t u p a n
+penyebaran	p e n y e b a r a n
+per	p e r
+percaya	p e r c a y a
+perkembangan	p e r k e m b a n g a n
+perlu	p e r l u
+permintaan	p e r m i n t a a n
+pernah	p e r n a h
+pernyataan	p e r n y a t a a n
+persen	p e r s e n
+pertama	p e r t a m a
+pertanyaan	p e r t a n y a a n
+pertemuan	p e r t e m u a n
+pertimbangan	p e r t i m b a n g a n
+perubahan	p e r u b a h a n
+perusahaan	p e r u s a h a a n
+pilihan	p i l i h a n
+portofolio	p o r t o f o l i o
+posisi	p o s i s i
+prinsip	p r i n s i p
+prinsip-prinsip	p r i n s i p - p r i n s i p
+prioritas	p r i o r i t a s
+produk	p r o d u k
+produksi	p r o d u k s i
+program	p r o g r a m
+proposal	p r o p o s a l
+proses	p r o s e s
+proyek	p r o y e k
+publik	p u b l i k
+pulih	p u l i h
+puluh	p u l u h
+pun	p u n
+rapat	r a p a t
+rasional	r a s i o n a l
+realitas	r e a l i t a s
+rekor	r e k o r
+relatif	r e l a t i f
+rencana	r e n c a n a
+ribu	r i b u
+rumah	r u m a h
+saat	s a a t
+saham	s a h a m
+saja	s a j a
+salah	s a l a h
+sama	s a m a
+sampai	s a m p a i
+sangat	s a n g a t
+sangatlah	s a n g a t l a h
+satu	s a t u
+saya	s a y a
+sebagai	s e b a g a i
+sebagaimana	s e b a g a i m a n a
+sebagian	s e b a g i a n
+sebelum	s e b e l u m
+sebelumnya	s e b e l u m n y a
+sebentar	s e b e n t a r
+secara	s e c a r a
+sedang	s e d a n g
+sehat	s e h a t
+sehingga	s e h i n g g a
+sejauh	s e j a u h
+sekali	s e k a l i
+sekarang	s e k a r a n g
+sekitar	s e k i t a r
+selaku	s e l a k u
+selalu	s e l a l u
+selama	s e l a m a
+selamat	s e l a m a t
+selanjutnya	s e l a n j u t n y a
+seluruh	s e l u r u h
+sembilan	s e m b i l a n
+sementara	s e m e n t a r a
+semua	s e m u a
+semuanya	s e m u a n y a
+senang	s e n a n g
+seperti	s e p e r t i
+sepuluh	s e p u l u h
+serta	s e r t a
+setiap	s e t i a p
+signifikan	s i g n i f i k a n
+singkat	s i n g k a t
+sistem	s i s t e m
+situasi	s i t u a s i
+skenario	s k e n a r i o
+sosial	s o s i a l
+strategi	s t r a t e g i
+suara	s u a r a
+sudah	s u d a h
+sulit	s u l i t
+surat	s u r a t
+tahu	t a h u
+tahun	t a h u n
+tahunan	t a h u n a n
+tambahan	t a m b a h a n
+tanggung	t a n g g u n g
+tanpa	t a n p a
+tantangan	t a n t a n g a n
+tanya-jawab	t a n y a - j a w a b
+tapi	t a p i
+teknologi	t e k n o l o g i
+telah	t e l a h
+tenaga	t e n a g a
+tentang	t e n t a n g
+tepat	t e p a t
+terakhir	t e r a k h i r
+terdapat	t e r d a p a t
+terduga	t e r d u g a
+terendah	t e r e n d a h
+terhadap	t e r h a d a p
+terima	t e r i m a
+terjadi	t e r j a d i
+terkait	t e r k a i t
+terletak	t e r l e t a k
+terlibat	t e r l i b a t
+terlihat	t e r l i h a t
+ternyata	t e r n y a t a
+terpenting	t e r p e n t i n g
+tersebut	t e r s e b u t
+terus	t e r u s
+terutama	t e r u t a m a
+tetap	t e t a p
+tetapi	t e t a p i
+tidak	t i d a k
+tiga	t i g a
+tim	t i m
+tindakan	t i n d a k a n
+tinggi	t i n g g i
+tingkat	t i n g k a t
+tinjauan	t i n j a u a n
+total	t o t a l
+tujuh	t u j u h
+tunai	t u n a i
+uang	u a n g
+untuk	u n t u k
+usulan	u s u l a n
+utama	u t a m a
+utang	u t a n g
+visi	v i s i
+wabah	w a b a h
+waktu	w a k t u
+yaitu	y a i t u
+yakin	y a k i n
+yang	y a n g

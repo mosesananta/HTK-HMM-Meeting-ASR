@@ -1,0 +1,870 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\config_train.hcopy -a -H hmms\hmm.7\macros -H hmms\hmm.7\hmmdefs -i output\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I words.mlf -S config\train_features.txt output\dict output\monophones1 
+
+HTK Configuration Parameters[8]
+  Module/Tool     Parameter                  Value
+#                 SAVECOMPRESSED             FALSE
+#                 NUMCEPS                       12
+#                 NUMCHAINS                     24
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND            MFCC_0_D_A
+#                 SOURCERATE                   625
+
+Read 30 physical / 30 logical HMMs
+Label file will be used to align each file
+Aligning File: mfcc/13519062_001.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END selamat pagi dan salam sejahtera untuk kita semua SENT-END  ==  [488 frames] -65.8637 [Ac=-32141.5 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519062_002.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END selamat siang dan salam sejahtera untuk kita semua SENT-END  ==  [460 frames] -64.7342 [Ac=-29777.7 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519062_004.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END karena nya kita semua dapat berkumpul pada acara rapat pagi hari ini dengan keadaan sehat sentosa SENT-END  ==  [735 frames] -66.0036 [Ac=-48512.6 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519062_005.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END karena nya kita semua dapat berkumpul pada acara rapat siang hari ini dengan keadaan sehat sentosa SENT-END  ==  [913 frames] -64.9983 [Ac=-59343.5 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519062_006.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END yang saya hormati bapak insinyur dava busono selaku pimpinan SENT-END  ==  [560 frames] -65.2808 [Ac=-36557.2 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519062_007.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END yang saya hormati bapak ibu kepala divisi yang sudah hadir dalam rapat ini SENT-END  ==  [626 frames] -66.0097 [Ac=-41322.1 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519062_008.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END saya akan membacakan agenda rapat kita pada hari ini SENT-END  ==  [491 frames] -63.4442 [Ac=-31151.1 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519062_009.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END rapat akan dimulai dengan pembukaan SENT-END  ==  [338 frames] -61.9953 [Ac=-20954.4 LM=0.0] (Act=8.3)
+Aligning File: mfcc/13519062_010.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END rapat akan dilanjutkan dengan pengarahan dari bapak insinyur dava busono SENT-END  ==  [613 frames] -65.4891 [Ac=-40144.8 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519062_011.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END rapat akan dilanjutkan dengan laporan dari setiap manajer divisi SENT-END  ==  [573 frames] -65.2459 [Ac=-37385.9 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519062_012.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END rapat akan dilanjutkan dengan pembahasan inti rapat serta tanya jawab SENT-END  ==  [510 frames] -63.6016 [Ac=-32436.8 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519062_013.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terakhir akan ada penutup SENT-END  ==  [276 frames] -62.6478 [Ac=-17290.8 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519062_014.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END langsung saja kepada bapak insinyur dava busono saya persilakan untuk memberi pengarahan SENT-END  ==  [698 frames] -65.5358 [Ac=-45744.0 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_015.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas kesempatannya SENT-END  ==  [341 frames] -59.4816 [Ac=-20283.2 LM=0.0] (Act=7.6)
+Aligning File: mfcc/13519062_017.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END selamat siang bapak ibu sekalian SENT-END  ==  [307 frames] -62.3239 [Ac=-19133.4 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519062_018.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END seperti yang sudah kita ketahui bersama selama satu tahun terakhir ini perusahaan mengalami penurunan omzet yang cukup signifikan SENT-END  ==  [854 frames] -66.9889 [Ac=-57208.5 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519062_019.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END rapat kita hari ini akan membahas faktor apa saja yang membuat omzet ini turun SENT-END  ==  [579 frames] -64.3673 [Ac=-37268.6 LM=0.0] (Act=10.5)
+Aligning File: mfcc/13519062_020.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END selain itu kita juga akan mendiskusikan strategi apa yang dapat kita pakai untuk kembali meningkatkan penjualan produk kita SENT-END  ==  [760 frames] -67.6729 [Ac=-51431.4 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519062_021.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END baiklah sebelumnya saya ingin mengetahui laporan kinerja dari setiap divisi SENT-END  ==  [535 frames] -65.5944 [Ac=-35093.0 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519062_022.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END yang pertama divisi pemasaran kepada ibu cantika saya persilakan SENT-END  ==  [538 frames] -63.3322 [Ac=-34072.8 LM=0.0] (Act=7.2)
+Aligning File: mfcc/13519062_023.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END terima kasih atas waktunya pak SENT-END  ==  [344 frames] -57.9485 [Ac=-19934.3 LM=0.0] (Act=9.4)
+Aligning File: mfcc/13519062_024.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END saya akan melaporkan hasil penjualan tahun ini SENT-END  ==  [341 frames] -62.9985 [Ac=-21482.5 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519062_026.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar dua puluh persen dari tahun sebelumnya SENT-END  ==  [616 frames] -64.2332 [Ac=-39567.7 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519062_027.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar tiga puluh persen dari tahun sebelumnya SENT-END  ==  [601 frames] -65.0144 [Ac=-39073.7 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519062_028.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar empat puluh persen dari tahun sebelumnya SENT-END  ==  [619 frames] -66.2295 [Ac=-40996.0 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519062_029.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar lima puluh persen dari tahun sebelumnya SENT-END  ==  [629 frames] -67.3188 [Ac=-42343.5 LM=0.0] (Act=11.5)
+Aligning File: mfcc/13519062_030.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar enam puluh persen dari tahun sebelumnya SENT-END  ==  [598 frames] -65.7514 [Ac=-39319.3 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519062_031.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar tujuh puluh persen dari tahun sebelumnya SENT-END  ==  [591 frames] -68.0209 [Ac=-40200.4 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519062_032.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar delapan puluh persen dari tahun sebelumnya SENT-END  ==  [601 frames] -66.0580 [Ac=-39700.9 LM=0.0] (Act=10.8)
+Aligning File: mfcc/13519062_033.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END tingkat penjualan tahun ini mengalami penurunan sebesar sembilan puluh persen dari tahun sebelumnya SENT-END  ==  [616 frames] -63.2500 [Ac=-38962.0 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519062_034.mfc
+Created lattice with 22 nodes / 21 arcs from label file
+SENT-END kami sudah memakai segala macam cara untuk meningkatkan omzet pasar tapi tetap saja permintaan produk kita kian hari kian menurun SENT-END  ==  [932 frames] -65.9889 [Ac=-61501.6 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519062_035.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END bagaimana hal tersebut bisa terjadi SENT-END  ==  [313 frames] -64.8607 [Ac=-20301.4 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_036.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END apa sudah diketahui penyebabnya SENT-END  ==  [316 frames] -63.4176 [Ac=-20040.0 LM=0.0] (Act=7.4)
+Aligning File: mfcc/13519062_037.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kami melakukan penelitian ke lapangan SENT-END  ==  [354 frames] -64.4734 [Ac=-22823.6 LM=0.0] (Act=7.5)
+Aligning File: mfcc/13519062_038.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END ternyata terdapat produk pesaing sejenis yang lebih populer dari produk kita SENT-END  ==  [526 frames] -67.0961 [Ac=-35292.5 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519062_039.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END produk kita sebenarnya menang dari segi kualitas SENT-END  ==  [476 frames] -62.1179 [Ac=-29568.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/13519062_040.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END tapi produk pesaing ini lebih populer karena harganya lebih terjangkau SENT-END  ==  [598 frames] -63.7735 [Ac=-38136.6 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519062_041.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END baik terima kasih atas penjelasannya SENT-END  ==  [319 frames] -60.1594 [Ac=-19190.9 LM=0.0] (Act=8.0)
+Aligning File: mfcc/13519062_042.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END permasalahan ini kita tampung lebih dulu SENT-END  ==  [391 frames] -60.8263 [Ac=-23783.1 LM=0.0] (Act=8.0)
+Aligning File: mfcc/13519062_043.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END selanjutnya saya ingin mengetahui laporan kinerja dari bagian keuangan SENT-END  ==  [476 frames] -66.2700 [Ac=-31544.5 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519062_044.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kepada bapak hardoyo saya persilakan SENT-END  ==  [388 frames] -62.7200 [Ac=-24335.3 LM=0.0] (Act=7.3)
+Aligning File: mfcc/13519062_046.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END berdasarkan data yang kami miliki kondisi keuangan perusahaan tahun ini masih stabil SENT-END  ==  [598 frames] -66.1411 [Ac=-39552.4 LM=0.0] (Act=8.6)
+Aligning File: mfcc/13519062_048.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END hasil analisis internal kami menunjukkan kalau tingkat penjualan kita tahun lalu sangat melampaui target SENT-END  ==  [782 frames] -67.1033 [Ac=-52474.7 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519062_050.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END syukurlah kalau begitu SENT-END  ==  [260 frames] -62.3201 [Ac=-16203.2 LM=0.0] (Act=8.5)
+Aligning File: mfcc/13519062_051.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END terima kasih atas penjelasannya bapak hardoyo SENT-END  ==  [385 frames] -61.5221 [Ac=-23686.0 LM=0.0] (Act=8.9)
+Aligning File: mfcc/13519062_052.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END selanjutnya dari bagian produksi apakah ada keluhan SENT-END  ==  [476 frames] -64.4646 [Ac=-30685.1 LM=0.0] (Act=9.0)
+Aligning File: mfcc/13519062_053.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END sebelumnya terima kasih atas kesempatan yang bapak berikan SENT-END  ==  [391 frames] -65.1375 [Ac=-25468.8 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519062_054.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END proses produksi masih berjalan dengan baik SENT-END  ==  [379 frames] -65.6341 [Ac=-24875.3 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_055.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END hanya saja akhir akhir ini beberapa mesin kita sering mengalami kendala seperti tidak bisa beroperasi dan lain sebagainya SENT-END  ==  [813 frames] -67.8567 [Ac=-55167.5 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519062_057.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END kalau boleh memberi saran sebaiknya kita segera melakukan servis dan perawatan terhadap mesin mesin produksi yang kita miliki SENT-END  ==  [860 frames] -66.8882 [Ac=-57523.9 LM=0.0] (Act=10.9)
+Aligning File: mfcc/13519062_058.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END mengingat sebenarnya saat ini memang sudah mendekati jadwal servis tahunan SENT-END  ==  [538 frames] -63.2704 [Ac=-34039.5 LM=0.0] (Act=10.5)
+Aligning File: mfcc/13519062_059.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas penjelasannya SENT-END  ==  [285 frames] -60.2662 [Ac=-17175.9 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519062_061.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END proses produksi harus tetap berjalan lancar SENT-END  ==  [382 frames] -66.9820 [Ac=-25587.1 LM=0.0] (Act=9.0)
+Aligning File: mfcc/13519062_062.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END kita harus segera menghubungi pihak terkait untuk melakukan servis pada mesin mesin produksi SENT-END  ==  [563 frames] -68.8366 [Ac=-38755.0 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519062_063.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END selanjutnya dari bagian personalia apakah ada kendala SENT-END  ==  [513 frames] -65.5390 [Ac=-33621.5 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519062_064.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END terima kasih atas kesempatan berbicara yang bapak berikan SENT-END  ==  [407 frames] -63.2729 [Ac=-25752.1 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519062_065.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END setelah saya analisis tidak ada masalah besar yang terjadi dari para karyawan SENT-END  ==  [532 frames] -66.5789 [Ac=-35420.0 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519062_067.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas penjelasannya SENT-END  ==  [266 frames] -65.2163 [Ac=-17347.5 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519062_068.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END syukurlah jika tidak ada keluhan dari para karyawan SENT-END  ==  [451 frames] -64.8703 [Ac=-29256.5 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519062_069.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END yang terakhir dari bagian administrasi dan gudang apakah ada keluhan SENT-END  ==  [579 frames] -66.0180 [Ac=-38224.4 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519062_070.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END terima kasih atas waktu yang bapak berikan SENT-END  ==  [338 frames] -64.1506 [Ac=-21682.9 LM=0.0] (Act=9.1)
+Aligning File: mfcc/13519062_071.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END semua produk yang berada di gudang tersimpan dengan baik dan terawat SENT-END  ==  [469 frames] -65.9106 [Ac=-30912.1 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519062_073.mfc
+Created lattice with 28 nodes / 27 arcs from label file
+SENT-END satu satunya masalah dari bagian kami adalah keadaan gudang yang mulai menyempit karena penjualan produk sedang mengalami penurunan sedangkan bagian produksi tetap memproduksi produk seperti biasanya SENT-END  ==  [1288 frames] -66.4799 [Ac=-85626.1 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519062_074.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END hal ini agak mengkhawatirkan SENT-END  ==  [323 frames] -64.6571 [Ac=-20884.2 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519062_075.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END jika terus dibiarkan maka gudang yang kita miliki tidak akan cukup lagi menampung semua barang yang sudah diproduksi SENT-END  ==  [735 frames] -65.9828 [Ac=-48497.4 LM=0.0] (Act=10.9)
+Aligning File: mfcc/13519062_076.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END terima kasih bapak ardan atas penjelasannya SENT-END  ==  [344 frames] -61.9484 [Ac=-21310.2 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519062_077.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END baiklah semua sudah menyampaikan keluhannya masing masing SENT-END  ==  [407 frames] -67.5707 [Ac=-27501.3 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519062_078.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END kita juga sudah mengetahui beberapa faktor yang menyebabkan omzet perusahaan mengalami penurunan SENT-END  ==  [604 frames] -65.4244 [Ac=-39516.3 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519062_079.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END kalau begitu apakah ada yang ingin menyampaikan ide untuk kembali meningkatkan penjualan produk serta mengatasi beberapa kendala yang terjadi pada masing masing bagian tadi SENT-END  ==  [1129 frames] -69.4741 [Ac=-78436.2 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519062_080.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END izin berpendapat pak terkait dengan menurunnya tingkat penjualan produk kita menurut saya yang harus kita lakukan adalah memperbaharui cara mempromosikan produk SENT-END  ==  [1104 frames] -69.3080 [Ac=-76516.0 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519062_081.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END karena bisa dikatakan bahwa dari tahun ketahun perusahaan kita selalu menggunakan cara yang sama dan cenderung monoton SENT-END  ==  [763 frames] -66.7070 [Ac=-50897.5 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519062_082.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ide yang bagus SENT-END  ==  [257 frames] -57.0828 [Ac=-14670.3 LM=0.0] (Act=6.1)
+Aligning File: mfcc/13519062_084.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END saya rasa ada beberapa cara yang bisa kita lakukan SENT-END  ==  [369 frames] -65.2388 [Ac=-24073.1 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_085.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END namun sepertinya cara terbaik adalah dengan melakukan promosi menggunakan media sosial seperti instagram facebook dan lain sebagainya SENT-END  ==  [851 frames] -69.7667 [Ac=-59371.5 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519062_086.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END selain itu kita juga harus mulai menjual produk secara online di beberapa aplikasi ecommerce seperti shopee lazada tokopedia dan lain sebagainya SENT-END  ==  [1091 frames] -69.0401 [Ac=-75322.8 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519062_087.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END maaf pak menyela saya sependapat dengan ibu imel SENT-END  ==  [376 frames] -67.8790 [Ac=-25522.5 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519062_088.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END yang tadi beliau katakan memang sangat perlu dilakukan mengingat di masa sekarang ini belanja online sangat diminati SENT-END  ==  [763 frames] -71.0646 [Ac=-54222.3 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519062_089.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END bagaimana yang lainnya apakah setuju SENT-END  ==  [326 frames] -65.3651 [Ac=-21309.0 LM=0.0] (Act=10.4)
+Aligning File: mfcc/13519062_090.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END saya ingin usul sesuatu terkait masalah penurunan penjualan tadi SENT-END  ==  [485 frames] -64.9776 [Ac=-31514.1 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519062_091.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END bagaimana kalau kita coba produksi dan jual versi minimalis dari produk kita yang kurang laku SENT-END  ==  [719 frames] -67.3313 [Ac=-48411.2 LM=0.0] (Act=11.9)
+Aligning File: mfcc/13519062_092.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END maaf saya kurang setuju dengan pendapat aryasa SENT-END  ==  [304 frames] -69.3003 [Ac=-21067.3 LM=0.0] (Act=11.5)
+Aligning File: mfcc/13519062_093.mfc
+Created lattice with 22 nodes / 21 arcs from label file
+SENT-END seperti yang sudah disampaikan oleh bapak ardan gudang kita saat ini sedang kepenuhan karena jumlah produksi tidak sebanding dengan penjualan SENT-END  ==  [901 frames] -69.6942 [Ac=-62794.4 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519062_094.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END oleh karena itu sebaiknya kita mengurangi jumlah produksi untuk sementara waktu dan memfokuskan pada penjualan produk yang sudah ada SENT-END  ==  [857 frames] -68.4098 [Ac=-58627.2 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519062_095.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END lalu bagaimana caranya agar kita bisa menang bersaing SENT-END  ==  [416 frames] -66.8423 [Ac=-27806.4 LM=0.0] (Act=9.4)
+Aligning File: mfcc/13519062_096.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END bagaimana kalau kita beri potongan harga sepuluh sampai dua puluh lima persen untuk para distributor konsumen tetap dan pembeli yang membeli dalam jumlah besar SENT-END  ==  [979 frames] -68.9063 [Ac=-67459.3 LM=0.0] (Act=11.5)
+Aligning File: mfcc/13519062_099.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END tetapi dalam keadaan yang cukup darurat ini saya rasa lebih baik mendapat keuntungan sedikit dari pada barang tidak terjual sama sekali SENT-END  ==  [932 frames] -67.7346 [Ac=-63128.6 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519062_100.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END baiklah kita akan menggunakan saran dari bapak hardoyo SENT-END  ==  [435 frames] -63.9939 [Ac=-27837.3 LM=0.0] (Act=8.9)
+Aligning File: mfcc/13519062_101.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END proses produksi akan dikurangi dan dihentikan sementara pada produk yang masih tersedia dalam jumlah banyak SENT-END  ==  [613 frames] -68.5229 [Ac=-42004.5 LM=0.0] (Act=10.9)
+Aligning File: mfcc/13519062_102.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END kita akan lebih memfokuskan pada penjualan produk yang sudah tersedia dan memberikan diskon sepuluh sampai dua puluh lima persen SENT-END  ==  [791 frames] -68.2159 [Ac=-53958.8 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519062_104.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END bukankah begitu bapak ardan SENT-END  ==  [354 frames] -64.5019 [Ac=-22833.7 LM=0.0] (Act=7.9)
+Aligning File: mfcc/13519062_105.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END benar sekali pak SENT-END  ==  [238 frames] -62.8908 [Ac=-14968.0 LM=0.0] (Act=7.2)
+Aligning File: mfcc/13519062_106.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END saya rasa itu pilihan terbaik yang saat ini bisa kita lakukan SENT-END  ==  [426 frames] -66.6227 [Ac=-28381.3 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519062_108.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END atau ada lagi yang ingin ibu sampaikan SENT-END  ==  [307 frames] -63.5905 [Ac=-19522.3 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519062_109.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END terima kasih pak sebelumnya saya rasa saran saran yang diberikan akan sangat membantu SENT-END  ==  [582 frames] -67.1686 [Ac=-39092.1 LM=0.0] (Act=11.8)
+Aligning File: mfcc/13519062_111.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END kami juga akan berusaha membuat konten promosi yang menarik baik dari segi visual ataupun dari diskon diskon yang diberikan SENT-END  ==  [866 frames] -68.0098 [Ac=-58896.5 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519062_114.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END saya rasa dengan hal tersebut kualitas produk serta kredibilitas yang perusahaan kita miliki akan mudah untuk menjalin kerja sama dengan perusahaan lain SENT-END  ==  [1113 frames] -66.0174 [Ac=-73477.3 LM=0.0] (Act=13.4)
+Aligning File: mfcc/13519062_116.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END adapun untuk masalah dana yang dibutuhkan bisa dibicarakan dengan ibu cantika setelah ini SENT-END  ==  [613 frames] -65.6659 [Ac=-40253.2 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519062_117.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END baik pak SENT-END  ==  [223 frames] -54.3331 [Ac=-12116.3 LM=0.0] (Act=5.9)
+Aligning File: mfcc/13519062_118.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END yang terakhir untuk ibu kinaya apakah ada lagi yang ingin disampaikan SENT-END  ==  [488 frames] -64.6530 [Ac=-31550.7 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519062_119.mfc
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END saya ingin sedikit menambahkan saran untuk lebih meningkatkan semangat kerja para karyawan bagaimana jika kita wacanakan liburan akhir tahun asalkan target perusahaan tercapai SENT-END  ==  [1260 frames] -67.3763 [Ac=-84894.1 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519062_120.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END saran yang menarik SENT-END  ==  [266 frames] -58.0474 [Ac=-15440.6 LM=0.0] (Act=8.0)
+Aligning File: mfcc/13519062_121.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END akan kita pertimbangkan dan bahas lebih lanjut nanti ketika target memang sudah tercapai SENT-END  ==  [594 frames] -66.2645 [Ac=-39361.1 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519062_123.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END saya cukupkan rapat kali ini semoga strategi yang kita susun dapat berjalan sesuai harapan dan dapat mengatasi semua permasalahan yang ada SENT-END  ==  [1066 frames] -66.0115 [Ac=-70368.3 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519062_124.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END selanjutnya saya serahkan kepada sekretaris saya SENT-END  ==  [373 frames] -65.1847 [Ac=-24313.9 LM=0.0] (Act=8.5)
+Aligning File: mfcc/13519062_125.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END baiklah sebelum mengakhiri rapat ini saya akan membacakan hasil rapat yaitu SENT-END  ==  [613 frames] -66.4383 [Ac=-40726.7 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_126.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END akan segera dilakukan servis dan pembersihan pada mesin mesin produksi SENT-END  ==  [576 frames] -65.1081 [Ac=-37502.3 LM=0.0] (Act=8.6)
+Aligning File: mfcc/13519062_128.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END menjual produk secara online melalui ecommerce SENT-END  ==  [410 frames] -62.7704 [Ac=-25735.9 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519062_130.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END fokus pada penjualan produk yang sudah tersedia dan memberikan potongan harga sebesar sepuluh sampai dua puluh lima persen SENT-END  ==  [891 frames] -66.0062 [Ac=-58811.6 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519062_131.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END mengajukan proposal kerja sama sebagai supplier pada perusahaan yang belum memakai produk kita SENT-END  ==  [726 frames] -65.0600 [Ac=-47233.6 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519062_132.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END dengan memfokuskan pada potongan harga kualitas produk dan kredibilitas yang perusahaan kita miliki sehingga menarik minat klien SENT-END  ==  [866 frames] -68.2607 [Ac=-59113.8 LM=0.0] (Act=11.4)
+Aligning File: mfcc/13519062_134.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END demikian rapat pada hari ini semoga kedepannya perusahaan kita semakin maju dan berkembang SENT-END  ==  [729 frames] -66.2999 [Ac=-48332.6 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519062_135.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END bila ada kesalahan dari saya mohon dimaafkan selamat pagi dan selamat beristirahat SENT-END  ==  [729 frames] -65.0247 [Ac=-47403.0 LM=0.0] (Act=10.4)
+Aligning File: mfcc/13519062_136.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END bila ada kesalahan dari saya mohon dimaafkan selamat siang dan selamat beristirahat SENT-END  ==  [735 frames] -64.5948 [Ac=-47477.2 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519128_001.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END selamat pagi dan salam sejahtera untuk kita semua SENT-END  ==  [295 frames] -70.2540 [Ac=-20724.9 LM=0.0] (Act=14.3)
+Aligning File: mfcc/13519128_002.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END pertama tama marilah kita panjatkan puji syukur kehadirat tuhan yang maha esa SENT-END  ==  [452 frames] -66.9346 [Ac=-30254.4 LM=0.0] (Act=14.9)
+Aligning File: mfcc/13519128_003.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END karena nya kita semua dapat berkumpul pada acara rapat pagi hari ini dengan keadaan sehat sentosa SENT-END  ==  [623 frames] -67.5512 [Ac=-42084.4 LM=0.0] (Act=13.6)
+Aligning File: mfcc/13519128_004.mfc
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END yang saya hormati bapak insinyur dava busono selaku pimpinan dan yang saya hormati bapak ibu kepala divisi yang sudah hadir dalam rapat ini SENT-END  ==  [887 frames] -68.0888 [Ac=-60394.8 LM=0.0] (Act=13.2)
+Aligning File: mfcc/13519128_005.mfc
+Created lattice with 37 nodes / 36 arcs from label file
+SENT-END baiklah saya akan membacakan agenda rapat kita pada hari ini yakni pembukaan pengarahan dari bapak insinyur dava busono laporan dari setiap manajer divisi dilanjutkan dengan pembahasan inti rapat serta tanya jawab dan yang terakhir penutup SENT-END  ==  [1623 frames] -68.9173 [Ac=-111852.7 LM=0.0] (Act=12.6)
+Aligning File: mfcc/13519128_007.mfc
+Created lattice with 28 nodes / 27 arcs from label file
+SENT-END terima kasih atas kesempatannya selamat pagi bapak ibu sekalian seperti yang sudah diketahui bahwasanya omzet perusahaan selama satu tahun terakhir ini mengalami penurunan yang cukup signifikan SENT-END  ==  [1208 frames] -69.0568 [Ac=-83420.6 LM=0.0] (Act=12.8)
+Aligning File: mfcc/13519128_010.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END yang pertama divisi pemasaran kepada ibu cantika saya persilahkan SENT-END  ==  [474 frames] -67.5974 [Ac=-32041.2 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519128_012.mfc
+Created lattice with 22 nodes / 21 arcs from label file
+SENT-END saya akan melaporkan hasil penjualan selama setahun setahun terakhir tingkat penjualan mengalami penurunan sebesar empat puluh persen dari tahun sebelumnya SENT-END  ==  [902 frames] -67.2386 [Ac=-60649.2 LM=0.0] (Act=16.9)
+Aligning File: mfcc/13519128_015.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END apa sudah diketahui penyebabnya SENT-END  ==  [381 frames] -82.6109 [Ac=-31474.8 LM=0.0] (Act=17.9)
+Aligning File: mfcc/13519128_016.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END setelah kami teliti ke lapangan ternyata terdapat produk pesaing sejenis yang memiliki harga lebih terjangkau dari produk kita SENT-END  ==  [890 frames] -72.6094 [Ac=-64622.3 LM=0.0] (Act=12.7)
+Aligning File: mfcc/13519128_017.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END meskipun dari segi kualitas produk kita lebih unggul tetapi produk mereka lebih diminati karena harganya lebih terjangkau SENT-END  ==  [822 frames] -74.5962 [Ac=-61318.1 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519128_019.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END selanjutnya saya ingin mengetahui laporan kinerja dari bagian keuangan SENT-END  ==  [478 frames] -71.7773 [Ac=-34309.6 LM=0.0] (Act=11.4)
+Aligning File: mfcc/13519128_020.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kepada bapak hardoyo saya persilahkan SENT-END  ==  [274 frames] -69.9373 [Ac=-19162.8 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519128_021.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END baik terima kasih atas waktunya SENT-END  ==  [290 frames] -66.9256 [Ac=-19408.4 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519128_022.mfc
+Created lattice with 29 nodes / 28 arcs from label file
+SENT-END berdasarkan data yang kami miliki kondisi keuangan perusahaan setahun ini masih berada dalam kondisi stabil meskipun seperti yang disampaikan oleh manajer pemasaran bahwa penjualan sedang mengalami penurunan SENT-END  ==  [1373 frames] -69.9118 [Ac=-95989.0 LM=0.0] (Act=13.4)
+Aligning File: mfcc/13519128_023.mfc
+Created lattice with 29 nodes / 28 arcs from label file
+SENT-END setelah dianalisis mengapa hal tersebut bisa terjadi ternyata penyebabnya karena tingkat penjualan kita tahun lalu sangat melampaui target karena itulah keuangan perusahaan kita saat ini masih terselamatkan SENT-END  ==  [1382 frames] -70.4134 [Ac=-97311.3 LM=0.0] (Act=13.4)
+Aligning File: mfcc/13519128_024.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END syukurlah kalau begitu terima kasih atas penjelasannya bapak hardoyo SENT-END  ==  [479 frames] -70.1254 [Ac=-33590.1 LM=0.0] (Act=11.7)
+Aligning File: mfcc/13519128_025.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END selanjutnya dari bagian produksi apakah ada keluhan SENT-END  ==  [422 frames] -68.8371 [Ac=-29049.3 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519128_028.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END hal tersebut yang menjadi keluhan pekerja di bagian produksi SENT-END  ==  [482 frames] -70.4017 [Ac=-33933.6 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519128_032.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END saran diterima kita akan segera menghubungi pihak terkait untuk melakukan servis pada mesin mesin produksi agar proses produksi tetap berjalan lancar SENT-END  ==  [986 frames] -70.0805 [Ac=-69099.4 LM=0.0] (Act=12.2)
+Aligning File: mfcc/13519128_033.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END selanjutnya dari bagian personalia apakah terjadi kendala SENT-END  ==  [419 frames] -70.1785 [Ac=-29404.8 LM=0.0] (Act=10.8)
+Aligning File: mfcc/13519128_034.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END terima kasih atas kesempatan berbicara yang bapak berikan SENT-END  ==  [374 frames] -71.7344 [Ac=-26828.7 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519128_035.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END setelah saya analisis tidak ada masalah besar yang terjadi dari para karyawan SENT-END  ==  [521 frames] -69.5639 [Ac=-36242.8 LM=0.0] (Act=11.7)
+Aligning File: mfcc/13519128_036.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END semuanya bekerja sesuai dengan tanggung jawabnya masing masing SENT-END  ==  [473 frames] -68.5096 [Ac=-32405.0 LM=0.0] (Act=9.4)
+Aligning File: mfcc/13519128_037.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas penjelasannya SENT-END  ==  [221 frames] -68.1169 [Ac=-15053.8 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519128_038.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END syukurlah jika tidak ada keluhan dari para karyawan SENT-END  ==  [321 frames] -68.4224 [Ac=-21963.6 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519128_039.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END yang terakhir dari bagian administrasi dan gudang apakah ada keluhan SENT-END  ==  [536 frames] -66.2965 [Ac=-35534.9 LM=0.0] (Act=11.9)
+Aligning File: mfcc/13519128_040.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END terima kasih atas waktu yang bapak berikan SENT-END  ==  [341 frames] -67.2156 [Ac=-22920.5 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519128_041.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END semua produk yang berada di gudang tersimpan dengan baik dan terawat SENT-END  ==  [470 frames] -67.1503 [Ac=-31560.7 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519128_042.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END begitu juga dengan kegiatan administrasi yang berjalan sebagaimana mestinya SENT-END  ==  [504 frames] -69.3858 [Ac=-34970.4 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519128_044.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END hal inilah yang dikhawatirkan jika terus dibiarkan maka gudang yang kita miliki tidak akan cukup lagi menampung semua barang yang sudah diproduksi SENT-END  ==  [1070 frames] -69.4905 [Ac=-74354.8 LM=0.0] (Act=12.9)
+Aligning File: mfcc/13519128_046.mfc
+Created lattice with 45 nodes / 44 arcs from label file
+SENT-END baiklah karena semua sudah menyampaikan keluhannya masing masing dan kita sudah mengetahui beberapa faktor yang menyebabkan omzet perusahaan mengalami penurunan untuk itu apakah ada yang ingin menyampaikan ide untuk kembali meningkatkan penjualan produk serta mengatasi beberapa kendala yang terjadi dari masing masing bagian SENT-END  ==  [1856 frames] -70.0684 [Ac=-130046.9 LM=0.0] (Act=15.1)
+Aligning File: mfcc/13519128_047.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END izin berpendapat pak terkait dengan menurunnya tingkat penjualan produk kita menurut saya yang harus kita lakukan adalah memperbaharui cara mempromosikan produk SENT-END  ==  [1086 frames] -70.2222 [Ac=-76261.3 LM=0.0] (Act=12.8)
+Aligning File: mfcc/13519128_049.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END ide yang bagus SENT-END  ==  [191 frames] -69.8437 [Ac=-13340.2 LM=0.0] (Act=7.1)
+Aligning File: mfcc/13519128_050.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END menurut anda cara seperti apa yang efektif untuk kembali meningkatkan penjualan produk kita SENT-END  ==  [641 frames] -69.4332 [Ac=-44506.7 LM=0.0] (Act=10.9)
+Aligning File: mfcc/13519128_051.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END sebenarnya ada beberapa cara yang bisa dilakukan SENT-END  ==  [317 frames] -72.5208 [Ac=-22989.1 LM=0.0] (Act=10.8)
+Aligning File: mfcc/13519128_052.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END namun menurut saya yang paling utama adalah dengan melakukan promosi menggunakan media sosial seperti instagram facebook dan lain sebagainya SENT-END  ==  [1095 frames] -70.5352 [Ac=-77236.0 LM=0.0] (Act=13.6)
+Aligning File: mfcc/13519128_053.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END selain itu kita juga harus mulai menjual produk secara online di beberapa aplikasi e commerce seperti shopee lazada tokopedia dan lain sebagainya SENT-END  ==  [1103 frames] -70.9945 [Ac=-78306.9 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519128_054.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END maaf pak menyela saya sangat sependapat dengan ibu imel SENT-END  ==  [447 frames] -69.4579 [Ac=-31047.7 LM=0.0] (Act=11.8)
+Aligning File: mfcc/13519128_055.mfc
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END hal tersebut memang sangat perlu dilakukan mengingat di masa sekarang ini belanja online lebih banyak diminati karena lebih praktis dan bisa menghemat waktu SENT-END  ==  [1088 frames] -71.0504 [Ac=-77302.8 LM=0.0] (Act=14.7)
+Aligning File: mfcc/13519128_057.mfc
+Created lattice with 48 nodes / 47 arcs from label file
+SENT-END jika boleh menambahkan saran menurut saya untuk mengatasi permasalahan penurunan penjualan yang disebabkan karena adanya pesaing yang menjual produk sejenis dengan harga yang lebih terjangkau kita bisa merencanakan memproduksi produk yang lebih minimalis dengan harga yang tentu saja lebih terjangkau sehingga dapat bersaing dengan produk pesaing SENT-END  ==  [2069 frames] -72.3307 [Ac=-149652.3 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519128_058.mfc
+Created lattice with 31 nodes / 30 arcs from label file
+SENT-END maaf saya kurang setuju dengan pendapat aryasa karena seperti yang sudah disampaikan oleh bapak ardan bahwa kondisi gudang semakin hari semakin menyempit karena jumlah produksi tidak sebanding dengan penjualannya SENT-END  ==  [1262 frames] -72.5218 [Ac=-91522.5 LM=0.0] (Act=11.8)
+Aligning File: mfcc/13519128_060.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END lalu bagaimana cara agar dapat bersaing SENT-END  ==  [275 frames] -69.9118 [Ac=-19225.7 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519128_062.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END mungkin saran bapak hardoyo lebih tepat tetapi bukankah dengan memberikan diskon yang cukup besar akan membuat keuntungan yang didapat semakin sedikit SENT-END  ==  [950 frames] -71.4367 [Ac=-67864.9 LM=0.0] (Act=14.2)
+Aligning File: mfcc/13519128_063.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END iya benar keuntungan yang kita dapat memang akan lebih sedikit SENT-END  ==  [372 frames] -71.8909 [Ac=-26743.4 LM=0.0] (Act=12.6)
+Aligning File: mfcc/13519128_064.mfc
+Created lattice with 29 nodes / 28 arcs from label file
+SENT-END tetapi dalam keadaan yang cukup darurat ini saya rasa lebih baik mendapat keuntungan sedikit dari pada barang tidak terjual sama sekali dan perusahaan tentunya akan lebih merugi SENT-END  ==  [1142 frames] -72.6507 [Ac=-82967.1 LM=0.0] (Act=12.9)
+Aligning File: mfcc/13519128_065.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END baiklah kita akan menggunakan saran dari bapak hardoyo SENT-END  ==  [363 frames] -71.7245 [Ac=-26036.0 LM=0.0] (Act=11.7)
+Aligning File: mfcc/13519128_068.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END keputusan ini dipilih selain sebagai strategi peningkatan penjualan juga untuk mengatasi permasalahan yang terjadi di bagian gudang SENT-END  ==  [893 frames] -71.7175 [Ac=-64043.7 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519128_069.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END bukankah begitu bapak ardan SENT-END  ==  [206 frames] -69.2849 [Ac=-14272.7 LM=0.0] (Act=10.5)
+Aligning File: mfcc/13519128_070.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END benar sekali pak SENT-END  ==  [155 frames] -65.3321 [Ac=-10126.5 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519128_071.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END saya rasa itu pilihan terbaik yang harus dilakukan saat ini SENT-END  ==  [368 frames] -69.9652 [Ac=-25747.2 LM=0.0] (Act=11.2)
+Aligning File: mfcc/13519128_072.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END baiklah selanjutnya untuk ibu cantika apakah semua saran yang diberikan sudah cukup SENT-END  ==  [513 frames] -69.9059 [Ac=-35861.7 LM=0.0] (Act=11.8)
+Aligning File: mfcc/13519128_073.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END atau ada lagi yang ingin disampaikan SENT-END  ==  [266 frames] -67.4412 [Ac=-17939.3 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519128_074.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END terima kasih pak sebelumnya saya rasa saran saran yang diberikan akan sangat membantu SENT-END  ==  [521 frames] -67.8309 [Ac=-35339.9 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519128_075.mfc
+Created lattice with 30 nodes / 29 arcs from label file
+SENT-END kami akan segera membentuk tim untuk mengurusi segala hal yang berkaitan dengan promosi di sosial media dan juga hal hal lain yang berkaitan dengan penjualan produk secara online SENT-END  ==  [1055 frames] -68.4012 [Ac=-72163.2 LM=0.0] (Act=14.0)
+Aligning File: mfcc/13519128_076.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END kami akan berusaha membuat konten promosi yang menarik baik dengan visual ataupun dari diskon diskon yang diberikan SENT-END  ==  [809 frames] -69.3575 [Ac=-56110.2 LM=0.0] (Act=12.4)
+Aligning File: mfcc/13519128_077.mfc
+Created lattice with 28 nodes / 27 arcs from label file
+SENT-END adapun yang ingin saya tambahkan adalah kami akan memperluas jangkauan promosi produk dengan mengajukan proposal kerja sama sebagai supplier pada perusahaan yang belum memakai produk kita SENT-END  ==  [1310 frames] -70.3448 [Ac=-92151.7 LM=0.0] (Act=12.0)
+Aligning File: mfcc/13519128_078.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END dalam proposal tersebut kita juga akan memfokuskan pada potongan harga yang sudah dibahas sebelumnya SENT-END  ==  [644 frames] -69.1155 [Ac=-44510.4 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519128_079.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END karena saya rasa dengan hal tersebut kualitas produk serta kredibilitas yang perusahaan kita miliki rasanya akan mudah untuk menjalin kerja sama dengan perusahaan lain SENT-END  ==  [1130 frames] -68.0746 [Ac=-76924.3 LM=0.0] (Act=14.3)
+Aligning File: mfcc/13519128_081.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END adapun untuk masalah dana yang dibutuhkan bisa dibicarakan dengan ibu cantika setelah ini SENT-END  ==  [653 frames] -67.9932 [Ac=-44399.6 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519128_084.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END saya ingin menambahkan saran bagaimana untuk lebih meningkatkan semangat kerja para karyawan kita rencanakan liburan akhir tahun jika target perusahaan sudah tercapai SENT-END  ==  [1088 frames] -67.1749 [Ac=-73086.3 LM=0.0] (Act=12.5)
+Aligning File: mfcc/13519128_085.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END saran yang menarik SENT-END  ==  [171 frames] -67.3727 [Ac=-11520.7 LM=0.0] (Act=7.7)
+Aligning File: mfcc/13519128_086.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END hal tersebut akan dipertimbangkan dan dibahas lebih lanjut nanti pada saat target sudah tercapai SENT-END  ==  [581 frames] -71.9406 [Ac=-41797.5 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519128_087.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END baiklah terima kasih atas semua pendapat yang bapak ibu berikan SENT-END  ==  [404 frames] -70.5570 [Ac=-28505.0 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519128_089.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END selanjutnya saya serahkan kepada sekretaris saya SENT-END  ==  [345 frames] -69.5206 [Ac=-23984.6 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519128_090.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END baiklah SENT-END  ==  [99 frames] -66.0325 [Ac=-6537.2 LM=0.0] (Act=8.2)
+Aligning File: mfcc/13519128_091.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END sebelum mengakhiri rapat ini saya akan membacakan hasil rapat pada hari ini diantaranya SENT-END  ==  [575 frames] -67.6888 [Ac=-38921.1 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519128_092.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END satu akan segera dilakukan servis dan pembersihan pada mesin mesin produksi SENT-END  ==  [587 frames] -68.6971 [Ac=-40325.2 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519128_093.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END dua melakukan promosi melalui media sosial SENT-END  ==  [398 frames] -67.2305 [Ac=-26757.7 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519128_095.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END empat mengurangi proses produksi dan menghentikan sementara produksi pada produk yang masih tersedia dalam jumlah banyak SENT-END  ==  [885 frames] -66.7133 [Ac=-59041.3 LM=0.0] (Act=11.9)
+Aligning File: mfcc/13519128_096.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END lima fokus pada penjualan produk yang sudah tersedia dan memberikan potongan harga sebesar sepuluh sampai dua puluh lima persen SENT-END  ==  [834 frames] -69.1742 [Ac=-57691.3 LM=0.0] (Act=12.1)
+Aligning File: mfcc/13519128_097.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END enam mengajukan proposal kerja sama sebagai supplier pada perusahaan yang belum memakai produk perusahaan SENT-END  ==  [791 frames] -68.7582 [Ac=-54387.7 LM=0.0] (Act=12.6)
+Aligning File: mfcc/13519128_098.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END dengan memfokuskan pada potongan harga kualitas produk dan kredibilitas yang perusahaan kita miliki sehingga menarik minat client SENT-END  ==  [900 frames] -69.5792 [Ac=-62621.3 LM=0.0] (Act=13.2)
+Aligning File: mfcc/13519128_099.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END tujuh rencana liburan akhir tahun bagi para karyawan jika target perusahaan terpenuhi SENT-END  ==  [608 frames] -67.4005 [Ac=-40979.5 LM=0.0] (Act=11.8)
+Aligning File: mfcc/13519128_100.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END demikian rapat pada hari ini semoga kedepannya perusahaan kita semakin maju dan berkembang SENT-END  ==  [608 frames] -68.5098 [Ac=-41653.9 LM=0.0] (Act=12.1)
+Aligning File: mfcc/13519156_001.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END selamat pagi dan salam sejahtera untuk kita semua SENT-END  ==  [318 frames] -74.8211 [Ac=-23793.1 LM=0.0] (Act=9.0)
+Aligning File: mfcc/13519156_002.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END pertama tama marilah kita panjatkan puji syukur kehadirat tuhan yang maha esa SENT-END  ==  [467 frames] -73.6857 [Ac=-34411.2 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519156_004.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END yang saya hormati bapak insinyur dava busono selaku pimpinan SENT-END  ==  [444 frames] -76.0006 [Ac=-33744.3 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519156_005.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END dan yang saya hormati bapak ibu kepala divisi yang sudah hadir dalam rapat ini SENT-END  ==  [611 frames] -76.1186 [Ac=-46508.4 LM=0.0] (Act=9.0)
+Aligning File: mfcc/13519156_006.mfc
+Created lattice with 33 nodes / 32 arcs from label file
+SENT-END baiklah saya akan membacakan agenda rapat kita pada hari ini yakni pembukaan pengarahan dari bapak insinyur dava busono laporan dari setiap manajer divisi dilanjutkan dengan pembahasan inti rapat serta tanya jawab SENT-END  ==  [1883 frames] -73.0061 [Ac=-137470.6 LM=0.0] (Act=10.5)
+Aligning File: mfcc/13519156_007.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END dan yang terakhir penutup SENT-END  ==  [198 frames] -73.7334 [Ac=-14599.2 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519156_008.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END langsung saja kepada bapak insinyur dava busono SENT-END  ==  [337 frames] -72.6302 [Ac=-24476.4 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519156_009.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kami persilakan untuk memberi pengarahan SENT-END  ==  [281 frames] -71.7458 [Ac=-20160.6 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519156_011.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END selamat pagi bapak ibu sekalian SENT-END  ==  [230 frames] -73.4685 [Ac=-16897.8 LM=0.0] (Act=8.5)
+Aligning File: mfcc/13519156_013.mfc
+Created lattice with 27 nodes / 26 arcs from label file
+SENT-END untuk itu kita akan membahasnya pada rapat kali ini apa saja faktor penyebab penurunan omzet tersebut dan bagaimana strategi untuk kembali meningkatkan penjualan produk kita SENT-END  ==  [1126 frames] -73.9898 [Ac=-83312.5 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519156_014.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END baiklah sebelumnya saya ingin mengetahui laporan kinerja dari setiap divisi SENT-END  ==  [537 frames] -74.3161 [Ac=-39907.7 LM=0.0] (Act=9.1)
+Aligning File: mfcc/13519156_015.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END yang pertama divisi pemasaran SENT-END  ==  [198 frames] -72.2436 [Ac=-14304.2 LM=0.0] (Act=8.4)
+Aligning File: mfcc/13519156_016.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kepada ibu cantika saya persilakan SENT-END  ==  [263 frames] -72.8739 [Ac=-19165.8 LM=0.0] (Act=7.7)
+Aligning File: mfcc/13519156_017.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END terima kasih pak atas waktunya SENT-END  ==  [179 frames] -76.3356 [Ac=-13664.1 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519156_018.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END saya akan melaporkan hasil penjualan selama setahun terakhir SENT-END  ==  [370 frames] -75.5151 [Ac=-27940.6 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519156_019.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END tingkat penjualan mengalami penurunan sebesar empat puluh persen dari tahun sebelumnya SENT-END  ==  [453 frames] -76.0402 [Ac=-34446.2 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519156_020.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END kami sudah berusaha semaksimal mungkin untuk meningkatkan omzet pasar tetapi permintaan produk kita kian hari semakin mengalami penurunan SENT-END  ==  [843 frames] -74.9217 [Ac=-63159.0 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519156_021.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END bagaimana hal tersebut bisa terjadi SENT-END  ==  [198 frames] -76.7822 [Ac=-15202.9 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519156_023.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END setelah kami teliti ke lapangan ternyata terdapat produk pesaing sejenis yang memiliki harga lebih terjangkau dari produk kita SENT-END  ==  [755 frames] -73.9077 [Ac=-55800.3 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519156_025.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END baik terima kasih atas penjelasannya SENT-END  ==  [263 frames] -73.9981 [Ac=-19461.5 LM=0.0] (Act=7.8)
+Aligning File: mfcc/13519156_028.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kepada bapak hardoyo saya persilakan SENT-END  ==  [253 frames] -72.5797 [Ac=-18362.7 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519156_029.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END baik terima kasih atas waktunya SENT-END  ==  [207 frames] -75.5709 [Ac=-15643.2 LM=0.0] (Act=8.5)
+Aligning File: mfcc/13519156_031.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END setelah dianalisis mengapa hal tersebut bisa terjadi ternyata penyebabnya karena tingkat penjualan kita tahun lalu sangat melampaui target SENT-END  ==  [829 frames] -75.4950 [Ac=-62585.4 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519156_032.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END karena itulah keuangan perusahaan kita saat ini masih terselamatkan SENT-END  ==  [421 frames] -74.2093 [Ac=-31242.1 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519156_033.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END syukurlah kalau begitu SENT-END  ==  [123 frames] -77.1829 [Ac=-9493.5 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519156_034.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END terima kasih atas penjelasannya bapak hardoyo SENT-END  ==  [267 frames] -74.0326 [Ac=-19766.7 LM=0.0] (Act=8.3)
+Aligning File: mfcc/13519156_035.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END selanjutnya dari bagian produksi apakah ada keluhan SENT-END  ==  [342 frames] -74.6155 [Ac=-25518.5 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519156_036.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END sebelumnya terima kasih atas kesempatan yang bapak berikan SENT-END  ==  [360 frames] -73.9302 [Ac=-26614.9 LM=0.0] (Act=8.7)
+Aligning File: mfcc/13519156_037.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END proses produksi masih berjalan dengan baik SENT-END  ==  [263 frames] -75.6994 [Ac=-19908.9 LM=0.0] (Act=8.8)
+Aligning File: mfcc/13519156_038.mfc
+Created lattice with 22 nodes / 21 arcs from label file
+SENT-END hanya saja akhir akhir ini beberapa mesin yang kita miliki sering mengalami kendala seperti tidak bisa beroperasi dan lain sebagainya SENT-END  ==  [1015 frames] -75.1874 [Ac=-76315.2 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519156_039.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END hal tersebut yang menjadi keluhan pekerja di bagian produksi SENT-END  ==  [360 frames] -75.7550 [Ac=-27271.8 LM=0.0] (Act=10.4)
+Aligning File: mfcc/13519156_040.mfc
+Created lattice with 30 nodes / 29 arcs from label file
+SENT-END kalau boleh memberi masukan sebaiknya kita segera melakukan servis dan pembersihan pada mesin mesin produksi yang kita miliki mengingat sebenarnya saat ini memang sudah mendekati jadwal servis tahunan SENT-END  ==  [1433 frames] -74.9228 [Ac=-107364.4 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519156_041.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas penjelasannya SENT-END  ==  [179 frames] -75.2625 [Ac=-13472.0 LM=0.0] (Act=8.2)
+Aligning File: mfcc/13519156_042.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END saran diterima SENT-END  ==  [109 frames] -73.2747 [Ac=-7986.9 LM=0.0] (Act=8.0)
+Aligning File: mfcc/13519156_043.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END kita akan segera menghubungi pihak terkait untuk melakukan servis pada mesin mesin produksi agar proses produksi tetap berjalan lancar SENT-END  ==  [1015 frames] -77.4388 [Ac=-78600.4 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519156_046.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END setelah saya analisis tidak ada masalah besar yang terjadi dari para karyawan SENT-END  ==  [602 frames] -73.8824 [Ac=-44477.2 LM=0.0] (Act=9.1)
+Aligning File: mfcc/13519156_047.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END semuanya bekerja sesuai dengan tanggung jawabnya masing masing SENT-END  ==  [374 frames] -74.0677 [Ac=-27701.3 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519156_048.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas penjelasannya SENT-END  ==  [147 frames] -77.6275 [Ac=-11411.2 LM=0.0] (Act=12.8)
+Aligning File: mfcc/13519156_049.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END syukurlah jika tidak ada keluhan dari para karyawan SENT-END  ==  [379 frames] -73.9877 [Ac=-28041.3 LM=0.0] (Act=9.5)
+Aligning File: mfcc/13519156_051.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END terima kasih atas waktu yang bapak berikan SENT-END  ==  [249 frames] -74.8643 [Ac=-18641.2 LM=0.0] (Act=8.6)
+Aligning File: mfcc/13519156_053.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END begitu juga dengan kegiatan administrasi yang berjalan sebagaimana mestinya SENT-END  ==  [467 frames] -76.0063 [Ac=-35495.0 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519156_054.mfc
+Created lattice with 29 nodes / 28 arcs from label file
+SENT-END adapun satu satunya masalah dari bagian kami adalah keadaan gudang yang mulai menyempit karena penjualan produk sedang mengalami penurunan sedangkan bagian produksi tetap memproduksi produk seperti biasanya SENT-END  ==  [1396 frames] -75.7057 [Ac=-105685.2 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519156_055.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END hal inilah yang dikhawatirkan jika terus dibiarkan maka gudang yang kita miliki tidak akan cukup lagi menampung semua barang yang sudah diproduksi SENT-END  ==  [1080 frames] -75.3320 [Ac=-81358.6 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519156_056.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END terima kasih bapak ardan atas penjelasannya SENT-END  ==  [356 frames] -72.4852 [Ac=-25804.7 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519156_057.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END baiklah SENT-END  ==  [68 frames] -79.0869 [Ac=-5377.9 LM=0.0] (Act=7.7)
+Aligning File: mfcc/13519156_059.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END izin berpendapat pak SENT-END  ==  [151 frames] -75.0964 [Ac=-11339.6 LM=0.0] (Act=10.8)
+Aligning File: mfcc/13519156_060.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END terkait dengan menurunnya tingkat penjualan produk kita menurut saya yang harus kita lakukan adalah memperbaharui cara memproduksikan produk SENT-END  ==  [1029 frames] -74.4668 [Ac=-76626.3 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519156_061.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END karena bisa dikatakan bahwa dari tahun ke tahun perusahaan kita selalu menggunakan cara yang sama dan cenderung monoton SENT-END  ==  [848 frames] -73.1190 [Ac=-62004.9 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519156_063.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END menurut anda cara seperti apa yang efektif untuk kembali meningkatkan penjualan produk kita SENT-END  ==  [671 frames] -73.2431 [Ac=-49146.2 LM=0.0] (Act=10.0)
+Aligning File: mfcc/13519156_065.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END namun menurut saya yang paling utama adalah dengan melakukan promosi menggunakan media sosial seperti instagram facebook dan lain sebagainya SENT-END  ==  [1196 frames] -75.7871 [Ac=-90641.3 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519156_067.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END maaf pak menyela SENT-END  ==  [133 frames] -74.7116 [Ac=-9936.6 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519156_068.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END saya sangat sependapat dengan ibu imel SENT-END  ==  [221 frames] -76.2661 [Ac=-16854.8 LM=0.0] (Act=10.7)
+Aligning File: mfcc/13519156_069.mfc
+Created lattice with 25 nodes / 24 arcs from label file
+SENT-END hal tersebut memang sangat perlu dilakukan mengingat di masa sekarang ini belanja online lebih banyak diminati karena lebih praktis dan bisa menghemat waktu SENT-END  ==  [1122 frames] -77.3920 [Ac=-86833.8 LM=0.0] (Act=12.2)
+Aligning File: mfcc/13519156_070.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END bagaimana yang lainnya apakah setuju SENT-END  ==  [221 frames] -77.2983 [Ac=-17082.9 LM=0.0] (Act=12.7)
+Aligning File: mfcc/13519156_072.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END maaf saya kurang setuju dengan pendapat aryasa SENT-END  ==  [337 frames] -75.1522 [Ac=-25326.3 LM=0.0] (Act=8.9)
+Aligning File: mfcc/13519156_073.mfc
+Created lattice with 24 nodes / 23 arcs from label file
+SENT-END karena seperti yang sudah dikatakan oleh bapak ardan bahwa kondisi gudang semakin hari semakin menyempit karena jumlah produksi tidak sebanding dengan penjualannya SENT-END  ==  [1215 frames] -74.4170 [Ac=-90416.7 LM=0.0] (Act=9.3)
+Aligning File: mfcc/13519156_074.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END untuk itu sebaiknya kita mengurangi jumlah produksi untuk sementara waktu dan memfokuskan pada penjualan produk yang sudah ada SENT-END  ==  [908 frames] -75.9326 [Ac=-68946.8 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519156_075.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END lalu bagaimana cara agar dapat bersaing SENT-END  ==  [239 frames] -78.0955 [Ac=-18664.8 LM=0.0] (Act=12.4)
+Aligning File: mfcc/13519156_076.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END kita bisa memberikan potongan harga sepuluh sampai dua puluh lima persen terutama bagi para distributor konsumen tetap dan pembeli yang membeli dalam jumlah besar SENT-END  ==  [1261 frames] -76.2226 [Ac=-96116.7 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519156_077.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END mungkin saran bapak hardoyo lebih tepat SENT-END  ==  [253 frames] -76.1771 [Ac=-19272.8 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519156_079.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END iya benar SENT-END  ==  [86 frames] -78.5550 [Ac=-6755.7 LM=0.0] (Act=9.9)
+Aligning File: mfcc/13519156_081.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END tetapi dalam keadaan yang cukup darurat ini saya rasa mendapat keuntungan sedikit daripada barang tidak terjual sama sekali dan perusahaan tentunya akan lebih merugi SENT-END  ==  [1261 frames] -76.6760 [Ac=-96688.5 LM=0.0] (Act=13.4)
+Aligning File: mfcc/13519156_083.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+SENT-END proses produksi akan dikurangi dan dihentikan sementara pada produk yang masih tersedia dalam jumlah banyak SENT-END  ==  [732 frames] -73.4761 [Ac=-53784.5 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519156_084.mfc
+Created lattice with 21 nodes / 20 arcs from label file
+SENT-END kita akan lebih memfokuskan pada penjualan produk yang sudah tersedia dan memberikan diskon sepuluh sampai dua puluh lima persen SENT-END  ==  [983 frames] -76.5369 [Ac=-75235.8 LM=0.0] (Act=9.7)
+Aligning File: mfcc/13519156_085.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END keputusan ini dipilih selain sebagai strategi peningkatan penjualan juga untuk mengatasi permasalahan yang terjadi di bagian gudang SENT-END  ==  [945 frames] -75.1246 [Ac=-70992.7 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519156_087.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END benar sekali pak SENT-END  ==  [109 frames] -75.8065 [Ac=-8262.9 LM=0.0] (Act=10.3)
+Aligning File: mfcc/13519156_089.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END baiklah selanjutnya untuk ibu cantika SENT-END  ==  [244 frames] -78.6187 [Ac=-19183.0 LM=0.0] (Act=9.4)
+Aligning File: mfcc/13519156_091.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih pak sebelumnya SENT-END  ==  [142 frames] -76.7713 [Ac=-10901.5 LM=0.0] (Act=10.8)
+Aligning File: mfcc/13519156_092.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END saya rasa saran saran yang diberikan akan sangat membantu SENT-END  ==  [328 frames] -73.2537 [Ac=-24027.2 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519156_093.mfc
+Created lattice with 30 nodes / 29 arcs from label file
+SENT-END kami akan segera membentuk tim untuk mengurusi segala hal yang berkaitan dengan promosi di sosial media dan juga hal hal lain yang berkaitan dengan penjualan produk secara online SENT-END  ==  [1540 frames] -74.3484 [Ac=-114496.5 LM=0.0] (Act=12.2)
+Aligning File: mfcc/13519156_094.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END kami akan berusaha membuat konten promosi yang menarik baik dengan visual ataupun dari diskon diskon yang diberikan SENT-END  ==  [787 frames] -75.5886 [Ac=-59488.3 LM=0.0] (Act=10.6)
+Aligning File: mfcc/13519156_097.mfc
+Created lattice with 26 nodes / 25 arcs from label file
+SENT-END karena saya rasa dengan hal tersebut kualitas produk serta kredibilitas yang perusahaan kita miliki rasanya akan mudah untuk menjalin kerja sama dengan perusahaan lain SENT-END  ==  [1201 frames] -75.9851 [Ac=-91258.1 LM=0.0] (Act=12.1)
+Aligning File: mfcc/13519156_098.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END baik saran disetujui segera lakukan tindakan tindakan terkait agar tujuan lebih cepat tercapai SENT-END  ==  [630 frames] -74.1416 [Ac=-46709.2 LM=0.0] (Act=9.6)
+Aligning File: mfcc/13519156_099.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END adapun untuk masalah dana yang dibutuhkan bisa dibicarakan dengan ibu cantika setelah ini SENT-END  ==  [583 frames] -73.5322 [Ac=-42869.3 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519156_100.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END baik pak SENT-END  ==  [63 frames] -78.4530 [Ac=-4942.5 LM=0.0] (Act=9.1)
+Aligning File: mfcc/13519156_101.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END yang terakhir untuk ibu kinaya apakah ada lagi yang ingin disampaikan SENT-END  ==  [513 frames] -74.1699 [Ac=-38049.1 LM=0.0] (Act=12.0)
+Aligning File: mfcc/13519156_102.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END saya ingin sedikit menambahkan saran SENT-END  ==  [221 frames] -71.9407 [Ac=-15898.9 LM=0.0] (Act=12.9)
+Aligning File: mfcc/13519156_103.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END bagaimana untuk lebih meningkatkan semangat kerja para karyawan kita rencanakan liburan akhir tahun jika target perusahaan sudah tercapai SENT-END  ==  [1075 frames] -74.2733 [Ac=-79843.8 LM=0.0] (Act=10.1)
+Aligning File: mfcc/13519156_104.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END saran yang menarik SENT-END  ==  [96 frames] -76.3892 [Ac=-7333.4 LM=0.0] (Act=12.3)
+Aligning File: mfcc/13519156_105.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END hal tersebut akan dipertimbangkan dan dibahas lebih lanjut nanti pada saat target sudah tercapai SENT-END  ==  [657 frames] -74.9114 [Ac=-49216.8 LM=0.0] (Act=10.2)
+Aligning File: mfcc/13519156_106.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END baiklah SENT-END  ==  [58 frames] -80.4209 [Ac=-4664.4 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519156_107.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END terima kasih atas semua pendapat yang bapak ibu berikan SENT-END  ==  [277 frames] -76.4090 [Ac=-21165.3 LM=0.0] (Act=11.6)
+Aligning File: mfcc/13519156_108.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END saya cukupkan rapat kali ini SENT-END  ==  [198 frames] -74.4380 [Ac=-14738.7 LM=0.0] (Act=11.0)
+Aligning File: mfcc/13519156_110.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END selanjutnya saya serahkan kepada sekretaris saya SENT-END  ==  [328 frames] -72.4470 [Ac=-23762.6 LM=0.0] (Act=9.8)
+Aligning File: mfcc/13519156_111.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END baiklah SENT-END  ==  [63 frames] -79.4302 [Ac=-5004.1 LM=0.0] (Act=7.7)
+Aligning File: mfcc/13519156_113.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END yang pertama adalah akan segera dilakukan servis dan pembersihan pada mesin mesin produksi SENT-END  ==  [709 frames] -74.7737 [Ac=-53014.5 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519156_116.mfc
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END yang keempat adalah mengurangi proses produksi dan menghentikan sementara produksi pada produk yang masih tersedia dalam jumlah banyak SENT-END  ==  [922 frames] -75.2743 [Ac=-69402.9 LM=0.0] (Act=8.9)
+Aligning File: mfcc/13519156_117.mfc
+Created lattice with 23 nodes / 22 arcs from label file
+SENT-END yang kelima adalah fokus pada penjualan produk yang sudah tersedia dan memberikan potongan harga sebesar sepuluh sampai dua puluh lima persen SENT-END  ==  [987 frames] -74.4346 [Ac=-73466.9 LM=0.0] (Act=10.5)
+Aligning File: mfcc/13519156_118.mfc
+Created lattice with 39 nodes / 38 arcs from label file
+SENT-END yang keenam adalah mengajukan proposal kerja sama mengajukan proposal kerja sama sebagai supplier pada perusahaan yang belum memakai produk perusahaan dengan memfokuskan pada potongan harga kualitas produk dan kredibilitas yang perusahaan kita miliki sehingga menarik minat klien SENT-END  ==  [2097 frames] -75.1170 [Ac=-157520.4 LM=0.0] (Act=11.1)
+Aligning File: mfcc/13519156_120.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END demikian rapat pada hari ini SENT-END  ==  [202 frames] -80.0627 [Ac=-16172.7 LM=0.0] (Act=11.3)
+Aligning File: mfcc/13519156_121.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END semoga ke depannya perusahaan kita semakin maju dan berkembang SENT-END  ==  [537 frames] -73.7464 [Ac=-39601.8 LM=0.0] (Act=9.1)
+Aligning File: mfcc/13519156_122.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END bila ada kesalahan dari saya mohon dimaafkan SENT-END  ==  [272 frames] -75.0073 [Ac=-20402.0 LM=0.0] (Act=9.2)
+Aligning File: mfcc/13519156_123.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END selamat siang dan selamat beristirahat SENT-END  ==  [286 frames] -76.1646 [Ac=-21783.1 LM=0.0] (Act=8.5)
+
+HTK Configuration Parameters[8]
+  Module/Tool     Parameter                  Value
+                  SAVECOMPRESSED             FALSE
+                  NUMCEPS                       12
+#                 NUMCHAINS                     24
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  TARGETRATE         100000.000000
+                  TARGETKIND            MFCC_0_D_A
+                  SOURCERATE                   625
+

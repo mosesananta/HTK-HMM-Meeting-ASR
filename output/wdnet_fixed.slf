@@ -1,0 +1,2050 @@
+VERSION=1.0
+N=515  L=1533 
+I=0    W=SENT-END            
+I=1    W=yang                
+I=2    W=!NULL               
+I=3    W=yakni               
+I=4    W=yaitu               
+I=5    W=waktunya            
+I=6    W=waktu               
+I=7    W=wacanakan           
+I=8    W=visual              
+I=9    W=versi               
+I=10   W=utama               
+I=11   W=usul                
+I=12   W=untuk               
+I=13   W=unggul              
+I=14   W=turun               
+I=15   W=tujuh               
+I=16   W=tujuan              
+I=17   W=tuhan               
+I=18   W=tokopedia           
+I=19   W=tingkat             
+I=20   W=tindakan            
+I=21   W=tim                 
+I=22   W=tiga                
+I=23   W=tidak               
+I=24   W=tetapi              
+I=25   W=tetap               
+I=26   W=terutama            
+I=27   W=terus               
+I=28   W=tersimpan           
+I=29   W=terselamatkan       
+I=30   W=tersedia            
+I=31   W=tersebut            
+I=32   W=terpenuhi           
+I=33   W=ternyata            
+I=34   W=terlebih            
+I=35   W=terkait             
+I=36   W=terjual             
+I=37   W=terjangkau          
+I=38   W=terjadi             
+I=39   W=terima              
+I=40   W=terhadap            
+I=41   W=terdapat            
+I=42   W=tercapai            
+I=43   W=terbaik             
+I=44   W=terawat             
+I=45   W=terakhir            
+I=46   W=tepat               
+I=47   W=tentunya            
+I=48   W=tentu               
+I=49   W=teliti              
+I=50   W=target              
+I=51   W=tapi                
+I=52   W=tanya               
+I=53   W=tanggung            
+I=54   W=tampung             
+I=55   W=tambahkan           
+I=56   W=tama                
+I=57   W=tahunan             
+I=58   W=tahun               
+I=59   W=tadi                
+I=60   W=syukurlah           
+I=61   W=syukur              
+I=62   W=susun               
+I=63   W=supplier            
+I=64   W=sudah               
+I=65   W=strategi            
+I=66   W=stabil              
+I=67   W=sosial              
+I=68   W=signifikan          
+I=69   W=siang               
+I=70   W=shopee              
+I=71   W=setuju              
+I=72   W=setiap              
+I=73   W=setelah             
+I=74   W=setahun             
+I=75   W=sesuatu             
+I=76   W=sesuai              
+I=77   W=servis              
+I=78   W=serta               
+I=79   W=sering              
+I=80   W=serahkan            
+I=81   W=sepuluh             
+I=82   W=sepertinya          
+I=83   W=seperti             
+I=84   W=sependapat          
+I=85   W=sentosa             
+I=86   W=semuanya            
+I=87   W=semua               
+I=88   W=semoga              
+I=89   W=sementara           
+I=90   W=sembilan            
+I=91   W=semangat            
+I=92   W=semaksimal          
+I=93   W=semakin             
+I=94   W=selanjutnya         
+I=95   W=selamat             
+I=96   W=selama              
+I=97   W=selalu              
+I=98   W=selaku              
+I=99   W=selain              
+I=100  W=sekretaris          
+I=101  W=sekarang            
+I=102  W=sekalian            
+I=103  W=sekali              
+I=104  W=sejenis             
+I=105  W=sejahtera           
+I=106  W=sehingga            
+I=107  W=sehat               
+I=108  W=segi                
+I=109  W=segera              
+I=110  W=segala              
+I=111  W=sedikit             
+I=112  W=sedangkan           
+I=113  W=sedang              
+I=114  W=secara              
+I=115  W=sebesar             
+I=116  W=sebenarnya          
+I=117  W=sebelumnya          
+I=118  W=sebelum             
+I=119  W=sebanding           
+I=120  W=sebaiknya           
+I=121  W=sebagainya          
+I=122  W=sebagaimana         
+I=123  W=sebagai             
+I=124  W=saya                
+I=125  W=satunya             
+I=126  W=satu                
+I=127  W=saran               
+I=128  W=sangat              
+I=129  W=sampaikan           
+I=130  W=sampai              
+I=131  W=sama                
+I=132  W=salam               
+I=133  W=saja                
+I=134  W=saat                
+I=135  W=rencanakan          
+I=136  W=rencana             
+I=137  W=rasanya             
+I=138  W=rasa                
+I=139  W=rapat               
+I=140  W=puluh               
+I=141  W=puji                
+I=142  W=proses              
+I=143  W=proposal            
+I=144  W=promosi             
+I=145  W=produksi            
+I=146  W=produk              
+I=147  W=praktis             
+I=148  W=potongan            
+I=149  W=populer             
+I=150  W=pimpinan            
+I=151  W=pilihan             
+I=152  W=pilih               
+I=153  W=pihak               
+I=154  W=pesaing             
+I=155  W=perusahaan          
+I=156  W=pertimbangkan       
+I=157  W=pertama             
+I=158  W=personalia          
+I=159  W=persilakan          
+I=160  W=persilahkan         
+I=161  W=persen              
+I=162  W=permintaan          
+I=163  W=permasalahan        
+I=164  W=perlu               
+I=165  W=perawatan           
+I=166  W=penyebabnya         
+I=167  W=penyebab            
+I=168  W=penutup             
+I=169  W=penurunan           
+I=170  W=penjualannya        
+I=171  W=penjualan           
+I=172  W=penjelasannya       
+I=173  W=peningkatan         
+I=174  W=pengarahan          
+I=175  W=penelitian          
+I=176  W=pendapat            
+I=177  W=pembukaan           
+I=178  W=pembersihan         
+I=179  W=pembeli             
+I=180  W=pembahasan          
+I=181  W=pemasaran           
+I=182  W=pekerja             
+I=183  W=pasar               
+I=184  W=para                
+I=185  W=panjatkan           
+I=186  W=paling              
+I=187  W=pakai               
+I=188  W=pak                 
+I=189  W=pak                 
+I=190  W=pagi                
+I=191  W=pada                
+I=192  W=online              
+I=193  W=omzet               
+I=194  W=oleh                
+I=195  W=nya                 
+I=196  W=nanti               
+I=197  W=namun               
+I=198  W=mungkin             
+I=199  W=mulai               
+I=200  W=mudah               
+I=201  W=monoton             
+I=202  W=mohon               
+I=203  W=minimalis           
+I=204  W=minat               
+I=205  W=miliki              
+I=206  W=mestinya            
+I=207  W=meskipun            
+I=208  W=mesin               
+I=209  W=merugi              
+I=210  W=merencanakan        
+I=211  W=mereka              
+I=212  W=menyempit           
+I=213  W=menyela             
+I=214  W=menyebabkan         
+I=215  W=menyampaikan        
+I=216  W=menurut             
+I=217  W=menurunnya          
+I=218  W=menurun             
+I=219  W=menunjukkan         
+I=220  W=menjual             
+I=221  W=menjalin            
+I=222  W=menjadi             
+I=223  W=meningkatkan        
+I=224  W=mengurusi           
+I=225  W=mengurangi          
+I=226  W=mengkhawatirkan     
+I=227  W=mengingat           
+I=228  W=mengingat           
+I=229  W=menghubungi         
+I=230  W=menghentikan        
+I=231  W=menghemat           
+I=232  W=menggunakan         
+I=233  W=mengetahui          
+I=234  W=mengatasi           
+I=235  W=mengapa             
+I=236  W=mengalami           
+I=237  W=mengakhiri          
+I=238  W=mengajukan          
+I=239  W=mendiskusikan       
+I=240  W=mendekati           
+I=241  W=mendapat            
+I=242  W=menarik             
+I=243  W=menang              
+I=244  W=menampung           
+I=245  W=menambahkan         
+I=246  W=mempromosikan       
+I=247  W=memproduksikan      
+I=248  W=memproduksi         
+I=249  W=memperluas          
+I=250  W=memperbarui         
+I=251  W=memperbaharui       
+I=252  W=memiliki            
+I=253  W=memfokuskan         
+I=254  W=membuat             
+I=255  W=memberikan          
+I=256  W=memberi             
+I=257  W=membentuk           
+I=258  W=membeli             
+I=259  W=membantu            
+I=260  W=membahasnya         
+I=261  W=membahas            
+I=262  W=membacakan          
+I=263  W=memang              
+I=264  W=memakai             
+I=265  W=melaporkan          
+I=266  W=melampaui           
+I=267  W=melalui             
+I=268  W=melakukan           
+I=269  W=media               
+I=270  W=masukan             
+I=271  W=masing              
+I=272  W=masih               
+I=273  W=masalah             
+I=274  W=masa                
+I=275  W=marilah             
+I=276  W=manajer             
+I=277  W=manajer             
+I=278  W=maka                
+I=279  W=maju                
+I=280  W=maha                
+I=281  W=macam               
+I=282  W=maaf                
+I=283  W=lima                
+I=284  W=liburan             
+I=285  W=lebih               
+I=286  W=lazada              
+I=287  W=laporan             
+I=288  W=lapangan            
+I=289  W=lanjut              
+I=290  W=langsung            
+I=291  W=lancar              
+I=292  W=lalu                
+I=293  W=lakukan             
+I=294  W=laku                
+I=295  W=lainnya             
+I=296  W=lain                
+I=297  W=lagi                
+I=298  W=kurang              
+I=299  W=kualitas            
+I=300  W=kredibilitas        
+I=301  W=konten              
+I=302  W=konsumen            
+I=303  W=kondisi             
+I=304  W=klien               
+I=305  W=kita                
+I=306  W=kinerja             
+I=307  W=kinaya              
+I=308  W=kian                
+I=309  W=keuntungan          
+I=310  W=keuangan            
+I=311  W=ketujuh             
+I=312  W=ketika              
+I=313  W=ketiga              
+I=314  W=ketahun             
+I=315  W=ketahui             
+I=316  W=kesempatannya       
+I=317  W=kesempatan          
+I=318  W=kesalahan           
+I=319  W=kerja               
+I=320  W=keputusan           
+I=321  W=kepenuhan           
+I=322  W=kepala              
+I=323  W=kepada              
+I=324  W=kendala             
+I=325  W=kembali             
+I=326  W=keluhannya          
+I=327  W=keluhan             
+I=328  W=kelima              
+I=329  W=kehadirat           
+I=330  W=kegiatan            
+I=331  W=keenam              
+I=332  W=keempat             
+I=333  W=kedua               
+I=334  W=kedepannya          
+I=335  W=keadaan             
+I=336  W=ke                  
+I=337  W=katakan             
+I=338  W=kasih               
+I=339  W=karyawan            
+I=340  W=karena              
+I=341  W=kami                
+I=342  W=kali                
+I=343  W=kalau               
+I=344  W=jumlah              
+I=345  W=juga                
+I=346  W=jual                
+I=347  W=jika                
+I=348  W=jawabnya            
+I=349  W=jawab               
+I=350  W=jangkauan           
+I=351  W=jadwal              
+I=352  W=jadi                
+I=353  W=izin                
+I=354  W=iya                 
+I=355  W=itulah              
+I=356  W=itu                 
+I=357  W=ir                  
+I=358  W=inti                
+I=359  W=internal            
+I=360  W=instagram           
+I=361  W=insinyur            
+I=362  W=inilah              
+I=363  W=ini                 
+I=364  W=ingin               
+I=365  W=imel                
+I=366  W=im                  
+I=367  W=ide                 
+I=368  W=ibu                 
+I=369  W=hormati             
+I=370  W=hasil               
+I=371  W=harus               
+I=372  W=hari                
+I=373  W=harganya            
+I=374  W=harga               
+I=375  W=hardoyo             
+I=376  W=harapan             
+I=377  W=hanya               
+I=378  W=hal                 
+I=379  W=hadirat             
+I=380  W=hadir               
+I=381  W=gudang              
+I=382  W=fokus               
+I=383  W=faktor              
+I=384  W=facebook            
+I=385  W=facebook            
+I=386  W=esa                 
+I=387  W=enam                
+I=388  W=empat               
+I=389  W=efektif             
+I=390  W=ecommerce           
+I=391  W=e                   
+I=392  W=dulu                
+I=393  W=dua                 
+I=394  W=divisi              
+I=395  W=diterima            
+I=396  W=distributor         
+I=397  W=diskon              
+I=398  W=disetujui           
+I=399  W=disebabkan          
+I=400  W=disampaikan         
+I=401  W=diproduksi          
+I=402  W=dipilih             
+I=403  W=dipertimbangkan     
+I=404  W=dimulai             
+I=405  W=diminati            
+I=406  W=dimaafkan           
+I=407  W=dilanjutkan         
+I=408  W=dilakukan           
+I=409  W=dikurangi           
+I=410  W=dikhawatirkan       
+I=411  W=diketahui           
+I=412  W=dikeluhkan          
+I=413  W=dikatakan           
+I=414  W=dihentikan          
+I=415  W=didapat             
+I=416  W=dibutuhkan          
+I=417  W=dibicarakan         
+I=418  W=dibiarkan           
+I=419  W=diberikan           
+I=420  W=dibahas             
+I=421  W=diantaranya         
+I=422  W=dianalisis          
+I=423  W=di                  
+I=424  W=depannya            
+I=425  W=dengan              
+I=426  W=demikian            
+I=427  W=delapan             
+I=428  W=dava                
+I=429  W=data                
+I=430  W=darurat             
+I=431  W=daripada            
+I=432  W=dari                
+I=433  W=dapat               
+I=434  W=dana                
+I=435  W=dan                 
+I=436  W=dalam               
+I=437  W=dahulu              
+I=438  W=cukupkan            
+I=439  W=cukup               
+I=440  W=commerce            
+I=441  W=coba                
+I=442  W=client              
+I=443  W=cepat               
+I=444  W=cenderung           
+I=445  W=caranya             
+I=446  W=cara                
+I=447  W=cantika             
+I=448  W=busono              
+I=449  W=bukankah            
+I=450  W=bukan               
+I=451  W=boleh               
+I=452  W=bisa                
+I=453  W=bila                
+I=454  W=biasanya            
+I=455  W=besar               
+I=456  W=berusaha            
+I=457  W=bersama             
+I=458  W=bersaing            
+I=459  W=berpendapat         
+I=460  W=beroperasi          
+I=461  W=berkumpul           
+I=462  W=berkembang          
+I=463  W=berkaitan           
+I=464  W=berjalan            
+I=465  W=beristirahat        
+I=466  W=berikan             
+I=467  W=beri                
+I=468  W=berdasarkan         
+I=469  W=berbicara           
+I=470  W=berada              
+I=471  W=benar               
+I=472  W=belum               
+I=473  W=beliau              
+I=474  W=belanja             
+I=475  W=bekerja             
+I=476  W=begitu              
+I=477  W=beberapa            
+I=478  W=barang              
+I=479  W=bapak               
+I=480  W=banyak              
+I=481  W=baiklah             
+I=482  W=baik                
+I=483  W=bahwasanya          
+I=484  W=bahwa               
+I=485  W=bahas               
+I=486  W=bagus               
+I=487  W=bagian              
+I=488  W=bagi                
+I=489  W=bagaimana           
+I=490  W=ataupun             
+I=491  W=atau                
+I=492  W=atas                
+I=493  W=asalkan             
+I=494  W=aryasa              
+I=495  W=ardan               
+I=496  W=aplikasi            
+I=497  W=apakah              
+I=498  W=apa                 
+I=499  W=anda                
+I=500  W=analisis            
+I=501  W=akhir               
+I=502  W=akan                
+I=503  W=agenda              
+I=504  W=agar                
+I=505  W=agak                
+I=506  W=administrasi        
+I=507  W=adapun              
+I=508  W=adanya              
+I=509  W=adalah              
+I=510  W=ada                 
+I=511  W=acara               
+I=512  W=SENT-START          
+I=513  W=!NULL               
+I=514  W=!NULL               
+J=0     S=2    E=0    
+J=1     S=2    E=1    
+J=2     S=512  E=1    
+J=3     S=1    E=2    
+J=4     S=3    E=2    
+J=5     S=4    E=2    
+J=6     S=5    E=2    
+J=7     S=6    E=2    
+J=8     S=7    E=2    
+J=9     S=8    E=2    
+J=10    S=9    E=2    
+J=11    S=10   E=2    
+J=12    S=11   E=2    
+J=13    S=12   E=2    
+J=14    S=13   E=2    
+J=15    S=14   E=2    
+J=16    S=15   E=2    
+J=17    S=16   E=2    
+J=18    S=17   E=2    
+J=19    S=18   E=2    
+J=20    S=19   E=2    
+J=21    S=20   E=2    
+J=22    S=21   E=2    
+J=23    S=22   E=2    
+J=24    S=23   E=2    
+J=25    S=24   E=2    
+J=26    S=25   E=2    
+J=27    S=26   E=2    
+J=28    S=27   E=2    
+J=29    S=28   E=2    
+J=30    S=29   E=2    
+J=31    S=30   E=2    
+J=32    S=31   E=2    
+J=33    S=32   E=2    
+J=34    S=33   E=2    
+J=35    S=34   E=2    
+J=36    S=35   E=2    
+J=37    S=36   E=2    
+J=38    S=37   E=2    
+J=39    S=38   E=2    
+J=40    S=39   E=2    
+J=41    S=40   E=2    
+J=42    S=41   E=2    
+J=43    S=42   E=2    
+J=44    S=43   E=2    
+J=45    S=44   E=2    
+J=46    S=45   E=2    
+J=47    S=46   E=2    
+J=48    S=47   E=2    
+J=49    S=48   E=2    
+J=50    S=49   E=2    
+J=51    S=50   E=2    
+J=52    S=51   E=2    
+J=53    S=52   E=2    
+J=54    S=53   E=2    
+J=55    S=54   E=2    
+J=56    S=55   E=2    
+J=57    S=56   E=2    
+J=58    S=57   E=2    
+J=59    S=58   E=2    
+J=60    S=59   E=2    
+J=61    S=60   E=2    
+J=62    S=61   E=2    
+J=63    S=62   E=2    
+J=64    S=63   E=2    
+J=65    S=64   E=2    
+J=66    S=65   E=2    
+J=67    S=66   E=2    
+J=68    S=67   E=2    
+J=69    S=68   E=2    
+J=70    S=69   E=2    
+J=71    S=70   E=2    
+J=72    S=71   E=2    
+J=73    S=72   E=2    
+J=74    S=73   E=2    
+J=75    S=74   E=2    
+J=76    S=75   E=2    
+J=77    S=76   E=2    
+J=78    S=77   E=2    
+J=79    S=78   E=2    
+J=80    S=79   E=2    
+J=81    S=80   E=2    
+J=82    S=81   E=2    
+J=83    S=82   E=2    
+J=84    S=83   E=2    
+J=85    S=84   E=2    
+J=86    S=85   E=2    
+J=87    S=86   E=2    
+J=88    S=87   E=2    
+J=89    S=88   E=2    
+J=90    S=89   E=2    
+J=91    S=90   E=2    
+J=92    S=91   E=2    
+J=93    S=92   E=2    
+J=94    S=93   E=2    
+J=95    S=94   E=2    
+J=96    S=95   E=2    
+J=97    S=96   E=2    
+J=98    S=97   E=2    
+J=99    S=98   E=2    
+J=100   S=99   E=2    
+J=101   S=100  E=2    
+J=102   S=101  E=2    
+J=103   S=102  E=2    
+J=104   S=103  E=2    
+J=105   S=104  E=2    
+J=106   S=105  E=2    
+J=107   S=106  E=2    
+J=108   S=107  E=2    
+J=109   S=108  E=2    
+J=110   S=109  E=2    
+J=111   S=110  E=2    
+J=112   S=111  E=2    
+J=113   S=112  E=2    
+J=114   S=113  E=2    
+J=115   S=114  E=2    
+J=116   S=115  E=2    
+J=117   S=116  E=2    
+J=118   S=117  E=2    
+J=119   S=118  E=2    
+J=120   S=119  E=2    
+J=121   S=120  E=2    
+J=122   S=121  E=2    
+J=123   S=122  E=2    
+J=124   S=123  E=2    
+J=125   S=124  E=2    
+J=126   S=125  E=2    
+J=127   S=126  E=2    
+J=128   S=127  E=2    
+J=129   S=128  E=2    
+J=130   S=129  E=2    
+J=131   S=130  E=2    
+J=132   S=131  E=2    
+J=133   S=132  E=2    
+J=134   S=133  E=2    
+J=135   S=134  E=2    
+J=136   S=135  E=2    
+J=137   S=136  E=2    
+J=138   S=137  E=2    
+J=139   S=138  E=2    
+J=140   S=139  E=2    
+J=141   S=140  E=2    
+J=142   S=141  E=2    
+J=143   S=142  E=2    
+J=144   S=143  E=2    
+J=145   S=144  E=2    
+J=146   S=145  E=2    
+J=147   S=146  E=2    
+J=148   S=147  E=2    
+J=149   S=148  E=2    
+J=150   S=149  E=2    
+J=151   S=150  E=2    
+J=152   S=151  E=2    
+J=153   S=152  E=2    
+J=154   S=153  E=2    
+J=155   S=154  E=2    
+J=156   S=155  E=2    
+J=157   S=156  E=2    
+J=158   S=157  E=2    
+J=159   S=158  E=2    
+J=160   S=159  E=2    
+J=161   S=160  E=2    
+J=162   S=161  E=2    
+J=163   S=162  E=2    
+J=164   S=163  E=2    
+J=165   S=164  E=2    
+J=166   S=165  E=2    
+J=167   S=166  E=2    
+J=168   S=167  E=2    
+J=169   S=168  E=2    
+J=170   S=169  E=2    
+J=171   S=170  E=2    
+J=172   S=171  E=2    
+J=173   S=172  E=2    
+J=174   S=173  E=2    
+J=175   S=174  E=2    
+J=176   S=175  E=2    
+J=177   S=176  E=2    
+J=178   S=177  E=2    
+J=179   S=178  E=2    
+J=180   S=179  E=2    
+J=181   S=180  E=2    
+J=182   S=181  E=2    
+J=183   S=182  E=2    
+J=184   S=183  E=2    
+J=185   S=184  E=2    
+J=186   S=185  E=2    
+J=187   S=186  E=2    
+J=188   S=187  E=2    
+J=189   S=188  E=2    
+J=190   S=189  E=2    
+J=191   S=190  E=2    
+J=192   S=191  E=2    
+J=193   S=192  E=2    
+J=194   S=193  E=2    
+J=195   S=194  E=2    
+J=196   S=195  E=2    
+J=197   S=196  E=2    
+J=198   S=197  E=2    
+J=199   S=198  E=2    
+J=200   S=199  E=2    
+J=201   S=200  E=2    
+J=202   S=201  E=2    
+J=203   S=202  E=2    
+J=204   S=203  E=2    
+J=205   S=204  E=2    
+J=206   S=205  E=2    
+J=207   S=206  E=2    
+J=208   S=207  E=2    
+J=209   S=208  E=2    
+J=210   S=209  E=2    
+J=211   S=210  E=2    
+J=212   S=211  E=2    
+J=213   S=212  E=2    
+J=214   S=213  E=2    
+J=215   S=214  E=2    
+J=216   S=215  E=2    
+J=217   S=216  E=2    
+J=218   S=217  E=2    
+J=219   S=218  E=2    
+J=220   S=219  E=2    
+J=221   S=220  E=2    
+J=222   S=221  E=2    
+J=223   S=222  E=2    
+J=224   S=223  E=2    
+J=225   S=224  E=2    
+J=226   S=225  E=2    
+J=227   S=226  E=2    
+J=228   S=227  E=2    
+J=229   S=228  E=2    
+J=230   S=229  E=2    
+J=231   S=230  E=2    
+J=232   S=231  E=2    
+J=233   S=232  E=2    
+J=234   S=233  E=2    
+J=235   S=234  E=2    
+J=236   S=235  E=2    
+J=237   S=236  E=2    
+J=238   S=237  E=2    
+J=239   S=238  E=2    
+J=240   S=239  E=2    
+J=241   S=240  E=2    
+J=242   S=241  E=2    
+J=243   S=242  E=2    
+J=244   S=243  E=2    
+J=245   S=244  E=2    
+J=246   S=245  E=2    
+J=247   S=246  E=2    
+J=248   S=247  E=2    
+J=249   S=248  E=2    
+J=250   S=249  E=2    
+J=251   S=250  E=2    
+J=252   S=251  E=2    
+J=253   S=252  E=2    
+J=254   S=253  E=2    
+J=255   S=254  E=2    
+J=256   S=255  E=2    
+J=257   S=256  E=2    
+J=258   S=257  E=2    
+J=259   S=258  E=2    
+J=260   S=259  E=2    
+J=261   S=260  E=2    
+J=262   S=261  E=2    
+J=263   S=262  E=2    
+J=264   S=263  E=2    
+J=265   S=264  E=2    
+J=266   S=265  E=2    
+J=267   S=266  E=2    
+J=268   S=267  E=2    
+J=269   S=268  E=2    
+J=270   S=269  E=2    
+J=271   S=270  E=2    
+J=272   S=271  E=2    
+J=273   S=272  E=2    
+J=274   S=273  E=2    
+J=275   S=274  E=2    
+J=276   S=275  E=2    
+J=277   S=276  E=2    
+J=278   S=277  E=2    
+J=279   S=278  E=2    
+J=280   S=279  E=2    
+J=281   S=280  E=2    
+J=282   S=281  E=2    
+J=283   S=282  E=2    
+J=284   S=283  E=2    
+J=285   S=284  E=2    
+J=286   S=285  E=2    
+J=287   S=286  E=2    
+J=288   S=287  E=2    
+J=289   S=288  E=2    
+J=290   S=289  E=2    
+J=291   S=290  E=2    
+J=292   S=291  E=2    
+J=293   S=292  E=2    
+J=294   S=293  E=2    
+J=295   S=294  E=2    
+J=296   S=295  E=2    
+J=297   S=296  E=2    
+J=298   S=297  E=2    
+J=299   S=298  E=2    
+J=300   S=299  E=2    
+J=301   S=300  E=2    
+J=302   S=301  E=2    
+J=303   S=302  E=2    
+J=304   S=303  E=2    
+J=305   S=304  E=2    
+J=306   S=305  E=2    
+J=307   S=306  E=2    
+J=308   S=307  E=2    
+J=309   S=308  E=2    
+J=310   S=309  E=2    
+J=311   S=310  E=2    
+J=312   S=311  E=2    
+J=313   S=312  E=2    
+J=314   S=313  E=2    
+J=315   S=314  E=2    
+J=316   S=315  E=2    
+J=317   S=316  E=2    
+J=318   S=317  E=2    
+J=319   S=318  E=2    
+J=320   S=319  E=2    
+J=321   S=320  E=2    
+J=322   S=321  E=2    
+J=323   S=322  E=2    
+J=324   S=323  E=2    
+J=325   S=324  E=2    
+J=326   S=325  E=2    
+J=327   S=326  E=2    
+J=328   S=327  E=2    
+J=329   S=328  E=2    
+J=330   S=329  E=2    
+J=331   S=330  E=2    
+J=332   S=331  E=2    
+J=333   S=332  E=2    
+J=334   S=333  E=2    
+J=335   S=334  E=2    
+J=336   S=335  E=2    
+J=337   S=336  E=2    
+J=338   S=337  E=2    
+J=339   S=338  E=2    
+J=340   S=339  E=2    
+J=341   S=340  E=2    
+J=342   S=341  E=2    
+J=343   S=342  E=2    
+J=344   S=343  E=2    
+J=345   S=344  E=2    
+J=346   S=345  E=2    
+J=347   S=346  E=2    
+J=348   S=347  E=2    
+J=349   S=348  E=2    
+J=350   S=349  E=2    
+J=351   S=350  E=2    
+J=352   S=351  E=2    
+J=353   S=352  E=2    
+J=354   S=353  E=2    
+J=355   S=354  E=2    
+J=356   S=355  E=2    
+J=357   S=356  E=2    
+J=358   S=357  E=2    
+J=359   S=358  E=2    
+J=360   S=359  E=2    
+J=361   S=360  E=2    
+J=362   S=361  E=2    
+J=363   S=362  E=2    
+J=364   S=363  E=2    
+J=365   S=364  E=2    
+J=366   S=365  E=2    
+J=367   S=366  E=2    
+J=368   S=367  E=2    
+J=369   S=368  E=2    
+J=370   S=369  E=2    
+J=371   S=370  E=2    
+J=372   S=371  E=2    
+J=373   S=372  E=2    
+J=374   S=373  E=2    
+J=375   S=374  E=2    
+J=376   S=375  E=2    
+J=377   S=376  E=2    
+J=378   S=377  E=2    
+J=379   S=378  E=2    
+J=380   S=379  E=2    
+J=381   S=380  E=2    
+J=382   S=381  E=2    
+J=383   S=382  E=2    
+J=384   S=383  E=2    
+J=385   S=384  E=2    
+J=386   S=385  E=2    
+J=387   S=386  E=2    
+J=388   S=387  E=2    
+J=389   S=388  E=2    
+J=390   S=389  E=2    
+J=391   S=390  E=2    
+J=392   S=391  E=2    
+J=393   S=392  E=2    
+J=394   S=393  E=2    
+J=395   S=394  E=2    
+J=396   S=395  E=2    
+J=397   S=396  E=2    
+J=398   S=397  E=2    
+J=399   S=398  E=2    
+J=400   S=399  E=2    
+J=401   S=400  E=2    
+J=402   S=401  E=2    
+J=403   S=402  E=2    
+J=404   S=403  E=2    
+J=405   S=404  E=2    
+J=406   S=405  E=2    
+J=407   S=406  E=2    
+J=408   S=407  E=2    
+J=409   S=408  E=2    
+J=410   S=409  E=2    
+J=411   S=410  E=2    
+J=412   S=411  E=2    
+J=413   S=412  E=2    
+J=414   S=413  E=2    
+J=415   S=414  E=2    
+J=416   S=415  E=2    
+J=417   S=416  E=2    
+J=418   S=417  E=2    
+J=419   S=418  E=2    
+J=420   S=419  E=2    
+J=421   S=420  E=2    
+J=422   S=421  E=2    
+J=423   S=422  E=2    
+J=424   S=423  E=2    
+J=425   S=424  E=2    
+J=426   S=425  E=2    
+J=427   S=426  E=2    
+J=428   S=427  E=2    
+J=429   S=428  E=2    
+J=430   S=429  E=2    
+J=431   S=430  E=2    
+J=432   S=431  E=2    
+J=433   S=432  E=2    
+J=434   S=433  E=2    
+J=435   S=434  E=2    
+J=436   S=435  E=2    
+J=437   S=436  E=2    
+J=438   S=437  E=2    
+J=439   S=438  E=2    
+J=440   S=439  E=2    
+J=441   S=440  E=2    
+J=442   S=441  E=2    
+J=443   S=442  E=2    
+J=444   S=443  E=2    
+J=445   S=444  E=2    
+J=446   S=445  E=2    
+J=447   S=446  E=2    
+J=448   S=447  E=2    
+J=449   S=448  E=2    
+J=450   S=449  E=2    
+J=451   S=450  E=2    
+J=452   S=451  E=2    
+J=453   S=452  E=2    
+J=454   S=453  E=2    
+J=455   S=454  E=2    
+J=456   S=455  E=2    
+J=457   S=456  E=2    
+J=458   S=457  E=2    
+J=459   S=458  E=2    
+J=460   S=459  E=2    
+J=461   S=460  E=2    
+J=462   S=461  E=2    
+J=463   S=462  E=2    
+J=464   S=463  E=2    
+J=465   S=464  E=2    
+J=466   S=465  E=2    
+J=467   S=466  E=2    
+J=468   S=467  E=2    
+J=469   S=468  E=2    
+J=470   S=469  E=2    
+J=471   S=470  E=2    
+J=472   S=471  E=2    
+J=473   S=472  E=2    
+J=474   S=473  E=2    
+J=475   S=474  E=2    
+J=476   S=475  E=2    
+J=477   S=476  E=2    
+J=478   S=477  E=2    
+J=479   S=478  E=2    
+J=480   S=479  E=2    
+J=481   S=480  E=2    
+J=482   S=481  E=2    
+J=483   S=482  E=2    
+J=484   S=483  E=2    
+J=485   S=484  E=2    
+J=486   S=485  E=2    
+J=487   S=486  E=2    
+J=488   S=487  E=2    
+J=489   S=488  E=2    
+J=490   S=489  E=2    
+J=491   S=490  E=2    
+J=492   S=491  E=2    
+J=493   S=492  E=2    
+J=494   S=493  E=2    
+J=495   S=494  E=2    
+J=496   S=495  E=2    
+J=497   S=496  E=2    
+J=498   S=497  E=2    
+J=499   S=498  E=2    
+J=500   S=499  E=2    
+J=501   S=500  E=2    
+J=502   S=501  E=2    
+J=503   S=502  E=2    
+J=504   S=503  E=2    
+J=505   S=504  E=2    
+J=506   S=505  E=2    
+J=507   S=506  E=2    
+J=508   S=507  E=2    
+J=509   S=508  E=2    
+J=510   S=509  E=2    
+J=511   S=510  E=2    
+J=512   S=511  E=2    
+J=513   S=2    E=3    
+J=514   S=512  E=3    
+J=515   S=2    E=4    
+J=516   S=512  E=4    
+J=517   S=2    E=5    
+J=518   S=512  E=5    
+J=519   S=2    E=6    
+J=520   S=512  E=6    
+J=521   S=2    E=7    
+J=522   S=512  E=7    
+J=523   S=2    E=8    
+J=524   S=512  E=8    
+J=525   S=2    E=9    
+J=526   S=512  E=9    
+J=527   S=2    E=10   
+J=528   S=512  E=10   
+J=529   S=2    E=11   
+J=530   S=512  E=11   
+J=531   S=2    E=12   
+J=532   S=512  E=12   
+J=533   S=2    E=13   
+J=534   S=512  E=13   
+J=535   S=2    E=14   
+J=536   S=512  E=14   
+J=537   S=2    E=15   
+J=538   S=512  E=15   
+J=539   S=2    E=16   
+J=540   S=512  E=16   
+J=541   S=2    E=17   
+J=542   S=512  E=17   
+J=543   S=2    E=18   
+J=544   S=512  E=18   
+J=545   S=2    E=19   
+J=546   S=512  E=19   
+J=547   S=2    E=20   
+J=548   S=512  E=20   
+J=549   S=2    E=21   
+J=550   S=512  E=21   
+J=551   S=2    E=22   
+J=552   S=512  E=22   
+J=553   S=2    E=23   
+J=554   S=512  E=23   
+J=555   S=2    E=24   
+J=556   S=512  E=24   
+J=557   S=2    E=25   
+J=558   S=512  E=25   
+J=559   S=2    E=26   
+J=560   S=512  E=26   
+J=561   S=2    E=27   
+J=562   S=512  E=27   
+J=563   S=2    E=28   
+J=564   S=512  E=28   
+J=565   S=2    E=29   
+J=566   S=512  E=29   
+J=567   S=2    E=30   
+J=568   S=512  E=30   
+J=569   S=2    E=31   
+J=570   S=512  E=31   
+J=571   S=2    E=32   
+J=572   S=512  E=32   
+J=573   S=2    E=33   
+J=574   S=512  E=33   
+J=575   S=2    E=34   
+J=576   S=512  E=34   
+J=577   S=2    E=35   
+J=578   S=512  E=35   
+J=579   S=2    E=36   
+J=580   S=512  E=36   
+J=581   S=2    E=37   
+J=582   S=512  E=37   
+J=583   S=2    E=38   
+J=584   S=512  E=38   
+J=585   S=2    E=39   
+J=586   S=512  E=39   
+J=587   S=2    E=40   
+J=588   S=512  E=40   
+J=589   S=2    E=41   
+J=590   S=512  E=41   
+J=591   S=2    E=42   
+J=592   S=512  E=42   
+J=593   S=2    E=43   
+J=594   S=512  E=43   
+J=595   S=2    E=44   
+J=596   S=512  E=44   
+J=597   S=2    E=45   
+J=598   S=512  E=45   
+J=599   S=2    E=46   
+J=600   S=512  E=46   
+J=601   S=2    E=47   
+J=602   S=512  E=47   
+J=603   S=2    E=48   
+J=604   S=512  E=48   
+J=605   S=2    E=49   
+J=606   S=512  E=49   
+J=607   S=2    E=50   
+J=608   S=512  E=50   
+J=609   S=2    E=51   
+J=610   S=512  E=51   
+J=611   S=2    E=52   
+J=612   S=512  E=52   
+J=613   S=2    E=53   
+J=614   S=512  E=53   
+J=615   S=2    E=54   
+J=616   S=512  E=54   
+J=617   S=2    E=55   
+J=618   S=512  E=55   
+J=619   S=2    E=56   
+J=620   S=512  E=56   
+J=621   S=2    E=57   
+J=622   S=512  E=57   
+J=623   S=2    E=58   
+J=624   S=512  E=58   
+J=625   S=2    E=59   
+J=626   S=512  E=59   
+J=627   S=2    E=60   
+J=628   S=512  E=60   
+J=629   S=2    E=61   
+J=630   S=512  E=61   
+J=631   S=2    E=62   
+J=632   S=512  E=62   
+J=633   S=2    E=63   
+J=634   S=512  E=63   
+J=635   S=2    E=64   
+J=636   S=512  E=64   
+J=637   S=2    E=65   
+J=638   S=512  E=65   
+J=639   S=2    E=66   
+J=640   S=512  E=66   
+J=641   S=2    E=67   
+J=642   S=512  E=67   
+J=643   S=2    E=68   
+J=644   S=512  E=68   
+J=645   S=2    E=69   
+J=646   S=512  E=69   
+J=647   S=2    E=70   
+J=648   S=512  E=70   
+J=649   S=2    E=71   
+J=650   S=512  E=71   
+J=651   S=2    E=72   
+J=652   S=512  E=72   
+J=653   S=2    E=73   
+J=654   S=512  E=73   
+J=655   S=2    E=74   
+J=656   S=512  E=74   
+J=657   S=2    E=75   
+J=658   S=512  E=75   
+J=659   S=2    E=76   
+J=660   S=512  E=76   
+J=661   S=2    E=77   
+J=662   S=512  E=77   
+J=663   S=2    E=78   
+J=664   S=512  E=78   
+J=665   S=2    E=79   
+J=666   S=512  E=79   
+J=667   S=2    E=80   
+J=668   S=512  E=80   
+J=669   S=2    E=81   
+J=670   S=512  E=81   
+J=671   S=2    E=82   
+J=672   S=512  E=82   
+J=673   S=2    E=83   
+J=674   S=512  E=83   
+J=675   S=2    E=84   
+J=676   S=512  E=84   
+J=677   S=2    E=85   
+J=678   S=512  E=85   
+J=679   S=2    E=86   
+J=680   S=512  E=86   
+J=681   S=2    E=87   
+J=682   S=512  E=87   
+J=683   S=2    E=88   
+J=684   S=512  E=88   
+J=685   S=2    E=89   
+J=686   S=512  E=89   
+J=687   S=2    E=90   
+J=688   S=512  E=90   
+J=689   S=2    E=91   
+J=690   S=512  E=91   
+J=691   S=2    E=92   
+J=692   S=512  E=92   
+J=693   S=2    E=93   
+J=694   S=512  E=93   
+J=695   S=2    E=94   
+J=696   S=512  E=94   
+J=697   S=2    E=95   
+J=698   S=512  E=95   
+J=699   S=2    E=96   
+J=700   S=512  E=96   
+J=701   S=2    E=97   
+J=702   S=512  E=97   
+J=703   S=2    E=98   
+J=704   S=512  E=98   
+J=705   S=2    E=99   
+J=706   S=512  E=99   
+J=707   S=2    E=100  
+J=708   S=512  E=100  
+J=709   S=2    E=101  
+J=710   S=512  E=101  
+J=711   S=2    E=102  
+J=712   S=512  E=102  
+J=713   S=2    E=103  
+J=714   S=512  E=103  
+J=715   S=2    E=104  
+J=716   S=512  E=104  
+J=717   S=2    E=105  
+J=718   S=512  E=105  
+J=719   S=2    E=106  
+J=720   S=512  E=106  
+J=721   S=2    E=107  
+J=722   S=512  E=107  
+J=723   S=2    E=108  
+J=724   S=512  E=108  
+J=725   S=2    E=109  
+J=726   S=512  E=109  
+J=727   S=2    E=110  
+J=728   S=512  E=110  
+J=729   S=2    E=111  
+J=730   S=512  E=111  
+J=731   S=2    E=112  
+J=732   S=512  E=112  
+J=733   S=2    E=113  
+J=734   S=512  E=113  
+J=735   S=2    E=114  
+J=736   S=512  E=114  
+J=737   S=2    E=115  
+J=738   S=512  E=115  
+J=739   S=2    E=116  
+J=740   S=512  E=116  
+J=741   S=2    E=117  
+J=742   S=512  E=117  
+J=743   S=2    E=118  
+J=744   S=512  E=118  
+J=745   S=2    E=119  
+J=746   S=512  E=119  
+J=747   S=2    E=120  
+J=748   S=512  E=120  
+J=749   S=2    E=121  
+J=750   S=512  E=121  
+J=751   S=2    E=122  
+J=752   S=512  E=122  
+J=753   S=2    E=123  
+J=754   S=512  E=123  
+J=755   S=2    E=124  
+J=756   S=512  E=124  
+J=757   S=2    E=125  
+J=758   S=512  E=125  
+J=759   S=2    E=126  
+J=760   S=512  E=126  
+J=761   S=2    E=127  
+J=762   S=512  E=127  
+J=763   S=2    E=128  
+J=764   S=512  E=128  
+J=765   S=2    E=129  
+J=766   S=512  E=129  
+J=767   S=2    E=130  
+J=768   S=512  E=130  
+J=769   S=2    E=131  
+J=770   S=512  E=131  
+J=771   S=2    E=132  
+J=772   S=512  E=132  
+J=773   S=2    E=133  
+J=774   S=512  E=133  
+J=775   S=2    E=134  
+J=776   S=512  E=134  
+J=777   S=2    E=135  
+J=778   S=512  E=135  
+J=779   S=2    E=136  
+J=780   S=512  E=136  
+J=781   S=2    E=137  
+J=782   S=512  E=137  
+J=783   S=2    E=138  
+J=784   S=512  E=138  
+J=785   S=2    E=139  
+J=786   S=512  E=139  
+J=787   S=2    E=140  
+J=788   S=512  E=140  
+J=789   S=2    E=141  
+J=790   S=512  E=141  
+J=791   S=2    E=142  
+J=792   S=512  E=142  
+J=793   S=2    E=143  
+J=794   S=512  E=143  
+J=795   S=2    E=144  
+J=796   S=512  E=144  
+J=797   S=2    E=145  
+J=798   S=512  E=145  
+J=799   S=2    E=146  
+J=800   S=512  E=146  
+J=801   S=2    E=147  
+J=802   S=512  E=147  
+J=803   S=2    E=148  
+J=804   S=512  E=148  
+J=805   S=2    E=149  
+J=806   S=512  E=149  
+J=807   S=2    E=150  
+J=808   S=512  E=150  
+J=809   S=2    E=151  
+J=810   S=512  E=151  
+J=811   S=2    E=152  
+J=812   S=512  E=152  
+J=813   S=2    E=153  
+J=814   S=512  E=153  
+J=815   S=2    E=154  
+J=816   S=512  E=154  
+J=817   S=2    E=155  
+J=818   S=512  E=155  
+J=819   S=2    E=156  
+J=820   S=512  E=156  
+J=821   S=2    E=157  
+J=822   S=512  E=157  
+J=823   S=2    E=158  
+J=824   S=512  E=158  
+J=825   S=2    E=159  
+J=826   S=512  E=159  
+J=827   S=2    E=160  
+J=828   S=512  E=160  
+J=829   S=2    E=161  
+J=830   S=512  E=161  
+J=831   S=2    E=162  
+J=832   S=512  E=162  
+J=833   S=2    E=163  
+J=834   S=512  E=163  
+J=835   S=2    E=164  
+J=836   S=512  E=164  
+J=837   S=2    E=165  
+J=838   S=512  E=165  
+J=839   S=2    E=166  
+J=840   S=512  E=166  
+J=841   S=2    E=167  
+J=842   S=512  E=167  
+J=843   S=2    E=168  
+J=844   S=512  E=168  
+J=845   S=2    E=169  
+J=846   S=512  E=169  
+J=847   S=2    E=170  
+J=848   S=512  E=170  
+J=849   S=2    E=171  
+J=850   S=512  E=171  
+J=851   S=2    E=172  
+J=852   S=512  E=172  
+J=853   S=2    E=173  
+J=854   S=512  E=173  
+J=855   S=2    E=174  
+J=856   S=512  E=174  
+J=857   S=2    E=175  
+J=858   S=512  E=175  
+J=859   S=2    E=176  
+J=860   S=512  E=176  
+J=861   S=2    E=177  
+J=862   S=512  E=177  
+J=863   S=2    E=178  
+J=864   S=512  E=178  
+J=865   S=2    E=179  
+J=866   S=512  E=179  
+J=867   S=2    E=180  
+J=868   S=512  E=180  
+J=869   S=2    E=181  
+J=870   S=512  E=181  
+J=871   S=2    E=182  
+J=872   S=512  E=182  
+J=873   S=2    E=183  
+J=874   S=512  E=183  
+J=875   S=2    E=184  
+J=876   S=512  E=184  
+J=877   S=2    E=185  
+J=878   S=512  E=185  
+J=879   S=2    E=186  
+J=880   S=512  E=186  
+J=881   S=2    E=187  
+J=882   S=512  E=187  
+J=883   S=2    E=188  
+J=884   S=512  E=188  
+J=885   S=2    E=189  
+J=886   S=512  E=189  
+J=887   S=2    E=190  
+J=888   S=512  E=190  
+J=889   S=2    E=191  
+J=890   S=512  E=191  
+J=891   S=2    E=192  
+J=892   S=512  E=192  
+J=893   S=2    E=193  
+J=894   S=512  E=193  
+J=895   S=2    E=194  
+J=896   S=512  E=194  
+J=897   S=2    E=195  
+J=898   S=512  E=195  
+J=899   S=2    E=196  
+J=900   S=512  E=196  
+J=901   S=2    E=197  
+J=902   S=512  E=197  
+J=903   S=2    E=198  
+J=904   S=512  E=198  
+J=905   S=2    E=199  
+J=906   S=512  E=199  
+J=907   S=2    E=200  
+J=908   S=512  E=200  
+J=909   S=2    E=201  
+J=910   S=512  E=201  
+J=911   S=2    E=202  
+J=912   S=512  E=202  
+J=913   S=2    E=203  
+J=914   S=512  E=203  
+J=915   S=2    E=204  
+J=916   S=512  E=204  
+J=917   S=2    E=205  
+J=918   S=512  E=205  
+J=919   S=2    E=206  
+J=920   S=512  E=206  
+J=921   S=2    E=207  
+J=922   S=512  E=207  
+J=923   S=2    E=208  
+J=924   S=512  E=208  
+J=925   S=2    E=209  
+J=926   S=512  E=209  
+J=927   S=2    E=210  
+J=928   S=512  E=210  
+J=929   S=2    E=211  
+J=930   S=512  E=211  
+J=931   S=2    E=212  
+J=932   S=512  E=212  
+J=933   S=2    E=213  
+J=934   S=512  E=213  
+J=935   S=2    E=214  
+J=936   S=512  E=214  
+J=937   S=2    E=215  
+J=938   S=512  E=215  
+J=939   S=2    E=216  
+J=940   S=512  E=216  
+J=941   S=2    E=217  
+J=942   S=512  E=217  
+J=943   S=2    E=218  
+J=944   S=512  E=218  
+J=945   S=2    E=219  
+J=946   S=512  E=219  
+J=947   S=2    E=220  
+J=948   S=512  E=220  
+J=949   S=2    E=221  
+J=950   S=512  E=221  
+J=951   S=2    E=222  
+J=952   S=512  E=222  
+J=953   S=2    E=223  
+J=954   S=512  E=223  
+J=955   S=2    E=224  
+J=956   S=512  E=224  
+J=957   S=2    E=225  
+J=958   S=512  E=225  
+J=959   S=2    E=226  
+J=960   S=512  E=226  
+J=961   S=2    E=227  
+J=962   S=512  E=227  
+J=963   S=2    E=228  
+J=964   S=512  E=228  
+J=965   S=2    E=229  
+J=966   S=512  E=229  
+J=967   S=2    E=230  
+J=968   S=512  E=230  
+J=969   S=2    E=231  
+J=970   S=512  E=231  
+J=971   S=2    E=232  
+J=972   S=512  E=232  
+J=973   S=2    E=233  
+J=974   S=512  E=233  
+J=975   S=2    E=234  
+J=976   S=512  E=234  
+J=977   S=2    E=235  
+J=978   S=512  E=235  
+J=979   S=2    E=236  
+J=980   S=512  E=236  
+J=981   S=2    E=237  
+J=982   S=512  E=237  
+J=983   S=2    E=238  
+J=984   S=512  E=238  
+J=985   S=2    E=239  
+J=986   S=512  E=239  
+J=987   S=2    E=240  
+J=988   S=512  E=240  
+J=989   S=2    E=241  
+J=990   S=512  E=241  
+J=991   S=2    E=242  
+J=992   S=512  E=242  
+J=993   S=2    E=243  
+J=994   S=512  E=243  
+J=995   S=2    E=244  
+J=996   S=512  E=244  
+J=997   S=2    E=245  
+J=998   S=512  E=245  
+J=999   S=2    E=246  
+J=1000  S=512  E=246  
+J=1001  S=2    E=247  
+J=1002  S=512  E=247  
+J=1003  S=2    E=248  
+J=1004  S=512  E=248  
+J=1005  S=2    E=249  
+J=1006  S=512  E=249  
+J=1007  S=2    E=250  
+J=1008  S=512  E=250  
+J=1009  S=2    E=251  
+J=1010  S=512  E=251  
+J=1011  S=2    E=252  
+J=1012  S=512  E=252  
+J=1013  S=2    E=253  
+J=1014  S=512  E=253  
+J=1015  S=2    E=254  
+J=1016  S=512  E=254  
+J=1017  S=2    E=255  
+J=1018  S=512  E=255  
+J=1019  S=2    E=256  
+J=1020  S=512  E=256  
+J=1021  S=2    E=257  
+J=1022  S=512  E=257  
+J=1023  S=2    E=258  
+J=1024  S=512  E=258  
+J=1025  S=2    E=259  
+J=1026  S=512  E=259  
+J=1027  S=2    E=260  
+J=1028  S=512  E=260  
+J=1029  S=2    E=261  
+J=1030  S=512  E=261  
+J=1031  S=2    E=262  
+J=1032  S=512  E=262  
+J=1033  S=2    E=263  
+J=1034  S=512  E=263  
+J=1035  S=2    E=264  
+J=1036  S=512  E=264  
+J=1037  S=2    E=265  
+J=1038  S=512  E=265  
+J=1039  S=2    E=266  
+J=1040  S=512  E=266  
+J=1041  S=2    E=267  
+J=1042  S=512  E=267  
+J=1043  S=2    E=268  
+J=1044  S=512  E=268  
+J=1045  S=2    E=269  
+J=1046  S=512  E=269  
+J=1047  S=2    E=270  
+J=1048  S=512  E=270  
+J=1049  S=2    E=271  
+J=1050  S=512  E=271  
+J=1051  S=2    E=272  
+J=1052  S=512  E=272  
+J=1053  S=2    E=273  
+J=1054  S=512  E=273  
+J=1055  S=2    E=274  
+J=1056  S=512  E=274  
+J=1057  S=2    E=275  
+J=1058  S=512  E=275  
+J=1059  S=2    E=276  
+J=1060  S=512  E=276  
+J=1061  S=2    E=277  
+J=1062  S=512  E=277  
+J=1063  S=2    E=278  
+J=1064  S=512  E=278  
+J=1065  S=2    E=279  
+J=1066  S=512  E=279  
+J=1067  S=2    E=280  
+J=1068  S=512  E=280  
+J=1069  S=2    E=281  
+J=1070  S=512  E=281  
+J=1071  S=2    E=282  
+J=1072  S=512  E=282  
+J=1073  S=2    E=283  
+J=1074  S=512  E=283  
+J=1075  S=2    E=284  
+J=1076  S=512  E=284  
+J=1077  S=2    E=285  
+J=1078  S=512  E=285  
+J=1079  S=2    E=286  
+J=1080  S=512  E=286  
+J=1081  S=2    E=287  
+J=1082  S=512  E=287  
+J=1083  S=2    E=288  
+J=1084  S=512  E=288  
+J=1085  S=2    E=289  
+J=1086  S=512  E=289  
+J=1087  S=2    E=290  
+J=1088  S=512  E=290  
+J=1089  S=2    E=291  
+J=1090  S=512  E=291  
+J=1091  S=2    E=292  
+J=1092  S=512  E=292  
+J=1093  S=2    E=293  
+J=1094  S=512  E=293  
+J=1095  S=2    E=294  
+J=1096  S=512  E=294  
+J=1097  S=2    E=295  
+J=1098  S=512  E=295  
+J=1099  S=2    E=296  
+J=1100  S=512  E=296  
+J=1101  S=2    E=297  
+J=1102  S=512  E=297  
+J=1103  S=2    E=298  
+J=1104  S=512  E=298  
+J=1105  S=2    E=299  
+J=1106  S=512  E=299  
+J=1107  S=2    E=300  
+J=1108  S=512  E=300  
+J=1109  S=2    E=301  
+J=1110  S=512  E=301  
+J=1111  S=2    E=302  
+J=1112  S=512  E=302  
+J=1113  S=2    E=303  
+J=1114  S=512  E=303  
+J=1115  S=2    E=304  
+J=1116  S=512  E=304  
+J=1117  S=2    E=305  
+J=1118  S=512  E=305  
+J=1119  S=2    E=306  
+J=1120  S=512  E=306  
+J=1121  S=2    E=307  
+J=1122  S=512  E=307  
+J=1123  S=2    E=308  
+J=1124  S=512  E=308  
+J=1125  S=2    E=309  
+J=1126  S=512  E=309  
+J=1127  S=2    E=310  
+J=1128  S=512  E=310  
+J=1129  S=2    E=311  
+J=1130  S=512  E=311  
+J=1131  S=2    E=312  
+J=1132  S=512  E=312  
+J=1133  S=2    E=313  
+J=1134  S=512  E=313  
+J=1135  S=2    E=314  
+J=1136  S=512  E=314  
+J=1137  S=2    E=315  
+J=1138  S=512  E=315  
+J=1139  S=2    E=316  
+J=1140  S=512  E=316  
+J=1141  S=2    E=317  
+J=1142  S=512  E=317  
+J=1143  S=2    E=318  
+J=1144  S=512  E=318  
+J=1145  S=2    E=319  
+J=1146  S=512  E=319  
+J=1147  S=2    E=320  
+J=1148  S=512  E=320  
+J=1149  S=2    E=321  
+J=1150  S=512  E=321  
+J=1151  S=2    E=322  
+J=1152  S=512  E=322  
+J=1153  S=2    E=323  
+J=1154  S=512  E=323  
+J=1155  S=2    E=324  
+J=1156  S=512  E=324  
+J=1157  S=2    E=325  
+J=1158  S=512  E=325  
+J=1159  S=2    E=326  
+J=1160  S=512  E=326  
+J=1161  S=2    E=327  
+J=1162  S=512  E=327  
+J=1163  S=2    E=328  
+J=1164  S=512  E=328  
+J=1165  S=2    E=329  
+J=1166  S=512  E=329  
+J=1167  S=2    E=330  
+J=1168  S=512  E=330  
+J=1169  S=2    E=331  
+J=1170  S=512  E=331  
+J=1171  S=2    E=332  
+J=1172  S=512  E=332  
+J=1173  S=2    E=333  
+J=1174  S=512  E=333  
+J=1175  S=2    E=334  
+J=1176  S=512  E=334  
+J=1177  S=2    E=335  
+J=1178  S=512  E=335  
+J=1179  S=2    E=336  
+J=1180  S=512  E=336  
+J=1181  S=2    E=337  
+J=1182  S=512  E=337  
+J=1183  S=2    E=338  
+J=1184  S=512  E=338  
+J=1185  S=2    E=339  
+J=1186  S=512  E=339  
+J=1187  S=2    E=340  
+J=1188  S=512  E=340  
+J=1189  S=2    E=341  
+J=1190  S=512  E=341  
+J=1191  S=2    E=342  
+J=1192  S=512  E=342  
+J=1193  S=2    E=343  
+J=1194  S=512  E=343  
+J=1195  S=2    E=344  
+J=1196  S=512  E=344  
+J=1197  S=2    E=345  
+J=1198  S=512  E=345  
+J=1199  S=2    E=346  
+J=1200  S=512  E=346  
+J=1201  S=2    E=347  
+J=1202  S=512  E=347  
+J=1203  S=2    E=348  
+J=1204  S=512  E=348  
+J=1205  S=2    E=349  
+J=1206  S=512  E=349  
+J=1207  S=2    E=350  
+J=1208  S=512  E=350  
+J=1209  S=2    E=351  
+J=1210  S=512  E=351  
+J=1211  S=2    E=352  
+J=1212  S=512  E=352  
+J=1213  S=2    E=353  
+J=1214  S=512  E=353  
+J=1215  S=2    E=354  
+J=1216  S=512  E=354  
+J=1217  S=2    E=355  
+J=1218  S=512  E=355  
+J=1219  S=2    E=356  
+J=1220  S=512  E=356  
+J=1221  S=2    E=357  
+J=1222  S=512  E=357  
+J=1223  S=2    E=358  
+J=1224  S=512  E=358  
+J=1225  S=2    E=359  
+J=1226  S=512  E=359  
+J=1227  S=2    E=360  
+J=1228  S=512  E=360  
+J=1229  S=2    E=361  
+J=1230  S=512  E=361  
+J=1231  S=2    E=362  
+J=1232  S=512  E=362  
+J=1233  S=2    E=363  
+J=1234  S=512  E=363  
+J=1235  S=2    E=364  
+J=1236  S=512  E=364  
+J=1237  S=2    E=365  
+J=1238  S=512  E=365  
+J=1239  S=2    E=366  
+J=1240  S=512  E=366  
+J=1241  S=2    E=367  
+J=1242  S=512  E=367  
+J=1243  S=2    E=368  
+J=1244  S=512  E=368  
+J=1245  S=2    E=369  
+J=1246  S=512  E=369  
+J=1247  S=2    E=370  
+J=1248  S=512  E=370  
+J=1249  S=2    E=371  
+J=1250  S=512  E=371  
+J=1251  S=2    E=372  
+J=1252  S=512  E=372  
+J=1253  S=2    E=373  
+J=1254  S=512  E=373  
+J=1255  S=2    E=374  
+J=1256  S=512  E=374  
+J=1257  S=2    E=375  
+J=1258  S=512  E=375  
+J=1259  S=2    E=376  
+J=1260  S=512  E=376  
+J=1261  S=2    E=377  
+J=1262  S=512  E=377  
+J=1263  S=2    E=378  
+J=1264  S=512  E=378  
+J=1265  S=2    E=379  
+J=1266  S=512  E=379  
+J=1267  S=2    E=380  
+J=1268  S=512  E=380  
+J=1269  S=2    E=381  
+J=1270  S=512  E=381  
+J=1271  S=2    E=382  
+J=1272  S=512  E=382  
+J=1273  S=2    E=383  
+J=1274  S=512  E=383  
+J=1275  S=2    E=384  
+J=1276  S=512  E=384  
+J=1277  S=2    E=385  
+J=1278  S=512  E=385  
+J=1279  S=2    E=386  
+J=1280  S=512  E=386  
+J=1281  S=2    E=387  
+J=1282  S=512  E=387  
+J=1283  S=2    E=388  
+J=1284  S=512  E=388  
+J=1285  S=2    E=389  
+J=1286  S=512  E=389  
+J=1287  S=2    E=390  
+J=1288  S=512  E=390  
+J=1289  S=2    E=391  
+J=1290  S=512  E=391  
+J=1291  S=2    E=392  
+J=1292  S=512  E=392  
+J=1293  S=2    E=393  
+J=1294  S=512  E=393  
+J=1295  S=2    E=394  
+J=1296  S=512  E=394  
+J=1297  S=2    E=395  
+J=1298  S=512  E=395  
+J=1299  S=2    E=396  
+J=1300  S=512  E=396  
+J=1301  S=2    E=397  
+J=1302  S=512  E=397  
+J=1303  S=2    E=398  
+J=1304  S=512  E=398  
+J=1305  S=2    E=399  
+J=1306  S=512  E=399  
+J=1307  S=2    E=400  
+J=1308  S=512  E=400  
+J=1309  S=2    E=401  
+J=1310  S=512  E=401  
+J=1311  S=2    E=402  
+J=1312  S=512  E=402  
+J=1313  S=2    E=403  
+J=1314  S=512  E=403  
+J=1315  S=2    E=404  
+J=1316  S=512  E=404  
+J=1317  S=2    E=405  
+J=1318  S=512  E=405  
+J=1319  S=2    E=406  
+J=1320  S=512  E=406  
+J=1321  S=2    E=407  
+J=1322  S=512  E=407  
+J=1323  S=2    E=408  
+J=1324  S=512  E=408  
+J=1325  S=2    E=409  
+J=1326  S=512  E=409  
+J=1327  S=2    E=410  
+J=1328  S=512  E=410  
+J=1329  S=2    E=411  
+J=1330  S=512  E=411  
+J=1331  S=2    E=412  
+J=1332  S=512  E=412  
+J=1333  S=2    E=413  
+J=1334  S=512  E=413  
+J=1335  S=2    E=414  
+J=1336  S=512  E=414  
+J=1337  S=2    E=415  
+J=1338  S=512  E=415  
+J=1339  S=2    E=416  
+J=1340  S=512  E=416  
+J=1341  S=2    E=417  
+J=1342  S=512  E=417  
+J=1343  S=2    E=418  
+J=1344  S=512  E=418  
+J=1345  S=2    E=419  
+J=1346  S=512  E=419  
+J=1347  S=2    E=420  
+J=1348  S=512  E=420  
+J=1349  S=2    E=421  
+J=1350  S=512  E=421  
+J=1351  S=2    E=422  
+J=1352  S=512  E=422  
+J=1353  S=2    E=423  
+J=1354  S=512  E=423  
+J=1355  S=2    E=424  
+J=1356  S=512  E=424  
+J=1357  S=2    E=425  
+J=1358  S=512  E=425  
+J=1359  S=2    E=426  
+J=1360  S=512  E=426  
+J=1361  S=2    E=427  
+J=1362  S=512  E=427  
+J=1363  S=2    E=428  
+J=1364  S=512  E=428  
+J=1365  S=2    E=429  
+J=1366  S=512  E=429  
+J=1367  S=2    E=430  
+J=1368  S=512  E=430  
+J=1369  S=2    E=431  
+J=1370  S=512  E=431  
+J=1371  S=2    E=432  
+J=1372  S=512  E=432  
+J=1373  S=2    E=433  
+J=1374  S=512  E=433  
+J=1375  S=2    E=434  
+J=1376  S=512  E=434  
+J=1377  S=2    E=435  
+J=1378  S=512  E=435  
+J=1379  S=2    E=436  
+J=1380  S=512  E=436  
+J=1381  S=2    E=437  
+J=1382  S=512  E=437  
+J=1383  S=2    E=438  
+J=1384  S=512  E=438  
+J=1385  S=2    E=439  
+J=1386  S=512  E=439  
+J=1387  S=2    E=440  
+J=1388  S=512  E=440  
+J=1389  S=2    E=441  
+J=1390  S=512  E=441  
+J=1391  S=2    E=442  
+J=1392  S=512  E=442  
+J=1393  S=2    E=443  
+J=1394  S=512  E=443  
+J=1395  S=2    E=444  
+J=1396  S=512  E=444  
+J=1397  S=2    E=445  
+J=1398  S=512  E=445  
+J=1399  S=2    E=446  
+J=1400  S=512  E=446  
+J=1401  S=2    E=447  
+J=1402  S=512  E=447  
+J=1403  S=2    E=448  
+J=1404  S=512  E=448  
+J=1405  S=2    E=449  
+J=1406  S=512  E=449  
+J=1407  S=2    E=450  
+J=1408  S=512  E=450  
+J=1409  S=2    E=451  
+J=1410  S=512  E=451  
+J=1411  S=2    E=452  
+J=1412  S=512  E=452  
+J=1413  S=2    E=453  
+J=1414  S=512  E=453  
+J=1415  S=2    E=454  
+J=1416  S=512  E=454  
+J=1417  S=2    E=455  
+J=1418  S=512  E=455  
+J=1419  S=2    E=456  
+J=1420  S=512  E=456  
+J=1421  S=2    E=457  
+J=1422  S=512  E=457  
+J=1423  S=2    E=458  
+J=1424  S=512  E=458  
+J=1425  S=2    E=459  
+J=1426  S=512  E=459  
+J=1427  S=2    E=460  
+J=1428  S=512  E=460  
+J=1429  S=2    E=461  
+J=1430  S=512  E=461  
+J=1431  S=2    E=462  
+J=1432  S=512  E=462  
+J=1433  S=2    E=463  
+J=1434  S=512  E=463  
+J=1435  S=2    E=464  
+J=1436  S=512  E=464  
+J=1437  S=2    E=465  
+J=1438  S=512  E=465  
+J=1439  S=2    E=466  
+J=1440  S=512  E=466  
+J=1441  S=2    E=467  
+J=1442  S=512  E=467  
+J=1443  S=2    E=468  
+J=1444  S=512  E=468  
+J=1445  S=2    E=469  
+J=1446  S=512  E=469  
+J=1447  S=2    E=470  
+J=1448  S=512  E=470  
+J=1449  S=2    E=471  
+J=1450  S=512  E=471  
+J=1451  S=2    E=472  
+J=1452  S=512  E=472  
+J=1453  S=2    E=473  
+J=1454  S=512  E=473  
+J=1455  S=2    E=474  
+J=1456  S=512  E=474  
+J=1457  S=2    E=475  
+J=1458  S=512  E=475  
+J=1459  S=2    E=476  
+J=1460  S=512  E=476  
+J=1461  S=2    E=477  
+J=1462  S=512  E=477  
+J=1463  S=2    E=478  
+J=1464  S=512  E=478  
+J=1465  S=2    E=479  
+J=1466  S=512  E=479  
+J=1467  S=2    E=480  
+J=1468  S=512  E=480  
+J=1469  S=2    E=481  
+J=1470  S=512  E=481  
+J=1471  S=2    E=482  
+J=1472  S=512  E=482  
+J=1473  S=2    E=483  
+J=1474  S=512  E=483  
+J=1475  S=2    E=484  
+J=1476  S=512  E=484  
+J=1477  S=2    E=485  
+J=1478  S=512  E=485  
+J=1479  S=2    E=486  
+J=1480  S=512  E=486  
+J=1481  S=2    E=487  
+J=1482  S=512  E=487  
+J=1483  S=2    E=488  
+J=1484  S=512  E=488  
+J=1485  S=2    E=489  
+J=1486  S=512  E=489  
+J=1487  S=2    E=490  
+J=1488  S=512  E=490  
+J=1489  S=2    E=491  
+J=1490  S=512  E=491  
+J=1491  S=2    E=492  
+J=1492  S=512  E=492  
+J=1493  S=2    E=493  
+J=1494  S=512  E=493  
+J=1495  S=2    E=494  
+J=1496  S=512  E=494  
+J=1497  S=2    E=495  
+J=1498  S=512  E=495  
+J=1499  S=2    E=496  
+J=1500  S=512  E=496  
+J=1501  S=2    E=497  
+J=1502  S=512  E=497  
+J=1503  S=2    E=498  
+J=1504  S=512  E=498  
+J=1505  S=2    E=499  
+J=1506  S=512  E=499  
+J=1507  S=2    E=500  
+J=1508  S=512  E=500  
+J=1509  S=2    E=501  
+J=1510  S=512  E=501  
+J=1511  S=2    E=502  
+J=1512  S=512  E=502  
+J=1513  S=2    E=503  
+J=1514  S=512  E=503  
+J=1515  S=2    E=504  
+J=1516  S=512  E=504  
+J=1517  S=2    E=505  
+J=1518  S=512  E=505  
+J=1519  S=2    E=506  
+J=1520  S=512  E=506  
+J=1521  S=2    E=507  
+J=1522  S=512  E=507  
+J=1523  S=2    E=508  
+J=1524  S=512  E=508  
+J=1525  S=2    E=509  
+J=1526  S=512  E=509  
+J=1527  S=2    E=510  
+J=1528  S=512  E=510  
+J=1529  S=2    E=511  
+J=1530  S=512  E=511  
+J=1531  S=514  E=512  
+J=1532  S=0    E=513  

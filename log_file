@@ -1,0 +1,10 @@
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sp_2_
+ in HHEd
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sp_3_
+ in HHEd
+ WARNING [-2631]  TreeBuildCommand: No items to cluster for ST_sp_4_
+ in HHEd
+
+AU fulllist
+ Creating HMMset using trees to add unseen triphones
+ AU: 1647 Log/1647 Phys created from 1619 Log/1619 Phys

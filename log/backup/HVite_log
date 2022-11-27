@@ -1,0 +1,57 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\model_train.hcopy -a -H hmms\hmm.7\macros -H hmms\hmm.7\hmmdefs -i output\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I words.mlf -S config\train_features.txt output\dict output\monophones1 
+
+HTK Configuration Parameters[8]
+  Module/Tool     Parameter                  Value
+#                 SAVECOMPRESSED             FALSE
+#                 NUMCEPS                       12
+#                 NUMCHAINS                     24
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND            MFCC_0_D_A
+#                 SOURCERATE                   625
+
+Read 30 physical / 30 logical HMMs
+Label file will be used to align each file
+Aligning File: mfcc/audios/13519156_001.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END selamat pagi dan salam sejahtera untuk kita semua SENT-END  ==  [318 frames] -72.1802 [Ac=-22953.3 LM=0.0] (Act=8.2)
+Aligning File: mfcc/audios/13519156_002.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END pertama tama marilah kita panjatkan puji syukur kehadirat tuhan yang maha esa SENT-END  ==  [467 frames] -70.2536 [Ac=-32808.4 LM=0.0] (Act=8.3)
+Aligning File: mfcc/audios/13519156_003.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+SENT-END karena nya kita semua dapat berkumpul pada acara rapat pagi hari ini dengan keadaan sehat wa sentosa SENT-END  ==  [825 frames] -71.7219 [Ac=-59170.6 LM=0.0] (Act=10.1)
+Aligning File: mfcc/audios/13519156_004.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END yang saya hormati bapak insinyur dava busono selaku pimpinan SENT-END  ==  [444 frames] -70.0412 [Ac=-31098.3 LM=0.0] (Act=6.4)
+Aligning File: mfcc/audios/13519156_005.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END dan yang saya hormati bapak ibu kepala divisi yang sudah hadir dalam rapat ini SENT-END  ==  [611 frames] -70.9303 [Ac=-43338.4 LM=0.0] (Act=6.9)
+Aligning File: mfcc/audios/13519156_006.mfc
+Created lattice with 33 nodes / 32 arcs from label file
+SENT-END baiklah saya akan membacakan agenda rapat kita pada hari ini yakni pembukaan pengarahan dari bapak insinyur dava busono laporan dari setiap manajer divisi dilanjutkan dengan pembahasan inti rapat serta tanya jawab SENT-END  ==  [1883 frames] -68.8780 [Ac=-129697.2 LM=0.0] (Act=7.5)
+Aligning File: mfcc/audios/13519156_007.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END dan yang terakhir penutup SENT-END  ==  [198 frames] -70.4341 [Ac=-13946.0 LM=0.0] (Act=9.0)
+Aligning File: mfcc/audios/13519156_008.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END langsung saja kepada bapak insinyur dava busono SENT-END  ==  [337 frames] -67.3842 [Ac=-22708.5 LM=0.0] (Act=7.2)
+Aligning File: mfcc/audios/13519156_009.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END kami persilakan untuk memberi pengarahan SENT-END  ==  [281 frames] -68.6886 [Ac=-19301.5 LM=0.0] (Act=8.7)
+Aligning File: mfcc/audios/13519156_010.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END terima kasih atas kesempatannya SENT-END  ==  [212 frames] -70.9470 [Ac=-15040.8 LM=0.0] (Act=8.2)
+
+HTK Configuration Parameters[8]
+  Module/Tool     Parameter                  Value
+                  SAVECOMPRESSED             FALSE
+                  NUMCEPS                       12
+#                 NUMCHAINS                     24
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  TARGETRATE         100000.000000
+                  TARGETKIND            MFCC_0_D_A
+                  SOURCERATE                   625
+

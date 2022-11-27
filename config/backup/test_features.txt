@@ -1,0 +1,5 @@
+mfcc_test/audios/13519156_011.mfc
+mfcc_test/audios/13519156_012.mfc
+mfcc_test/audios/13519156_013.mfc
+mfcc_test/audios/13519156_014.mfc
+mfcc_test/audios/13519156_015.mfc

@@ -1,0 +1,34 @@
+
+# 1 Benerin Dict
+# 2 HDMan -b sp -n fulllist -g global.ded -l flog dict-tri output\dict
+# 3 perl mkclscript.prl TB 350 output\monophones1 >> tree.hed
+# 4 HHEd -B -H hmms\hmm.12\macros -H hmms\hmm.12\hmmdefs -M hmms\hmm.13 tree.hed triphones1 > log_file
+# 5 train hmm
+mkdir hmms\hmm.14
+mkdir hmms\hmm.15
+HERest -C config\config_train.hcopy -I wintri.mlf -t 250.0 150.0 1000.0 -S config\train_features.txt -H hmms\hmm.13\macros -H hmms\hmm.13\hmmdefs -M hmms\hmm.14 tiedlist
+
+HERest -B -C config\config_train.hcopy -I wintri.mlf -t 250.0 150.0 1000.0 -S config\train_features.txt -H hmms\hmm.14\macros -H hmms\hmm.14\hmmdefs -M hmms\hmm.15 tiedlist
+
+#6 Fixed Generate Grammar and grammar
+generate grammar need fixing; generate_grammar.py
+
+#7 Fixed wdnet
+HParse data/grammar_fixed.txt output/wdnet_fixed.slf
+
+#8 Generate Test mfcc
+HCopy -T 1 -C config/config_feature.hcopy -S config/script_te.hcopy
+
+#9 Launch Hvite
+HVite -H hmms\hmm.15\macros -H hmms\hmm.15\hmmdefs -S config\test_features.txt -l '*' -i result.mlf -w output/wdnet_fixed.slf -p 0.0 -s 5.0 output\dict tiedlist
+
+#10 Launch Hresult for evaluation
+HResults -L mfcc_test -I words2.mlf tiedlist result.mlf
+
+#11 Evaluate training  
+HVite -H hmms\hmm.15\macros -H hmms\hmm.15\hmmdefs -S config\train_features.txt -l '*' -i result_train.mlf -w output/wdnet_fixed.slf -p 0.0 -s 5.0 output\dict tiedlist
+
+HResults -L mfcc -I words.mlf tiedlist result_train.mlf
+
+#12 Test Live Recording
+HVite -H hmms\hmm.15\macros -H hmms\hmm.15\hmmdefs -C config\config2 -w output/wdnet_fixed.slf -p 0.0 -s 5.0 output\dict tiedlist

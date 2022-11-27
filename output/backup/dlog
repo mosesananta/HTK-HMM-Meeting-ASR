@@ -1,0 +1,43 @@
+WARNING: no script file global.ded
+WARNING: no script file data/lexicons/13519156.txt.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+13519156.txt       453        453        453        453
+        dict       453        453        453        453
+
+453 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     :   605
+  2. c     :    16
+  3. r     :   153
+  4. d     :    93
+  5. l     :   109
+  6. h     :    74
+  7. ny    :    37
+  8. p     :   112
+  9. u     :   157
+ 10. n     :   205
+ 11. m     :   166
+ 12. i     :   246
+ 13. s     :   167
+ 14. t     :   158
+ 15. g     :    32
+ 16. e     :   292
+ 17. k     :   156
+ 18. kh    :     4
+ 19. y     :     9
+ 20. b     :    93
+ 21. w     :    11
+ 22. ng    :    58
+ 23. j     :    37
+ 24. o     :    45
+ 25. v     :     4
+ 26. f     :     9
+ 27. z     :     3
+ 28. sy    :     3
+
+Dictionary output/dict created

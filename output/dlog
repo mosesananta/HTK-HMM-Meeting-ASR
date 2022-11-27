@@ -1,0 +1,51 @@
+WARNING: no script file global.ded
+WARNING: no script file data/lexicon.lex.ded
+Missing Words
+-------------
+SENT-END
+SENT-START
+facebook
+manajer
+mengingat
+pak
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+ lexicon.lex       506        506        510        510
+        dict       506        506        510        510
+
+512 words required, 6 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     :   678
+  2. c     :    20
+  3. r     :   173
+  4. d     :   103
+  5. l     :   123
+  6. h     :    84
+  7. ny    :    41
+  8. p     :   128
+  9. u     :   182
+ 10. n     :   240
+ 11. m     :   186
+ 12. i     :   279
+ 13. s     :   181
+ 14. t     :   179
+ 15. g     :    33
+ 16. k     :   184
+ 17. e     :   330
+ 18. kh    :     5
+ 19. y     :    11
+ 20. b     :   103
+ 21. w     :    13
+ 22. ng    :    62
+ 23. j     :    42
+ 24. o     :    50
+ 25. v     :     5
+ 26. f     :    10
+ 27. z     :     3
+ 28. sy    :     3
+
+Dictionary output/dict created

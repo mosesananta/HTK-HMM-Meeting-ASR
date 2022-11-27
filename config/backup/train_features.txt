@@ -1,0 +1,10 @@
+mfcc/audios/13519156_001.mfc
+mfcc/audios/13519156_002.mfc
+mfcc/audios/13519156_003.mfc
+mfcc/audios/13519156_004.mfc
+mfcc/audios/13519156_005.mfc
+mfcc/audios/13519156_006.mfc
+mfcc/audios/13519156_007.mfc
+mfcc/audios/13519156_008.mfc
+mfcc/audios/13519156_009.mfc
+mfcc/audios/13519156_010.mfc
