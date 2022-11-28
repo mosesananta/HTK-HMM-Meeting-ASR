@@ -1,0 +1,188 @@
+13519188_001.wav	Oke, pagi semuanya.					
+13519188_002.wav	Pagi, Mas.					0
+13519188_003.wav	Pagi, Mas.					
+13519188_004.wav	Oke, baik.					
+13519188_005.wav	Hampir udah dateng semua.					
+13519188_006.wav	Langsung aja.					
+13519188_007.wav	Gimana temen-temen perkembangannya?					
+13519188_008.wav	Eh.. siapa dulu nih yang ngomong?					
+13519188_009.wav	Saya dulu aja, Mas.					
+13519188_010.wav	Oke, jadi.					
+13519188_011.wav	Saya kemarin udah memperbaiki eror yang di server keuangan.					
+13519188_012.wav	Udah aman?					
+13519188_013.wav	Udah harusnya.					
+13519188_014.wav	Eror yang di API membuat laporan?					
+13519188_015.wav	Eh.. bukan bukan.					
+13519188_016.wav	Eror yang di API membuat notifikasi.					
+13519188_017.wav	Oh, baik baik.					
+13519188_018.wav	Yang di API membuat laporan itu siapa yang ngerjain ya?					
+13519188_019.wav	Soalnya saya perlu buat yang saya kerjain sekarang.					
+13519188_020.wav	Buat otomatisasi penyimpanan laporan.					
+13519188_021.wav	Aku, Mas.					
+13519188_022.wav	Oh, gimana udah aman?					
+13519188_023.wav	Kemarin saya coba benerin.					
+13519188_024.wav	Eror yang sebelumnya udah bener.					
+13519188_025.wav	Tapi muncul eror yang baru.					
+13519188_026.wav	Kayanya sih, kalau saya liat-liat, saya nyari di forum, kayanya karna versi yang sekarang itu, udah lama, ga kompatibel sama databasenya.					
+13519188_027.wav	Versi berapa emang yang kamu pakai?					
+13519188_028.wav	Versi tiga kayanya, Mas.					
+13519188_029.wav	Versi database kita berapa ya?					
+13519188_030.wav	Waduh, saya gatau.					
+13519188_031.wav	Versi dua belas, Mas.					
+13519188_032.wav	Oh, udah.. itu udah ga di-support?					
+13519188_033.wav	Kalau saya baca dokumentasi sih, Mas, sama dari forum itu, udah ga support sih.					
+13519188_034.wav	Supportnya sampai berapa?					
+13519188_035.wav	Supportnya, kalau saya liat, cuma sampai versi sebelas sih.					
+13519188_036.wav	Kalau di-update, bisa?					
+13519188_037.wav	Eh.. saya ga tau, Mas.					
+13519188_038.wav	Bisa sih, kayanya.					
+13519188_039.wav	Tapi, saya ga punya akses buat nge-updatenya.					
+13519188_040.wav	Oh, ya udah, nanti saya yang update.					
+13519188_041.wav	Ke versi berapa?					
+13519188_042.wav	Yang terakhir aja, Mas.					
+13519188_043.wav	Kalau ga, versi empat juga udah cukup sih, harusnya.					
+13519188_044.wav	Oke, noted.					
+13519188_045.wav	Berarti API notifikasi udah aman.					
+13519188_046.wav	API laporan perlu update versi.					
+13519188_047.wav	Eh.. udah, ada lagi erornya?					
+13519188_048.wav	Yang saya kerjain, Mas.					
+13519188_049.wav	Yang otomatisasi penyimpanan laporan.					
+13519188_050.wav	Jadinya on hold ya.					
+13519188_051.wav	Soalnya, perlu nunggu API buat laporannya selesai.					
+13519188_052.wav	Oke, oke, gapapa.					
+13519188_053.wav	Berikutnya, apa yang mau dikerjain?					
+13519188_054.wav	Saya nanti mau bikin API buat pembayaran lewat virtual account, Mas.					
+13519188_055.wav	Kemarin dari project manager minta dibuatkan itu.					
+13519188_056.wav	Oh, baik baik.					
+13519188_057.wav	Sekarang, adanya lewat apa aja emang?					
+13519188_058.wav	Kalau sekarang, yang saya lihat ya, baru ada lewat transfer sama lewat e-money.					
+13519188_059.wav	Oh, oke oke, noted.					
+13519188_060.wav	Kalau gitu ya udah, kamu kerjain aja ya.					
+13519188_061.wav	Yang lain gimana?					
+13519188_062.wav	Saya mulai besok sampe seminggu ini, Mas, saya cuti, Mas.					
+13519188_063.wav	Oh, kenapa?					
+13519188_064.wav	Kucing saya lahiran, Mas.					
+13519188_065.wav	Harus dibawa ke dokter.					
+13519188_066.wav	Oh, oke oke oke.					
+13519188_067.wav	Jangan lupa laporan ke HR ya.					
+13519188_068.wav	Iya, Mas.					
+13519188_069.wav	Saya tadi udah laporan sih.					
+13519188_070.wav	Oke, semoga kucingnya baik-baik ya, Mas.					
+13519188_071.wav	Cepet pulih setelah lahiran.					
+13519188_072.wav	Iya, Mas.					
+13519188_073.wav	Amin.					
+13519188_074.wav	Oke, balik ke pembahasan.					
+13519188_075.wav	Yang lain gimana?					
+13519188_076.wav	Mau ngerjain apa?					
+13519188_077.wav	Maaf, Mas.					
+13519188_078.wav	Saya terlambat, maaf.					
+13519188_079.wav	Tadi ada kura-kura nyebrang jalan.					
+13519188_080.wav	Saya tungguin, Mas.					
+13519188_081.wav	Oh, yaudah duduk dulu.					
+13519188_082.wav	Lanjut, yang lain gimana?					
+13519188_083.wav	Saya rencananya mau ngerjain untuk pesan hotel, Mas.					
+13519188_084.wav	Emang kenapa sama pesan hotel?					
+13519188_085.wav	Kemarin dari project manager minta dibuat supaya bisa pesan beberapa hotel sekaligus.					
+13519188_086.wav	Loh, itu kan udah ada?					
+13519188_087.wav	Maksudnya, buat pesan di waktu dan hotel yang beda... sekaligusnya itu?					
+13519188_088.wav	Engga, Mas.					
+13519188_089.wav	Itu sekaligusnya untuk waktu yang sama tapi hotelnya beda.					
+13519188_090.wav	Hah, emang ada orang yang bakal pesen hotel waktunya sama tapi hotelnya beda?					
+13519188_091.wav	Nah itu, saya juga bingung.					
+13519188_092.wav	Tapi katanya udah harus ada.					
+13519188_093.wav	Lagian, bisa pesen satu-satu aja kan?					
+13519188_094.wav	Emang seberapa banyak hotel yang mau dipesen?					
+13519188_095.wav	Males aja ga sih itu penggunanya?					
+13519188_096.wav	Iya, ga masuk akal.					
+13519188_097.wav	Tapi udah ditagih saya dari minggu kemarin sama project manager.					
+13519188_098.wav	Udah udah, buat aja.					
+13519188_099.wav	Itu paling juga cuma dipake sekali.					
+13519188_100.wav	Ya, oke, mas.					
+13519188_101.wav	Yang tadi terlambat gimana progres dan rencana berikutnya mau ngerjain apa?					
+13519188_102.wav	Untuk progres kemarin, saya sudah ngerjain sistem rekomendasi kos-kosan, saya udah ngetes di local juga, udah oke.					
+13519188_103.wav	Perlu review aja sih.					
+13519188_104.wav	Oh, yang itu?					
+13519188_105.wav	Kemarin saya udah review, udah saya liat-liat.					
+13519188_106.wav	Udah oke sih harusnya.					
+13519188_107.wav	Abis meeting ini, saya langsung approve ya.					
+13519188_108.wav	Udah dibuat testingnya?					
+13519188_109.wav	Oh, belum, Mas, kalau testing.					
+13519188_110.wav	Kemarin saya fokus nyelesaiin fiturnya aja.					
+13519188_111.wav	Oke, jangan lupa dibuat ya.					
+13519188_112.wav	Penting itu soalnya.					
+13519188_113.wav	Oke berikutnya gimana, ngerjain apa?					
+13519188_114.wav	Saya rencananya mau ngerjain isu di sistem pencari tempat wisata sih, Mas.					
+13519188_115.wav	Loh, kenapa emang?					
+13519188_116.wav	Kemarin saya dikontak sama quality assurance, katanya pas nyari itu, loadingnya lama banget.					
+13519188_117.wav	Oke, harusnya searching biasa kan ya?					
+13519188_118.wav	Iya, Mas.					
+13519188_119.wav	Harusnya ga lama banget ya?					
+13519188_120.wav	Iya, Mas.					
+13519188_121.wav	Oke, ya udah.					
+13519188_122.wav	Ada lagi?					
+13519188_123.wav	Udah, Mas.					
+13519188_124.wav	Oh iya.					
+13519188_125.wav	Saya butuh satu orang buat bantuin bikin AI buat rekomendasi makanan tapi buat anak kos.					
+13519188_126.wav	Ada yang bisa?					
+13519188_127.wav	Rekomendasi makanan buat anak kos?					
+13519188_128.wav	Iya, jadi nanti udah disedain datanya sama data engineer; data pemesanan makanan.					
+13519188_129.wav	Terus nanti kita tinggal bikin rekomendasinya.					
+13519188_130.wav	Tapi yang agak susah, rekomendasinya ini harus bisa merhatiin harga sama kandungan nutrisi makanannya.					
+13519188_131.wav	Lah, emang kita ada data nutrisi makanan, Mas?					
+13519188_132.wav	Nah itu.					
+13519188_133.wav	Kan ga ada ya.					
+13519188_134.wav	Saya kemarin ngajuin; kalau mau ada data nutrisi makanan, kalau mau yang gampang, bikinnya paling minta... kita bikin penyimpanan buat nutrisi.					
+13519188_135.wav	Kita minta penjual-penjual buat masukin; kira-kira kadar nutrisinya itu berapa?					
+13519188_136.wav	Atau kalau mau yang susah, dibikin image recognition gitu.					
+13519188_137.wav	Kita deteksi bahan makanan dari foto terus jadi data nutrisi.					
+13519188_138.wav	Cuma kan, kayanya akurasinya ga gitu bagus ya.					
+13519188_139.wav	Iya, Mas, paling yang mungkin mah, minta penjual masukin data nutrisi, sih.					
+13519188_140.wav	Iya, tapi ini minta dua-duanya.					
+13519188_141.wav	Udah gila ya.					
+13519188_142.wav	Emang, atasan ini ga kira-kira.					
+13519188_143.wav	Mentang-mentang udah unicorn.					
+13519188_144.wav	Kalau mau bikin kaya gitu harus hire orang lagi sih, Mas.					
+13519188_145.wav	Harus dibikin tim sendiri.					
+13519188_146.wav	Iya, saya udah ngajuin ke HR.					
+13519188_147.wav	Tapi katanya belum pasti ada yang daftar atau ada yang mau kalau sekarang, kalau masa.. zaman-zaman sekarang.					
+13519188_148.wav	Jadi kita diminta buat sementara developnya sama yang udah ada aja.					
+13519188_149.wav	Ya udah, Mas, saya boleh deh.					
+13519188_150.wav	Kamu tadi mau ngerjain apa minggu ini?					
+13519188_151.wav	Yang update pemesanan hotel, Mas, supaya bisa pesan tiket langsung banyak.					
+13519188_152.wav	Oh, jangan kamu deh.					
+13519188_153.wav	Itu udah ngada-ngada itu fiturnya.					
+13519188_154.wav	Saya aja, Mas.					
+13519188_155.wav	Saya cuma update fitur pencari wisata sih.					
+13519188_156.wav	Harusnya ga susah ya?					
+13519188_157.wav	Iya, Mas.					
+13519188_158.wav	Oke, makasih, Mas.					
+13519188_159.wav	Dari saya cukup.					
+13519188_160.wav	Ada lagi?					
+13519188_161.wav	Cukup, Mas.					
+13519188_162.wav	E... dari saya juga cukup.					
+13519188_163.wav	Baik.					
+13519188_164.wav	Eh... oh iya, nanti ada asesmen bulanan untuk anak intern.					
+13519188_165.wav	Jadi, kalian jangan lupa nyisihin waktu ya, buat nilai kinerja anak-anaknya.					
+13519188_166.wav	Jangan lupa dibikin laporannya, dan kalau bisa hasilnya sebelum Hari Minggu, minggu depan.					
+13519188_167.wav	Iya, Hari Minggu, minggu depan, kalau bisa, udah.. udah selesai ya, udah dikumpulin.					
+13519188_168.wav	Nanti saya bagi linknya buat ngumpulin.					
+13519188_169.wav	Oke, Mas.					
+13519188_170.wav	Baik, ada lagi?					
+13519188_171.wav	Mas, tapi, saya anak internnya ada sepuluh, Mas.					
+13519188_172.wav	Hah, kamu sampe sepuluh?					
+13519188_173.wav	Iya, Mas, dari HR main dikasih aja.					
+13519188_174.wav	Ya udah, kamu... kamu kalau bisa sih sebelum minggu depan ya.					
+13519188_175.wav	Tapi, kalau ga bisa, ya udah lah, minggu depannya lagi.					
+13519188_176.wav	Ya udah, Mas, boleh deh.					
+13519188_177.wav	Oke, gimana, ada lagi?					
+13519188_178.wav	Kalau ga ada, ya udah saya akhiri meetingnya.					
+13519188_179.wav	E... terima kasih, semuanya udah dateng.					
+13519188_180.wav	Makasih, udah nyempetin waktunya.					
+13519188_181.wav	Semoga sehat selalu dan tidak menemukan banyak bug ya.					
+13519188_182.wav	Amin, Mas, amin banget.					
+13519188_183.wav	Makasih semua.					
+13519188_184.wav	Ya, makasih semua.					
+13519188_185.wav	Mas, mas.					
+13519188_186.wav	Hah, kenapa?					
+13519188_187.wav	Pintunya sebelah sana.					
+13519188_188.wav	Oh, iya, maap.					

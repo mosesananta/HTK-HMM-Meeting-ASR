@@ -1,0 +1,106 @@
+13519180_001.wav	Halo selamat siang semua
+13519180_002.wav	hari ini hari pertama kita daily standup lagi ya setelah libur panjang libur lebaran kemarin
+13519180_003.wav	pada kemana aja nih kemarin
+13519180_004.wav	boleh kalau ada yang mau cerita sekalian nunggu riya untuk join meet
+13519180_005.wav	Halo halo mas dan
+13519180_006.wav	kalo saya sih ga kemana mana sih mas
+13519180_007.wav	paling jauh ya pergi ke mall doang kalo ga diem di rumah aja sih nonton film dan main game
+13519180_008.wav	Ohh i see, jadi menikmati istirahat di rumah aja ya mas jo
+13519180_009.wav	iya betul mas dan
+13519180_010.wav	oke kalau yang lain gimana nih
+13519180_011.wav	kalau saya kemarin sempet keluar kota sih mas
+13519180_012.wav	saya ke medan tapi cuman beberapa hari aja sih mas, kumpul keluarga 
+13519180_013.wav	sisanya kurang lebih sama sih mas sama kaya mas jo di rumah aja
+13519180_014.wav	Maaf semua saya telat masuk meet, lagi pada bahas apa ya ?
+13519180_015.wav	Ini lagi pada bahas masalah liburan kemarin
+13519180_016.wav	oke deh lanjut ya mas dan
+13519180_017.wav	kalau aku sih kemarin mirip sama mas frans keluar kota buat kumpul-kumpul keluarga terus naik gunung bareng teman kuliah
+13519180_018.wav	Mas andi paling menarik nih liburannya, menikmati masa muda ya mas
+13519180_019.wav	iya mas
+13519180_020.wav	Oke deh terakhir sebelum kita mulai daily standup nya 
+13519180_021.wav	kebetulan riya juga dateng jadi tinggal riya nih yang terakhir
+13519180_022.wav	oke riya bisa cerita kemarin liburannya gimana ?
+13519180_023.wav	baik mas
+13519180_024.wav	saya kemarin ga kemana mana karena kumpul keluarganya di rumah saya sendiri paling mungkin jalan-jalan ke mall aja sih mas biasa
+13519180_025.wav	Oke mirip sama mas jo ya berarti
+13519180_026.wav	Ohh apa betul mas jo ?
+13519180_027.wav	Iya betul riya
+13519180_028.wav	Oke deh karena sudah semua cerita maka sekarang giliran saya
+13519180_029.wav	Oke deh karena semua sudah cerita maka sekarang giliran saya
+13519180_030.wav	liburan saya mirip seperti riya dan mas jo di rumah saja
+13519180_031.wav	oke kalau begitu kita mulai saja daily standup nya
+13519180_032.wav	riya apakah kamu bisa lead daily standup kali ini ?
+13519180_033.wav	Oke baik mas dan
+13519180_034.wav	Baik, terimakasih semua sudah datang di daily standup hari ini, terimakasih juga sudah cerita tentang liburannya
+13519180_035.wav	oke pertama kita mulai dari Mas dan
+13519180_036.wav	Oke jadi pastinya kemarin gaada yang dikerjakan karena libur
+13519180_037.wav	untuk hari ini meeting dengan tim produk untuk membahas pembuatan service baru, lalu one on one session dengan mas jo, untuk kendala sendiri tidak ada
+13519180_038.wav	ada yang mau ditambahkan mas dan ?
+13519180_039.wav	Oke mungkin sedikit penjelasan
+13519180_040.wav	karena kita sudah mau masuk Q3, jadi mungkin hari ini saya akan diskusi dengan tim produk untuk membahas service baru yang akan dibuat pada Q3 dikarenakan rencananya kita bakal rilis produk baru di Q3 tahun ini
+13519180_041.wav	Produk apa ya mas kalau boleh tahu ?
+13519180_042.wav	Rencananya sih kita bakal bikin produk pinjaman untuk karyawan
+13519180_043.wav	untuk sekarang kan produk kita hanya bisa untuk pinjaman perusahaan
+13519180_044.wav	ohh iya sama mungkin satu lagi saya lupa hari ini saya ada sesi interview untuk engineer baru, mungkin ada yang bisa ikut meeting nya ?
+13519180_045.wav	Saya bisa mas
+13519180_046.wav	nanti tolong invite ke google meet nya saja
+13519180_047.wav	Oke mas frans saja yang bisa hari ini ?
+13519180_048.wav	Saya hari ini bisa mas
+13519180_049.wav	kalau tidak bentrok dengan meeting lain
+13519180_050.wav	saya juga mas
+13519180_051.wav	saya juga mas
+13519180_052.wav	Oke baik ini tidak wajib
+13519180_053.wav	cuman lebih baik jika lebih banyak responden jadi kita bisa lebih mengetahui apakah calon engineer baru ini cocok atau tidak untuk bergabung di tim kita
+13519180_054.wav	Oke bisa lanjut lagi riya terimakasih
+13519180_055.wav	Oke baik mas dan
+13519180_056.wav	buat semuanya ada pertanyaan buat mas dan ?
+13519180_057.wav	Oke kalau tidak ada kita lanjut ke mas jo
+13519180_058.wav	untuk kemarin sama libur
+13519180_059.wav	untuk hari ini mas jo akan bikin page untuk credit dashboard, one on one session dengan mas dan, lalu melakukan migrasi static assets ke google cloud storage
+13519180_060.wav	untuk kendala sendiri tidak ada
+13519180_061.wav	oke mas jo ada yang ingin ditambahkan atau yang lain ada yang ingin bertanya ke mas jo ?
+13519180_062.wav	tidak ada dari saya riya sudah cukup
+13519180_063.wav	mas jo, saya mau nanya mengenai masalah migrasi
+13519180_064.wav	untuk migrasi kita memang sudah sepakat untuk pindah ke google cloud storage ?
+13519180_065.wav	iya betul mas
+13519180_066.wav	saya sudah konfirmasi sama tim produk juga mengenai ini
+13519180_067.wav	Oke siap
+13519180_068.wav	Oke lanjut ke saya sendiri jadi saya hari ini akan resolve komen di  merge request, lalu bikin unit testing sama mungkin kalau merge request selesai hari ini saya akan melakukan deployment
+13519180_069.wav	untuk blocker sendiri mungkin tim SRE agak sulit dihubungi mengenai deployment
+13519180_070.wav	oke riya
+13519180_071.wav	nanti saya coba eskalasi lagi ke tim SRE kamu bisa coba untuk tanya ulang lagi saja mungkin dia kelupaan baca chat
+13519180_072.wav	Oke baik mas
+13519180_073.wav	oke lanjut ke mas andi, mas andi ga banyak ngomong nih dari tadi
+13519180_074.wav	oke mas andi hari ini bikin unit testing, lalu eksplorasi mengenai alert & monitoring, lalu review kode di merge request, untuk kendala tidak ada
+13519180_075.wav	ada yang mau ditambahkan mas andi atau mungkin ada pertanyaan dari yang lain ?
+13519180_076.wav	tidak ada riya, terimakasih
+13519180_077.wav	oke karena tidak ada, lalu tidak ada pertanyaan juga dari yang lain kita lanjut ke yang terakhir mas frans,
+13519180_078.wav	halo mas frans
+13519180_079.wav	halo riya
+13519180_080.wav	Oke mas frans hari ini akan meeting dengan DB team mengenai optimasi database
+13519180_081.wav	lalu akan melakukan review kode di merge request
+13519180_082.wav	lalu akan melanjutkan pembuatan api untuk LMS service
+13519180_083.wav	untuk kendala dari DB team belum ada jawaban apakah hari ini jadi meeting atau tidak
+13519180_084.wav	Mungkin bisa dicoba kontak lagi saja mas frans siapa tau sama kasusnya kaya saya
+13519180_085.wav	iya betul mas
+13519180_086.wav	kalau masih belum dijawab bisa kontak saya saja mas, nanti saya coba eskalasi mengenai ini
+13519180_087.wav	Oke baik terimakasih mas dan, terimakasih riya
+13519180_088.wav	Oke mas frans ada yang ingin ditambahkan atau yang lain ada pertanyaan mengenai mas frans ?
+13519180_089.wav	tidak ada riya, terimakasih,
+13519180_090.wav	oh iya mungkin yang tadi mas dan bilang kalau hari ini saya akan ikut bantu mas dan untuk interview
+13519180_091.wav	Oke baik, jadi daily standup kita sudah selesai semua hari ini,
+13519180_092.wav	untuk yang lain apakah ada pertanyaan lagi atau ada yang mau dibahas sebelum kita tutup sesi daily standup ini ?
+13519180_093.wav	Mungkin ada sedikit dari saya
+13519180_094.wav	Terima kasih telah bekerja dengan baik, meskipun kalian baru saja menjalani liburan panjang kalian harus tetap semangat menjalani hari pertama kerja lagi, dari saya segitu saja cukup terimakasih
+13519180_095.wav	Oke baik mas dan, dari yang lain ada lagi ?
+13519180_096.wav	Tidak ada dari saya, terimakasih
+13519180_097.wav	sama dari saya juga tidak ada
+13519180_098.wav	Oh iya saya lupa mau mengingatkan jangan lupa isi peer review performance ya,
+13519180_099.wav	kemarin tim people sudah kontak saya mengenai ini, dari saya segitu saja sih tidak ada lagi terimakasih
+13519180_100.wav	oke kalau tidak ada lagi bisa kita tutup daily standup kali ini,
+13519180_101.wav	terimakasih semua sudah datang di meeting ini semangat terus have a good day
+13519180_102.wav	terimakasih riya, terimakasih semua
+13519180_103.wav	terimakasih riya, terimakasih semua
+13519180_104.wav	terimakasih riya, terimakasih semua
+13519180_105.wav	terimakasih riya, terimakasih semua
+13519180_106.wav	terimakasih, good bye

@@ -1,0 +1,83 @@
+13519196_001    Halo, selamat pagi semua
+13519196_002	Pagi Pak
+13519196_003	Pagi juga semua
+13519196_004	Baiklah, kita mulai aja pertemuan kali ini
+13519196_005	Dimulai dari saya pribadi
+13519196_006	Kemarin ada pertemuan lebih lanjut mengenai detail rancangan untuk proyek pajajaran
+13519196_007	Jadi sekarang detail apa saja kebutuhannya sudah ada
+13519196_008	Terus untuk hari ini bakal ada pertemuan lain buat ngebahas projek diponegoro
+13519196_009	Segitu aja update dari saya
+13519196_010	Oke kalo update dari saya, pengembangan galat anomali harga di sisi backend sudah sampai 50%
+13519196_011	Ada kendala di detail item yang hari ini bakal didiskusikan lagi sama tim inventory
+13519196_012	Kendalanya besar ga ya Mas
+13519196_013	Atau hanya perlu informasi lebih detail ke tim inventory aja
+13519196_014	Harusnya sih aman Mas
+13519196_015	Ini cuman tentang detail format penamaan hotel aja
+13519196_016	Supaya sesuai di sisi teknologinya dan di sisi bisnis operasinya
+13519196_017	Oh gitu oke deh kalo gitu aman ya
+13519196_018	Aman Mas
+13519196_019	Dan segitu aja update dari saya
+13519196_020	Oke next berarti lanjut aku dari sisi frontend
+13519196_021	Untuk pengembangan dashboardnya baru 20%
+13519196_022	Ada kendala di tools yang digunakan, sebelumnya saya belum pernah pakai tools ini, jadi perlu waktu untuk menyesuaikan dan belajar
+13519196_023	Oh begitu, selain itu ada kendala lagi mas selain toolsnya kurang familiar, yang dihadapi?
+13519196_024	Sejauh ini kendalanya itu aja sih Mas
+13519196_025	Oke
+13519196_026	Oke kalau gitu sebelum rapat harian ini ditutup mungkin ada tambahan dari rekan-rekan sekalian?
+13519196_027	Aman Mas
+13519196_028	Dari saya cukup juga Mas
+13519196_029	Oke kalau gitu kita tutup aja ya pertemuan kali ini
+13519196_030	Terimakasih semua udah nyempetin dateng
+13519196_031	Halo Pagi semua
+13519196_032	Pagi Mas
+13519196_033	Pagi juga semua
+13519196_034	Oke karena hari ini udah hari jumat
+13519196_035	Agenda kita kali ini mau ngebahas tentang outing tim kita bulan depan ya,
+13519196_036	Kita bakal ngomongin rencana perjalanan outingnya kemana, dan siapa aja penanggung jawabnya
+13519196_037	Oke jadi untuk rencana awalnya, outing tim kita itu bakal 3 hari 2 malam durasinya
+13519196_038	Dan bakal makan waktu di akhir minggu
+13519196_039	Dari hari jumat pagi sampe hari minggunya
+13519196_040	Mas mau tanya, terus untuk keberangkatannya gimana ya? Soalnya domisili kita kan beda-beda nih
+13519196_041	Oh kalo itu disesuaikan nyamannya aja nanti gimana, kalo emang memungkinkan untuk kumpul, mungkin kumpul dulu
+13519196_042	Tapi kalo dipikir-pikir lagi mending berangkat dari domisili masing-masing aja ya biar ga ribet dan makan waktu
+13519196_043	Oke Mas kalo gitu
+13519196_044	Oke, jadi sekarang kita pilihan destinasinya bakal ada 3
+13519196_045	yaitu pertama ke Bandung, Semarang, dan Jakarta
+13519196_046	Wah, gaada opsi luar pulau gitu mas? Bali atau Belitung gitu
+13519196_047	Iya mas, gabisa ada opsi ke luar pulau kah?
+13519196_048	Hm sebentar ya kita cek dulu ke pihak people apakah bisa dan budgetnya masuk apa engga
+13519196_049	Oke mantap mas
+13519196_050	Oke setelah dicek lagi, bisa nih ke Belitung, kalo Bali jadi diluar budget
+13519196_051	Jadi pada mau pilih ke Belitung nih?
+13519196_052	Gas mas Belitung
+13519196_053	Boleh mas Belitung
+13519196_054	Oke berikutnya ada 2 hal lagi nih yang harus disiapin
+13519196_055	Satu, kita perlu nyiapin kaos outing tim kita biar keliatan kompak
+13519196_056	Sama satu lagi perlu nyiapin banner sama desainnya juga buat dokumentasi di sana
+13519196_057	Kira-kira ada yang bersedia buat bantu
+13519196_058	Mas itu kaosnya perlu desain kaosnya juga ya
+13519196_059	Iya Mas betul
+13519196_060	Oh oke kalo gitu desain kaos tim sama gua aja Mas, harus siap kapan ya mas
+13519196_061	Hmm paling lambat 1 minggu sebelum berangkat outing aja ya biar aman
+13519196_062	Oke deh Mas
+13519196_063	Oke berarti ini sisa desain spanduk sama gua aja ya mas, ada ketentuannya ga ya mas?
+13519196_064	Oh paling nama acara aja kaya biasa
+13519196_065	Sama skema warna perusahaan kita
+13519196_066	Sama tambahin logo perusahaan juga ya
+13519196_067	oke deh aman Mas
+13519196_068	Oke kalo itu udah
+13519196_069	berikutnya ketentuannya acaranya outing ini bisa ajak anggota keluarga atau temen atau apapun itu ya, kuotanya 1 orang, gimana nih
+13519196_070	Aman sih Mas, buat partner ini yang dicover sama perusahaan termasuk apa aja ya mas?
+13519196_071	Oh untuk teman atau partner yang dicover sama kaya karyawannya ya
+13519196_072	Oke mantap mas
+13519196_073	Oke kalo dari saya segitu aja sih informasi yang mau dibahas, mungkin dari rekan-rekan lain ada yang mau nambahin?
+13519196_074	Atau ada pertanyaan lain?
+13519196_075	Dari saya aman Mas
+13519196_076	Oke kalo gitu saya rangkum lagi ya
+13519196_077	Jadinya outing kita yang bakal dilaksanain bulan depan, bakal ke belitung
+13519196_078	Terus kita harus nyiapin kaos tim sama spanduk tim
+13519196_079	Dan bisa bawa 1 partner untuk setiap orangnya
+13519196_080	Oke kalo gitu bisa kita cukupin ya pertemuan kali ini
+13519196_081	Terima kasih semuanya, selamat berakhir pekan
+13519196_082	Terimakasih mas, selamat berakhir pekan juga
+13519196_083	Terimakasih juga mas, selamat berakhir pekan

@@ -1,0 +1,383 @@
+aah	a a h
+ada	a d a
+adalah	a d a l a h
+agak	a g a k
+agenda	a g e n d a
+agendamu	a g e n d a m u
+aja	a j a
+akan	a k a n
+akhir	a kh i r
+aku	a k u
+algoritma	a l g o r i t m a
+alhamdulilah	a l h a m d u l i l a h
+aman	a m a n
+analis	a n a l i s
+angka	a ng k a
+apa	a p a
+apakah	a p a k a h
+api	ei p i ai
+asik	a s i k
+atau	a t au
+atur	a t u r
+awal	a w a l
+awalnya	a w a l ny a
+badan	b a d a n
+bagus	b a g u s
+bahas	b a h a s
+baik	b ai k
+bandung	b a n d u ng
+banget	b a ng E t
+bantuan	b a n t u a n
+banyak	b a ny a k
+bareng	b a r E ng
+baru	b a r u
+basis	b a s i s
+beberapa	b E b E r a p a
+belanja	b E l a n j a
+belum	b E l u m
+benar	b E n a r
+berhasil	b E r h a s i l
+berikan	b E r i k a n
+berlaku	b E r l a k u
+bersangkutan	b E r s a ng k u t a n
+besar	b E s a r
+betul	b E t u l
+biar	b i a r
+biasa	b i a s a
+bikin	b i k i n
+bilang	b i l a ng
+bisa	b i s a
+boleh	b o l e h
+buat	b u a t
+bukti	b u k t i
+buntu	b u n t u
+cantumkan	c a n t u m k a n
+cari	c a r i
+case	k ei s
+cek	c e k
+coba	c o b a
+cukup	c u k u p
+cuma	c u m a
+daerah	d a e r a h
+dalam	d a l a m
+dan	d a n
+dapet	d a p E t
+dari	d a r i
+data	d a t a
+deh	d e h
+demo	d e m o
+dengan	d E ng a n
+desain	d i s ai n
+desainnya	d i s ai n ny a
+di	d i
+dibagian	d i b a g i a n
+dibahas	d i b a h a s
+dibeli	d i b E l i
+diberikan	d i b E r i k a n
+dibikin	d i b i k i n
+dibuat	d i b u a t
+dicek	d i c e k
+diceritakan	d i c E r i t a k a n
+dievaluasi	d i e v a l u a s i
+diganti	d i g a n t i
+dihubungkan	d i h u b u ng k a n
+dikerjakan	d i k E r j a k a n
+dilakukan	d i l a k u k a n
+dilanjutkan	d i l a n j u t k a n
+diliat	d i l i a t
+dilihat	d i l i h a t
+dimana	d i m a n a
+dimasukkan	d i m a s u k a n
+dipercepat	d i p E r c E p a t
+diselesaikan	d i s E l E s ai k a n
+diserahkan	d i s E r a h k a n
+disini	d i s i n i
+diskusi	d i s k u s i
+ditembak	d i t e m b a k
+dua	d u a
+dulu	d u l u
+efisien	e f i s i e n
+engga	E ng g a
+error	e r o r
+errornya	e r o r ny a
+estimasi	e s t i m a s i
+fiksasi	f i k s a s i
+fiksasinya	f i k s a s i ny a
+fitur	f i t u r
+fungsinya	f u ng s i ny a
+ga	g a
+gagal	g a g a l
+gak	g a k
+ganti	g a n t i
+gede	g E d e
+gimana	g i m a n a
+gitu	g i t u
+habis	h a b i s
+halaman	h a l a m a n
+halo	h a l o
+hampir	h a m p i r
+hanya	h a ny a
+harap	h a r a p
+hari	h a r i
+harus	h a r u s
+harusnya	h a r u s ny a
+hasil	h a s i l
+hasilnya	h a s i l ny a
+hehe	h e h e
+implementasi	i m p l E m e n t a s i
+implementasikan	i m p l E m e n t a s i k a n
+informasi	i n f o r m a s i
+ingin	i ng i n
+inginnya	i ng i n ny a
+ini	i n i
+istirahat	i s t i r a h a t
+itu	i t u
+iya	i y a
+jadi	j a d i
+jadwal	j a d w a l
+jadwalnya	j a d w a l ny a
+jalan	j a l a n
+jam	j a m
+jangan	j a ng a n
+jauh	j au h
+juga	j u g a
+jumat	j u m a t
+kak	k a
+kakak	k a k a
+kalau	k a l au
+kalender	k a l e n d E r
+kalo	k a l o
+kamu	k a m u
+kan	k a n
+karena	k a r E n a
+karna	k a r n a
+kasih	k a s i h
+ke	k e
+kebetulan	k E b E t u l a n
+kebutuhan	k E b u t u h a n
+kecil	k E c i l
+kegiatanmu	k E g i a t a n m u
+kejar	k E j a r
+keluarga	k E l u a r g a
+kemarin	k E m a r i n
+kemungkinan	k E m u ng k i n a n
+kenapa	k E n a p a
+kendala	k E n d a l a
+keren	k E r e n
+kerja	k E r j a
+kerjakan	k E r j a k a n
+ketemu	k E t E m u
+khusus	kh u s u s
+kira	k i r a
+kita	k i t a
+kode	k o d E
+kok	k o
+komponen	k o m p o n e n
+kosong	k o s o ng
+ku	k u
+lagi	l a g i
+lain	l ai n
+lakukan	l a k u k a n
+lancar	l a n c a r
+langsung	l a ng s u ng
+lanjut	l a n j u t
+laporan	l a p o r a n
+layarnya	l a y a r ny a
+lebih	l E b i h
+lengkap	l E ng k a p
+lewat	l e w a t
+liat	l i a t
+libur	l i b u r
+liburan	l i b u r a n
+liburannya	l i b u r a n ny a
+lima	l i m a
+lupa	l u p a
+macet	m a c e t
+makan	m a k a n
+makasih	m a k a s i h
+maklum	m a k l u m
+malam	m a l a m
+mana	m a n a
+mantep	m a n t E p
+masalah	m a s a l a h
+masalahnya	m a s a l a h ny a
+masih	m a s i h
+masing	m a s i ng
+masuk	m a s u k
+masukkan	m a s u k k a n
+matahari	m a t a h a r i
+matang	m a t a ng
+mau	m au
+memang	m e m a ng
+memberi	m E m b E r i
+memudahkan	m E m u d a h k a n
+menampilkan	m E n a m p i l k a n
+mengerjakan	m E ng E r j a k a n
+mengganti	m E ng g a n t i
+meninggalkan	m E n i ng g a l k a n
+menjadi	m E n j a d i
+menu	m E n u
+menunggu	m E n u ng g u
+menurutku	m E n u r u t k u
+menyampaikan	m E ny a m p ai k a n
+menyelesaikan	m E ny E l E s ai k a n
+mereka	m E r e k a
+merupakan	m E r u p a k a n
+meski	m E s k i
+minggu	m i ng g u
+minta	m i n t a
+molor	m o l o r
+mu	m u
+muncul	m u n c u l
+mungkin	m u ng k i n
+nah	n a h
+nanti	n a n t i
+navigasi	n a v i g a s i
+navigasinya	n a v i g a s i ny a
+nemu	n E m u
+ngapain	ng a p ai n
+nih	n i h
+nya	ny a
+oh	o h
+oiya	oi y a
+oke	o k e
+oleh	o l e h
+orang	o r a ng
+padat	p a d a t
+padet	p a d E t
+pagi	p a g i
+paham	p a h a m
+paling	p a l i ng
+pangalengan	p a ng a l e ng a n
+para	p a r a
+parah	p a r a h
+pasti	p a s t i
+pegunungannya	p E g u n u ng a n ny a
+pekerjaan	p E k E r j a a n
+pekerjaannya	p E k E r j a a n ny a
+pemandangan	p E m a n d a ng a n
+pembayaran	p E m b a y a r a n
+pembetulannya	p E m b E t u l a n ny a
+pemeriksaan	p E m E r i k s a a n
+pemetaan	p E m e t a a n
+penasaran	p E n a s a r a n
+penemuan	p E n E m u a n
+pengecekan	p E ng E c e k a n
+pengembang	p E ng E m b a ng
+pengembangan	p E ng E m b a ng a n
+pengembangnya	p E ng E m b a ng ny a
+pengerjaan	p E ng E r j a a n
+pengerjaannya	p E ng E r j a a n ny a
+pengguna	p E ng g u n a
+penting	p E n t i ng
+penyebab	p E ny E b a b
+penyebabnya	p E ny E b a b ny a
+perbaikan	p E r b ai k a n
+perbelanjaan	p E r b E l a n j a a n
+perencanaan	p E r E n c a n a a n
+pergi	p E r g i
+perjalanannya	p E r j a l a n a n ny a
+permintaan	p E r m i n t a a n
+persen	p E r s e n
+pertama	p E r t a m a
+pertemuan	p E r t E m u a n
+pertemuannya	p E r t E m u a n ny a
+perubahan	p E r u b a h a n
+pikirannya	p i k i r a n ny a
+pilih	p i l i h
+prioritas	p r i o r i t a s
+prioritasnya	p r i o r i t a s ny a
+produk	p r o d u k
+puluh	p u l u h
+pusat	p u s a t
+ragu	r a g u
+ramai	r a m ai
+rasa	r a s a
+rencana	r E n c a n a
+repo	r e p o
+representasi	r e p r e s e n t a s i
+rupanya	r u p a ny a
+saat	s a a t
+sabtu	s a b t u
+saja	s a j a
+sama	s a m a
+sambil	s a m b i l
+sampai	s a m p ai
+satu	s a t u
+sebelum	s E b E l u m
+sebenarnya	s E b E n a r ny a
+sebenernya	s E b E n E r ny a
+sebuah	s E b u a h
+sedikit	s E d i k i t
+seger	s E g E r
+segi	s E g i
+sekalian	s E k a l i a n
+sekarang	s E k a r a ng
+selalu	s E l a l u
+selama	s E l a m a
+selamat	s E l a m a t
+selanjutnya	s E l a n j u t ny a
+selebihnya	s E l E b i h ny a
+selesai	s E l E s ai
+selesaikan	s E l E s ai k a n
+semangat	s E m a ng a t
+semoga	s E m o g a
+sempat	s E m p a t
+sempet	s E m p E t
+semua	s E m u a
+semuanya	s E m u a ny a
+sendiri	s E n d i r i
+senin	s E n i n
+seperti	s E p E r t i
+sepertinya	s E p E r t i ny a
+seru	s E r u
+sesuai	s E s u ai
+setelah	s E t E l a h
+siang	s i a ng
+siap	s i a p
+sih	s i h
+silakan	s i l a k a n
+singkat	s i ng k a t
+sip	s i p
+sketsanya	s k e t s a ny a
+solusinya	s o l u s i ny a
+suasana	s u a s a n a
+subuhnya	s u b u h ny a
+sudah	s u d a h
+sukajadi	s u k a j a d i
+supaya	s u p a y a
+tahap	t a h a p
+tangkap	t a ng k a p
+tanya	t a ny a
+tapi	t a p i
+target	t a r g e t
+targetnya	t a r g e t ny a
+tau	t au
+temen	t E m E n
+tempat	t E m p a t
+tentang	t E n t a ng
+terakhir	t E r a kh i r
+teratasi	t E r a t a s i
+terbaru	t E r b a r u
+terima	t E r i m a
+terlalu	t E r l a l u
+termudah	t E r m u d a h
+tertangani	t E r t a ng a n i
+test	t e s
+testing	t e s t i ng
+tetap	t E t a p
+tinggal	t i ng g a l
+tugas	t u g a s
+tugasnya	t u g a s ny a
+tuh	t u h
+tujuh	t u j u h
+udah	u d a h
+umum	u m u m
+untuk	u n t u k
+utama	u t a m a
+versi	v e r s i
+wah	w a h
+waktu	w a k t u
+ya	y a
+yaitu	y ai t u
+yang	y a ng

@@ -1,0 +1,130 @@
+13519100_001	Halo, selamat pagi semuanya.
+13519100_002	Ini hari Senin ya, sudah masuk awal minggu lagi nih.
+13519100_003	Gimana liburannya di hari Sabtu dan Minggu kemarin?
+13519100_004	Kalo aku kemarin pergi ke Pangalengan kak sama temen temen.
+13519100_005	Pagi banget sih kak, jam 4 supaya dapet suasana subuhnya sambil liat matahari yang muncul hehe.
+13519100_006	Wah seru banget, macet engga kalo pagi-pagi gitu?
+13519100_007	Kan hari libur ya, penasaran aja sih.
+13519100_008	Ramai lancar sih kak, gak terlalu macet.
+13519100_009	Tapi seru kok perjalanannya meski jauh tapi sambil di jalan sambil bisa liat pemandangan pegunungannya juga.
+13519100_010	Asik banget sih, kalo yang lain gimana liburannya?
+13519100_011	Aku belanja kak hehe, bareng sama keluarga.
+13519100_012	Kebetulan mereka lagi ke Bandung buat liburan jadi sekalian pergi ke pusat perbelanjaan deh disini.
+13519100_013	Wah asik banget belanja, ke daerah mana tuh?
+13519100_014	Biasa sih kak, ke tempat yang gede aja di daerah sukajadi.
+13519100_015	Oiya, aku tau juga tuh.
+13519100_016	Yang lain juga pasti liburannya asik-asik kan ya?
+13519100_017	Semoga kemarin juga selama libur sempet istirahat ya, biar seger lagi badan dan pikirannya.
+13519100_018	Untuk pertemuan pagi ini, seperti biasa boleh dibahas hasil pekerjaan masing-masing yang sudah dilakukan di minggu kemarin ya.
+13519100_019	Kalo ada kendala juga boleh diceritakan.
+13519100_020	Oke dari aku dulu ya kak.
+13519100_021	Kemarin aku sudah selesai mengerjakan fiksasi halaman utama, sudah sesuai dengan desain yang dibuat juga.
+13519100_022	Sempat ada kendala untuk pengerjaan beberapa komponen sih kak, tapi alhamdulilah sudah bisa teratasi dengan bantuan temen temen yang lain.
+13519100_023	Untuk hasil pekerjaannya sudah aku masukkan ke dalam repo, tinggal menunggu hasil pemeriksaan.
+13519100_024	Hari ini mungkin aku mau kerjakan tugas yang selanjutnya kak, yang waktu hari jumat kemarin kakak berikan.
+13519100_025	Oke, makasih ya.
+13519100_026	Boleh dilanjutkan saja pekerjaannya.
+13519100_027	Oke siap kak.
+13519100_028	Selanjutnya mungkin, silakan.
+13519100_029	Oke kak, aku mau.
+13519100_030	Kemarin aku menyelesaikan perbaikan kode.
+13519100_031	Sudah ketemu masalah-masalah yang menjadi penyebab error kemarin, dan sudah tertangani juga kak.
+13519100_032	Mungkin hari ini pengecekan terakhir sebelum hasilnya dimasukkan ke repo ya kak.
+13519100_033	Itu aja dari aku, makasih kak.
+13519100_034	Oke bagus, jadi sudah aman ya gak ada masalah lagi.
+13519100_035	Iya kak aman.
+13519100_036	Oke kalo ada apa-apa langsung bilang aja ya.
+13519100_037	Oke siap kak.
+13519100_038	Boleh lanjut yang lain.
+13519100_039	Aku mau kak.
+13519100_040	Boleh silakan.
+13519100_041	Dari aku sebenarnya belum ada perubahan dari segi hasilnya.
+13519100_042	Kemarin aku coba algoritma yang lain untuk menyelesaikan masalahnya, tapi rupanya masih gagal juga.
+13519100_043	Untuk error-error nya sudah coba aku cari tau penyebabnya, tapi agak jalan buntu kak.
+13519100_044	Jadi waktu di hari jumat kira-kira habis untuk implementasi algoritma baru dan cari errornya kenapa.
+13519100_045	Rencana hari ini aku mau coba cari lagi penyebab error nya kak, semoga selesai.
+13519100_046	Wah oke, ada error besar ya.
+13519100_047	Kamu sudah coba tanya temen kerja mu?
+13519100_048	Nah itu aku belum karna semua orang aku rasa lagi padet juga kak.
+13519100_049	Aah oke paham.
+13519100_050	Iya sih sekarang kita lagi cukup padet ya dari segi jadwal karena lagi kejar target akhir juga.
+13519100_051	Coba diselesaikan sendiri dulu aja, kalo benar-benar engga ketemu solusinya, baru minta bantuan ya.
+13519100_052	Sip kak oke.
+13519100_053	Sip makasih banyak, selanjutnya mungkin.
+13519100_054	Halo kak.
+13519100_055	Aku mau laporan, kalo halaman yang pembayaran itu sudah selesai dihubungkan dengan basis data yang ada.
+13519100_056	Untuk API nya juga sudah berhasil ditembak.
+13519100_057	Jadi sekarang sudah bisa liat hasil awalnya yang cukup matang kak.
+13519100_058	Wah keren banget, nanti siang kamu ada waktu?
+13519100_059	Boleh kak aku kosong.
+13519100_060	Oke nanti aku bikin pertemuan ya buat demo kecil.
+13519100_061	Karena produk awalnya ini harus diserahkan 2 hari lagi.
+13519100_062	Oke kak ga masalah, aku bisa.
+13519100_063	Sip makasih banget ya.
+13519100_064	Untuk hari ini kegiatanmu apa lagi?
+13519100_065	Setelah demo nanti, kemungkinan aku lanjut ke tugas yang baru sih kak.
+13519100_066	Mungkin tentang implementasi desain basis data yang baru.
+13519100_067	Oke boleh, jangan lupa dikerjakan tugasnya sesuai prioritas yang sudah aku cantumkan ya.
+13519100_068	Oke kak.
+13519100_069	Sip, berlaku juga untuk yang lain.
+13519100_070	Tugas jangan lupa dikerjakan sesuai angka prioritasnya ya.
+13519100_071	Selanjutnya boleh menyampaikan pekerjaannya.
+13519100_072	Halo kak, aku mau laporan tentang testing yang aku lakukan.
+13519100_073	Kemarin sudah testing untuk 2 halaman, 1 halaman utama, 1 lagi halaman tentang pembayaran.
+13519100_074	Kalo test case yang umum itu sudah berhasil lewat kak, ga ada masalah.
+13519100_075	Jadi aku langsung lanjut ke test case yang lebih khusus, dan untuk di halaman pertama nemu error tapi sedikit sih kak.
+13519100_076	Aku udah bikin tugasnya juga ke pengembangnya, harusnya hari ini bisa selesai karena errornya kecil dan sedikit.
+13519100_077	Nah kalo halaman pembayaran, setelah dicek ke test case khusus, ada error di pemetaan data nya, jadi mungkin cukup makan waktu untuk pembetulannya ya.
+13519100_078	Tapi selebihnya sudah aman sih kak.
+13519100_079	Oke sip bagus, sudah langsung di berikan tugasnya ke pengembang yang bersangkutan ya.
+13519100_080	Boleh nanti kamu cantumkan juga estimasi waktu pengerjaannya, supaya bisa memudahkan pengembang untuk atur waktu mereka.
+13519100_081	Oke kak nanti aku cantumkan juga.
+13519100_082	Kalo bukti penemuan error nya ada dimana itu sudah dimasukkan juga hasil tangkap layarnya?
+13519100_083	Sudah kak, sudah semua.
+13519100_084	Oke sip mantep.
+13519100_085	Hari ini agendamu ngapain lagi?
+13519100_086	Lanjut cek untuk halaman lain kak sesuai tugas yang diberikan.
+13519100_087	Kebetulan angka prioritasnya sama semua, jadi aku mungkin pilih dari yang termudah menurutku dulu kak.
+13519100_088	Oke betul ya, kalo aku liat lagi, tugas kamu prioritasnya sama semua.
+13519100_089	Oke boleh silakan dilanjutkan aja pekerjaannya.
+13519100_090	Sip kak, makasih banyak.
+13519100_091	Iya, makasih juga.
+13519100_092	Oke, sekarang dari desain mungkin?
+13519100_093	Halo kak.
+13519100_094	Iya halo, boleh silakan.
+13519100_095	Sip kak.
+13519100_096	Kalo dari desain, sebenernya saat ini pengerjaan untuk desain halaman utama yang versi terbaru sudah sampai tujuh puluh lima persen.
+13519100_097	Komponen yang belum selesai itu dibagian navigasi kak.
+13519100_098	Aku masih bikin sketsanya, karena dari kemarin menu-menu yang ada itu selalu ganti dan baru ada fiksasinya jumat malam.
+13519100_099	Hari ini jadi mau coba selesaikan dan fiksasi semua desainnya, supaya bisa langsung diliat hasilnya dan dievaluasi oleh yang lain.
+13519100_100	Semoga gak terlalu banyak perbaikan, kak.
+13519100_101	Kendala belum ada yang terlalu parah sih, cuma kemarin jadwal ku agak padet karena banyak permintaan perbaikan desain komponen di halaman lain.
+13519100_102	Aah oke, sudah bagus sih sudah tujuh puluh lima persen.
+13519100_103	Kalo hari ini komponen yang navigasinya bisa selesai harusnya aman sih gak akan molor dari targetnya.
+13519100_104	Sip, buat perbaikan komponen lain juga dipercepat aja ya, karena hampir semua halaman sudah harus masuk ke tahap pengembangan.
+13519100_105	Oke siap, aman kak.
+13519100_106	Nanti kalau aku bikin pertemuan sama kakak siang ini apakah bisa kak?
+13519100_107	Siang ini bisa, tapi mungkin setelah demo kecil itu ya.
+13519100_108	Langsung aja nanti liat di kalender ku dan dibikin agenda pertemuannya.
+13519100_109	Oke kak makasih banyak.
+13519100_110	Sip, makasih juga.
+13519100_111	Baik, sepertinya sudah semua memberi laporan ya.
+13519100_112	Semangat mengerjakan tugasnya hari ini, kalau ada kendala jangan ragu untuk bilang ke aku atau ke temen temen yang lain.
+13519100_113	Kita memang lagi kejar target akhir, jadi harap maklum kalau jadwalnya lagi padet semua ya.
+13519100_114	Makasih banget temen temen.
+13519100_115	Oiya, khusus untuk yang desain tetap disini dulu ya, kita diskusi dulu tentang perencanaan desain selanjutnya.
+13519100_116	Oke kak siap.
+13519100_117	Yang lain boleh meninggalkan pertemuannya ya, silakan silakan.
+13519100_118	Terima kasih kak.
+13519100_119	Terima kasih ya kak.
+13519100_120	Terima kasih banyak kak.
+13519100_121	Terima kasih kak.
+13519100_122	Terima kasih kak.
+13519100_123	Oke sekarang aku ingin bahas tentang perencanaan desain untuk pengembangan produk yang ini, yaitu halaman utama versi dua mungkin ya.
+13519100_124	Halaman utama ini seperti yang kamu tau merupakan halaman paling penting, karena halaman ini adalah halaman pertama yang dilihat oleh pengguna, seperti menjadi representasi utama kita.
+13519100_125	Sebenarnya kalau dari desain versi satu yang kemarin sudah kamu buat itu sudah bagus, hanya sekarang kita ingin mengganti sebuah fitur supaya fungsinya lebih efisien untuk banyak kebutuhan.
+13519100_126	Oh, iya kak paham.
+13519100_127	Boleh sih kak, fitur mana yang mau diganti?
+13519100_128	Kemarin dari hasil diskusi aku dengan para analis, kita ingin ganti fitur informasi produk yang sudah dibeli pengguna sih.
+13519100_129	Karena inginnya fitur itu bisa menampilkan informasi-informasi penting aja, gimana ya seperti lengkap tapi juga padat dan singkat.
+13519100_130	Oh oke kak paham, nanti aku coba implementasikan desainnya

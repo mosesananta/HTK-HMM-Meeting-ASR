@@ -1,0 +1,278 @@
+1	1
+2	2
+20	2 0
+3	3
+50	5 0
+acara	a c a r a
+acaranya	a c a r a ny a
+ada	a d a
+agenda	a g e n d a
+aja	a j a
+ajak	a j a k
+akhir	a kh i r
+aku	a k u
+aman	a m a n
+anggota	a ng g o t a
+anomali	a n o m a l i
+apa	a p a
+apakah	a p a k a h
+apapun	a p a p u n
+atau	a t au
+awalnya	a w a l ny a
+backend	b a c k e n d
+baiklah	b ai k l a h
+bakal	b a k a l
+bali	b a l i
+bandung	b a n d u ng
+banner	b a n n e r
+bantu	b a n t u
+baru	b a r u
+bawa	b a w a
+beda	b e d a
+begitu	b e g i t u
+belajar	b e l a j a r
+belitung	b e l i t u ng
+belum	b e l u m
+berakhir	b e r a kh i r
+berangkat	b e r a ng k a t
+berarti	b e r a r t i
+berikutnya	b e r i k u t ny a
+bersedia	b e r s e d i a
+besar	b e s a r
+betul	b e t u l
+biar	b i a r
+biasa	b i a s a
+bisa	b i s a
+bisnis	b i s n i s
+boleh	b o l e h
+buat	b u a t
+budget	b u d g e t
+budgetnya	b u d g e t ny a
+bulan	b u l a n
+cek	c e k
+cukup	c u k u p
+cukupin	c u k u p i n
+cuman	c u m a n
+dan	d a n
+dari	d a r i
+dashboardnya	d a s h b o a r d ny a
+dateng	d a t e ng
+deh	d e h
+depan	d e p a n
+desain	d e s ai n
+desainnya	d e s ai n ny a
+destinasinya	d e s t i n a s i ny a
+detail	d e t ai l
+di	d i
+dibahas	d i b a h a s
+dicek	d i c e k
+dicover	d i c o v e r
+didiskusikan	d i d i s k u s i k a n
+digunakan	d i g u n a k a n
+dihadapi	d i h a d a p i
+dilaksanain	d i l a k s a n ai n
+diluar	d i l u a r
+dimulai	d i m u l ai
+dipikir	d i p i k i r
+diponegoro	d i p o n e g o r o
+disesuaikan	d i s e s u ai k a n
+disiapin	d i s i a p i n
+ditutup	d i t u t u p
+dokumentasi	d o k u m e n t a s i
+domisili	d o m i s i l i
+dulu	d u l u
+durasinya	d u r a s i ny a
+emang	e m a ng
+engga	e ng g a
+familiar	f a m i l i a r
+format	f o r m a t
+frontend	f r o n t e n d
+ga	g a
+gaada	g a a d a
+gabisa	g a b i s a
+galat	g a l a t
+gas	g a s
+gimana	g i m a n a
+gitu	g i t u
+gua	g u a
+hal	h a l
+halo	h a l o
+hanya	h a ny a
+harga	h a r g a
+hari	h a r i
+harian	h a r i a n
+harus	h a r u s
+harusnya	h a r u s ny a
+hm	h m
+hmm	h m m
+hotel	h o t e l
+informasi	i n f o r m a s i
+ini	i n i
+inventory	i n v e n t o r y
+item	i t e m
+itu	i t u
+iya	i y a
+jadi	j a d i
+jadinya	j a d i ny a
+jakarta	j a k a r t a
+jawabnya	j a w a b ny a
+juga	j u g a
+jumat	j u m a t
+kah	k a h
+kalau	k a l au
+kali	k a l i
+kalo	k a l o
+kan	k a n
+kaos	k a o s
+kaosnya	k a o s ny a
+kapan	k a p a n
+karena	k a r e n a
+karyawannya	k a r y a w a n ny a
+kasih	k a s i h
+kaya	k a y a
+ke	k e
+keberangkatannya	k e b e r a ng k a t a n ny a
+kebutuhannya	k e b u t u h a n ny a
+keliatan	k e l i a t a n
+keluarga	k e l u a r g a
+kemana	k e m a n a
+kemarin	k e m a r i n
+kendala	k e n d a l a
+kendalanya	k e n d a l a ny a
+ketentuannya	k e t e n t u a n ny a
+kira	k i r a
+kita	k i t a
+kompak	k o m p a k
+kumpul	k u m p u l
+kuotanya	k u o t a ny a
+kurang	k u r a ng
+lagi	l a g i
+lain	l ai n
+lambat	l a m b a t
+lanjut	l a n j u t
+lebih	l e b i h
+logo	l o g o
+luar	l u a r
+makan	m a k a n
+malam	m a l a m
+mantap	m a n t a p
+mas	m a s
+masing	m a s i ng
+masuk	m a s u k
+mau	m au
+memungkinkan	m e m u ng k i n k a n
+mending	m e n d i ng
+mengenai	m e ng e n ai
+menyesuaikan	m e ny e s u ai k a n
+minggu	m i ng g u
+minggunya	m i ng g u ny a
+mulai	m u l ai
+mungkin	m u ng k i n
+nama	n a m a
+nambahin	n a m b a h i n
+nanti	n a n t i
+next	n e x t
+ngebahas	ng e b a h a s
+ngomongin	ng o m o ng i n
+nih	n i h
+nyamannya	ny a m a n ny a
+nyempetin	ny e m p e t i n
+nyiapin	ny i a p i n
+oh	o h
+oke	o k e
+operasinya	o p e r a s i ny a
+opsi	o p s i
+orang	o r a ng
+orangnya	o r a ng ny a
+outing	o u t i ng
+outingnya	o u t i ng ny a
+pada	p a d a
+pagi	p a g i
+pajajaran	p a j a j a r a n
+pak	p a k
+pakai	p a k ai
+paling	p a l i ng
+partner	p a r t n e r
+pekan	p e k a n
+penamaan	p e n a m a a n
+penanggung	p e n a ng g u ng
+pengembangan	p e ng e m b a ng a n
+people	p e o p l e
+perjalanan	p e r j a l a n a n
+perlu	p e r l u
+pernah	p e r n a h
+pertama	p e r t a m a
+pertanyaan	p e r t a ny a a n
+pertemuan	p e r t e m u a n
+perusahaan	p e r u s a h a a n
+pihak	p i h a k
+pikir	p i k i r
+pilih	p i l i h
+pilihan	p i l i h a n
+pribadi	p r i b a d i
+projek	p r o j e k
+proyek	p r o y e k
+pulau	p u l au
+rancangan	r a n c a ng a n
+rangkum	r a ng k u m
+rapat	r a p a t
+rekan	r e k a n
+rencana	r e n c a n a
+ribet	r i b e t
+saja	s a j a
+sama	s a m a
+sampai	s a m p ai
+sampe	s a m p e
+sana	s a n a
+satu	s a t u
+saya	s a y a
+sebelum	s e b e l u m
+sebelumnya	s e b e l u m ny a
+sebentar	s e b e n t a r
+segitu	s e g i t u
+sejauh	s e j au h
+sekalian	s e k a l i a n
+sekarang	s e k a r a ng
+selain	s e l ai n
+selamat	s e l a m a t
+semarang	s e m a r a ng
+semua	s e m u a
+semuanya	s e m u a ny a
+sesuai	s e s u ai
+setelah	s e t e l a h
+setiap	s e t i a p
+siap	s i a p
+siapa	s i a p a
+sih	s i h
+sisa	s i s a
+sisi	s i s i
+skema	s k e m a
+soalnya	s o a l ny a
+spanduk	s p a n d u k
+sudah	s u d a h
+supaya	s u p a y a
+tambahan	t a m b a h a n
+tambahin	t a m b a h i n
+tanya	t a ny a
+tapi	t a p i
+teknologinya	t e k n o l o g i ny a
+teman	t e m a n
+temen	t e m e n
+tentang	t e n t a ng
+terima	t e r i m a
+terimakasih	t e r i m a k a s i h
+termasuk	t e r m a s u k
+terus	t e r u s
+tim	t i m
+tools	t o o l s
+toolsnya	t o o l s ny a
+tutup	t u t u p
+udah	u d a h
+untuk	u n t u k
+update	u p d a t e
+wah	w a h
+waktu	w a k t u
+warna	w a r n a
+ya	y a
+yaitu	y ai t u
+yang	y a ng
