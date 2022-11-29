@@ -131,7 +131,7 @@ inilah	i n i l a h
 inovasi	i n o v a s i
 integritas	i n t e g r i t a s
 internal	i n t e r n a l
-item	i y t e m
+item	a i t e m
 itu	i t u
 itulah	i t u l a h
 izinkan	i z i n k a n
@@ -212,7 +212,6 @@ luring	l u r i ng
 mampu	m a m p u
 maret	m a r e t
 masa	m a s a
-masa-masa	m a s a - m a s a
 masalah	m a s a l a h
 mata	m a t a
 melalui	m e l a l u i
@@ -288,7 +287,7 @@ merekalah	m e r e k a l a h
 merekap	m e r e k a p
 merekomendasikan	m e r e k o m e n d a s i k a n
 merespon	m e r e s p o n
-merespons	m e r e s p o n s 
+merespons	m e r e s p o n s
 meskipun	m e s k i p u n
 mewakili	m e w a k i l i
 meyakinkan	m e y a k i n k a n
@@ -303,7 +302,6 @@ musim	m u s i m
 namun	n a m u n
 negara	n e g a r a
 nilai	n i l a i
-nilai-nilai	n i l a i - n i l a i
 oleh	o l e h
 operasi	o p e r a s i
 operasional	o p e r a s i o n a l
@@ -361,7 +359,6 @@ pilihan	p i l i h a n
 portofolio	p o r t o f o l i o
 posisi	p o s i s i
 prinsip	p r i n s i p
-prinsip-prinsip	p r i n s i p - p r i n s i p
 prioritas	p r i o r i t a s
 produk	p r o d u k
 produksi	p r o d u k s i
@@ -438,7 +435,7 @@ tambahan	t a m b a h a n
 tanggung	t a ng g u ng
 tanpa	t a n p a
 tantangan	t a n t a ng a n
-tanya-jawab	t a ny a - j a w a b
+tanya	t a ny a
 tapi	t a p i
 teknologi	t e k n o l o g i
 telah	t e l a h
