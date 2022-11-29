@@ -8,7 +8,7 @@ lines = data.split("\n")
 if lines[-1] == "": # Last line is empty line
     lines = lines[:-1]
 
-output_lines = ["SENT-START", "SENT-END"]
+output_lines = ["SENT-END","SENT-START"]
 output_lines += [line.split("\t")[0] for line in lines]
 output_lines.append("") # For newline at the end
 

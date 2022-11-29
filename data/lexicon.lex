@@ -176,7 +176,6 @@ cerita	c e r i t a
 client	k e l a y e n
 coba	c o b a
 cocok	c o c o k
-commerce	k o m e r s
 condong	c o n d o ng
 cukup	c u k u p
 cukupin	c u k u p i n
