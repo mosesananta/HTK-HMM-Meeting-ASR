@@ -1,0 +1,164 @@
+13519192_001.wav	Pagi semua
+13519192_002.wav	Pagi
+13519192_003.wav	Pagi
+13519192_004.wav	Seperti biasa, pagi ini kita akan melakukan rapat harian
+13519192_005.wav	Tapi sebelum kita laporan, saya ingin mengenalkan anak magang baru
+13519192_006.wav	Jadi kita kedatangan anak magang namanya Rara
+13519192_007.wav	Rara, mungkin bisa langsung kenalin diri
+13519192_008.wav	Selamat pagi semua
+13519192_009.wav	Perkenalkan, nama saya Rara
+13519192_010.wav	Mulai hari ini, bakal gabung di tim developer untuk posisi backend
+13519192_011.wav	Salam kenal Rara
+13519192_012.wav	Aku Nisa
+13519192_013.wav	Salam kenal Rara
+13519192_014.wav	Kenalin, aku Fara
+13519192_015.wav	Langsung saja ya
+13519192_016.wav	Kita mulai rapat harian untuk hari ini
+13519192_017.wav	Bisa langsung aja dimulai dari Nisa ya
+13519192_018.wav	Baik
+13519192_019.wav	Untuk saya, kemarin sudah menyelesaikan tiga pekerjaan
+13519192_020.wav	Pertama, saya mengerjakan API untuk mengambil konten
+13519192_021.wav	Kemudian, saya mengerjakan API untuk membuat konten
+13519192_022.wav	Terakhir, saya mengerjakan API untuk mengedit konten
+13519192_023.wav	Ketiga API tersebut juga sudah saya dokumentasikan dan siap untuk diintegrasi
+13519192_024.wav	Baik
+13519192_025.wav	Kalau untuk kendalanya sendiri ada tidak?
+13519192_026.wav	Kemarin tidak ada kendala sih
+13519192_027.wav	Kalau untuk rencana hari ini bagaimana?
+13519192_028.wav	Karena kemarin sudah selesai semua tugas yang saya pegang, untuk hari ini belum ada rencana.
+13519192_029.wav	Apabila ada tugas baru saya bisa mengerjakan
+13519192_030.wav	Baik, nanti akan saya tambahkan tugas baru ya
+13519192_031.wav	Oke
+13519192_032.wav	Ada lagi tambahannya?
+13519192_033.wav	Dari saya cukup.
+13519192_034.wav	Baik lanjut ke Fara ya
+13519192_035.wav	Oke, kalau dari saya, kemarin saya sudah menyelesaikan dua tugas
+13519192_036.wav	Saya sudah menyelesaikan tampilan untuk melihat konten dan membuat konten
+13519192_037.wav	Ada kendala?
+13519192_038.wav	Kemarin agak kesulitan untuk menyesuaikan tampilan dengan desain yang diberikan, tapi udah terselesaikan masalahnya
+13519192_039.wav	Berarti sudah aman ya?
+13519192_040.wav	Iya sudah aman
+13519192_041.wav	Kalau untuk hari ini rencananya gimana?
+13519192_042.wav	Untuk hari ini, karena kabar dari Nisa API-nya sudah selesai, saya akan lanjut integrasi.
+13519192_043.wav	Kalau itu sudah, mungkin saya bisa ambil tugas baru juga.
+13519192_044.wav	Oke, nanti saya tambahkan tugas baru juga ya.
+13519192_045.wav	Harusnya nggak lama kan untuk integrasi?
+13519192_046.wav	Iya, seharusnya bisa selesai cepat
+13519192_047.wav	Oke makasih Fara
+13519192_048.wav	Terakhir kita lanjut ke Rara ya
+13519192_049.wav	Langsung aja ya, saya kasih tugas
+13519192_050.wav	Untuk hari ini, saya minta tolong Rara untuk mempelajari program kita
+13519192_051.wav	Sekalian juga, mulai instalasi program yang diperlukan
+13519192_052.wav	Baik Kak
+13519192_053.wav	Kalo misalnya nanti ada kendala, bisa tanya-tanya ke Nisa aja ya
+13519192_054.wav	Oke kak
+13519192_055.wav	Oke, yang lain ada yang mau ditambahin lagi?
+13519192_056.wav	Dari aku aman
+13519192_057.wav	Dari aku juga aman
+13519192_058.wav	Aku aman juga Kak
+13519192_059.wav	Oke, kalo semuanya sudah aman, kita sudahi saja ya rapatnya
+13519192_060.wav	Selamat melanjutkan pekerjaannya masing-masing semua
+13519192_061.wav	Siang teman-teman
+13519192_062.wav	Siang Kak
+13519192_063.wav	Siang Tam
+13519192_064.wav	Apa kabar nih?
+13519192_065.wav	Kemarin liburan ngapain aja?
+13519192_066.wav	Aku di rumah aja sih Kak.
+13519192_067.wav	Nyantai sambil bantu-bantu Ibu
+13519192_068.wav	Gue juga banyakan di rumah sih
+13519192_069.wav	Cuma sempat ke rumah nenek juga di Jogja
+13519192_070.wav	Wah, asik banget ke Jogja
+13519192_071.wav	Gaada oleh-oleh nih?
+13519192_072.wav	Udah abis dimakan kemarin
+13519192_073.wav	Yah ga asik nih
+13519192_074.wav	Kalo lo liburan ngapain Tam?
+13519192_075.wav	Gue di rumah juga aja sih.
+13519192_076.wav	Cuma sambil magang
+13519192_077.wav	Lumayan, nambah uang jajan
+13519192_078.wav	Wah, keren Kak
+13519192_079.wav	Sekarang magangnya masih lanjut Kak?
+13519192_080.wav	Udah enggak sih
+13519192_081.wav	Sekarang mau fokus kuliah sama tugas akhir aja
+13519192_082.wav	Yaudah langsung aja yuk, kita mulai rapatnya
+13519192_083.wav	Seperti yang udah dikabarin di grup kemarin, hari ini kita akan bahas lanjut mengenai program kerja Aku Pasti Bisa
+13519192_084.wav	Mungkin Sofi bisa langsung mulai jelasin aja, sejauh ini udah gimana
+13519192_085.wav	Oke, jadi sejauh ini untuk Aku Pasti Bisa, kemarin udah nyari-nyari panti yang kira-kira bisa didatengin
+13519192_086.wav	Aku udah dapet beberapa panti yang potensinya gede
+13519192_087.wav	Nah buat hari ini, mungkin aku mau bahas bareng-bareng untuk nentuin pasti panti mana yang nantinya bakal didatengin
+13519192_088.wav	Mantap, langsung aja Sof, dijelasin panti-pantinya
+13519192_089.wav	Pertama, ada panti Yayasan Bakti Pertiwi Manggahang
+13519192_090.wav	Kemarin aku udah kontakan sama penjaganya, katanya di panti ini itu isinya rata-rata masih SMP
+13519192_091.wav	Ada beberapa juga yang sudah SMA dan kuliah
+13519192_092.wav	Total ada tiga puluh anak di pantinya
+13519192_093.wav	Panti ini aku rasa bagus karena isinya rata-rata SMP jadi pas kalo mau diajar tentang komputer
+13519192_094.wav	Di panti ini juga ada lansianya jadi kalo mau nambah kegiatan untuk lansia juga bisa
+13519192_095.wav	Kekurangannya, panti ini lumayan jauh dari ITB.
+13519192_096.wav	Kira-kira satu jam naik mobil
+13519192_097.wav	Menarik ya, ada lansianya juga
+13519192_098.wav	Iya tuh, menarik bisa diajak ngobrol-ngobrol
+13519192_099.wav	Lanjut Sof
+13519192_100.wav	Terus kedua, ada panti Al Falah
+13519192_101.wav	Panti ini letaknya masih di kota, jadi ga terlalu jauh dari ITB
+13519192_102.wav	Tapi, isinya kebanyakan masih SD, jadi kayaknya kurang cocok untuk diajarin tentang komputer
+13519192_103.wav	Panti ini juga sering dapet kunjungan dan agak susah kalo mau ngadain kunjungan rutin karena harus reservasi dulu
+13519192_104.wav	Keren banget sampai harus reservasi dulu
+13519192_105.wav	Ya kan Kak
+13519192_106.wav	Terakhir, ada lagi namanya panti asuhan pelangi
+13519192_107.wav	Tahun lalu, panti ini pernah kita datangin juga untuk melakukan donasi
+13519192_108.wav	Kebetulan aku juga ikut
+13519192_109.wav	Pantinya lumayan jauh dari ITB, kurang lebih satu jam naik mobil
+13519192_110.wav	Untuk anak-anaknya kebanyakan SD dan ada beberapa yang SMP
+13519192_111.wav	Uniknya panti ini tuh, pemiliknya orang Korea dan pantinya ga berbasis islam kayak panti-panti kebanyakan
+13519192_112.wav	Waktu kita kunjungan kesana, pemiliknya juga cerita kalo mereka jarang dapet donasi karena kebanyakan orang nyari panti yang berbasis islam kalo mau donasi
+13519192_113.wav	Kalo menurut aku ini kurang cocok sih untuk Aku Pasti Bisa karena anak-anaknya kebanyakan SD
+13519192_114.wav	Mungkin lebih cocok kalo cuma sekedar buat ngasih donasi aja
+13519192_115.wav	Setuju, kayaknya mending buat ngasih donasi aja
+13519192_116.wav	Masih ada lagi Sof?
+13519192_117.wav	Terakhir, ada panti Bani as Salam
+13519192_118.wav	Buat anak-anaknya rata-rata SD, tapi yang SMP juga lumayan banyak
+13519192_119.wav	Lokasinya di kota, sekitar lima belas menit dari ITB
+13519192_120.wav	Wah deket
+13519192_121.wav	Tapi, panti ini tuh lokasinya di gang terpencil gitu
+13519192_122.wav	Jadi, bakal susah untuk bawa mobil
+13519192_123.wav	Terus kalo aku liat di internet, panti ini tuh kecil dan ga ada ruang yang bisa dipakai untuk acara
+13519192_124.wav	Ini menurutku sama sih kayak yang panti pelangi
+13519192_125.wav	Kurang cocok untuk Aku Pasti Bisa tapi bisa kita datangin kalo mau donasi
+13519192_126.wav	Mungkin empat itu aja sih Kak yang menurutku menarik pantinya
+13519192_127.wav	Oke, berarti sekarang kita pilih satu ya dari empat panti itu
+13519192_128.wav	Kalo dari Sofi sendiri, kamu condong ke yang mana pantinya
+13519192_129.wav	Kalo aku lebih pingin ke yang pertama sih Kak
+13519192_130.wav	Soalnya anak-anaknya udah SMP
+13519192_131.wav	Kemarin, aku cari-cari panti lain yang isinya anak SMP tuh jarang banget
+13519192_132.wav	Cuma ya itu, lokasinya jauh dari ITB
+13519192_133.wav	Gue juga setuju sih yang pertama
+13519192_134.wav	Kalo ngajar komputer ke anak-anak SD tuh kurang cocok aja gitu
+13519192_135.wav	Sama sih, gue juga setuju ke panti yang pertama.
+13519192_136.wav	Kalo soal lokasinya yang jauh nanti bisa diatur lah
+13519192_137.wav	Oke, jadinya panti yang pertama aja ya
+13519192_138.wav	Nanti mungkin aku bakal janjian sama penjaga pantinya buat kunjungan dulu sebelum kita mulai Aku Pasti Bisa
+13519192_139.wav	Oke makasih Sof
+13519192_140.wav	Masih ada yang mau dibahas lagi Sof?
+13519192_141.wav	Paling ini sih Kak, buat dana jadinya gimana ya?
+13519192_142.wav	Udah ada info kah?
+13519192_143.wav	Oh iya, soal dana, kemarin aku udah omongin ke kahim
+13519192_144.wav	Ternyata dari prodi sisa dananya cuma ada sepuluh juta
+13519192_145.wav	Padahal masih ada divisi lain juga yang mau ngajuin dana
+13519192_146.wav	Waduh, jadinya gimana Kak?
+13519192_147.wav	Ini lagi mau ditanyain lagi sih
+13519192_148.wav	Nanti aku info lagi ya
+13519192_149.wav	Tapi kayaknya untuk kunjungan pertama kita, bakal perlu pake biaya sendiri dulu
+13519192_150.wav	Mungkin alternatif kita bisa minta sumbangan ke massa kali ya?
+13519192_151.wav	Jadi kita tetap bisa ngasih sumbangan ke pantinya tanpa nunggu dana dari prodi dulu
+13519192_152.wav	Wah, ide bagus tuh Za
+13519192_153.wav	Aku setuju juga Kak
+13519192_154.wav	Mungkin dari seminggu sebelum gitu kali ya Kak kita mulai minta donasi
+13519192_155.wav	Boleh seminggu sebelum kunjungan
+13519192_156.wav	Gue yakin anak-anak pada antusias sih
+13519192_157.wav	Kalo gitu, dari aku udah sih Kak.
+13519192_158.wav	Ga ada yang mau dibahas lagi
+13519192_159.wav	Oke, kalo udah ga ada yang mau dibahas lagi, kita udahin aja ya rapatnya berarti
+13519192_160.wav	Kalo misalnya ada yang mau dibantu kabarin aja ya Sof
+13519192_161.wav	Oke kak
+13519192_162.wav	Nanti kalo udah ada info dari penjaga pantinya, aku juga bakal kabarin lagi ya Kak
+13519192_163.wav	Oke sof, makasih ya
+13519192_164.wav	Makasih juga Kak
