@@ -3,7 +3,7 @@ ada	a d a
 adalah	a d a l a h
 adanya	a d a ny a
 adapun	a d a p u n
-administrasi	a d m i n i s t r a s i
+administrasi	a d m i n i s tr a s i
 agar	a g a r
 agenda	a g e n d a
 akan	a k a n
@@ -16,17 +16,17 @@ aplikasi	a p l i k a s i
 ardan	a r d a n
 aryasa	a r y a s a
 atas	a t a s
-atau	a t a u
-ataupun	a t a u p u n
+atau	a t au
+ataupun	a t au p u n
 bag	b a g
-bagaimana	b a g a i m a n a
+bagaimana	b a g ai m a n a
 bagi	b a g i
 bagian	b a g i a n
 bagus	b a g u s
 bahwa	b a h w a
 bahwasanya	b a h w a s a ny a
-baik	b a i k
-baiklah	b a i k l a h
+baik	b ai k
+baiklah	b ai k l a h
 banyak	b a ny a k
 bapak	b a p a k
 barang	b a r a ng
@@ -42,12 +42,12 @@ berdasarkan	b e r d a s a r k a n
 berikan	b e r i k a n
 beristirahat	b e r i s t i r a h a t
 berjalan	b e r j a l a n
-berkaitan	b e r k a i t a n
+berkaitan	b e r k ai t a n
 berkembang	b e r k e m b a ng
 berkumpul	b e r k u m p u l
 beroperasi	b e r o p e r a s i
 berpendapat	b e r p e n d a p a t
-bersaing	b e r s a i ng
+bersaing	b e r s ai ng
 berusaha	b e r u s a h a
 besar	b e s a r
 biasanya	b i a s a ny a
@@ -94,12 +94,12 @@ dimaafkan	d i m a a f k a n
 diminati	d i m i n a t i
 dipertimbangkan	d i p e r t i m b a ng k a n
 dipilih	d i p i l i h
-diproduksi	d i p r o d u k s i
-disampaikan	d i s a m p a i k a n
+diproduksi	d i pr o d u k s i
+disampaikan	d i s a m p ai k a n
 disebabkan	d i s e b a b k a n
 disetujui	d i s e t u j u i
 diskon	d i s k o n
-distributor	d i s t r i b u t o r
+distributor	d i s tr i b u t o r
 diterima	d i t e r i m a
 divisi	d i v i s i
 dua	d u a
@@ -131,20 +131,20 @@ ingin	i ng i n
 ini	i n i
 inilah	i n i l a h
 insinyur	i n s i ny u r
-instagram	i n s t a g r a m
+instagram	i n s t a gr a m
 inti	i n t i
 itu	i t u
 itulah	i t u l a h
 iya	i y a
 izin	i z i n
 jadwal	j a d w a l
-jangkauan	j a ng k a u a n
+jangkauan	j a ng k au a n
 jawab	j a w a b
 jawabnya	j a w a b ny a
 jika	j i k a
 juga	j u g a
 jumlah	j u m l a h
-kalau	k a l a u
+kalau	k a l au
 kali	k a l i
 kami	k a m i
 karena	k a r e n a
@@ -181,12 +181,12 @@ klien	k l i e n
 kondisi	k o n d i s i
 konsumen	k o n s u m e n
 konten	k o n t e n
-kredibilitas	k r e d i b i l i t a s
+kredibilitas	kr e d i b i l i t a s
 kualitas	k u a l i t a s
 kurang	k u r a ng
 lagi	l a g i
-lain	l a i n
-lainnya	l a i n ny a
+lain	l ai n
+lainnya	l ai n ny a
 lakukan	l a k u k a n
 lalu	l a l u
 lancar	l a n c a r
@@ -213,10 +213,10 @@ media	m e d i a
 medui	m e d u i
 melakukan	m e l a k u k a n
 melalui	m e l a l u i
-melampaui	m e l a m p a u i
+melampaui	m e l a m p au i
 melaporkan	m e l a p o r k a n
 mele	m e l e
-memakai	m e m a k a i
+memakai	m e m a k ai
 memang	m e m a ng
 membacakan	m e m b a c a k a n
 membahasnya	m e m b a h a s ny a
@@ -230,8 +230,8 @@ memfokuskan	m e m f o k u s k a n
 memiliki	m e m i l i k i
 memperbaharui	m e m p e r b a h a r u i
 memperluas	m e m p e r l u a s
-memproduksi	m e m p r o d u k s i
-memproduksikan	m e m p r o d u k s i k a n
+memproduksi	m e m pr o d u k s i
+memproduksikan	m e m pr o d u k s i k a n
 menambahkan	m e n a m b a h k a n
 menampung	m e n a m p u ng
 menarik	m e n a r i k
@@ -256,7 +256,7 @@ menjalin	m e n j a l i n
 menjual	m e n j u a l
 menurunnya	m e n u r u n ny a
 menurut	m e n u r u t
-menyampaikan	m e ny a m p a i k a n
+menyampaikan	m e ny a m p ai k a n
 menyebabkan	m e ny e b a b k a n
 menyela	m e ny e l a
 menyempit	m e ny e m p i t
@@ -272,14 +272,14 @@ minimalis	m i n i m a l i s
 mohon	m o h o n
 monoton	m o n o t o n
 mudah	m u d a h
-mulai	m u l a i
+mulai	m u l ai
 mungkin	m u ng k i n
 namun	n a m u n
 nanti	n a n t i
 nya	ny a
 oleh	o l e h
 omzet	o m z e t
-online	o n l a i n
+online	o n l ai n
 pada	p a d a
 pagi	p a g i
 pak	p a k
@@ -313,17 +313,17 @@ persua	p e r s u a
 pertama	p e r t a m a
 perusahaan	p e r u s a h a a n
 perusmasalahan	p e r u s m a s a l a h a n
-pesaing	p e s a i ng
+pesaing	p e s ai ng
 pihak	p i h a k
 pilihan	p i l i h a n
 pimpinan	p i m p i n a n
 potongan	p o t o ng a n
-praktis	p r a k t i s
-produk	p r o d u k
-produksi	p r o d u k s i
-promosi	p r o m o s i
-proposal	p r o p o s a l
-proses	p r o s e s
+praktis	pr a k t i s
+produk	pr o d u k
+produksi	pr o d u k s i
+promosi	pr o m o s i
+proposal	pr o p o s a l
+proses	pr o s e s
 puji	p u j i
 puluh	p u l u h
 rapat	r a p a t
@@ -335,16 +335,16 @@ saat	s a a t
 saja	s a j a
 salam	s a l a m
 sama	s a m a
-sampai	s a m p a i
+sampai	s a m p ai
 sangat	s a ng a t
 saran	s a r a n
 satu	s a t u
 satunya	s a t u ny a
 saya	s a y a
-sebagai	s e b a g a i
-sebagaimana	s e b a g a i m a n a
-sebagainya	s e b a g a i ny a
-sebaiknya	s e b a i k ny a
+sebagai	s e b a g ai
+sebagaimana	s e b a g ai m a n a
+sebagainya	s e b a g ai ny a
+sebaiknya	s e b ai k ny a
 sebanding	s e b a n d i ng
 sebelum	s e b e l u m
 sebelumnya	s e b e l u m ny a
@@ -364,8 +364,8 @@ sejenis	s e j e n i s
 sekali	s e k a l i
 sekalian	s e k a l i a n
 sekarang	s e k a r a ng
-sekretaris	s e k r e t a r i s
-selain	s e l a i n
+sekretaris	s e kr e t a r i s
+selain	s e l ai n
 selaku	s e l a k u
 selalu	s e l a l u
 selama	s e l a m a
@@ -386,7 +386,7 @@ serahkan	s e r a h k a n
 sering	s e r i ng
 serta	s e r t a
 servis	s e r v i s
-sesuai	s e s u a i
+sesuai	s e s u ai
 setahun	s e t a h u n
 setelah	s e t e l a h
 setiap	s e t i a p
@@ -396,7 +396,7 @@ siang	s i a ng
 signifikan	s i g n i f i k a n
 sosial	s o s i a l
 stabil	s t a b i l
-strategi	s t r a t e g i
+strategi	s tr a t e g i
 sudah	s u d a h
 supplier	s u p l a y e r
 susun	s u s u n
@@ -416,14 +416,14 @@ tentunya	t e n t u ny a
 tepat	t e p a t
 terakhir	t e r a kh i r
 terawat	t e r a w a t
-terbaik	t e r b a i k
-tercapai	t e r c a p a i
+terbaik	t e r b ai k
+tercapai	t e r c a p ai
 terdapat	t e r d a p a t
 terima	t e r i m a
 terjadi	t e r j a d i
-terjangkau	t e r j a ng k a u
+terjangkau	t e r j a ng k au
 terjual	t e r j u a l
-terkait	t e r k a i t
+terkait	t e r k ai t
 terlebih	t e r l e b i h
 ternyata	t e r ny a t a
 terpenuhi	t e r p e n u h i

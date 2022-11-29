@@ -20,13 +20,13 @@ area	a r e a
 arus	a r u s
 aset	a s e t
 atas	a t a s
-atau	a t a u
+atau	a t au
 awal	a w a l
-bagaimana	b a g a i m a n a
+bagaimana	b a g ai m a n a
 bagi	b a g i
 bagian	b a g i a n
 bahwa	b a h w a
-baik	b a i k
+baik	b ai k
 bangga	b a ng g a
 banyak	b a ny a k
 bapak	b a p a k
@@ -38,7 +38,7 @@ belas	b e l a s
 belum	b e l u m
 bencana	b e n c a n a
 beralih	b e r a l i h
-berbagai	b e r b a g a i
+berbagai	b e r b a g ai
 berbeda	b e r b e d a
 berfokus	b e r f o k u s
 berharga	b e r h a r g a
@@ -125,14 +125,14 @@ harus	h a r u s
 hati	h a t i
 hitungan	h i t u ng a n
 ibu	i b u
-industri	i n d u s t r i
+industri	i n d u s tr i
 ingin	i ng i n
 ini	i n i
 inilah	i n i l a h
 inovasi	i n o v a s i
-integritas	i n t e g r i t a s
+integritas	i n t e gr i t a s
 internal	i n t e r n a l
-item	a i t e m
+item	ai t e m
 itu	i t u
 itulah	i t u l a h
 izinkan	i z i n k a n
@@ -191,7 +191,7 @@ kompas	k o m p a s
 kompensasi	k o m p e n s a s i
 kompetitif	k o m p e t i t i f
 kondisi	k o n d i s i
-kontraktor	k o n t r a k t o r
+kontraktor	k o n tr a k t o r
 konvensional	k o n v e n s i o n a l
 kotak	k o t a k
 kuasa	k u a s a
@@ -201,7 +201,7 @@ kuorum	k u o r u m
 lagi	l a g i
 lakukan	l a k u k a n
 lama	l a m a
-lampau	l a m p a u
+lampau	l a m p au
 langsung	l a ng s u ng
 layar	l a y a r
 lebih	l e b i h
@@ -224,7 +224,7 @@ melepaskan	m e l e p a s k a n
 melewati	m e l e w a t i
 melihat	m e l i h a t
 memanfaatkan	m e m a n f a a t k a n
-memantau	m e m a n t a u
+memantau	m e m a n t au
 memastikan	m e m a s t i k a n
 membahayakan	m e m b a h a y a k a n
 memberi	m e m b e r i
@@ -242,14 +242,14 @@ memperkuat	m e m p e r k u a t
 mempersiapkan	m e m p e r s i a p k a n
 mempertahankan	m e m p e r t a h a n k a n
 mempertimbangkan	m e m p e r t i m b a ng k a n
-memulai	m e m u l a i
+memulai	m e m u l ai
 memungkinkan	m e m u ng k i n k a n
 memutuskan	m e m u t u s k a n
 menangani	m e n a ng a n i
 menantang	m e n a n t a ng
 menavigasi	m e n a v i g a s i
 mencakup	m e n c a k u p
-mencapai	m e n c a p a i
+mencapai	m e n c a p ai
 mendorong	m e n d o r o ng
 menempatkan	m e n e m p a t k a n
 menerapkan	m e n e r a p k a n
@@ -257,7 +257,7 @@ menerima	m e n e r i m a
 mengalami	m e ng a l a m i
 mengambil	m e ng a m b i l
 menganalisis	m e ng a n a l i s i s
-mengapresiasi	m e ng a p r e s i a s i
+mengapresiasi	m e ng a pr e s i a s i
 mengelola	m e ng e l o l a
 mengembalikan	m e ng e m b a l i k a n
 mengesahkan	m e ng e s a h k a n
@@ -266,7 +266,7 @@ mengevaluasi	m e ng e v a l u a s i
 menggunakan	m e ng g u n a k a n
 menghabiskan	m e ng h a b i s k a n
 menghadapi	m e ng h a d a p i
-menghargai	m e ng h a r g a i
+menghargai	m e ng h a r g ai
 menghasilkan	m e ng h a s i l k a n
 mengingat	m e ng i ng a t
 mengirimkan	m e ng i r i m k a n
@@ -295,15 +295,15 @@ mewakili	m e w a k i l i
 meyakinkan	m e y a k i n k a n
 miliar	m i l i a r
 minggu	m i ng g u
-mitra	m i t r a
+mitra	m i tr a
 modal	m o d a l
 model	m o d e l
 moral	m o r a l
-mulai	m u l a i
+mulai	m u l ai
 musim	m u s i m
 namun	n a m u n
 negara	n e g a r a
-nilai	n i l a i
+nilai	n i l ai
 oleh	o l e h
 operasi	o p e r a s i
 operasional	o p e r a s i o n a l
@@ -360,14 +360,14 @@ perusahaan	p e r u s a h a a n
 pilihan	p i l i h a n
 portofolio	p o r t o f o l i o
 posisi	p o s i s i
-prinsip	p r i n s i p
-prioritas	p r i o r i t a s
-produk	p r o d u k
-produksi	p r o d u k s i
-program	p r o g r a m
-proposal	p r o p o s a l
-proses	p r o s e s
-proyek	p r o y e k
+prinsip	pr i n s i p
+prioritas	pr i o r i t a s
+produk	pr o d u k
+produksi	pr o d u k s i
+program	pr o gr a m
+proposal	pr o p o s a l
+proses	pr o s e s
+proyek	pr o y e k
 publik	p u b l i k
 pulih	p u l i h
 puluh	p u l u h
@@ -385,13 +385,13 @@ saham	s a h a m
 saja	s a j a
 salah	s a l a h
 sama	s a m a
-sampai	s a m p a i
+sampai	s a m p ai
 sangat	s a ng a t
 sangatlah	s a ng a t l a h
 satu	s a t u
 saya	s a y a
-sebagai	s e b a g a i
-sebagaimana	s e b a g a i m a n a
+sebagai	s e b a g ai
+sebagaimana	s e b a g ai m a n a
 sebagian	s e b a g i a n
 sebelum	s e b e l u m
 sebelumnya	s e b e l u m ny a
@@ -400,7 +400,7 @@ secara	s e c a r a
 sedang	s e d a ng
 sehat	s e h a t
 sehingga	s e h i ng g a
-sejauh	s e j a u h
+sejauh	s e j au h
 sekali	s e k a l i
 sekarang	s e k a r a ng
 sekitar	s e k i t a r
@@ -425,7 +425,7 @@ sistem	s i s t e m
 situasi	s i t u a s i
 skenario	s k e n a r i o
 sosial	s o s i a l
-strategi	s t r a t e g i
+strategi	s tr a t e g i
 suara	s u a r a
 sudah	s u d a h
 sulit	s u l i t
@@ -451,7 +451,7 @@ terendah	t e r e n d a h
 terhadap	t e r h a d a p
 terima	t e r i m a
 terjadi	t e r j a d i
-terkait	t e r k a i t
+terkait	t e r k ai t
 terletak	t e r l e t a k
 terlibat	t e r l i b a t
 terlihat	t e r l i h a t
@@ -468,10 +468,10 @@ tim	t i m
 tindakan	t i n d a k a n
 tinggi	t i ng g i
 tingkat	t i ng k a t
-tinjauan	t i n j a u a n
+tinjauan	t i n j au a n
 total	t o t a l
 tujuh	t u j u h
-tunai	t u n a i
+tunai	t u n ai
 uang	u a ng
 untuk	u n t u k
 usulan	u s u l a n
@@ -480,6 +480,6 @@ utang	u t a ng
 visi	v i s i
 wabah	w a b a h
 waktu	w a k t u
-yaitu	y a i t u
+yaitu	y ai t u
 yakin	y a k i n
 yang	y a ng

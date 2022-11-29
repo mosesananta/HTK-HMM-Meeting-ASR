@@ -2,10 +2,10 @@ acara	a c a r a
 acaranya	a c a r a ny a
 ada	a d a
 agenda	a g e n d a
-aja	a j a
+aja a j a
 ajak	a j a k
 akhir	a kh i r
-aku	a k u
+aku a k u
 aman	a m a n
 anggota	a ng g o t a
 anomali	a n o m a l i
@@ -14,12 +14,12 @@ apakah	a p a k a h
 apapun	a p a p u n
 atau	a t au
 awalnya	a w a l ny a
-backend	b a c k e n d
+backend	b e k e n
 baiklah	b ai k l a h
 bakal	b a k a l
 bali	b a l i
 bandung	b a n d u ng
-banner	b a n n e r
+banner	b e n e r
 bantu	b a n t u
 baru	b a r u
 bawa	b a w a
@@ -41,8 +41,8 @@ bisa	b i s a
 bisnis	b i s n i s
 boleh	b o l e h
 buat	b u a t
-budget	b u d g e t
-budgetnya	b u d g e t ny a
+budget	b a j e t
+budgetnya	b a j e t ny a
 bulan	b u l a n
 cek	c e k
 cukup	c u k u p
@@ -50,24 +50,24 @@ cukupin	c u k u p i n
 cuman	c u m a n
 dan	d a n
 dari	d a r i
-dashboardnya	d a s h b o a r d ny a
+dashboardnya	d e s b o rd ny a
 dateng	d a t e ng
 deh	d e h
 depan	d e p a n
-desain	d e s ai n
-desainnya	d e s ai n ny a
+desain	d i s ai n
+desainnya	d i s ai n ny a
 destinasinya	d e s t i n a s i ny a
 detail	d e t ai l
 di	d i
 dibahas	d i b a h a s
 dicek	d i c e k
-dicover	d i c o v e r
+dicover	d i k a v e r
 didiskusikan	d i d i s k u s i k a n
 digunakan	d i g u n a k a n
 dihadapi	d i h a d a p i
 dilaksanain	d i l a k s a n ai n
 diluar	d i l u a r
-dimulai	d i m u l ai
+dimulai d i m u l ai
 dipikir	d i p i k i r
 diponegoro	d i p o n e g o r o
 disesuaikan	d i s e s u ai k a n
@@ -82,7 +82,7 @@ emang	e m a ng
 engga	e ng g a
 familiar	f a m i l i a r
 format	f o r m a t
-frontend	f r o n t e n d
+frontend	fr o n e n
 ga	g a
 gaada	g a a d a
 gabisa	g a b i s a
@@ -104,7 +104,7 @@ hmm	h m m
 hotel	h o t e l
 informasi	i n f o r m a s i
 ini	i n i
-inventory	i n v e n t o r y
+inventory	i n v e n t o r i
 item	i t e m
 itu	i t u
 iya	i y a
@@ -168,7 +168,7 @@ mungkin	m u ng k i n
 nama	n a m a
 nambahin	n a m b a h i n
 nanti	n a n t i
-next	n e x t
+next	n e ks
 ngebahas	ng e b a h a s
 ngomongin	ng o m o ng i n
 nih	n i h
@@ -181,20 +181,20 @@ operasinya	o p e r a s i ny a
 opsi	o p s i
 orang	o r a ng
 orangnya	o r a ng ny a
-outing	o u t i ng
-outingnya	o u t i ng ny a
+outing	a u t i ng
+outingnya	a u t i ng ny a
 pada	p a d a
 pagi	p a g i
 pajajaran	p a j a j a r a n
 pak	p a k
 pakai	p a k ai
 paling	p a l i ng
-partner	p a r t n e r
+partner	p a rt n e r
 pekan	p e k a n
 penamaan	p e n a m a a n
 penanggung	p e n a ng g u ng
 pengembangan	p e ng e m b a ng a n
-people	p e o p l e
+people	p i p e l
 perjalanan	p e r j a l a n a n
 perlu	p e r l u
 pernah	p e r n a h
@@ -207,9 +207,9 @@ pihak	p i h a k
 pikir	p i k i r
 pilih	p i l i h
 pilihan	p i l i h a n
-pribadi	p r i b a d i
-projek	p r o j e k
-proyek	p r o y e k
+pribadi	pr i b a d i
+projek	pr o j e k
+proyek	pr o y e k
 pulau	p u l au
 puluh   p u l u h
 rancangan	r a n c a ng a n
@@ -256,20 +256,19 @@ tanya	t a ny a
 tapi	t a p i
 teknologinya	t e k n o l o g i ny a
 teman	t e m a n
-temen	t e m e n
+temen   t e m e n
 tentang	t e n t a ng
 terima	t e r i m a
-terimakasih	t e r i m a k a s i h
 termasuk	t e r m a s u k
 terus	t e r u s
 tim	t i m
 tiga    t i g a
-tools	t o o l s
-toolsnya	t o o l s ny a
+tools	t u ls
+toolsnya	t u ls ny a
 tutup	t u t u p
 udah	u d a h
 untuk	u n t u k
-update	u p d a t e
+update	a p d e t
 wah	w a h
 waktu	w a k t u
 warna	w a r n a
