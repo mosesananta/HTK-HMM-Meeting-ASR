@@ -1,0 +1,284 @@
+a	eɪ
+ada	ada
+agak	a g a k
+aja	a j a
+akan	a k a n
+aku	a k u
+alert	ə ɛl i ɑr ti
+andi	a n d i
+apa	a p a
+apakah	a p a k a h
+api	ə pi aɪ
+assets	ˈæˌsɛts
+atau	a t au
+baca	b a c a
+bahas	b a h a s
+baik	b ai k
+bakal	b a k a l
+bantu	b a n t u
+banyak	b a ny a k
+bareng	b a r e ng
+baru	b a r u
+beberapa	b e b e r a p a
+begitu	b e g i t u
+bekerja	b e k e r j a
+belum	b e l u m
+bentrok	b e n t r o k
+berarti	b e r a r t i
+bergabung	b e r g a b u ng
+bertanya	b e r t a ny a
+betul	b e t u l
+biasa	b i a s a
+bikin	b i k i n
+bilang	b i l a ng
+bisa	b i s a
+blocker	ˈblɑkər
+boleh	b o l e h
+buat	b u a t
+bye	baɪ
+calon	c a l o n
+cerita	c e r i t a
+chat	ʧæt
+cloud	klaʊd
+coba	c o b a
+cocok	c o c o k
+credit	ˈkrɛdət
+cukup	c u k u p
+cuman	c u m a n
+daily	ˈdeɪli
+dan	d a n
+dari	d a r i
+dashboard	ˈdæʃˌbɔrd
+database	ˈdeɪtəˌbeɪs
+datang	d a t a ng
+dateng	d a t e ng
+day	deɪ
+db	di bi
+deh	d e h
+dengan	d e ng a n
+deployment	dɪˈplɔɪmənt
+di	d i
+dia	d i a
+dibahas	d i b a h a s
+dibuat	d i b u a t
+dicoba	d i c o b a
+diem	d i e m
+dihubungi	d i h u b u ng i
+dijawab	d i j a w a b
+dikarenakan	d i k a r e n a k a n
+dikerjakan	d i k e r j a k a n
+diskusi	d i s k u s i
+ditambahkan	d i t a m b a h k a n
+doang	d o a ng
+eksplorasi	e k s p l o r a s i
+engineer	ˈɛnʤəˈnɪr
+eskalasi	e s k a l a s i
+film	fɪlm
+frans	f r a n s
+ga	g a
+gaada	g a a d a
+game	geɪm
+giliran	g i l i r a n
+gimana	g i m a n a
+good	gʊd
+google	ˈgugəl
+gunung	g u n u ng
+halo	h a l o
+hanya	h a ny a
+hari	h a r i
+harus	h a r u s
+have	hæv
+i	aɪ
+ikut	i k u t
+ingin	i ng i n
+ini	i n i
+interview	ˈɪntərˌvju
+invite	ɪnˈvaɪt
+isi	i s i
+istirahat	i s t i r a h a t
+iya	i y a
+jadi	j a d i
+jalan	j a l a n
+jangan	j a ng a n
+jauh	j au h
+jawaban	j a w a b a n
+jika	j i k a
+jo	j o
+join	ʤɔɪn
+juga	j u g a
+kalau	k a l au
+kali	k a l i
+kalian	k a l i a n
+kalo	k a l o
+kamu	k a m u
+kan	k a n
+karena	k a r e n a
+karyawan	k a r y a w a n
+kasih	k a s i h
+kasusnya	k a s u s ny a
+kaya	k a y a
+ke	k e
+kebetulan	k e b e t u l a n
+keluar	k e l u a r
+keluarga	k e l u a r g a
+keluarganya	k e l u a r g a ny a
+kelupaan	k e l u p a a n
+kemana	k e m a n a
+kemarin	k e m a r i n
+kendala	k e n d a l a
+kerja	k e r j a
+kita	k i t a
+kode	k o d e
+komen	k o m e n
+konfirmasi	k o n f i r m a s i
+kontak	k o n t a k
+kota	k o t a
+kuliah	k u l i a h
+kumpul	k u m p u l
+kurang	k u r a ng
+lagi	l a g i
+lain	l ai n
+lalu	l a l u
+lanjut	l a n j u t
+lead	l i d
+lebaran	l e b a r a n
+lebih	l e b i h
+libur	l i b u r
+liburan	l i b u r a n
+liburannya	l i b u r a n ny a
+lms	l m s
+lupa	l u p a
+maaf	m a a f
+main	m ai n
+maka	m a k a
+mall	mɔl
+mana	m a n a
+mas	m a s
+masa	m a s a
+masalah	m a s a l a h
+masih	m a s i h
+masuk	m a s u k
+mau	m au
+medan	m e d a n
+meet	mit
+meeting	ˈmitɪŋ
+melakukan	m e l a k u k a n
+melanjutkan	m e l a n j u t k a n
+memang	m e m a ng
+membahas	m e m b a h a s
+menarik	m e n a r i k
+mengenai	m e ng e n ai
+mengetahui	m e ng e t a h u i
+mengingatkan	m e ng i ng a t k a n
+menikmati	m e n i k m a t i
+menjalani	m e n j a l a n i
+merge	mɜrʤ
+meskipun	m e s k i p u n
+migrasi	m i g r a s i
+mirip	m i r i p
+monitoring	ˈmɑnətərɪŋ
+muda	m u d a
+mulai	m u l ai
+mungkin	m u ng k i n
+naik	n ai k
+nanti	n a n t i
+nanya	n a ny a
+ngomong	ng o m o ng
+nih	n i h
+nonton	n o n t o n
+nunggu	n u ng g u
+nya	ny a
+oh	o h
+ohh	o h h
+oke	o k e
+on	ɑn
+one	wʌn
+optimasi	o p t i m a s i
+pada	p a d a
+page	peɪʤ
+paling	p a l i ng
+panjang	p a n j a ng
+pastinya	p a s t i ny a
+peer	pɪr
+pembuatan	p e m b u a t a n
+penjelasan	p e n j e l a s a n
+people	ˈpipəl
+performance	pərˈfɔrməns
+pergi	p e r g i
+pertama	p e r t a m a
+pertanyaan	p e r t a ny a a n
+perusahaan	p e r u s a h a a n
+pindah	p i n d a h
+pinjaman	p i n j a m a n
+produk	p r o d u k
+q3	q 3
+rencananya	r e n c a n a ny a
+request	rɪˈkwɛst
+resolve	riˈzɑlv
+responden	r e s p o n d e n
+review	ˌriˈvju
+rilis	r i l i s
+riya	r i y a
+rumah	r u m a h
+saja	s a j a
+sama	s a m a
+satu	s a t u
+saya	s a y a
+sebelum	s e b e l u m
+sedikit	s e d i k i t
+see	si
+segitu	s e g i t u
+sekalian	s e k a l i a n
+sekarang	s e k a r a ng
+selamat	s e l a m a t
+selesai	s e l e s ai
+semangat	s e m a ng a t
+sempet	s e m p e t
+semua	s e m u a
+semuanya	s e m u a ny a
+sendiri	s e n d i r i
+sepakat	s e p a k a t
+seperti	s e p e r t i
+service	ˈsɜrvəs
+sesi	s e s i
+session	ˈsɛʃən
+setelah	s e t e l a h
+siang	s i a ng
+siap	s i a p
+siapa	s i a p a
+sih	s i h
+sisanya	s i s a ny a
+sre	ɛs ɑr i
+standup	ˈstænˌdʌp
+static	ˈstætɪk
+storage	ˈstɔrəʤ
+sudah	s u d a h
+sulit	s u l i t
+tadi	t a d i
+tahu	t a h u
+tahun	t a h u n
+tanya	t a ny a
+tapi	t a p i
+tau	t au
+team	t e a m
+telah	t e l a h
+telat	t e l a t
+teman	t e m a n
+tentang	t e n t a ng
+terakhir	t e r a kh i r
+terima	t e r i m a
+terimakasih	t e r i m a k a s i h
+terus	t e r u s
+testing	ˈtɛstɪŋ
+tetap	t e t a p
+tidak	t i d a k
+tim	t i m
+tinggal	t i ng g a l
+tolong	t o l o ng
+tutup	t u t u p
+ulang	u l a ng
+unit	u n i t
+untuk	u n t u k
+wajib	w a j i b
+ya	y a
+yang	y a n g	
