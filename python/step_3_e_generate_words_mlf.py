@@ -1,14 +1,17 @@
 nims = [
     13519062,
-    # 13519076, (sedang diperbaiki lexicon-nya)
-    # 13519088, (sedang diperbaiki lexicon-nya)
+    13519076, 
+    13519088,
+    13519100,
     13519128,
     13519156,
+    13519192,
+    13519196
 ]
 transcripts_dir = "data/transcripts/"
 script_tr_path = "config/script_tr.hcopy"
 script_te_path = "config/script_te.hcopy"
-output_filename = "words2.mlf"
+output_filename = "words_train.mlf"
 valid_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
 
 with open(script_tr_path, mode="r") as file:
@@ -47,9 +50,9 @@ for nim in nims:
     #print(transcript_pairs)
     transcripts = transcripts | {path.replace(" ", ""): content for path, content in transcript_pairs}
 
-print(transcripts['13519128_059.wav'])
+#print(transcripts)
 lines = ["#!MLF!#"]
-for wav_filename, mfc_filename in test_pairs:
+for wav_filename, mfc_filename in train_pairs:
     lab_filename = mfc_filename.replace(".mfc", ".lab")
     lines.append("\"{}\"".format(lab_filename))
 
