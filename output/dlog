@@ -4,48 +4,71 @@ Missing Words
 -------------
 SENT-END
 SENT-START
+ada
+agak
+dua
 facebook
+item
+kak
+lima
 manajer
 mengingat
 pak
+persen
+puluh
+temen
+tiga
 
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
- lexicon.lex       506        506        510        510
-        dict       506        506        510        510
+ lexicon.lex      1329       1329       1336       1336
+        dict      1329       1329       1336       1335
 
-512 words required, 6 missing
+1345 words required, 16 missing
 
 New Phone Usage Counts
 ---------------------
-  1. a     :   678
-  2. c     :    20
-  3. r     :   173
-  4. d     :   103
-  5. l     :   123
-  6. h     :    84
-  7. ny    :    41
-  8. p     :   128
-  9. u     :   182
- 10. n     :   240
- 11. m     :   186
- 12. i     :   279
- 13. s     :   181
- 14. t     :   179
- 15. g     :    33
- 16. k     :   184
- 17. e     :   330
- 18. kh    :     5
- 19. y     :    11
- 20. b     :   103
- 21. w     :    13
- 22. ng    :    62
- 23. j     :    42
- 24. o     :    50
- 25. v     :     5
- 26. f     :    10
- 27. z     :     3
- 28. sy    :     3
+  1. a     :  1692
+  2. h     :   192
+  3. b     :   248
+  4. i     :   698
+  5. s     :   442
+  6. c     :    50
+  7. r     :   407
+  8. ny    :   136
+  9. d     :   261
+ 10. l     :   321
+ 11. p     :   318
+ 12. u     :   420
+ 13. n     :   686
+ 14. m     :   476
+ 15. tr    :     6
+ 16. o     :   183
+ 17. g     :   113
+ 18. k     :   478
+ 19. e     :   830
+ 20. j     :   107
+ 21. kh    :    10
+ 22. t     :   452
+ 23. v     :    18
+ 24. f     :    34
+ 25. ng    :   212
+ 26. ei    :     2
+ 27. ai    :    55
+ 28. y     :    36
+ 29. au    :    16
+ 30. w     :    31
+ 31. rd    :     1
+ 32. gr    :     6
+ 33. pr    :    20
+ 34. fr    :     1
+ 35. z     :     5
+ 36. kr    :     2
+ 37. ks    :     1
+ 38. oi    :     1
+ 39. rt    :     1
+ 40. sy    :     3
+ 41. ls    :     2
 
 Dictionary output/dict created
