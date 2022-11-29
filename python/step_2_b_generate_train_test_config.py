@@ -5,10 +5,13 @@ random.seed(120) # For reproducibility
 
 nims = [
     13519062,
-    # 13519076, (sedang diperbaiki lexicon-nya)
-    # 13519088, (sedang diperbaiki lexicon-nya)
+    13519076, 
+    13519088,
+    13519100,
     13519128,
     13519156,
+    13519192,
+    13519196
 ]
 audio_list_dir = "data/audios/"
 audio_mfcc_train_dir = "mfcc/"
