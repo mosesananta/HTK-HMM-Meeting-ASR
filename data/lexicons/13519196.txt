@@ -1,8 +1,3 @@
-1	1
-2	2
-20	2 0
-3	3
-50	5 0
 acara	a c a r a
 acaranya	a c a r a ny a
 ada	a d a
@@ -80,6 +75,7 @@ disiapin	d i s i a p i n
 ditutup	d i t u t u p
 dokumentasi	d o k u m e n t a s i
 domisili	d o m i s i l i
+dua d u a
 dulu	d u l u
 durasinya	d u r a s i ny a
 emang	e m a ng
@@ -151,6 +147,7 @@ lain	l ai n
 lambat	l a m b a t
 lanjut	l a n j u t
 lebih	l e b i h
+lima    l i m a
 logo	l o g o
 luar	l u a r
 makan	m a k a n
@@ -201,6 +198,7 @@ people	p e o p l e
 perjalanan	p e r j a l a n a n
 perlu	p e r l u
 pernah	p e r n a h
+persen  p e r s e n
 pertama	p e r t a m a
 pertanyaan	p e r t a ny a a n
 pertemuan	p e r t e m u a n
@@ -213,6 +211,7 @@ pribadi	p r i b a d i
 projek	p r o j e k
 proyek	p r o y e k
 pulau	p u l au
+puluh   p u l u h
 rancangan	r a n c a ng a n
 rangkum	r a ng k u m
 rapat	r a p a t
@@ -264,6 +263,7 @@ terimakasih	t e r i m a k a s i h
 termasuk	t e r m a s u k
 terus	t e r u s
 tim	t i m
+tiga    t i g a
 tools	t o o l s
 toolsnya	t o o l s ny a
 tutup	t u t u p
