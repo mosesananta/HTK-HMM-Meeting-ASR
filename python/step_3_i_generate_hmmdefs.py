@@ -1,4 +1,4 @@
-base_dir = "hmms/hmm.0"
+base_dir = "hmms/baseline/hmm.0"
 monophones0_path = "monophones0"
 
 with open("{}/proto".format(base_dir), mode="r") as file:

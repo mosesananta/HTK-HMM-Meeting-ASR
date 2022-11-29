@@ -1,4 +1,4 @@
-base_dir = "hmms/hmm.0"
+base_dir = "hmms/baseline/hmm.0"
 
 with open("{}/vFloors".format(base_dir), mode="r") as file:
     data = file.read()
