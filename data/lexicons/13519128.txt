@@ -60,7 +60,7 @@ cara	c a r a
 cenderung	c e n d e r u ng
 cepat	c e p a t
 client	k e l a y e n
-commerce	k o m e r s
+ecommerce	i k o m e r s
 cukup	c u k u p
 cukupkan	c u k u p k a n
 dalam	d a l a m
@@ -103,7 +103,6 @@ diterima	d i t e r i m a
 divisi	d i v i s i
 dua	d u a
 dulu	d u l u
-e	e
 efektif	e f e k t i f
 empat	e m p a t
 enam	e n a m
