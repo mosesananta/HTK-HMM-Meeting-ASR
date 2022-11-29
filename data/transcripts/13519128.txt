@@ -1,10 +1,10 @@
 13519128_001.wav	Selamat pagi, dan salam sejahtera untuk kita semua.
 13519128_002.wav	Pertama-tama marilah kita panjatkan puji syukur kehadirat Tuhan Yang Maha Esa.
 13519128_003.wav	Karena-Nya kita semua dapat berkumpul pada acara rapat pagi hari ini dengan keadaan sehat sentosa.
-13519128_004.wav	Yang saya hormati bapak Insinyur Dava Busono selaku pimpinan, dan yang saya hormati bapak/ibu kepala divisi yang sudah hadir dalam rapat ini.
+13519128_004.wav	Yang saya hormati bapak Insinyur Dava Busono selaku pimpinan, dan yang saya hormati bapak ibu kepala divisi yang sudah hadir dalam rapat ini.
 13519128_005.wav	Baiklah saya akan membacakan agenda rapat kita pada hari ini, yakni pembukaan, pengarahan dari bapak Insinyur Dava Busono, laporan dari setiap manajer divisi, dilanjutkan dengan pembahasan inti rapat serta tanya jawab, dan yang terakhir penutup.
 13519128_006.wav	Langsung saja kepada bapak Insinyur Dava Busono kami persilahkan untuk memberi pengarahan.
-13519128_007.wav	Terima kasih atas kesempatannya, selamat pagi bapak/ibu sekalian, seperti yang sudah diketahui, bahwasanya omzet perusahaan selama satu tahun terakhir ini mengalami penurunan yang cukup signifikan.
+13519128_007.wav	Terima kasih atas kesempatannya, selamat pagi bapak ibu sekalian, seperti yang sudah diketahui, bahwasanya omzet perusahaan selama satu tahun terakhir ini mengalami penurunan yang cukup signifikan.
 13519128_008.wav	Untuk itu kita akan membahasnya pada rapat kali ini, apa saja faktor penyebab penurunan omzet tersebut, dan bagaimana strategi untuk kembali meningkatkan penjualan produk kita.
 13519128_009.wav	Baiklah sebelumnya saya ingin mengetahui laporan kinerja dari setiap divisi.
 13519128_010.wav	Yang pertama divisi pemasaran, kepada ibu Cantika saya persilahkan.
@@ -12,7 +12,7 @@
 13519128_012.wav	Saya akan melaporkan hasil penjualan selama setahun setahun terakhir, tingkat penjualan mengalami penurunan sebesar empat puluh persen dari tahun sebelumnya.
 13519128_013.wav	Kami sudah berusaha semaksimal mungkin untuk meningkatkan omzet pasar, tetapi permintaan produk kita kian hari semakin mengalami penurunan.
 13519128_014.wav	Bagaimana hal tersebut bisa terjadi?
-13519128_015.wav	Apa sudah diketahui penyebabnya?
+13519128_015.wav	Bagaimana hal tersebut bisa terjadi? Apa sudah diketahui penyebabnya?
 13519128_016.wav	Setelah kami teliti ke lapangan, ternyata terdapat produk pesaing sejenis yang memiliki harga lebih terjangkau dari produk kita.
 13519128_017.wav	Meskipun dari segi kualitas produk kita lebih unggul, tetapi produk mereka lebih diminati karena harganya lebih terjangkau.
 13519128_018.wav	Baik terima kasih atas penjelasannya, permasalahan kita tampung terlebih dulu.
@@ -91,7 +91,7 @@
 13519128_091.wav	Sebelum mengakhiri rapat ini saya akan membacakan hasil rapat pada hari ini, diantaranya:
 13519128_092.wav	Satu akan segera dilakukan servis dan pembersihan pada mesin-mesin produksi.
 13519128_093.wav	Dua melakukan promosi melalui media sosial.
-13519128_094.wav	Tida menjual produk secara online melalui e-commerce.
+13519128_094.wav	Tiga menjual produk secara online melalui e-commerce.
 13519128_095.wav	Empat mengurangi proses produksi dan menghentikan sementara produksi pada produk yang masih tersedia dalam jumlah banyak.
 13519128_096.wav	Lima fokus pada penjualan produk yang sudah tersedia dan memberikan potongan harga sebesar sepuluh sampai dua puluh lima persen.
 13519128_097.wav	Enam mengajukan proposal kerja sama sebagai supplier pada perusahaan yang belum memakai produk perusahaan.
