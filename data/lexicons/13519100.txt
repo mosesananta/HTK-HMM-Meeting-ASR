@@ -97,6 +97,7 @@ ditembak	d i t e m b a k
 dua	d u a
 dulu	d u l u
 efisien	e f i s i e n
+empat	e m p a t
 engga	E ng g a
 error	e r o r
 errornya	e r o r ny a
