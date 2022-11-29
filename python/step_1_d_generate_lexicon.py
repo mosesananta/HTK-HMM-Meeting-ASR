@@ -1,9 +1,13 @@
 nims = [
     13519062,
-    # 13519076, (sedang diperbaiki lexicon-nya)
-    # 13519088, (sedang diperbaiki lexicon-nya)
+    13519076, 
+    13519088,
+    #13519100,
     13519128,
     13519156,
+    #13519180,
+    #13519188,
+    #13519196
 ]
 lexicons_dir = "data/lexicons/"
 merged_lexicon_path = "data/lexicon.lex"
