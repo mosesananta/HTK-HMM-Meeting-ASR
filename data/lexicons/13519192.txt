@@ -83,7 +83,7 @@ ditanyain	d i t a ny ai n
 divisi	d i v i s i
 dokumentasikan	d o k u m e n t a s i k a n
 donasi	d o n a s i
-dua	d u a
+dua d u a
 dulu	d u l u
 empat	e m p a t
 enggak	e ng g a k
@@ -186,7 +186,7 @@ lebih	l e b i h
 letaknya	l e t a k ny a
 liat	l i a t
 liburan	l i b u r a n
-lima	l i m a
+lima    l i m a
 lo	l o
 lokasinya	l o k a s i ny a
 lumayan	l u m a y a n
@@ -278,7 +278,7 @@ posisi	p o s i s i
 potensinya	p o t e n s i ny a
 prodi	pr o d i
 program	pr o gr a m
-puluh	p u l u h
+puluh   p u l u h
 rapat	r a p a t
 rapatnya	r a p a t ny a
 rara	r a r a
@@ -349,7 +349,7 @@ terselesaikan	t e r s e l e s ai k a n
 terus	t e r u s
 tetap	t e t a p
 tidak	t i d a k
-tiga	t i g a
+tiga    t i g a
 tim	t i m
 tolong	t o l o ng
 total	t o t a l

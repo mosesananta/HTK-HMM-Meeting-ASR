@@ -101,7 +101,7 @@ disiplin	d i s i p l i n
 diterima	d i t e r i m a
 ditunjukkan	d i t u n j u k k a n
 diungkapkan	d i u ng k a p k a n
-dua	d u a
+dua d u a
 dukungan	d u k u ng a n
 dukungannya	d u k u ng a n ny a
 dunia	d u n i a
@@ -206,7 +206,7 @@ layar	l a y a r
 lebih	l e b i h
 lemah	l e m a h
 likuiditas	l i k u i d i t a s
-lima	l i m a
+lima    l i m a
 luar	l u a r
 luring	l u r i ng
 mampu	m a m p u
@@ -348,7 +348,7 @@ perlu	p e r l u
 permintaan	p e r m i n t a a n
 pernah	p e r n a h
 pernyataan	p e r ny a t a a n
-persen	p e r s e n
+persen  p e r s e n
 pertama	p e r t a m a
 pertanyaan	p e r t a ny a a n
 pertemuan	p e r t e m u a n
@@ -368,7 +368,7 @@ proses	pr o s e s
 proyek	pr o y e k
 publik	p u b l i k
 pulih	p u l i h
-puluh	p u l u h
+puluh   p u l u h
 pun	p u n
 rapat	r a p a t
 rasional	r a s i o n a l
@@ -461,7 +461,7 @@ terutama	t e r u t a m a
 tetap	t e t a p
 tetapi	t e t a p i
 tidak	t i d a k
-tiga	t i g a
+tiga    t i g a
 tim	t i m
 tindakan	t i n d a k a n
 tinggi	t i ng g i

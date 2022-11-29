@@ -1,6 +1,6 @@
 # NEED FIXING BECAUSE SOMETIMES BAGIAN LEXICON NYA EX. d i k e t a h u i bocor , harusnya diketahui aja bukan tabnya
 lexicon_path = "data/lexicon.lex"
-grammar_path = "data/grammar_fixed.txt"
+grammar_path = "data/grammar.txt"
 
 with open(lexicon_path, mode="r") as file:
     data = file.read()

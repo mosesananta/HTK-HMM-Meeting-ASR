@@ -9,7 +9,6 @@ adanya	a d a ny a
 adapun	a d a p u n
 administrasi	a d m i n i s tr a s i
 adopsi	a d o p s i
-agak	a g a k
 agak    a g a k
 agar	a g a r
 agenda	a g e n d a
@@ -317,7 +316,6 @@ dokumentasikan	d o k u m e n t a s i k a n
 dolar	d o l a r
 domisili	d o m i s i l i
 donasi	d o n a s i
-dua	d u a
 dua d u a
 dukungan	d u k u ng a n
 dukungannya	d u k u ng a n ny a
@@ -634,7 +632,6 @@ liburan	l i b u r a n
 liburannya	l i b u r a n ny a
 lihat	l i h a t
 likuiditas	l i k u i d i t a s
-lima	l i m a
 lima    l i m a
 lo	l o
 logo	l o g o
@@ -1001,7 +998,6 @@ permasalahan	p e r m a s a l a h a n
 permintaan	p e r m i n t a a n
 pernah	p e r n a h
 pernyataan	p e r ny a t a a n
-persen	p e r s e n
 persen  p e r s e n
 persilahkan	p e r s i l a h k a n
 persilakan	p e r s i l a k a n
@@ -1046,7 +1042,6 @@ publik	p u b l i k
 puji	p u j i
 pulau	p u l au
 pulih	p u l i h
-puluh	p u l u h
 puluh   p u l u h
 pun	p u n
 pusat	p u s a t
@@ -1240,7 +1235,6 @@ teknologinya	t e k n o l o g i ny a
 telah	t e l a h
 teliti	t e l i t i
 teman	t e m a n
-temen	t e m e n
 temen   t e m e n
 tempat	t e m p a t
 tenaga	t e n a g a
@@ -1287,7 +1281,6 @@ testing	t e s t i ng
 tetap	t e t a p
 tetapi	t e t a p i
 tidak	t i d a k
-tiga	t i g a
 tiga    t i g a
 tim	t i m
 tindakan	t i n d a k a n

@@ -3,7 +3,7 @@ ada	a d a
 adalah	a d a l a h
 adapun	a d a p u n
 administrasi	a d m i n i s tr a s i
-agak	a g a k
+agak    a g a k
 agar	a g a r
 agenda	a g e n d a
 akan	a k a n
@@ -101,7 +101,7 @@ disetujui	d i s e t u j u i
 diskon	d i s k o n
 distributor	d i s tr i b u t o r
 divisi	d i v i s i
-dua	d u a
+dua d u a
 dulu	d u l u
 ecommerce	i k o m e r s
 efektif	e f e k t i f
@@ -198,7 +198,7 @@ laporan	l a p o r a n
 lazada	l a z a d a
 lebih	l e b i h
 liburan	l i b u r a n
-lima	l i m a
+lima    l i m a
 maaf	m a a f
 macam	m a c a m
 maha	m a h a
@@ -302,7 +302,7 @@ perawatan	p e r a w a t a n
 perlu	p e r l u
 permasalahan	p e r m a s a l a h a n
 permintaan	p e r m i n t a a n
-persen	p e r s e n
+persen  p e r s e n
 persilakan	p e r s i l a k a n
 personalia	p e r s o n a l i a
 pertama	p e r t a m a
@@ -321,7 +321,7 @@ promosi	pr o m o s i
 proposal	pr o p o s a l
 proses	pr o s e s
 puji	p u j i
-puluh	p u l u h
+puluh   p u l u h
 rapat	r a p a t
 rasa	r a s a
 rencana	r e n c a n a
@@ -427,7 +427,7 @@ terus	t e r u s
 tetap	t e t a p
 tetapi	t e t a p i
 tidak	t i d a k
-tiga	t i g a
+tiga    t i g a
 tim	t i m
 tindakan	t i n d a k a n
 tingkat	t i ng k a t

@@ -1,7 +1,7 @@
 aah	a a h
 ada	a d a
 adalah	a d a l a h
-agak	a g a k
+agak    a g a k
 agenda	a g e n d a
 agendamu	a g e n d a m u
 aja a j a
@@ -94,7 +94,7 @@ diserahkan	d i s e r a h k a n
 disini	d i s i n i
 diskusi	d i s k u s i
 ditembak	d i t e m b a k
-dua	d u a
+dua d u a
 dulu	d u l u
 efisien	e f i s i e n
 empat	e m p a t
@@ -191,7 +191,7 @@ liat	l i a t
 libur	l i b u r
 liburan	l i b u r a n
 liburannya	l i b u r a n ny a
-lima	l i m a
+lima    l i m a
 lupa	l u p a
 macet	m a c e t
 makan	m a k a n
@@ -279,7 +279,7 @@ perencanaan	p e r e n c a n a a n
 pergi	p e r g i
 perjalanannya	p e r j a l a n a n ny a
 permintaan	p e r m i n t a a n
-persen	p e r s e n
+persen  p e r s e n
 pertama	p e r t a m a
 pertemuan	p e r t e m u a n
 pertemuannya	p e r t e m u a n ny a
@@ -289,7 +289,7 @@ pilih	p i l i h
 prioritas	pr i o r i t a s
 prioritasnya	pr i o r i t a s ny a
 produk	pr o d u k
-puluh	p u l u h
+puluh   p u l u h
 pusat	p u s a t
 ragu	r a g u
 ramai	r a m ai
@@ -354,7 +354,7 @@ tapi	t a p i
 target	t a r g e t
 targetnya	t a r g e t ny a
 tau	t au
-temen	t e m e n
+temen   t e m e n
 tempat	t e m p a t
 tentang	t e n t a ng
 terakhir	t e r a kh i r

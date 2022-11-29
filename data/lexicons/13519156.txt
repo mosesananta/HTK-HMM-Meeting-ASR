@@ -102,7 +102,7 @@ diskon	d i s k o n
 distributor	d i s tr i b u t o r
 diterima	d i t e r i m a
 divisi	d i v i s i
-dua	d u a
+dua d u a
 e	e
 ecommerce	i k o m e r s
 efektif	e f e k t i f
@@ -197,7 +197,7 @@ laporan	l a p o r a n
 lazada	l a z a d a
 lebih	l e b i h
 liburan	l i b u r a n
-lima	l i m a
+lima    l i m a
 maaf	m a a f
 maha	m a h a
 maju	m a j u
@@ -306,7 +306,7 @@ penyebabnya	p e ny e b a b ny a
 perlu	p e r l u
 permasalahan	p e r m a s a l a h a n
 permintaan	p e r m i n t a a n
-persen	p e r s e n
+persen  p e r s e n
 persilakan	p e r s i l a k a n
 personalia	p e r s o n a l i a
 persua	p e r s u a
@@ -325,7 +325,7 @@ promosi	pr o m o s i
 proposal	pr o p o s a l
 proses	pr o s e s
 puji	p u j i
-puluh	p u l u h
+puluh   p u l u h
 rapat	r a p a t
 rasa	r a s a
 rasanya	r a s a ny a

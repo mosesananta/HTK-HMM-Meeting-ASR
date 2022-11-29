@@ -102,7 +102,7 @@ diterima	d i t e r i m a
 ditunjukkan	d i t u n j u k k a n
 diungkapkan	d i u ng k a p k a n
 dolar	d o l a r
-dua	d u a
+dua d u a
 dukungan	d u k u ng a n
 dukungannya	d u k u ng a n ny a
 dunia	d u n i a
@@ -208,7 +208,7 @@ lebih	l e b i h
 lemah	l e m a h
 lihat	l i h a t
 likuiditas	l i k u i d i t a s
-lima	l i m a
+lima    l i m a
 luar	l u a r
 luring	l u r i ng
 mampu	m a m p u
@@ -344,7 +344,7 @@ penurunan	p e n u r u n a n
 penutupan	p e n u t u p a n
 penyebaran	p e ny e b a r a n
 per	p e r
-persen	p e r s e n
+persen  p e r s e n
 percaya	p e r c a y a
 perkembangan	p e r k e m b a ng a n
 perlu	p e r l u
@@ -370,7 +370,7 @@ proses	pr o s e s
 proyek	pr o y e k
 publik	p u b l i k
 pulih	p u l i h
-puluh	p u l u h
+puluh   p u l u h
 pun	p u n
 rapat	r a p a t
 rasional	r a s i o n a l
@@ -463,7 +463,7 @@ terutama	t e r u t a m a
 tetap	t e t a p
 tetapi	t e t a p i
 tidak	t i d a k
-tiga	t i g a
+tiga    t i g a
 tim	t i m
 tindakan	t i n d a k a n
 tinggi	t i ng g i
