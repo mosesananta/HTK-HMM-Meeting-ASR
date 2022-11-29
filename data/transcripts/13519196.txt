@@ -27,7 +27,7 @@
 13519196_027.wav    Aman Mas
 13519196_028.wav    Dari saya cukup juga Mas
 13519196_029.wav    Oke kalau gitu kita tutup aja ya pertemuan kali ini
-13519196_030.wav    Terimakasih semua udah nyempetin dateng
+13519196_030.wav    Terima kasih semua udah nyempetin dateng
 13519196_031.wav    Halo Pagi semua
 13519196_032.wav    Pagi Mas
 13519196_033.wav    Pagi juga semua
@@ -79,5 +79,5 @@
 13519196_079.wav    Dan bisa bawa satu partner untuk setiap orangnya
 13519196_080.wav    Oke kalo gitu bisa kita cukupin ya pertemuan kali ini
 13519196_081.wav    Terima kasih semuanya, selamat berakhir pekan
-13519196_082.wav    Terimakasih mas, selamat berakhir pekan juga
-13519196_083.wav    Terimakasih juga mas, selamat berakhir pekan
+13519196_082.wav    Terima kasih mas, selamat berakhir pekan juga
+13519196_083.wav    Terima kasih juga mas, selamat berakhir pekan

@@ -30,7 +30,7 @@ py python/step_3_d_modify_monophones1.py
 
 :: Tutorial - Step 3.e
 py python/step_3_e_generate_words_mlf.py
-HLEd -l * -d output/dict -i output/phones0.mlf mkphones0.led words.mlf
+HLEd -l * -d output/dict -i output/phones0.mlf mkphones0.led words_train.mlf
 
 :: Tutorial - Step 3.f
 HCopy -T 1 -C config/config_feature.hcopy -S config/script_tr.hcopy

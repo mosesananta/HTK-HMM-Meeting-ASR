@@ -1,7 +1,7 @@
-train_map_config_path = "config/script_tr.hcopy"
-test_map_config_path = "config/script_te.hcopy"
-train_features_config_path = "config/train_features.txt"
-test_features_config_path = "config/test_features.txt"
+train_map_config_path = "config/script_tr_f0_s1_w0.hcopy"
+test_map_config_path = "config/script_te_f0_s1_w0.hcopy"
+train_features_config_path = "config/train_features_f0_s1_w0.txt"
+test_features_config_path = "config/test_features_f0_s1_w0.txt"
 
 with open(train_map_config_path, mode="r") as file:
     raw_data = file.read()

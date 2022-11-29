@@ -14,10 +14,10 @@ nims = [
     13519196
 ]
 audio_list_dir = "data/audios/"
-audio_mfcc_train_dir = "mfcc/"
-audio_mfcc_test_dir = "mfcc_test/"
-train_map_config_path = "config/script_tr.hcopy"
-test_map_config_path = "config/script_te.hcopy"
+audio_mfcc_train_dir = "mfcc_train/f0_s1_w0/"
+audio_mfcc_test_dir = "mfcc_test/f0_s1_w0"
+train_map_config_path = "config/script_tr_f0_s1_w0.hcopy"
+test_map_config_path = "config/script_te_f0_s1_w0.hcopy"
 ignored_audio_filename_list_path = "data/ignored_audios.txt"
 
 audio_filename_list = []
