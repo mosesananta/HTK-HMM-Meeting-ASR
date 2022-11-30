@@ -9,9 +9,9 @@ nims = [
     13519196
 ]
 transcripts_dir = "data/transcripts/"
-script_tr_path = "config/script_tr.hcopy"
-script_te_path = "config/script_te.hcopy"
-output_filename = "words_train.mlf"
+script_tr_path = "config/script_tr_baseline.hcopy"
+script_te_path = "config/script_te_baseline.hcopy"
+output_filename = "words_train_baseline.mlf"
 valid_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
 
 with open(script_tr_path, mode="r") as file:
