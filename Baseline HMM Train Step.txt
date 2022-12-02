@@ -1,0 +1,62 @@
+HCopy -T 1 -C config/config_feature_baseline.hcopy -S config/script_tr_baseline.hcopy
+
+HCopy -T 1 -C config/config_feature_baseline.hcopy -S config/script_te_baseline.hcopy
+
+HCompV -C config\config_train_baseline.hcopy -f 0.01 -m -S config\train_features_baseline.txt -M hmms\baseline\hmm.0 config\proto
+
+HERest -C config\config_train_baseline.hcopy -I output\phones0.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.0\macros -H hmms\baseline\hmm.0\hmmdefs -M hmms\baseline\hmm.1 monophones0
+
+HERest -C config\config_train_baseline.hcopy -I output\phones0.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.1\macros -H hmms\baseline\hmm.1\hmmdefs -M hmms\baseline\hmm.2 monophones0
+
+HERest -C config\config_train_baseline.hcopy -I output\phones0.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.2\macros -H hmms\baseline\hmm.2\hmmdefs -M hmms\baseline\hmm.3 monophones0
+
+mkdir hmms\baseline\hmm.5
+mkdir hmms\baseline\hmm.6
+mkdir hmms\baseline\hmm.7
+HHEd -H hmms\baseline\hmm.4\macros -H hmms\baseline\hmm.4\hmmdefs -M hmms\baseline\hmm.5 config\sil.hed output\monophones1
+
+HERest -C config\config_train_baseline.hcopy -I output\phones0.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.5\macros -H hmms\baseline\hmm.5\hmmdefs -M hmms\baseline\hmm.6 output\monophones1
+
+HERest -C config\config_train_baseline.hcopy -I output\phones0.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.6\macros -H hmms\baseline\hmm.6\hmmdefs -M hmms\baseline\hmm.7 output\monophones1
+
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\config_train_baseline.hcopy -a -H hmms\baseline\hmm.7\macros -H hmms\baseline\hmm.7\hmmdefs -i output\aligned_baseline.mlf -m -t 250.0 150.0 1000.0 -y lab -I output/baseline/words_train.mlf -S config\train_features_baseline.txt output\dict output\monophones1 > log\HVite_log
+
+mkdir hmms\baseline\hmm.8
+mkdir hmms\baseline\hmm.9
+HERest -C config\config_train_baseline.hcopy -I output\aligned_baseline.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.7\macros -H hmms\baseline\hmm.7\hmmdefs -M hmms\baseline\hmm.8 output\monophones1
+HERest -C config\config_train_baseline.hcopy -I output\aligned_baseline.mlf -t 250.0 150.0 1000.0 -S config\train_features_baseline.txt -H hmms\baseline\hmm.8\macros -H hmms\baseline\hmm.8\hmmdefs -M hmms\baseline\hmm.9 output\monophones1
+
+HLEd -n output\baseline\triphones1 -l * -i output\baseline\wintri.mlf config\mktri.led output\baseline\aligned.mlf
+
+mkdir hmms\baseline\hmm.10
+
+perl perl/maketrihed.pl output/monophones1 output/baseline/triphones1
+
+move mktri.hed output/baseline/
+
+HHEd -B -H hmms\baseline\hmm.9\macros -H hmms\baseline\hmm.9\hmmdefs -M hmms\baseline\hmm.10 output\baseline\mktri.hed output\monophones1
+
+mkdir hmms\baseline\hmm.11
+mkdir hmms\baseline\hmm.12
+
+HERest -B -C config\baseline\config_train.hcopy -I output\baseline\wintri.mlf -t 250.0 150.0 1000.0 -s stats -S config\baseline\train_features.txt -H hmms\baseline\hmm.10\macros -H hmms\baseline\hmm.10\hmmdefs -M hmms\baseline\hmm.11 output/baseline/triphones1
+
+HERest -B -C config\baseline\config_train.hcopy -I output\baseline\wintri.mlf -t 250.0 150.0 1000.0 -s output\baseline\stats -S config\baseline\train_features.txt -H hmms\baseline\hmm.11\macros -H hmms\baseline\hmm.11\hmmdefs -M hmms\baseline\hmm.12 output/baseline/triphones1
+
+mkdir hmms\baseline\hmm.13
+
+HDMan -b sp -n output/baseline/fulllist -g output/baseline/global.ded output/baseline/dict-tri output\dict
+
+Copy triphone contents to fullist not including sil
+perl perl/mkclscript.prl TB 350 output/monophones1 >> output/baseline/tree.hed
+
+HHEd -B -H hmms\baseline\hmm.12\macros -H hmms\baseline\hmm.12\hmmdefs -M hmms\baseline\hmm.13 output/baseline/tree.hed output/baseline/triphones1
+
+mkdir hmms\baseline\hmm.14
+mkdir hmms\baseline\hmm.15
+
+HERest -C config\baseline\config_train.hcopy -I output\baseline\wintri.mlf -t 250.0 150.0 1000.0 -S config\baseline\train_features.txt -H hmms\baseline\hmm.13\macros -H hmms\baseline\hmm.13\hmmdefs -M hmms\baseline\hmm.14 output/baseline/tiedlist
+
+HERest -B -C config\baseline\config_train.hcopy -I output\baseline\wintri.mlf -t 250.0 150.0 1000.0 -S config\baseline\train_features.txt -H hmms\baseline\hmm.14\macros -H hmms\baseline\hmm.14\hmmdefs -M hmms\baseline\hmm.15 output/baseline/tiedlist
+
+HVite -C config\baseline\config_train.hcopy -H hmms\baseline\tiedtriphone\macros -H hmms\baseline\tiedtriphone\hmmdefs -i output\baseline\train.tri.aligned.mlf -f -o MW -a -y lab -I output\baseline\words_train.mlf -S config\baseline\train_features.txt output\dict output/baseline/tiedlist 
