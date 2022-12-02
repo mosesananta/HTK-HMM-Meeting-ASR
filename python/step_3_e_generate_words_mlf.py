@@ -9,9 +9,9 @@ nims = [
     13519196
 ]
 transcripts_dir = "data/transcripts/"
-script_tr_path = "config/script_tr_baseline.hcopy"
-script_te_path = "config/script_te_baseline.hcopy"
-output_filename = "words_train_baseline.mlf"
+script_tr_path = "config/MFCC_0_D_A_T_Z/script_tr.hcopy"
+script_te_path = "config/MFCC_0_D_A_T_Z/script_te.hcopy"
+output_filename = "output/MFCC_0_D_A_T_Z/words_test.mlf"
 valid_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
 
 with open(script_tr_path, mode="r") as file:
@@ -52,7 +52,7 @@ for nim in nims:
 
 #print(transcripts)
 lines = ["#!MLF!#"]
-for wav_filename, mfc_filename in train_pairs:
+for wav_filename, mfc_filename in test_pairs:
     lab_filename = mfc_filename.replace(".mfc", ".lab")
     lines.append("\"{}\"".format(lab_filename))
 

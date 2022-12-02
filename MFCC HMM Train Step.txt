@@ -1,0 +1,101 @@
+#Run Generate Words MLF for train and Test
+#Generate phone0 for train and test
+HLEd -l * -d output/dict -i output/MFCC_0_D_A_T_Z/phones0_train.mlf mkphones0.led output/MFCC_0_D_A_T_Z/words_train.mlf
+HLEd -l * -d output/dict -i output/MFCC_0_D_A_T_Z/phones0_test.mlf mkphones0.led output/MFCC_0_D_A_T_Z/words_test.mlf
+
+HCopy -T 1 -C config/MFCC_0_D_A_T_Z/config_feature.hcopy -S config/MFCC_0_D_A_T_Z/script_tr.hcopy
+
+HCopy -T 1 -C config/MFCC_0_D_A_T_Z/config_feature.hcopy -S config/MFCC_0_D_A_T_Z/script_te.hcopy
+
+HCompV -C config\MFCC_0_D_A_T_Z\config_train.hcopy -f 0.01 -m -S config\MFCC_0_D_A_T_Z\train_features.txt -M hmms\MFCC_0_D_A_T_Z\hmm.0 config\proto
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.0
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.1
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.2
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.3
+
+:: Tutorial - Step 3.i
+py python/step_3_i_generate_hmmdefs.py
+
+:: Tutorial - Step 3.j
+py python/step_3_j_generate_macros.py
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.0\macros -H hmms\MFCC_0_D_A_T_Z\hmm.0\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.1 output/monophones0
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.1\macros -H hmms\MFCC_0_D_A_T_Z\hmm.1\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.2 output/monophones0
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.2\macros -H hmms\MFCC_0_D_A_T_Z\hmm.2\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.3 output/monophones0
+
+Lakukan pelatihan model lagi dengan menduplikat dulu model hmm terakhir yang
+dibuat, misalnya model terlatih terakhir hmm.3, maka buat salinannya yaitu hmm.4
+dengan perubahan berikut:
+- edit hmmdefs dengan duplikat bagian "sil" menjadi "sp"
+- hapus state 2 dan 4 pada "sp" tapi biarkan center state-nya
+- edit <NUMSTATES> dari 5 jadi 3, <STATES> 3 jadi 2, dan <TRANSP> dari
+5 jadi 3
+ubah matriks di <TRANSP> dari 5x5 jadi 3x3 seperti berikut:
+0.0 1.0 0.0
+0.0 0.9 0.1
+0.0 0.0 0.0
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.5
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.6
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.7
+HHEd -H hmms\MFCC_0_D_A_T_Z\hmm.4\macros -H hmms\MFCC_0_D_A_T_Z\hmm.4\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.5 config\sil.hed output\monophones1
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.5\macros -H hmms\MFCC_0_D_A_T_Z\hmm.5\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.6 output\monophones1
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.6\macros -H hmms\MFCC_0_D_A_T_Z\hmm.6\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.7 output\monophones1
+
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\MFCC_0_D_A_T_Z\config_train.hcopy -a -H hmms\MFCC_0_D_A_T_Z\hmm.7\macros -H hmms\MFCC_0_D_A_T_Z\hmm.7\hmmdefs -i output\MFCC_0_D_A_T_Z\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I output/MFCC_0_D_A_T_Z/words_train.mlf -S config\MFCC_0_D_A_T_Z\train_features.txt output\dict output\monophones1 > log\HVite_log
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.8
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.9
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\aligned.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.7\macros -H hmms\MFCC_0_D_A_T_Z\hmm.7\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.8 output\monophones1
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\aligned.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.8\macros -H hmms\MFCC_0_D_A_T_Z\hmm.8\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.9 output\monophones1
+
+HLEd -n output\MFCC_0_D_A_T_Z\triphones1 -l * -i output\MFCC_0_D_A_T_Z\wintri.mlf config\mktri.led output\MFCC_0_D_A_T_Z\aligned.mlf
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.10
+
+perl perl/maketrihed.pl output/monophones1 output/MFCC_0_D_A_T_Z/triphones1
+
+move mktri.hed output/MFCC_0_D_A_T_Z/
+
+HHEd -B -H hmms\MFCC_0_D_A_T_Z\hmm.9\macros -H hmms\MFCC_0_D_A_T_Z\hmm.9\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.10 output\MFCC_0_D_A_T_Z\mktri.hed output\monophones1
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.11
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.12
+
+HERest -B -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\wintri.mlf -t 250.0 150.0 1000.0 -s stats -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.10\macros -H hmms\MFCC_0_D_A_T_Z\hmm.10\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.11 output/MFCC_0_D_A_T_Z/triphones1
+
+HERest -B -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\wintri.mlf -t 250.0 150.0 1000.0 -s output\MFCC_0_D_A_T_Z\stats -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.11\macros -H hmms\MFCC_0_D_A_T_Z\hmm.11\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.12 output/MFCC_0_D_A_T_Z/triphones1
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.13
+
+HDMan -b sp -n output/MFCC_0_D_A_T_Z/fulllist -g output/MFCC_0_D_A_T_Z/global.ded output/MFCC_0_D_A_T_Z/dict-tri output\dict
+
+Copy triphones1 contents to fullist not including sil
+perl perl/mkclscript.prl TB 350 output/monophones1 >> output/MFCC_0_D_A_T_Z/tree.hed
+
+Add the following content to the bottom of tree.hed file:
+TR 1
+AU "output/MFCC_0_D_A_T_Z/fulllist"
+CO "output/MFCC_0_D_A_T_Z/tiedlist"
+ST "output/MFCC_0_D_A_T_Z/trees"
+
+and to top of the tree.hed file:
+RO 200.0 output/MFCC_0_D_A_T_Z/stats
+
+HHEd -B -H hmms\MFCC_0_D_A_T_Z\hmm.12\macros -H hmms\MFCC_0_D_A_T_Z\hmm.12\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.13 output/MFCC_0_D_A_T_Z/tree.hed output/MFCC_0_D_A_T_Z/triphones1
+
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.14
+mkdir hmms\MFCC_0_D_A_T_Z\hmm.15
+
+HERest -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\wintri.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.13\macros -H hmms\MFCC_0_D_A_T_Z\hmm.13\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.14 output/MFCC_0_D_A_T_Z/tiedlist
+
+HERest -B -C config\MFCC_0_D_A_T_Z\config_train.hcopy -I output\MFCC_0_D_A_T_Z\wintri.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T_Z\train_features.txt -H hmms\MFCC_0_D_A_T_Z\hmm.14\macros -H hmms\MFCC_0_D_A_T_Z\hmm.14\hmmdefs -M hmms\MFCC_0_D_A_T_Z\hmm.15 output/MFCC_0_D_A_T_Z/tiedlist
+
+
+### DNN Section
+HVite -C config\MFCC_0_D_A_T_Z\config_train.hcopy -H hmms\MFCC_0_D_A_T_Z\tiedtriphone\macros -H hmms\MFCC_0_D_A_T_Z\tiedtriphone\hmmdefs -i output\MFCC_0_D_A_T_Z\train.tri.aligned.mlf -f -o MW -a -y lab -I output\MFCC_0_D_A_T_Z\words_train.mlf -S config\MFCC_0_D_A_T_Z\train_features.txt output\dict output/MFCC_0_D_A_T_Z/tiedlist 

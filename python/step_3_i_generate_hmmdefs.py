@@ -1,5 +1,5 @@
-base_dir = "hmms/baseline/hmm.0"
-monophones0_path = "monophones0"
+base_dir = "hmms/MFCC_0_D_A_T_Z/hmm.0"
+monophones0_path = "output/monophones0"
 
 with open("{}/proto".format(base_dir), mode="r") as file:
     data = file.read()
