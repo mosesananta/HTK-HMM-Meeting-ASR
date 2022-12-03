@@ -116,6 +116,13 @@ HVite -C config\TR120K_W300K\config_train.hcopy -H hmms\TR120K_W300K\tiedtriphon
 
 
 ## Test Result
+
+### Test Monophone
 HVite -H hmms\TR120K_W300K\monophone\macros -H hmms\TR120K_W300K\monophone\hmmdefs -S config\TR120K_W300K\test_features.txt -l mfcc_test/TR120K_W300K -i result\TR120K_W300K\result_test.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\monophones1
 
 HResults -L mfcc_test/TR120K_W300K -I output\TR120K_W300K\words_test.mlf output/monophones1 result\TR120K_W300K\result_test.mlf
+
+### Test Tiedtriphone
+HVite -H hmms\TR120K_W300K\tiedtriphone\macros -H hmms\TR120K_W300K\tiedtriphone\hmmdefs -S config\TR120K_W300K\test_features.txt -l mfcc_test/TR120K_W300K -i result\TR120K_W300K\result_test_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\TR120K_W300K\tiedlist
+
+HResults -I output\TR120K_W300K\words_test.mlf output\TR120K_W300K\tiedlist result\TR120K_W300K\result_test_tiedtriphone.mlf
