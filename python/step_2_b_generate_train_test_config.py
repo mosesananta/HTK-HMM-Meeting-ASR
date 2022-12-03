@@ -7,19 +7,19 @@ nims = [
     13519062,
     13519076, 
     13519088,
-    13519100,
+    # 13519100, not a boyz
     13519128,
     13519156,
-    13519192,
+    # 13519192, not a boyz
     13519196
 ]
 MFCC_HYPERPARAMETER=["MFCC_0_D_A_Z", "MFCC_D_A_E_Z", "MFCC_0_D_Z", "MFCC_0_D_A_T_Z", "MFCC_D_A_Z"]
-curr_mfcc = MFCC_HYPERPARAMETER[4]
+experiment_name = "baseline"
 audio_list_dir = "data/audios/"
-audio_mfcc_train_dir = f"mfcc_train/{curr_mfcc}/"
-audio_mfcc_test_dir = f"mfcc_test/{curr_mfcc}"
-train_map_config_path = f"config/script_tr_{curr_mfcc}.hcopy"
-test_map_config_path = f"config/script_te_{curr_mfcc}.hcopy"
+audio_mfcc_train_dir = f"mfcc_train/{experiment_name}/"
+audio_mfcc_test_dir = f"mfcc_test/{experiment_name}/"
+train_map_config_path = f"config/{experiment_name}/script_tr.hcopy"
+test_map_config_path = f"config/{experiment_name}/script_te.hcopy"
 ignored_audio_filename_list_path = "data/ignored_audios.txt"
 
 audio_filename_list = []

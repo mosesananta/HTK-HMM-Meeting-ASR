@@ -1,5 +1,3 @@
-SENT-END   [] sil
-SENT-START [] sil
 acara           a c a r a
 acaranya        a c a r a ny a
 ada             a d a
@@ -858,7 +856,6 @@ siap            s i a p
 siapa           s i a p a
 signifikan      s i g n i f i k a n
 sih             s i h
-silence         sil
 singkat         s i ng k a t
 sisa            s i s a
 sisi            s i s i
@@ -975,4 +972,3 @@ yaitu           y ai t u
 yakin           y a k i n
 yakni           y a k n i
 yang            y a ng
-

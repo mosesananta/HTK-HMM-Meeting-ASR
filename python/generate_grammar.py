@@ -10,9 +10,10 @@ if lines[-1] == "": # Last line is empty line
     lines = lines[:-1]
 
 output_lines = []
-output_lines += [line.split("\t")[0] for line in lines]
-
-
+for line in lines:
+    modified_line = line.replace("\t", " ")
+    output_line = modified_line.split(" ")[0]
+    output_lines.append(output_line)
 
 with open(grammar_path, mode="w") as file:
     file.write('$word = ')

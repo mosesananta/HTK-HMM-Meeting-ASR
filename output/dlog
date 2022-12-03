@@ -4,71 +4,60 @@ Missing Words
 -------------
 SENT-END
 SENT-START
-ada
-agak
-dua
 facebook
 item
-kak
-lima
 manajer
 mengingat
 pak
-persen
-puluh
-temen
-tiga
 
 Dictionary Usage Statistics
 ---------------------------
   Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
- lexicon.lex      1329       1329       1336       1336
-        dict      1329       1329       1336       1335
+ lexicon.lex       969        969        974        974
+        dict       969        969        974        974
 
-1345 words required, 16 missing
+976 words required, 7 missing
 
 New Phone Usage Counts
 ---------------------
-  1. a     :  1692
-  2. h     :   192
-  3. b     :   248
-  4. i     :   698
-  5. s     :   442
-  6. c     :    50
-  7. r     :   407
-  8. ny    :   136
-  9. d     :   261
- 10. l     :   321
- 11. p     :   318
- 12. u     :   420
- 13. n     :   686
- 14. m     :   476
- 15. tr    :     6
- 16. o     :   183
- 17. g     :   113
- 18. k     :   478
- 19. e     :   830
- 20. j     :   107
- 21. kh    :    10
- 22. t     :   452
- 23. v     :    18
- 24. f     :    34
- 25. ng    :   212
- 26. ei    :     2
- 27. ai    :    55
- 28. y     :    36
- 29. au    :    16
- 30. w     :    31
- 31. rd    :     1
- 32. gr    :     6
- 33. pr    :    20
- 34. fr    :     1
- 35. z     :     5
- 36. kr    :     2
- 37. ks    :     1
- 38. oi    :     1
- 39. rt    :     1
- 40. sy    :     3
- 41. ls    :     2
+  1. a     :  1235
+  2. c     :    34
+  3. r     :   307
+  4. ny    :    82
+  5. d     :   190
+  6. l     :   237
+  7. h     :   144
+  8. p     :   242
+  9. u     :   316
+ 10. n     :   499
+ 11. m     :   378
+ 12. i     :   509
+ 13. s     :   321
+ 14. tr    :     6
+ 15. o     :   141
+ 16. g     :    75
+ 17. k     :   357
+ 18. e     :   631
+ 19. j     :    73
+ 20. kh    :     9
+ 21. t     :   338
+ 22. v     :    13
+ 23. b     :   193
+ 24. ng    :   147
+ 25. y     :    25
+ 26. au    :    13
+ 27. w     :    27
+ 28. ai    :    41
+ 29. f     :    23
+ 30. rd    :     1
+ 31. pr    :    17
+ 32. fr    :     1
+ 33. gr    :     3
+ 34. z     :     4
+ 35. kr    :     2
+ 36. ks    :     1
+ 37. rt    :     1
+ 38. sy    :     3
+ 39. ls    :     2
 
 Dictionary output/dict created
