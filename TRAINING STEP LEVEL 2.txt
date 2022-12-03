@@ -1,0 +1,935 @@
+NOTES: Whenever life gets you down, just remember the magic word: mkdir
+
+#Run Step 3E Generate Words MLF for train and Test (Python)
+#Rename folder destination (script and output) acccording to current test
+#Run Step 3E 2 times, first with for loop train_pairs (line 55) and words_train (line 14), second with test_pairs
+
+HLEd -l * -d output/dict -i output/TR120K_W300K/phones0_train.mlf mkphones0.led output/TR120K_W300K/words_train.mlf
+HLEd -l * -d output/dict -i output/TR120K_W300K/phones0_test.mlf mkphones0.led output/TR120K_W300K/words_test.mlf
+
+#Make config_feature and config_train file
+#mkdir mfcc_train
+HCopy -T 1 -C config/TR120K_W300K/config_feature.hcopy -S config/TR120K_W300K/script_tr.hcopy
+#mkdir mfcc_test
+HCopy -T 1 -C config/TR120K_W300K/config_feature.hcopy -S config/TR120K_W300K/script_te.hcopy
+
+mkdir hmms\TR120K_W300K\hmm.0
+mkdir hmms\TR120K_W300K\hmm.1
+mkdir hmms\TR120K_W300K\hmm.2
+mkdir hmms\TR120K_W300K\hmm.3
+mkdir hmms\TR120K_W300K\hmm.4
+mkdir hmms\TR120K_W300K\hmm.5
+mkdir hmms\TR120K_W300K\hmm.6
+mkdir hmms\TR120K_W300K\hmm.7
+mkdir hmms\TR120K_W300K\hmm.8
+mkdir hmms\TR120K_W300K\hmm.9
+mkdir hmms\TR120K_W300K\hmm.10
+mkdir hmms\TR120K_W300K\hmm.11
+mkdir hmms\TR120K_W300K\hmm.12
+mkdir hmms\TR120K_W300K\hmm.13
+mkdir hmms\TR120K_W300K\hmm.14
+mkdir hmms\TR120K_W300K\hmm.15
+mkdir hmms\TR120K_W300K\hmm.16
+mkdir hmms\TR120K_W300K\hmm.17
+mkdir hmms\TR120K_W300K\hmm.18
+mkdir hmms\TR120K_W300K\hmm.19
+mkdir hmms\TR120K_W300K\hmm.20
+mkdir hmms\TR120K_W300K\hmm.21
+mkdir hmms\TR120K_W300K\hmm.22
+mkdir hmms\TR120K_W300K\hmm.23
+mkdir hmms\TR120K_W300K\hmm.24
+mkdir hmms\TR120K_W300K\hmm.25
+mkdir hmms\TR120K_W300K\hmm.26
+mkdir hmms\TR120K_W300K\hmm.27
+mkdir hmms\TR120K_W300K\hmm.28
+mkdir hmms\TR120K_W300K\hmm.29
+mkdir hmms\TR120K_W300K\hmm.30
+mkdir hmms\TR120K_W300K\hmm.31
+mkdir hmms\TR120K_W300K\hmm.32
+mkdir hmms\TR120K_W300K\hmm.33
+mkdir hmms\TR120K_W300K\hmm.34
+mkdir hmms\TR120K_W300K\hmm.35
+mkdir hmms\TR120K_W300K\hmm.36
+mkdir hmms\TR120K_W300K\hmm.37
+mkdir hmms\TR120K_W300K\hmm.38
+mkdir hmms\TR120K_W300K\hmm.39
+mkdir hmms\TR120K_W300K\hmm.40
+mkdir hmms\TR120K_W300K\hmm.41
+mkdir hmms\TR120K_W300K\hmm.42
+mkdir hmms\TR120K_W300K\hmm.43
+mkdir hmms\TR120K_W300K\hmm.44
+mkdir hmms\TR120K_W300K\hmm.45
+mkdir hmms\TR120K_W300K\hmm.46
+mkdir hmms\TR120K_W300K\hmm.47
+mkdir hmms\TR120K_W300K\hmm.48
+mkdir hmms\TR120K_W300K\hmm.49
+mkdir hmms\TR120K_W300K\hmm.50
+mkdir hmms\TR120K_W300K\hmm.51
+mkdir hmms\TR120K_W300K\hmm.52
+mkdir hmms\TR120K_W300K\hmm.53
+mkdir hmms\TR120K_W300K\hmm.54
+mkdir hmms\TR120K_W300K\hmm.55
+mkdir hmms\TR120K_W300K\hmm.56
+mkdir hmms\TR120K_W300K\hmm.57
+mkdir hmms\TR120K_W300K\hmm.58
+mkdir hmms\TR120K_W300K\hmm.59
+mkdir hmms\TR120K_W300K\hmm.60
+mkdir hmms\TR120K_W300K\hmm.61
+mkdir hmms\TR120K_W300K\hmm.62
+mkdir hmms\TR120K_W300K\hmm.63
+mkdir hmms\TR120K_W300K\hmm.64
+mkdir hmms\TR120K_W300K\hmm.65
+mkdir hmms\TR120K_W300K\hmm.66
+mkdir hmms\TR120K_W300K\hmm.67
+mkdir hmms\TR120K_W300K\hmm.68
+mkdir hmms\TR120K_W300K\hmm.69
+mkdir hmms\TR120K_W300K\hmm.70
+mkdir hmms\TR120K_W300K\hmm.71
+mkdir hmms\TR120K_W300K\hmm.72
+mkdir hmms\TR120K_W300K\hmm.73
+mkdir hmms\TR120K_W300K\hmm.74
+mkdir hmms\TR120K_W300K\hmm.75
+mkdir hmms\TR120K_W300K\hmm.76
+mkdir hmms\TR120K_W300K\hmm.77
+mkdir hmms\TR120K_W300K\hmm.78
+mkdir hmms\TR120K_W300K\hmm.79
+mkdir hmms\TR120K_W300K\hmm.80
+mkdir hmms\TR120K_W300K\hmm.81
+mkdir hmms\TR120K_W300K\hmm.82
+mkdir hmms\TR120K_W300K\hmm.83
+mkdir hmms\TR120K_W300K\hmm.84
+mkdir hmms\TR120K_W300K\hmm.85
+mkdir hmms\TR120K_W300K\hmm.86
+mkdir hmms\TR120K_W300K\hmm.87
+mkdir hmms\TR120K_W300K\hmm.88
+mkdir hmms\TR120K_W300K\hmm.89
+mkdir hmms\TR120K_W300K\hmm.90
+mkdir hmms\TR120K_W300K\hmm.91
+mkdir hmms\TR120K_W300K\hmm.92
+mkdir hmms\TR120K_W300K\hmm.93
+mkdir hmms\TR120K_W300K\hmm.94
+mkdir hmms\TR120K_W300K\hmm.95
+mkdir hmms\TR120K_W300K\hmm.96
+mkdir hmms\TR120K_W300K\hmm.97
+mkdir hmms\TR120K_W300K\hmm.98
+mkdir hmms\TR120K_W300K\hmm.99
+mkdir hmms\TR120K_W300K\hmm.100
+mkdir hmms\TR120K_W300K\hmm.101
+mkdir hmms\TR120K_W300K\hmm.102
+mkdir hmms\TR120K_W300K\hmm.103
+mkdir hmms\TR120K_W300K\hmm.104
+mkdir hmms\TR120K_W300K\hmm.105
+mkdir hmms\TR120K_W300K\hmm.106
+mkdir hmms\TR120K_W300K\hmm.107
+mkdir hmms\TR120K_W300K\hmm.108
+mkdir hmms\TR120K_W300K\hmm.109
+mkdir hmms\TR120K_W300K\hmm.110
+mkdir hmms\TR120K_W300K\hmm.111
+mkdir hmms\TR120K_W300K\hmm.112
+mkdir hmms\TR120K_W300K\hmm.113
+mkdir hmms\TR120K_W300K\hmm.114
+mkdir hmms\TR120K_W300K\hmm.115
+mkdir hmms\TR120K_W300K\hmm.116
+mkdir hmms\TR120K_W300K\hmm.117
+mkdir hmms\TR120K_W300K\hmm.118
+mkdir hmms\TR120K_W300K\hmm.119
+mkdir hmms\TR120K_W300K\hmm.120
+mkdir hmms\TR120K_W300K\hmm.121
+mkdir hmms\TR120K_W300K\hmm.122
+mkdir hmms\TR120K_W300K\hmm.123
+mkdir hmms\TR120K_W300K\hmm.124
+mkdir hmms\TR120K_W300K\hmm.125
+mkdir hmms\TR120K_W300K\hmm.126
+mkdir hmms\TR120K_W300K\hmm.127
+mkdir hmms\TR120K_W300K\hmm.128
+mkdir hmms\TR120K_W300K\hmm.129
+mkdir hmms\TR120K_W300K\hmm.130
+mkdir hmms\TR120K_W300K\hmm.131
+mkdir hmms\TR120K_W300K\hmm.132
+mkdir hmms\TR120K_W300K\hmm.133
+mkdir hmms\TR120K_W300K\hmm.134
+mkdir hmms\TR120K_W300K\hmm.135
+mkdir hmms\TR120K_W300K\hmm.136
+mkdir hmms\TR120K_W300K\hmm.137
+mkdir hmms\TR120K_W300K\hmm.138
+mkdir hmms\TR120K_W300K\hmm.139
+mkdir hmms\TR120K_W300K\hmm.140
+mkdir hmms\TR120K_W300K\hmm.141
+mkdir hmms\TR120K_W300K\hmm.142
+mkdir hmms\TR120K_W300K\hmm.143
+mkdir hmms\TR120K_W300K\hmm.144
+mkdir hmms\TR120K_W300K\hmm.145
+mkdir hmms\TR120K_W300K\hmm.146
+mkdir hmms\TR120K_W300K\hmm.147
+mkdir hmms\TR120K_W300K\hmm.148
+mkdir hmms\TR120K_W300K\hmm.149
+mkdir hmms\TR120K_W300K\hmm.150
+mkdir hmms\TR120K_W300K\hmm.151
+mkdir hmms\TR120K_W300K\hmm.152
+mkdir hmms\TR120K_W300K\hmm.153
+mkdir hmms\TR120K_W300K\hmm.154
+mkdir hmms\TR120K_W300K\hmm.155
+mkdir hmms\TR120K_W300K\hmm.156
+mkdir hmms\TR120K_W300K\hmm.157
+mkdir hmms\TR120K_W300K\hmm.158
+mkdir hmms\TR120K_W300K\hmm.159
+mkdir hmms\TR120K_W300K\hmm.160
+mkdir hmms\TR120K_W300K\hmm.161
+mkdir hmms\TR120K_W300K\hmm.162
+mkdir hmms\TR120K_W300K\hmm.163
+mkdir hmms\TR120K_W300K\hmm.164
+mkdir hmms\TR120K_W300K\hmm.165
+mkdir hmms\TR120K_W300K\hmm.166
+mkdir hmms\TR120K_W300K\hmm.167
+mkdir hmms\TR120K_W300K\hmm.168
+mkdir hmms\TR120K_W300K\hmm.169
+mkdir hmms\TR120K_W300K\hmm.170
+mkdir hmms\TR120K_W300K\hmm.171
+mkdir hmms\TR120K_W300K\hmm.172
+mkdir hmms\TR120K_W300K\hmm.173
+mkdir hmms\TR120K_W300K\hmm.174
+mkdir hmms\TR120K_W300K\hmm.175
+mkdir hmms\TR120K_W300K\hmm.176
+mkdir hmms\TR120K_W300K\hmm.177
+mkdir hmms\TR120K_W300K\hmm.178
+mkdir hmms\TR120K_W300K\hmm.179
+mkdir hmms\TR120K_W300K\hmm.180
+mkdir hmms\TR120K_W300K\hmm.181
+mkdir hmms\TR120K_W300K\hmm.182
+mkdir hmms\TR120K_W300K\hmm.183
+mkdir hmms\TR120K_W300K\hmm.184
+mkdir hmms\TR120K_W300K\hmm.185
+mkdir hmms\TR120K_W300K\hmm.186
+mkdir hmms\TR120K_W300K\hmm.187
+mkdir hmms\TR120K_W300K\hmm.188
+mkdir hmms\TR120K_W300K\hmm.189
+mkdir hmms\TR120K_W300K\hmm.190
+mkdir hmms\TR120K_W300K\hmm.191
+mkdir hmms\TR120K_W300K\hmm.192
+mkdir hmms\TR120K_W300K\hmm.193
+mkdir hmms\TR120K_W300K\hmm.194
+mkdir hmms\TR120K_W300K\hmm.195
+mkdir hmms\TR120K_W300K\hmm.196
+mkdir hmms\TR120K_W300K\hmm.197
+mkdir hmms\TR120K_W300K\hmm.198
+mkdir hmms\TR120K_W300K\hmm.199
+mkdir hmms\TR120K_W300K\hmm.200
+mkdir hmms\TR120K_W300K\hmm.201
+mkdir hmms\TR120K_W300K\hmm.202
+mkdir hmms\TR120K_W300K\hmm.203
+mkdir hmms\TR120K_W300K\hmm.204
+mkdir hmms\TR120K_W300K\hmm.205
+mkdir hmms\TR120K_W300K\hmm.206
+mkdir hmms\TR120K_W300K\hmm.207
+mkdir hmms\TR120K_W300K\hmm.208
+mkdir hmms\TR120K_W300K\hmm.209
+mkdir hmms\TR120K_W300K\hmm.210
+mkdir hmms\TR120K_W300K\hmm.211
+mkdir hmms\TR120K_W300K\hmm.212
+mkdir hmms\TR120K_W300K\hmm.213
+mkdir hmms\TR120K_W300K\hmm.214
+mkdir hmms\TR120K_W300K\hmm.215
+mkdir hmms\TR120K_W300K\hmm.216
+mkdir hmms\TR120K_W300K\hmm.217
+mkdir hmms\TR120K_W300K\hmm.218
+mkdir hmms\TR120K_W300K\hmm.219
+mkdir hmms\TR120K_W300K\hmm.220
+mkdir hmms\TR120K_W300K\hmm.221
+mkdir hmms\TR120K_W300K\hmm.222
+mkdir hmms\TR120K_W300K\hmm.223
+mkdir hmms\TR120K_W300K\hmm.224
+mkdir hmms\TR120K_W300K\hmm.225
+mkdir hmms\TR120K_W300K\hmm.226
+mkdir hmms\TR120K_W300K\hmm.227
+mkdir hmms\TR120K_W300K\hmm.228
+mkdir hmms\TR120K_W300K\hmm.229
+mkdir hmms\TR120K_W300K\hmm.230
+mkdir hmms\TR120K_W300K\hmm.231
+mkdir hmms\TR120K_W300K\hmm.232
+mkdir hmms\TR120K_W300K\hmm.233
+mkdir hmms\TR120K_W300K\hmm.234
+mkdir hmms\TR120K_W300K\hmm.235
+mkdir hmms\TR120K_W300K\hmm.236
+mkdir hmms\TR120K_W300K\hmm.237
+mkdir hmms\TR120K_W300K\hmm.238
+mkdir hmms\TR120K_W300K\hmm.239
+mkdir hmms\TR120K_W300K\hmm.240
+mkdir hmms\TR120K_W300K\hmm.241
+mkdir hmms\TR120K_W300K\hmm.242
+mkdir hmms\TR120K_W300K\hmm.243
+mkdir hmms\TR120K_W300K\hmm.244
+mkdir hmms\TR120K_W300K\hmm.245
+mkdir hmms\TR120K_W300K\hmm.246
+mkdir hmms\TR120K_W300K\hmm.247
+mkdir hmms\TR120K_W300K\hmm.248
+mkdir hmms\TR120K_W300K\hmm.249
+mkdir hmms\TR120K_W300K\hmm.250
+mkdir hmms\TR120K_W300K\hmm.251
+mkdir hmms\TR120K_W300K\hmm.252
+mkdir hmms\TR120K_W300K\hmm.253
+mkdir hmms\TR120K_W300K\hmm.254
+mkdir hmms\TR120K_W300K\hmm.255
+mkdir hmms\TR120K_W300K\hmm.256
+mkdir hmms\TR120K_W300K\hmm.257
+mkdir hmms\TR120K_W300K\hmm.258
+mkdir hmms\TR120K_W300K\hmm.259
+mkdir hmms\TR120K_W300K\hmm.260
+mkdir hmms\TR120K_W300K\hmm.261
+mkdir hmms\TR120K_W300K\hmm.262
+mkdir hmms\TR120K_W300K\hmm.263
+mkdir hmms\TR120K_W300K\hmm.264
+mkdir hmms\TR120K_W300K\hmm.265
+mkdir hmms\TR120K_W300K\hmm.266
+mkdir hmms\TR120K_W300K\hmm.267
+mkdir hmms\TR120K_W300K\hmm.268
+mkdir hmms\TR120K_W300K\hmm.269
+mkdir hmms\TR120K_W300K\hmm.270
+mkdir hmms\TR120K_W300K\hmm.271
+mkdir hmms\TR120K_W300K\hmm.272
+mkdir hmms\TR120K_W300K\hmm.273
+mkdir hmms\TR120K_W300K\hmm.274
+mkdir hmms\TR120K_W300K\hmm.275
+mkdir hmms\TR120K_W300K\hmm.276
+mkdir hmms\TR120K_W300K\hmm.277
+mkdir hmms\TR120K_W300K\hmm.278
+mkdir hmms\TR120K_W300K\hmm.279
+mkdir hmms\TR120K_W300K\hmm.280
+mkdir hmms\TR120K_W300K\hmm.281
+mkdir hmms\TR120K_W300K\hmm.282
+mkdir hmms\TR120K_W300K\hmm.283
+mkdir hmms\TR120K_W300K\hmm.284
+mkdir hmms\TR120K_W300K\hmm.285
+mkdir hmms\TR120K_W300K\hmm.286
+mkdir hmms\TR120K_W300K\hmm.287
+mkdir hmms\TR120K_W300K\hmm.288
+mkdir hmms\TR120K_W300K\hmm.289
+mkdir hmms\TR120K_W300K\hmm.290
+mkdir hmms\TR120K_W300K\hmm.291
+mkdir hmms\TR120K_W300K\hmm.292
+mkdir hmms\TR120K_W300K\hmm.293
+mkdir hmms\TR120K_W300K\hmm.294
+mkdir hmms\TR120K_W300K\hmm.295
+mkdir hmms\TR120K_W300K\hmm.296
+mkdir hmms\TR120K_W300K\hmm.297
+mkdir hmms\TR120K_W300K\hmm.298
+mkdir hmms\TR120K_W300K\hmm.299
+mkdir hmms\TR120K_W300K\hmm.300
+mkdir hmms\TR120K_W300K\hmm.301
+mkdir hmms\TR120K_W300K\hmm.302
+mkdir hmms\TR120K_W300K\hmm.303
+mkdir hmms\TR120K_W300K\hmm.304
+mkdir hmms\TR120K_W300K\hmm.305
+mkdir hmms\TR120K_W300K\hmm.306
+mkdir hmms\TR120K_W300K\hmm.307
+mkdir hmms\TR120K_W300K\hmm.308
+mkdir hmms\TR120K_W300K\hmm.309
+mkdir hmms\TR120K_W300K\hmm.310
+mkdir hmms\TR120K_W300K\hmm.311
+mkdir hmms\TR120K_W300K\hmm.312
+mkdir hmms\TR120K_W300K\hmm.313
+mkdir hmms\TR120K_W300K\hmm.314
+mkdir hmms\TR120K_W300K\hmm.315
+mkdir hmms\TR120K_W300K\hmm.316
+mkdir hmms\TR120K_W300K\hmm.317
+mkdir hmms\TR120K_W300K\hmm.318
+mkdir hmms\TR120K_W300K\hmm.319
+mkdir hmms\TR120K_W300K\hmm.320
+mkdir hmms\TR120K_W300K\hmm.321
+mkdir hmms\TR120K_W300K\hmm.322
+mkdir hmms\TR120K_W300K\hmm.323
+mkdir hmms\TR120K_W300K\hmm.324
+mkdir hmms\TR120K_W300K\hmm.325
+mkdir hmms\TR120K_W300K\hmm.326
+mkdir hmms\TR120K_W300K\hmm.327
+mkdir hmms\TR120K_W300K\hmm.328
+mkdir hmms\TR120K_W300K\hmm.329
+mkdir hmms\TR120K_W300K\hmm.330
+mkdir hmms\TR120K_W300K\hmm.331
+mkdir hmms\TR120K_W300K\hmm.332
+mkdir hmms\TR120K_W300K\hmm.333
+mkdir hmms\TR120K_W300K\hmm.334
+mkdir hmms\TR120K_W300K\hmm.335
+mkdir hmms\TR120K_W300K\hmm.336
+mkdir hmms\TR120K_W300K\hmm.337
+mkdir hmms\TR120K_W300K\hmm.338
+mkdir hmms\TR120K_W300K\hmm.339
+mkdir hmms\TR120K_W300K\hmm.340
+mkdir hmms\TR120K_W300K\hmm.341
+mkdir hmms\TR120K_W300K\hmm.342
+mkdir hmms\TR120K_W300K\hmm.343
+mkdir hmms\TR120K_W300K\hmm.344
+mkdir hmms\TR120K_W300K\hmm.345
+mkdir hmms\TR120K_W300K\hmm.346
+mkdir hmms\TR120K_W300K\hmm.347
+mkdir hmms\TR120K_W300K\hmm.348
+mkdir hmms\TR120K_W300K\hmm.349
+mkdir hmms\TR120K_W300K\hmm.350
+mkdir hmms\TR120K_W300K\hmm.351
+mkdir hmms\TR120K_W300K\hmm.352
+mkdir hmms\TR120K_W300K\hmm.353
+mkdir hmms\TR120K_W300K\hmm.354
+mkdir hmms\TR120K_W300K\hmm.355
+mkdir hmms\TR120K_W300K\hmm.356
+mkdir hmms\TR120K_W300K\hmm.357
+mkdir hmms\TR120K_W300K\hmm.358
+mkdir hmms\TR120K_W300K\hmm.359
+mkdir hmms\TR120K_W300K\hmm.360
+mkdir hmms\TR120K_W300K\hmm.361
+mkdir hmms\TR120K_W300K\hmm.362
+mkdir hmms\TR120K_W300K\hmm.363
+mkdir hmms\TR120K_W300K\hmm.364
+mkdir hmms\TR120K_W300K\hmm.365
+mkdir hmms\TR120K_W300K\hmm.366
+mkdir hmms\TR120K_W300K\hmm.367
+mkdir hmms\TR120K_W300K\hmm.368
+mkdir hmms\TR120K_W300K\hmm.369
+mkdir hmms\TR120K_W300K\hmm.370
+mkdir hmms\TR120K_W300K\hmm.371
+mkdir hmms\TR120K_W300K\hmm.372
+mkdir hmms\TR120K_W300K\hmm.373
+mkdir hmms\TR120K_W300K\hmm.374
+mkdir hmms\TR120K_W300K\hmm.375
+mkdir hmms\TR120K_W300K\hmm.376
+mkdir hmms\TR120K_W300K\hmm.377
+mkdir hmms\TR120K_W300K\hmm.378
+mkdir hmms\TR120K_W300K\hmm.379
+mkdir hmms\TR120K_W300K\hmm.380
+mkdir hmms\TR120K_W300K\hmm.381
+mkdir hmms\TR120K_W300K\hmm.382
+mkdir hmms\TR120K_W300K\hmm.383
+mkdir hmms\TR120K_W300K\hmm.384
+mkdir hmms\TR120K_W300K\hmm.385
+mkdir hmms\TR120K_W300K\hmm.386
+mkdir hmms\TR120K_W300K\hmm.387
+mkdir hmms\TR120K_W300K\hmm.388
+mkdir hmms\TR120K_W300K\hmm.389
+mkdir hmms\TR120K_W300K\hmm.390
+mkdir hmms\TR120K_W300K\hmm.391
+mkdir hmms\TR120K_W300K\hmm.392
+mkdir hmms\TR120K_W300K\hmm.393
+mkdir hmms\TR120K_W300K\hmm.394
+mkdir hmms\TR120K_W300K\hmm.395
+mkdir hmms\TR120K_W300K\hmm.396
+mkdir hmms\TR120K_W300K\hmm.397
+mkdir hmms\TR120K_W300K\hmm.398
+mkdir hmms\TR120K_W300K\hmm.399
+mkdir hmms\TR120K_W300K\hmm.400
+mkdir hmms\TR120K_W300K\hmm.401
+mkdir hmms\TR120K_W300K\hmm.402
+mkdir hmms\TR120K_W300K\hmm.403
+mkdir hmms\TR120K_W300K\hmm.404
+mkdir hmms\TR120K_W300K\hmm.405
+mkdir hmms\TR120K_W300K\hmm.406
+mkdir hmms\TR120K_W300K\hmm.407
+mkdir hmms\TR120K_W300K\hmm.408
+mkdir hmms\TR120K_W300K\hmm.409
+mkdir hmms\TR120K_W300K\hmm.410
+mkdir hmms\TR120K_W300K\hmm.411
+mkdir hmms\TR120K_W300K\hmm.412
+mkdir hmms\TR120K_W300K\hmm.413
+mkdir hmms\TR120K_W300K\hmm.414
+mkdir hmms\TR120K_W300K\hmm.415
+mkdir hmms\TR120K_W300K\hmm.416
+mkdir hmms\TR120K_W300K\hmm.417
+mkdir hmms\TR120K_W300K\hmm.418
+mkdir hmms\TR120K_W300K\hmm.419
+mkdir hmms\TR120K_W300K\hmm.420
+
+#Make proto (name must be proto, error otherwise, please try to backup available proto)
+HCompV -C config\TR120K_W300K\config_train.hcopy -f 0.01 -m -S config\TR120K_W300K\train_features.txt -M hmms\TR120K_W300K\hmm.0 config\proto
+
+
+:: Tutorial - Step 3.i
+#Change base_dir
+py python/step_3_i_generate_hmmdefs.py
+
+:: Tutorial - Step 3.j
+#Change base_dir, change MFCC feature if needed" according to experiment and Vecsize
+py python/step_3_j_generate_macros.py
+
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.0\macros -H hmms\TR120K_W300K\hmm.0\hmmdefs -M hmms\TR120K_W300K\hmm.1 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.1\macros -H hmms\TR120K_W300K\hmm.1\hmmdefs -M hmms\TR120K_W300K\hmm.2 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.2\macros -H hmms\TR120K_W300K\hmm.2\hmmdefs -M hmms\TR120K_W300K\hmm.3 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.3\macros -H hmms\TR120K_W300K\hmm.3\hmmdefs -M hmms\TR120K_W300K\hmm.4 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.4\macros -H hmms\TR120K_W300K\hmm.4\hmmdefs -M hmms\TR120K_W300K\hmm.5 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.5\macros -H hmms\TR120K_W300K\hmm.5\hmmdefs -M hmms\TR120K_W300K\hmm.6 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.6\macros -H hmms\TR120K_W300K\hmm.6\hmmdefs -M hmms\TR120K_W300K\hmm.7 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.7\macros -H hmms\TR120K_W300K\hmm.7\hmmdefs -M hmms\TR120K_W300K\hmm.8 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.8\macros -H hmms\TR120K_W300K\hmm.8\hmmdefs -M hmms\TR120K_W300K\hmm.9 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.9\macros -H hmms\TR120K_W300K\hmm.9\hmmdefs -M hmms\TR120K_W300K\hmm.10 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.10\macros -H hmms\TR120K_W300K\hmm.10\hmmdefs -M hmms\TR120K_W300K\hmm.11 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.11\macros -H hmms\TR120K_W300K\hmm.11\hmmdefs -M hmms\TR120K_W300K\hmm.12 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.12\macros -H hmms\TR120K_W300K\hmm.12\hmmdefs -M hmms\TR120K_W300K\hmm.13 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.13\macros -H hmms\TR120K_W300K\hmm.13\hmmdefs -M hmms\TR120K_W300K\hmm.14 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.14\macros -H hmms\TR120K_W300K\hmm.14\hmmdefs -M hmms\TR120K_W300K\hmm.15 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.15\macros -H hmms\TR120K_W300K\hmm.15\hmmdefs -M hmms\TR120K_W300K\hmm.16 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.16\macros -H hmms\TR120K_W300K\hmm.16\hmmdefs -M hmms\TR120K_W300K\hmm.17 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.17\macros -H hmms\TR120K_W300K\hmm.17\hmmdefs -M hmms\TR120K_W300K\hmm.18 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.18\macros -H hmms\TR120K_W300K\hmm.18\hmmdefs -M hmms\TR120K_W300K\hmm.19 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.19\macros -H hmms\TR120K_W300K\hmm.19\hmmdefs -M hmms\TR120K_W300K\hmm.20 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.20\macros -H hmms\TR120K_W300K\hmm.20\hmmdefs -M hmms\TR120K_W300K\hmm.21 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.21\macros -H hmms\TR120K_W300K\hmm.21\hmmdefs -M hmms\TR120K_W300K\hmm.22 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.22\macros -H hmms\TR120K_W300K\hmm.22\hmmdefs -M hmms\TR120K_W300K\hmm.23 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.23\macros -H hmms\TR120K_W300K\hmm.23\hmmdefs -M hmms\TR120K_W300K\hmm.24 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.24\macros -H hmms\TR120K_W300K\hmm.24\hmmdefs -M hmms\TR120K_W300K\hmm.25 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.25\macros -H hmms\TR120K_W300K\hmm.25\hmmdefs -M hmms\TR120K_W300K\hmm.26 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.26\macros -H hmms\TR120K_W300K\hmm.26\hmmdefs -M hmms\TR120K_W300K\hmm.27 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.27\macros -H hmms\TR120K_W300K\hmm.27\hmmdefs -M hmms\TR120K_W300K\hmm.28 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.28\macros -H hmms\TR120K_W300K\hmm.28\hmmdefs -M hmms\TR120K_W300K\hmm.29 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.29\macros -H hmms\TR120K_W300K\hmm.29\hmmdefs -M hmms\TR120K_W300K\hmm.30 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.30\macros -H hmms\TR120K_W300K\hmm.30\hmmdefs -M hmms\TR120K_W300K\hmm.31 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.31\macros -H hmms\TR120K_W300K\hmm.31\hmmdefs -M hmms\TR120K_W300K\hmm.32 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.32\macros -H hmms\TR120K_W300K\hmm.32\hmmdefs -M hmms\TR120K_W300K\hmm.33 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.33\macros -H hmms\TR120K_W300K\hmm.33\hmmdefs -M hmms\TR120K_W300K\hmm.34 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.34\macros -H hmms\TR120K_W300K\hmm.34\hmmdefs -M hmms\TR120K_W300K\hmm.35 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.35\macros -H hmms\TR120K_W300K\hmm.35\hmmdefs -M hmms\TR120K_W300K\hmm.36 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.36\macros -H hmms\TR120K_W300K\hmm.36\hmmdefs -M hmms\TR120K_W300K\hmm.37 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.37\macros -H hmms\TR120K_W300K\hmm.37\hmmdefs -M hmms\TR120K_W300K\hmm.38 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.38\macros -H hmms\TR120K_W300K\hmm.38\hmmdefs -M hmms\TR120K_W300K\hmm.39 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.39\macros -H hmms\TR120K_W300K\hmm.39\hmmdefs -M hmms\TR120K_W300K\hmm.40 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.40\macros -H hmms\TR120K_W300K\hmm.40\hmmdefs -M hmms\TR120K_W300K\hmm.41 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.41\macros -H hmms\TR120K_W300K\hmm.41\hmmdefs -M hmms\TR120K_W300K\hmm.42 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.42\macros -H hmms\TR120K_W300K\hmm.42\hmmdefs -M hmms\TR120K_W300K\hmm.43 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.43\macros -H hmms\TR120K_W300K\hmm.43\hmmdefs -M hmms\TR120K_W300K\hmm.44 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.44\macros -H hmms\TR120K_W300K\hmm.44\hmmdefs -M hmms\TR120K_W300K\hmm.45 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.45\macros -H hmms\TR120K_W300K\hmm.45\hmmdefs -M hmms\TR120K_W300K\hmm.46 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.46\macros -H hmms\TR120K_W300K\hmm.46\hmmdefs -M hmms\TR120K_W300K\hmm.47 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.47\macros -H hmms\TR120K_W300K\hmm.47\hmmdefs -M hmms\TR120K_W300K\hmm.48 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.48\macros -H hmms\TR120K_W300K\hmm.48\hmmdefs -M hmms\TR120K_W300K\hmm.49 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.49\macros -H hmms\TR120K_W300K\hmm.49\hmmdefs -M hmms\TR120K_W300K\hmm.50 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.50\macros -H hmms\TR120K_W300K\hmm.50\hmmdefs -M hmms\TR120K_W300K\hmm.51 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.51\macros -H hmms\TR120K_W300K\hmm.51\hmmdefs -M hmms\TR120K_W300K\hmm.52 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.52\macros -H hmms\TR120K_W300K\hmm.52\hmmdefs -M hmms\TR120K_W300K\hmm.53 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.53\macros -H hmms\TR120K_W300K\hmm.53\hmmdefs -M hmms\TR120K_W300K\hmm.54 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.54\macros -H hmms\TR120K_W300K\hmm.54\hmmdefs -M hmms\TR120K_W300K\hmm.55 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.55\macros -H hmms\TR120K_W300K\hmm.55\hmmdefs -M hmms\TR120K_W300K\hmm.56 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.56\macros -H hmms\TR120K_W300K\hmm.56\hmmdefs -M hmms\TR120K_W300K\hmm.57 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.57\macros -H hmms\TR120K_W300K\hmm.57\hmmdefs -M hmms\TR120K_W300K\hmm.58 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.58\macros -H hmms\TR120K_W300K\hmm.58\hmmdefs -M hmms\TR120K_W300K\hmm.59 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.59\macros -H hmms\TR120K_W300K\hmm.59\hmmdefs -M hmms\TR120K_W300K\hmm.60 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.60\macros -H hmms\TR120K_W300K\hmm.60\hmmdefs -M hmms\TR120K_W300K\hmm.61 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.61\macros -H hmms\TR120K_W300K\hmm.61\hmmdefs -M hmms\TR120K_W300K\hmm.62 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.62\macros -H hmms\TR120K_W300K\hmm.62\hmmdefs -M hmms\TR120K_W300K\hmm.63 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.63\macros -H hmms\TR120K_W300K\hmm.63\hmmdefs -M hmms\TR120K_W300K\hmm.64 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.64\macros -H hmms\TR120K_W300K\hmm.64\hmmdefs -M hmms\TR120K_W300K\hmm.65 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.65\macros -H hmms\TR120K_W300K\hmm.65\hmmdefs -M hmms\TR120K_W300K\hmm.66 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.66\macros -H hmms\TR120K_W300K\hmm.66\hmmdefs -M hmms\TR120K_W300K\hmm.67 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.67\macros -H hmms\TR120K_W300K\hmm.67\hmmdefs -M hmms\TR120K_W300K\hmm.68 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.68\macros -H hmms\TR120K_W300K\hmm.68\hmmdefs -M hmms\TR120K_W300K\hmm.69 output\monophones0
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.69\macros -H hmms\TR120K_W300K\hmm.69\hmmdefs -M hmms\TR120K_W300K\hmm.70 output\monophones0
+
+Lakukan pelatihan model lagi dengan menduplikat dulu model hmm terakhir yang
+dibuat, misalnya model terlatih terakhir hmm.70, maka buat salinannya yaitu hmm.71
+dengan perubahan berikut:
+- edit hmmdefs dengan duplikat bagian "sil" menjadi "sp"
+- hapus state 2 dan 4 pada "sp" tapi biarkan center state-nya
+- edit <NUMSTATES> dari 5 jadi 3, <STATES> 3 jadi 2, dan <TRANSP> dari
+5 jadi 3
+ubah matriks di <TRANSP> dari 5x5 jadi 3x3 seperti berikut:
+0.0 1.0 0.0
+0.0 0.9 0.1
+0.0 0.0 0.0
+
+
+HHEd -H hmms\TR120K_W300K\hmm.71\macros -H hmms\TR120K_W300K\hmm.71\hmmdefs -M hmms\TR120K_W300K\hmm.72 config\sil.hed output\monophones1
+
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.72\macros -H hmms\TR120K_W300K\hmm.72\hmmdefs -M hmms\TR120K_W300K\hmm.73 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.73\macros -H hmms\TR120K_W300K\hmm.73\hmmdefs -M hmms\TR120K_W300K\hmm.74 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.74\macros -H hmms\TR120K_W300K\hmm.74\hmmdefs -M hmms\TR120K_W300K\hmm.75 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.75\macros -H hmms\TR120K_W300K\hmm.75\hmmdefs -M hmms\TR120K_W300K\hmm.76 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.76\macros -H hmms\TR120K_W300K\hmm.76\hmmdefs -M hmms\TR120K_W300K\hmm.77 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.77\macros -H hmms\TR120K_W300K\hmm.77\hmmdefs -M hmms\TR120K_W300K\hmm.78 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.78\macros -H hmms\TR120K_W300K\hmm.78\hmmdefs -M hmms\TR120K_W300K\hmm.79 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.79\macros -H hmms\TR120K_W300K\hmm.79\hmmdefs -M hmms\TR120K_W300K\hmm.80 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.80\macros -H hmms\TR120K_W300K\hmm.80\hmmdefs -M hmms\TR120K_W300K\hmm.81 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.81\macros -H hmms\TR120K_W300K\hmm.81\hmmdefs -M hmms\TR120K_W300K\hmm.82 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.82\macros -H hmms\TR120K_W300K\hmm.82\hmmdefs -M hmms\TR120K_W300K\hmm.83 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.83\macros -H hmms\TR120K_W300K\hmm.83\hmmdefs -M hmms\TR120K_W300K\hmm.84 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.84\macros -H hmms\TR120K_W300K\hmm.84\hmmdefs -M hmms\TR120K_W300K\hmm.85 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.85\macros -H hmms\TR120K_W300K\hmm.85\hmmdefs -M hmms\TR120K_W300K\hmm.86 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.86\macros -H hmms\TR120K_W300K\hmm.86\hmmdefs -M hmms\TR120K_W300K\hmm.87 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.87\macros -H hmms\TR120K_W300K\hmm.87\hmmdefs -M hmms\TR120K_W300K\hmm.88 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.88\macros -H hmms\TR120K_W300K\hmm.88\hmmdefs -M hmms\TR120K_W300K\hmm.89 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.89\macros -H hmms\TR120K_W300K\hmm.89\hmmdefs -M hmms\TR120K_W300K\hmm.90 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.90\macros -H hmms\TR120K_W300K\hmm.90\hmmdefs -M hmms\TR120K_W300K\hmm.91 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.91\macros -H hmms\TR120K_W300K\hmm.91\hmmdefs -M hmms\TR120K_W300K\hmm.92 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.92\macros -H hmms\TR120K_W300K\hmm.92\hmmdefs -M hmms\TR120K_W300K\hmm.93 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.93\macros -H hmms\TR120K_W300K\hmm.93\hmmdefs -M hmms\TR120K_W300K\hmm.94 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.94\macros -H hmms\TR120K_W300K\hmm.94\hmmdefs -M hmms\TR120K_W300K\hmm.95 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.95\macros -H hmms\TR120K_W300K\hmm.95\hmmdefs -M hmms\TR120K_W300K\hmm.96 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.96\macros -H hmms\TR120K_W300K\hmm.96\hmmdefs -M hmms\TR120K_W300K\hmm.97 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.97\macros -H hmms\TR120K_W300K\hmm.97\hmmdefs -M hmms\TR120K_W300K\hmm.98 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.98\macros -H hmms\TR120K_W300K\hmm.98\hmmdefs -M hmms\TR120K_W300K\hmm.99 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.99\macros -H hmms\TR120K_W300K\hmm.99\hmmdefs -M hmms\TR120K_W300K\hmm.100 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.100\macros -H hmms\TR120K_W300K\hmm.100\hmmdefs -M hmms\TR120K_W300K\hmm.101 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.101\macros -H hmms\TR120K_W300K\hmm.101\hmmdefs -M hmms\TR120K_W300K\hmm.102 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.102\macros -H hmms\TR120K_W300K\hmm.102\hmmdefs -M hmms\TR120K_W300K\hmm.103 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.103\macros -H hmms\TR120K_W300K\hmm.103\hmmdefs -M hmms\TR120K_W300K\hmm.104 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.104\macros -H hmms\TR120K_W300K\hmm.104\hmmdefs -M hmms\TR120K_W300K\hmm.105 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.105\macros -H hmms\TR120K_W300K\hmm.105\hmmdefs -M hmms\TR120K_W300K\hmm.106 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.106\macros -H hmms\TR120K_W300K\hmm.106\hmmdefs -M hmms\TR120K_W300K\hmm.107 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.107\macros -H hmms\TR120K_W300K\hmm.107\hmmdefs -M hmms\TR120K_W300K\hmm.108 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.108\macros -H hmms\TR120K_W300K\hmm.108\hmmdefs -M hmms\TR120K_W300K\hmm.109 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.109\macros -H hmms\TR120K_W300K\hmm.109\hmmdefs -M hmms\TR120K_W300K\hmm.110 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.110\macros -H hmms\TR120K_W300K\hmm.110\hmmdefs -M hmms\TR120K_W300K\hmm.111 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.111\macros -H hmms\TR120K_W300K\hmm.111\hmmdefs -M hmms\TR120K_W300K\hmm.112 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.112\macros -H hmms\TR120K_W300K\hmm.112\hmmdefs -M hmms\TR120K_W300K\hmm.113 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.113\macros -H hmms\TR120K_W300K\hmm.113\hmmdefs -M hmms\TR120K_W300K\hmm.114 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.114\macros -H hmms\TR120K_W300K\hmm.114\hmmdefs -M hmms\TR120K_W300K\hmm.115 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.115\macros -H hmms\TR120K_W300K\hmm.115\hmmdefs -M hmms\TR120K_W300K\hmm.116 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.116\macros -H hmms\TR120K_W300K\hmm.116\hmmdefs -M hmms\TR120K_W300K\hmm.117 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.117\macros -H hmms\TR120K_W300K\hmm.117\hmmdefs -M hmms\TR120K_W300K\hmm.118 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.118\macros -H hmms\TR120K_W300K\hmm.118\hmmdefs -M hmms\TR120K_W300K\hmm.119 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.119\macros -H hmms\TR120K_W300K\hmm.119\hmmdefs -M hmms\TR120K_W300K\hmm.120 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.120\macros -H hmms\TR120K_W300K\hmm.120\hmmdefs -M hmms\TR120K_W300K\hmm.121 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.121\macros -H hmms\TR120K_W300K\hmm.121\hmmdefs -M hmms\TR120K_W300K\hmm.122 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.122\macros -H hmms\TR120K_W300K\hmm.122\hmmdefs -M hmms\TR120K_W300K\hmm.123 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.123\macros -H hmms\TR120K_W300K\hmm.123\hmmdefs -M hmms\TR120K_W300K\hmm.124 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.124\macros -H hmms\TR120K_W300K\hmm.124\hmmdefs -M hmms\TR120K_W300K\hmm.125 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.125\macros -H hmms\TR120K_W300K\hmm.125\hmmdefs -M hmms\TR120K_W300K\hmm.126 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.126\macros -H hmms\TR120K_W300K\hmm.126\hmmdefs -M hmms\TR120K_W300K\hmm.127 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.127\macros -H hmms\TR120K_W300K\hmm.127\hmmdefs -M hmms\TR120K_W300K\hmm.128 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.128\macros -H hmms\TR120K_W300K\hmm.128\hmmdefs -M hmms\TR120K_W300K\hmm.129 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.129\macros -H hmms\TR120K_W300K\hmm.129\hmmdefs -M hmms\TR120K_W300K\hmm.130 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.130\macros -H hmms\TR120K_W300K\hmm.130\hmmdefs -M hmms\TR120K_W300K\hmm.131 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.131\macros -H hmms\TR120K_W300K\hmm.131\hmmdefs -M hmms\TR120K_W300K\hmm.132 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.132\macros -H hmms\TR120K_W300K\hmm.132\hmmdefs -M hmms\TR120K_W300K\hmm.133 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.133\macros -H hmms\TR120K_W300K\hmm.133\hmmdefs -M hmms\TR120K_W300K\hmm.134 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.134\macros -H hmms\TR120K_W300K\hmm.134\hmmdefs -M hmms\TR120K_W300K\hmm.135 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.135\macros -H hmms\TR120K_W300K\hmm.135\hmmdefs -M hmms\TR120K_W300K\hmm.136 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.136\macros -H hmms\TR120K_W300K\hmm.136\hmmdefs -M hmms\TR120K_W300K\hmm.137 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.137\macros -H hmms\TR120K_W300K\hmm.137\hmmdefs -M hmms\TR120K_W300K\hmm.138 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.138\macros -H hmms\TR120K_W300K\hmm.138\hmmdefs -M hmms\TR120K_W300K\hmm.139 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.139\macros -H hmms\TR120K_W300K\hmm.139\hmmdefs -M hmms\TR120K_W300K\hmm.140 output\monophones1
+
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\TR120K_W300K\config_train.hcopy -a -H hmms\TR120K_W300K\hmm.140\macros -H hmms\TR120K_W300K\hmm.140\hmmdefs -i output\TR120K_W300K\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I output/TR120K_W300K/words_train.mlf -S config\TR120K_W300K\train_features.txt output\dict output\monophones1 > log\HVite_log
+
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.140\macros -H hmms\TR120K_W300K\hmm.140\hmmdefs -M hmms\TR120K_W300K\hmm.141 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.141\macros -H hmms\TR120K_W300K\hmm.141\hmmdefs -M hmms\TR120K_W300K\hmm.142 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.142\macros -H hmms\TR120K_W300K\hmm.142\hmmdefs -M hmms\TR120K_W300K\hmm.143 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.143\macros -H hmms\TR120K_W300K\hmm.143\hmmdefs -M hmms\TR120K_W300K\hmm.144 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.144\macros -H hmms\TR120K_W300K\hmm.144\hmmdefs -M hmms\TR120K_W300K\hmm.145 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.145\macros -H hmms\TR120K_W300K\hmm.145\hmmdefs -M hmms\TR120K_W300K\hmm.146 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.146\macros -H hmms\TR120K_W300K\hmm.146\hmmdefs -M hmms\TR120K_W300K\hmm.147 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.147\macros -H hmms\TR120K_W300K\hmm.147\hmmdefs -M hmms\TR120K_W300K\hmm.148 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.148\macros -H hmms\TR120K_W300K\hmm.148\hmmdefs -M hmms\TR120K_W300K\hmm.149 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.149\macros -H hmms\TR120K_W300K\hmm.149\hmmdefs -M hmms\TR120K_W300K\hmm.150 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.150\macros -H hmms\TR120K_W300K\hmm.150\hmmdefs -M hmms\TR120K_W300K\hmm.151 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.151\macros -H hmms\TR120K_W300K\hmm.151\hmmdefs -M hmms\TR120K_W300K\hmm.152 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.152\macros -H hmms\TR120K_W300K\hmm.152\hmmdefs -M hmms\TR120K_W300K\hmm.153 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.153\macros -H hmms\TR120K_W300K\hmm.153\hmmdefs -M hmms\TR120K_W300K\hmm.154 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.154\macros -H hmms\TR120K_W300K\hmm.154\hmmdefs -M hmms\TR120K_W300K\hmm.155 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.155\macros -H hmms\TR120K_W300K\hmm.155\hmmdefs -M hmms\TR120K_W300K\hmm.156 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.156\macros -H hmms\TR120K_W300K\hmm.156\hmmdefs -M hmms\TR120K_W300K\hmm.157 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.157\macros -H hmms\TR120K_W300K\hmm.157\hmmdefs -M hmms\TR120K_W300K\hmm.158 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.158\macros -H hmms\TR120K_W300K\hmm.158\hmmdefs -M hmms\TR120K_W300K\hmm.159 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.159\macros -H hmms\TR120K_W300K\hmm.159\hmmdefs -M hmms\TR120K_W300K\hmm.160 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.160\macros -H hmms\TR120K_W300K\hmm.160\hmmdefs -M hmms\TR120K_W300K\hmm.161 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.161\macros -H hmms\TR120K_W300K\hmm.161\hmmdefs -M hmms\TR120K_W300K\hmm.162 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.162\macros -H hmms\TR120K_W300K\hmm.162\hmmdefs -M hmms\TR120K_W300K\hmm.163 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.163\macros -H hmms\TR120K_W300K\hmm.163\hmmdefs -M hmms\TR120K_W300K\hmm.164 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.164\macros -H hmms\TR120K_W300K\hmm.164\hmmdefs -M hmms\TR120K_W300K\hmm.165 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.165\macros -H hmms\TR120K_W300K\hmm.165\hmmdefs -M hmms\TR120K_W300K\hmm.166 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.166\macros -H hmms\TR120K_W300K\hmm.166\hmmdefs -M hmms\TR120K_W300K\hmm.167 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.167\macros -H hmms\TR120K_W300K\hmm.167\hmmdefs -M hmms\TR120K_W300K\hmm.168 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.168\macros -H hmms\TR120K_W300K\hmm.168\hmmdefs -M hmms\TR120K_W300K\hmm.169 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.169\macros -H hmms\TR120K_W300K\hmm.169\hmmdefs -M hmms\TR120K_W300K\hmm.170 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.170\macros -H hmms\TR120K_W300K\hmm.170\hmmdefs -M hmms\TR120K_W300K\hmm.171 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.171\macros -H hmms\TR120K_W300K\hmm.171\hmmdefs -M hmms\TR120K_W300K\hmm.172 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.172\macros -H hmms\TR120K_W300K\hmm.172\hmmdefs -M hmms\TR120K_W300K\hmm.173 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.173\macros -H hmms\TR120K_W300K\hmm.173\hmmdefs -M hmms\TR120K_W300K\hmm.174 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.174\macros -H hmms\TR120K_W300K\hmm.174\hmmdefs -M hmms\TR120K_W300K\hmm.175 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.175\macros -H hmms\TR120K_W300K\hmm.175\hmmdefs -M hmms\TR120K_W300K\hmm.176 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.176\macros -H hmms\TR120K_W300K\hmm.176\hmmdefs -M hmms\TR120K_W300K\hmm.177 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.177\macros -H hmms\TR120K_W300K\hmm.177\hmmdefs -M hmms\TR120K_W300K\hmm.178 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.178\macros -H hmms\TR120K_W300K\hmm.178\hmmdefs -M hmms\TR120K_W300K\hmm.179 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.179\macros -H hmms\TR120K_W300K\hmm.179\hmmdefs -M hmms\TR120K_W300K\hmm.180 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.180\macros -H hmms\TR120K_W300K\hmm.180\hmmdefs -M hmms\TR120K_W300K\hmm.181 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.181\macros -H hmms\TR120K_W300K\hmm.181\hmmdefs -M hmms\TR120K_W300K\hmm.182 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.182\macros -H hmms\TR120K_W300K\hmm.182\hmmdefs -M hmms\TR120K_W300K\hmm.183 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.183\macros -H hmms\TR120K_W300K\hmm.183\hmmdefs -M hmms\TR120K_W300K\hmm.184 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.184\macros -H hmms\TR120K_W300K\hmm.184\hmmdefs -M hmms\TR120K_W300K\hmm.185 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.185\macros -H hmms\TR120K_W300K\hmm.185\hmmdefs -M hmms\TR120K_W300K\hmm.186 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.186\macros -H hmms\TR120K_W300K\hmm.186\hmmdefs -M hmms\TR120K_W300K\hmm.187 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.187\macros -H hmms\TR120K_W300K\hmm.187\hmmdefs -M hmms\TR120K_W300K\hmm.188 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.188\macros -H hmms\TR120K_W300K\hmm.188\hmmdefs -M hmms\TR120K_W300K\hmm.189 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.189\macros -H hmms\TR120K_W300K\hmm.189\hmmdefs -M hmms\TR120K_W300K\hmm.190 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.190\macros -H hmms\TR120K_W300K\hmm.190\hmmdefs -M hmms\TR120K_W300K\hmm.191 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.191\macros -H hmms\TR120K_W300K\hmm.191\hmmdefs -M hmms\TR120K_W300K\hmm.192 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.192\macros -H hmms\TR120K_W300K\hmm.192\hmmdefs -M hmms\TR120K_W300K\hmm.193 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.193\macros -H hmms\TR120K_W300K\hmm.193\hmmdefs -M hmms\TR120K_W300K\hmm.194 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.194\macros -H hmms\TR120K_W300K\hmm.194\hmmdefs -M hmms\TR120K_W300K\hmm.195 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.195\macros -H hmms\TR120K_W300K\hmm.195\hmmdefs -M hmms\TR120K_W300K\hmm.196 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.196\macros -H hmms\TR120K_W300K\hmm.196\hmmdefs -M hmms\TR120K_W300K\hmm.197 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.197\macros -H hmms\TR120K_W300K\hmm.197\hmmdefs -M hmms\TR120K_W300K\hmm.198 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.198\macros -H hmms\TR120K_W300K\hmm.198\hmmdefs -M hmms\TR120K_W300K\hmm.199 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.199\macros -H hmms\TR120K_W300K\hmm.199\hmmdefs -M hmms\TR120K_W300K\hmm.200 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.200\macros -H hmms\TR120K_W300K\hmm.200\hmmdefs -M hmms\TR120K_W300K\hmm.201 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.201\macros -H hmms\TR120K_W300K\hmm.201\hmmdefs -M hmms\TR120K_W300K\hmm.202 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.202\macros -H hmms\TR120K_W300K\hmm.202\hmmdefs -M hmms\TR120K_W300K\hmm.203 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.203\macros -H hmms\TR120K_W300K\hmm.203\hmmdefs -M hmms\TR120K_W300K\hmm.204 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.204\macros -H hmms\TR120K_W300K\hmm.204\hmmdefs -M hmms\TR120K_W300K\hmm.205 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.205\macros -H hmms\TR120K_W300K\hmm.205\hmmdefs -M hmms\TR120K_W300K\hmm.206 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.206\macros -H hmms\TR120K_W300K\hmm.206\hmmdefs -M hmms\TR120K_W300K\hmm.207 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.207\macros -H hmms\TR120K_W300K\hmm.207\hmmdefs -M hmms\TR120K_W300K\hmm.208 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.208\macros -H hmms\TR120K_W300K\hmm.208\hmmdefs -M hmms\TR120K_W300K\hmm.209 output\monophones1
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\aligned.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.209\macros -H hmms\TR120K_W300K\hmm.209\hmmdefs -M hmms\TR120K_W300K\hmm.210 output\monophones1
+
+HLEd -n output\TR120K_W300K\triphones1 -l * -i output\TR120K_W300K\wintri.mlf config\mktri.led output\TR120K_W300K\aligned.mlf
+
+perl perl/maketrihed.pl output/monophones1 output/TR120K_W300K/triphones1
+
+move mktri.hed output/TR120K_W300K/
+
+HHEd -B -H hmms\TR120K_W300K\hmm.210\macros -H hmms\TR120K_W300K\hmm.210\hmmdefs -M hmms\TR120K_W300K\hmm.211 output\TR120K_W300K\mktri.hed output\monophones1
+
+mkdir hmms\TR120K_W300K\hmm.11
+mkdir hmms\TR120K_W300K\hmm.12
+
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.211\macros -H hmms\TR120K_W300K\hmm.211\hmmdefs -M hmms\TR120K_W300K\hmm.212 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.212\macros -H hmms\TR120K_W300K\hmm.212\hmmdefs -M hmms\TR120K_W300K\hmm.213 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.213\macros -H hmms\TR120K_W300K\hmm.213\hmmdefs -M hmms\TR120K_W300K\hmm.214 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.214\macros -H hmms\TR120K_W300K\hmm.214\hmmdefs -M hmms\TR120K_W300K\hmm.215 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.215\macros -H hmms\TR120K_W300K\hmm.215\hmmdefs -M hmms\TR120K_W300K\hmm.216 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.216\macros -H hmms\TR120K_W300K\hmm.216\hmmdefs -M hmms\TR120K_W300K\hmm.217 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.217\macros -H hmms\TR120K_W300K\hmm.217\hmmdefs -M hmms\TR120K_W300K\hmm.218 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.218\macros -H hmms\TR120K_W300K\hmm.218\hmmdefs -M hmms\TR120K_W300K\hmm.219 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.219\macros -H hmms\TR120K_W300K\hmm.219\hmmdefs -M hmms\TR120K_W300K\hmm.220 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.220\macros -H hmms\TR120K_W300K\hmm.220\hmmdefs -M hmms\TR120K_W300K\hmm.221 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.221\macros -H hmms\TR120K_W300K\hmm.221\hmmdefs -M hmms\TR120K_W300K\hmm.222 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.222\macros -H hmms\TR120K_W300K\hmm.222\hmmdefs -M hmms\TR120K_W300K\hmm.223 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.223\macros -H hmms\TR120K_W300K\hmm.223\hmmdefs -M hmms\TR120K_W300K\hmm.224 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.224\macros -H hmms\TR120K_W300K\hmm.224\hmmdefs -M hmms\TR120K_W300K\hmm.225 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.225\macros -H hmms\TR120K_W300K\hmm.225\hmmdefs -M hmms\TR120K_W300K\hmm.226 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.226\macros -H hmms\TR120K_W300K\hmm.226\hmmdefs -M hmms\TR120K_W300K\hmm.227 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.227\macros -H hmms\TR120K_W300K\hmm.227\hmmdefs -M hmms\TR120K_W300K\hmm.228 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.228\macros -H hmms\TR120K_W300K\hmm.228\hmmdefs -M hmms\TR120K_W300K\hmm.229 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.229\macros -H hmms\TR120K_W300K\hmm.229\hmmdefs -M hmms\TR120K_W300K\hmm.230 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.230\macros -H hmms\TR120K_W300K\hmm.230\hmmdefs -M hmms\TR120K_W300K\hmm.231 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.231\macros -H hmms\TR120K_W300K\hmm.231\hmmdefs -M hmms\TR120K_W300K\hmm.232 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.232\macros -H hmms\TR120K_W300K\hmm.232\hmmdefs -M hmms\TR120K_W300K\hmm.233 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.233\macros -H hmms\TR120K_W300K\hmm.233\hmmdefs -M hmms\TR120K_W300K\hmm.234 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.234\macros -H hmms\TR120K_W300K\hmm.234\hmmdefs -M hmms\TR120K_W300K\hmm.235 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.235\macros -H hmms\TR120K_W300K\hmm.235\hmmdefs -M hmms\TR120K_W300K\hmm.236 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.236\macros -H hmms\TR120K_W300K\hmm.236\hmmdefs -M hmms\TR120K_W300K\hmm.237 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.237\macros -H hmms\TR120K_W300K\hmm.237\hmmdefs -M hmms\TR120K_W300K\hmm.238 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.238\macros -H hmms\TR120K_W300K\hmm.238\hmmdefs -M hmms\TR120K_W300K\hmm.239 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.239\macros -H hmms\TR120K_W300K\hmm.239\hmmdefs -M hmms\TR120K_W300K\hmm.240 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.240\macros -H hmms\TR120K_W300K\hmm.240\hmmdefs -M hmms\TR120K_W300K\hmm.241 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.241\macros -H hmms\TR120K_W300K\hmm.241\hmmdefs -M hmms\TR120K_W300K\hmm.242 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.242\macros -H hmms\TR120K_W300K\hmm.242\hmmdefs -M hmms\TR120K_W300K\hmm.243 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.243\macros -H hmms\TR120K_W300K\hmm.243\hmmdefs -M hmms\TR120K_W300K\hmm.244 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.244\macros -H hmms\TR120K_W300K\hmm.244\hmmdefs -M hmms\TR120K_W300K\hmm.245 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.245\macros -H hmms\TR120K_W300K\hmm.245\hmmdefs -M hmms\TR120K_W300K\hmm.246 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.246\macros -H hmms\TR120K_W300K\hmm.246\hmmdefs -M hmms\TR120K_W300K\hmm.247 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.247\macros -H hmms\TR120K_W300K\hmm.247\hmmdefs -M hmms\TR120K_W300K\hmm.248 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.248\macros -H hmms\TR120K_W300K\hmm.248\hmmdefs -M hmms\TR120K_W300K\hmm.249 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.249\macros -H hmms\TR120K_W300K\hmm.249\hmmdefs -M hmms\TR120K_W300K\hmm.250 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.250\macros -H hmms\TR120K_W300K\hmm.250\hmmdefs -M hmms\TR120K_W300K\hmm.251 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.251\macros -H hmms\TR120K_W300K\hmm.251\hmmdefs -M hmms\TR120K_W300K\hmm.252 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.252\macros -H hmms\TR120K_W300K\hmm.252\hmmdefs -M hmms\TR120K_W300K\hmm.253 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.253\macros -H hmms\TR120K_W300K\hmm.253\hmmdefs -M hmms\TR120K_W300K\hmm.254 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.254\macros -H hmms\TR120K_W300K\hmm.254\hmmdefs -M hmms\TR120K_W300K\hmm.255 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.255\macros -H hmms\TR120K_W300K\hmm.255\hmmdefs -M hmms\TR120K_W300K\hmm.256 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.256\macros -H hmms\TR120K_W300K\hmm.256\hmmdefs -M hmms\TR120K_W300K\hmm.257 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.257\macros -H hmms\TR120K_W300K\hmm.257\hmmdefs -M hmms\TR120K_W300K\hmm.258 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.258\macros -H hmms\TR120K_W300K\hmm.258\hmmdefs -M hmms\TR120K_W300K\hmm.259 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.259\macros -H hmms\TR120K_W300K\hmm.259\hmmdefs -M hmms\TR120K_W300K\hmm.260 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.260\macros -H hmms\TR120K_W300K\hmm.260\hmmdefs -M hmms\TR120K_W300K\hmm.261 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.261\macros -H hmms\TR120K_W300K\hmm.261\hmmdefs -M hmms\TR120K_W300K\hmm.262 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.262\macros -H hmms\TR120K_W300K\hmm.262\hmmdefs -M hmms\TR120K_W300K\hmm.263 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.263\macros -H hmms\TR120K_W300K\hmm.263\hmmdefs -M hmms\TR120K_W300K\hmm.264 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.264\macros -H hmms\TR120K_W300K\hmm.264\hmmdefs -M hmms\TR120K_W300K\hmm.265 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.265\macros -H hmms\TR120K_W300K\hmm.265\hmmdefs -M hmms\TR120K_W300K\hmm.266 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.266\macros -H hmms\TR120K_W300K\hmm.266\hmmdefs -M hmms\TR120K_W300K\hmm.267 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.267\macros -H hmms\TR120K_W300K\hmm.267\hmmdefs -M hmms\TR120K_W300K\hmm.268 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.268\macros -H hmms\TR120K_W300K\hmm.268\hmmdefs -M hmms\TR120K_W300K\hmm.269 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.269\macros -H hmms\TR120K_W300K\hmm.269\hmmdefs -M hmms\TR120K_W300K\hmm.270 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.270\macros -H hmms\TR120K_W300K\hmm.270\hmmdefs -M hmms\TR120K_W300K\hmm.271 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.271\macros -H hmms\TR120K_W300K\hmm.271\hmmdefs -M hmms\TR120K_W300K\hmm.272 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.272\macros -H hmms\TR120K_W300K\hmm.272\hmmdefs -M hmms\TR120K_W300K\hmm.273 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.273\macros -H hmms\TR120K_W300K\hmm.273\hmmdefs -M hmms\TR120K_W300K\hmm.274 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.274\macros -H hmms\TR120K_W300K\hmm.274\hmmdefs -M hmms\TR120K_W300K\hmm.275 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.275\macros -H hmms\TR120K_W300K\hmm.275\hmmdefs -M hmms\TR120K_W300K\hmm.276 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.276\macros -H hmms\TR120K_W300K\hmm.276\hmmdefs -M hmms\TR120K_W300K\hmm.277 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.277\macros -H hmms\TR120K_W300K\hmm.277\hmmdefs -M hmms\TR120K_W300K\hmm.278 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.278\macros -H hmms\TR120K_W300K\hmm.278\hmmdefs -M hmms\TR120K_W300K\hmm.279 output/TR120K_W300K/triphones1
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -s output\TR120K_W300K\stats -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.279\macros -H hmms\TR120K_W300K\hmm.279\hmmdefs -M hmms\TR120K_W300K\hmm.280 output/TR120K_W300K/triphones1
+
+HDMan -b sp -n output/TR120K_W300K/fulllist -g output/TR120K_W300K/global.ded output/TR120K_W300K/dict-tri output\dict
+
+Copy output/(folder)/triphones1 contents to fullist not including sil
+perl perl/mkclscript.prl TB 350 output/monophones1 >> output/TR120K_W300K/tree.hed
+
+# FOR NOW USE THE tree.hed from baseline:
+Add the following content to the bottom of output/(folder)/tree.hed file:
+TR 1
+AU "output/TR120K_W300K/fulllist"
+CO "output/TR120K_W300K/tiedlist"
+ST "output/TR120K_W300K/trees"
+
+and to top of the tree.hed file:
+RO 200.0 output/TR120K_W300K/stats
+
+HHEd -B -H hmms\TR120K_W300K\hmm.280\macros -H hmms\TR120K_W300K\hmm.280\hmmdefs -M hmms\TR120K_W300K\hmm.281 output/TR120K_W300K/tree.hed output/TR120K_W300K/triphones1
+
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.281\macros -H hmms\TR120K_W300K\hmm.281\hmmdefs -M hmms\TR120K_W300K\hmm.282 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.282\macros -H hmms\TR120K_W300K\hmm.282\hmmdefs -M hmms\TR120K_W300K\hmm.283 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.283\macros -H hmms\TR120K_W300K\hmm.283\hmmdefs -M hmms\TR120K_W300K\hmm.284 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.284\macros -H hmms\TR120K_W300K\hmm.284\hmmdefs -M hmms\TR120K_W300K\hmm.285 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.285\macros -H hmms\TR120K_W300K\hmm.285\hmmdefs -M hmms\TR120K_W300K\hmm.286 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.286\macros -H hmms\TR120K_W300K\hmm.286\hmmdefs -M hmms\TR120K_W300K\hmm.287 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.287\macros -H hmms\TR120K_W300K\hmm.287\hmmdefs -M hmms\TR120K_W300K\hmm.288 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.288\macros -H hmms\TR120K_W300K\hmm.288\hmmdefs -M hmms\TR120K_W300K\hmm.289 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.289\macros -H hmms\TR120K_W300K\hmm.289\hmmdefs -M hmms\TR120K_W300K\hmm.290 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.290\macros -H hmms\TR120K_W300K\hmm.290\hmmdefs -M hmms\TR120K_W300K\hmm.291 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.291\macros -H hmms\TR120K_W300K\hmm.291\hmmdefs -M hmms\TR120K_W300K\hmm.292 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.292\macros -H hmms\TR120K_W300K\hmm.292\hmmdefs -M hmms\TR120K_W300K\hmm.293 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.293\macros -H hmms\TR120K_W300K\hmm.293\hmmdefs -M hmms\TR120K_W300K\hmm.294 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.294\macros -H hmms\TR120K_W300K\hmm.294\hmmdefs -M hmms\TR120K_W300K\hmm.295 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.295\macros -H hmms\TR120K_W300K\hmm.295\hmmdefs -M hmms\TR120K_W300K\hmm.296 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.296\macros -H hmms\TR120K_W300K\hmm.296\hmmdefs -M hmms\TR120K_W300K\hmm.297 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.297\macros -H hmms\TR120K_W300K\hmm.297\hmmdefs -M hmms\TR120K_W300K\hmm.298 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.298\macros -H hmms\TR120K_W300K\hmm.298\hmmdefs -M hmms\TR120K_W300K\hmm.299 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.299\macros -H hmms\TR120K_W300K\hmm.299\hmmdefs -M hmms\TR120K_W300K\hmm.300 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.300\macros -H hmms\TR120K_W300K\hmm.300\hmmdefs -M hmms\TR120K_W300K\hmm.301 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.301\macros -H hmms\TR120K_W300K\hmm.301\hmmdefs -M hmms\TR120K_W300K\hmm.302 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.302\macros -H hmms\TR120K_W300K\hmm.302\hmmdefs -M hmms\TR120K_W300K\hmm.303 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.303\macros -H hmms\TR120K_W300K\hmm.303\hmmdefs -M hmms\TR120K_W300K\hmm.304 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.304\macros -H hmms\TR120K_W300K\hmm.304\hmmdefs -M hmms\TR120K_W300K\hmm.305 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.305\macros -H hmms\TR120K_W300K\hmm.305\hmmdefs -M hmms\TR120K_W300K\hmm.306 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.306\macros -H hmms\TR120K_W300K\hmm.306\hmmdefs -M hmms\TR120K_W300K\hmm.307 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.307\macros -H hmms\TR120K_W300K\hmm.307\hmmdefs -M hmms\TR120K_W300K\hmm.308 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.308\macros -H hmms\TR120K_W300K\hmm.308\hmmdefs -M hmms\TR120K_W300K\hmm.309 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.309\macros -H hmms\TR120K_W300K\hmm.309\hmmdefs -M hmms\TR120K_W300K\hmm.310 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.310\macros -H hmms\TR120K_W300K\hmm.310\hmmdefs -M hmms\TR120K_W300K\hmm.311 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.311\macros -H hmms\TR120K_W300K\hmm.311\hmmdefs -M hmms\TR120K_W300K\hmm.312 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.312\macros -H hmms\TR120K_W300K\hmm.312\hmmdefs -M hmms\TR120K_W300K\hmm.313 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.313\macros -H hmms\TR120K_W300K\hmm.313\hmmdefs -M hmms\TR120K_W300K\hmm.314 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.314\macros -H hmms\TR120K_W300K\hmm.314\hmmdefs -M hmms\TR120K_W300K\hmm.315 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.315\macros -H hmms\TR120K_W300K\hmm.315\hmmdefs -M hmms\TR120K_W300K\hmm.316 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.316\macros -H hmms\TR120K_W300K\hmm.316\hmmdefs -M hmms\TR120K_W300K\hmm.317 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.317\macros -H hmms\TR120K_W300K\hmm.317\hmmdefs -M hmms\TR120K_W300K\hmm.318 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.318\macros -H hmms\TR120K_W300K\hmm.318\hmmdefs -M hmms\TR120K_W300K\hmm.319 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.319\macros -H hmms\TR120K_W300K\hmm.319\hmmdefs -M hmms\TR120K_W300K\hmm.320 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.320\macros -H hmms\TR120K_W300K\hmm.320\hmmdefs -M hmms\TR120K_W300K\hmm.321 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.321\macros -H hmms\TR120K_W300K\hmm.321\hmmdefs -M hmms\TR120K_W300K\hmm.322 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.322\macros -H hmms\TR120K_W300K\hmm.322\hmmdefs -M hmms\TR120K_W300K\hmm.323 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.323\macros -H hmms\TR120K_W300K\hmm.323\hmmdefs -M hmms\TR120K_W300K\hmm.324 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.324\macros -H hmms\TR120K_W300K\hmm.324\hmmdefs -M hmms\TR120K_W300K\hmm.325 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.325\macros -H hmms\TR120K_W300K\hmm.325\hmmdefs -M hmms\TR120K_W300K\hmm.326 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.326\macros -H hmms\TR120K_W300K\hmm.326\hmmdefs -M hmms\TR120K_W300K\hmm.327 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.327\macros -H hmms\TR120K_W300K\hmm.327\hmmdefs -M hmms\TR120K_W300K\hmm.328 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.328\macros -H hmms\TR120K_W300K\hmm.328\hmmdefs -M hmms\TR120K_W300K\hmm.329 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.329\macros -H hmms\TR120K_W300K\hmm.329\hmmdefs -M hmms\TR120K_W300K\hmm.330 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.330\macros -H hmms\TR120K_W300K\hmm.330\hmmdefs -M hmms\TR120K_W300K\hmm.331 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.331\macros -H hmms\TR120K_W300K\hmm.331\hmmdefs -M hmms\TR120K_W300K\hmm.332 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.332\macros -H hmms\TR120K_W300K\hmm.332\hmmdefs -M hmms\TR120K_W300K\hmm.333 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.333\macros -H hmms\TR120K_W300K\hmm.333\hmmdefs -M hmms\TR120K_W300K\hmm.334 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.334\macros -H hmms\TR120K_W300K\hmm.334\hmmdefs -M hmms\TR120K_W300K\hmm.335 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.335\macros -H hmms\TR120K_W300K\hmm.335\hmmdefs -M hmms\TR120K_W300K\hmm.336 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.336\macros -H hmms\TR120K_W300K\hmm.336\hmmdefs -M hmms\TR120K_W300K\hmm.337 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.337\macros -H hmms\TR120K_W300K\hmm.337\hmmdefs -M hmms\TR120K_W300K\hmm.338 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.338\macros -H hmms\TR120K_W300K\hmm.338\hmmdefs -M hmms\TR120K_W300K\hmm.339 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.339\macros -H hmms\TR120K_W300K\hmm.339\hmmdefs -M hmms\TR120K_W300K\hmm.340 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.340\macros -H hmms\TR120K_W300K\hmm.340\hmmdefs -M hmms\TR120K_W300K\hmm.341 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.341\macros -H hmms\TR120K_W300K\hmm.341\hmmdefs -M hmms\TR120K_W300K\hmm.342 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.342\macros -H hmms\TR120K_W300K\hmm.342\hmmdefs -M hmms\TR120K_W300K\hmm.343 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.343\macros -H hmms\TR120K_W300K\hmm.343\hmmdefs -M hmms\TR120K_W300K\hmm.344 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.344\macros -H hmms\TR120K_W300K\hmm.344\hmmdefs -M hmms\TR120K_W300K\hmm.345 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.345\macros -H hmms\TR120K_W300K\hmm.345\hmmdefs -M hmms\TR120K_W300K\hmm.346 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.346\macros -H hmms\TR120K_W300K\hmm.346\hmmdefs -M hmms\TR120K_W300K\hmm.347 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.347\macros -H hmms\TR120K_W300K\hmm.347\hmmdefs -M hmms\TR120K_W300K\hmm.348 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.348\macros -H hmms\TR120K_W300K\hmm.348\hmmdefs -M hmms\TR120K_W300K\hmm.349 output/TR120K_W300K/tiedlist
+HERest -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.349\macros -H hmms\TR120K_W300K\hmm.349\hmmdefs -M hmms\TR120K_W300K\hmm.350 output/TR120K_W300K/tiedlist
+
+
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.350\macros -H hmms\TR120K_W300K\hmm.350\hmmdefs -M hmms\TR120K_W300K\hmm.351 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.351\macros -H hmms\TR120K_W300K\hmm.351\hmmdefs -M hmms\TR120K_W300K\hmm.352 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.352\macros -H hmms\TR120K_W300K\hmm.352\hmmdefs -M hmms\TR120K_W300K\hmm.353 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.353\macros -H hmms\TR120K_W300K\hmm.353\hmmdefs -M hmms\TR120K_W300K\hmm.354 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.354\macros -H hmms\TR120K_W300K\hmm.354\hmmdefs -M hmms\TR120K_W300K\hmm.355 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.355\macros -H hmms\TR120K_W300K\hmm.355\hmmdefs -M hmms\TR120K_W300K\hmm.356 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.356\macros -H hmms\TR120K_W300K\hmm.356\hmmdefs -M hmms\TR120K_W300K\hmm.357 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.357\macros -H hmms\TR120K_W300K\hmm.357\hmmdefs -M hmms\TR120K_W300K\hmm.358 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.358\macros -H hmms\TR120K_W300K\hmm.358\hmmdefs -M hmms\TR120K_W300K\hmm.359 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.359\macros -H hmms\TR120K_W300K\hmm.359\hmmdefs -M hmms\TR120K_W300K\hmm.360 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.360\macros -H hmms\TR120K_W300K\hmm.360\hmmdefs -M hmms\TR120K_W300K\hmm.361 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.361\macros -H hmms\TR120K_W300K\hmm.361\hmmdefs -M hmms\TR120K_W300K\hmm.362 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.362\macros -H hmms\TR120K_W300K\hmm.362\hmmdefs -M hmms\TR120K_W300K\hmm.363 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.363\macros -H hmms\TR120K_W300K\hmm.363\hmmdefs -M hmms\TR120K_W300K\hmm.364 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.364\macros -H hmms\TR120K_W300K\hmm.364\hmmdefs -M hmms\TR120K_W300K\hmm.365 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.365\macros -H hmms\TR120K_W300K\hmm.365\hmmdefs -M hmms\TR120K_W300K\hmm.366 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.366\macros -H hmms\TR120K_W300K\hmm.366\hmmdefs -M hmms\TR120K_W300K\hmm.367 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.367\macros -H hmms\TR120K_W300K\hmm.367\hmmdefs -M hmms\TR120K_W300K\hmm.368 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.368\macros -H hmms\TR120K_W300K\hmm.368\hmmdefs -M hmms\TR120K_W300K\hmm.369 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.369\macros -H hmms\TR120K_W300K\hmm.369\hmmdefs -M hmms\TR120K_W300K\hmm.370 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.370\macros -H hmms\TR120K_W300K\hmm.370\hmmdefs -M hmms\TR120K_W300K\hmm.371 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.371\macros -H hmms\TR120K_W300K\hmm.371\hmmdefs -M hmms\TR120K_W300K\hmm.372 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.372\macros -H hmms\TR120K_W300K\hmm.372\hmmdefs -M hmms\TR120K_W300K\hmm.373 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.373\macros -H hmms\TR120K_W300K\hmm.373\hmmdefs -M hmms\TR120K_W300K\hmm.374 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.374\macros -H hmms\TR120K_W300K\hmm.374\hmmdefs -M hmms\TR120K_W300K\hmm.375 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.375\macros -H hmms\TR120K_W300K\hmm.375\hmmdefs -M hmms\TR120K_W300K\hmm.376 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.376\macros -H hmms\TR120K_W300K\hmm.376\hmmdefs -M hmms\TR120K_W300K\hmm.377 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.377\macros -H hmms\TR120K_W300K\hmm.377\hmmdefs -M hmms\TR120K_W300K\hmm.378 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.378\macros -H hmms\TR120K_W300K\hmm.378\hmmdefs -M hmms\TR120K_W300K\hmm.379 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.379\macros -H hmms\TR120K_W300K\hmm.379\hmmdefs -M hmms\TR120K_W300K\hmm.380 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.380\macros -H hmms\TR120K_W300K\hmm.380\hmmdefs -M hmms\TR120K_W300K\hmm.381 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.381\macros -H hmms\TR120K_W300K\hmm.381\hmmdefs -M hmms\TR120K_W300K\hmm.382 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.382\macros -H hmms\TR120K_W300K\hmm.382\hmmdefs -M hmms\TR120K_W300K\hmm.383 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.383\macros -H hmms\TR120K_W300K\hmm.383\hmmdefs -M hmms\TR120K_W300K\hmm.384 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.384\macros -H hmms\TR120K_W300K\hmm.384\hmmdefs -M hmms\TR120K_W300K\hmm.385 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.385\macros -H hmms\TR120K_W300K\hmm.385\hmmdefs -M hmms\TR120K_W300K\hmm.386 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.386\macros -H hmms\TR120K_W300K\hmm.386\hmmdefs -M hmms\TR120K_W300K\hmm.387 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.387\macros -H hmms\TR120K_W300K\hmm.387\hmmdefs -M hmms\TR120K_W300K\hmm.388 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.388\macros -H hmms\TR120K_W300K\hmm.388\hmmdefs -M hmms\TR120K_W300K\hmm.389 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.389\macros -H hmms\TR120K_W300K\hmm.389\hmmdefs -M hmms\TR120K_W300K\hmm.390 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.390\macros -H hmms\TR120K_W300K\hmm.390\hmmdefs -M hmms\TR120K_W300K\hmm.391 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.391\macros -H hmms\TR120K_W300K\hmm.391\hmmdefs -M hmms\TR120K_W300K\hmm.392 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.392\macros -H hmms\TR120K_W300K\hmm.392\hmmdefs -M hmms\TR120K_W300K\hmm.393 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.393\macros -H hmms\TR120K_W300K\hmm.393\hmmdefs -M hmms\TR120K_W300K\hmm.394 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.394\macros -H hmms\TR120K_W300K\hmm.394\hmmdefs -M hmms\TR120K_W300K\hmm.395 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.395\macros -H hmms\TR120K_W300K\hmm.395\hmmdefs -M hmms\TR120K_W300K\hmm.396 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.396\macros -H hmms\TR120K_W300K\hmm.396\hmmdefs -M hmms\TR120K_W300K\hmm.397 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.397\macros -H hmms\TR120K_W300K\hmm.397\hmmdefs -M hmms\TR120K_W300K\hmm.398 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.398\macros -H hmms\TR120K_W300K\hmm.398\hmmdefs -M hmms\TR120K_W300K\hmm.399 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.399\macros -H hmms\TR120K_W300K\hmm.399\hmmdefs -M hmms\TR120K_W300K\hmm.400 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.400\macros -H hmms\TR120K_W300K\hmm.400\hmmdefs -M hmms\TR120K_W300K\hmm.401 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.401\macros -H hmms\TR120K_W300K\hmm.401\hmmdefs -M hmms\TR120K_W300K\hmm.402 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.402\macros -H hmms\TR120K_W300K\hmm.402\hmmdefs -M hmms\TR120K_W300K\hmm.403 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.403\macros -H hmms\TR120K_W300K\hmm.403\hmmdefs -M hmms\TR120K_W300K\hmm.404 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.404\macros -H hmms\TR120K_W300K\hmm.404\hmmdefs -M hmms\TR120K_W300K\hmm.405 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.405\macros -H hmms\TR120K_W300K\hmm.405\hmmdefs -M hmms\TR120K_W300K\hmm.406 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.406\macros -H hmms\TR120K_W300K\hmm.406\hmmdefs -M hmms\TR120K_W300K\hmm.407 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.407\macros -H hmms\TR120K_W300K\hmm.407\hmmdefs -M hmms\TR120K_W300K\hmm.408 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.408\macros -H hmms\TR120K_W300K\hmm.408\hmmdefs -M hmms\TR120K_W300K\hmm.409 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.409\macros -H hmms\TR120K_W300K\hmm.409\hmmdefs -M hmms\TR120K_W300K\hmm.410 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.410\macros -H hmms\TR120K_W300K\hmm.410\hmmdefs -M hmms\TR120K_W300K\hmm.411 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.411\macros -H hmms\TR120K_W300K\hmm.411\hmmdefs -M hmms\TR120K_W300K\hmm.412 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.412\macros -H hmms\TR120K_W300K\hmm.412\hmmdefs -M hmms\TR120K_W300K\hmm.413 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.413\macros -H hmms\TR120K_W300K\hmm.413\hmmdefs -M hmms\TR120K_W300K\hmm.414 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.414\macros -H hmms\TR120K_W300K\hmm.414\hmmdefs -M hmms\TR120K_W300K\hmm.415 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.415\macros -H hmms\TR120K_W300K\hmm.415\hmmdefs -M hmms\TR120K_W300K\hmm.416 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.416\macros -H hmms\TR120K_W300K\hmm.416\hmmdefs -M hmms\TR120K_W300K\hmm.417 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.417\macros -H hmms\TR120K_W300K\hmm.417\hmmdefs -M hmms\TR120K_W300K\hmm.418 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.418\macros -H hmms\TR120K_W300K\hmm.418\hmmdefs -M hmms\TR120K_W300K\hmm.419 output/TR120K_W300K/tiedlist
+HERest -B -C config\TR120K_W300K\config_train.hcopy -I output\TR120K_W300K\wintri.mlf -t 250.0 150.0 1000.0 -S config\TR120K_W300K\train_features.txt -H hmms\TR120K_W300K\hmm.419\macros -H hmms\TR120K_W300K\hmm.419\hmmdefs -M hmms\TR120K_W300K\hmm.420 output/TR120K_W300K/tiedlist
+
+
+# FIX THIS!
+# Duplicate hmm.210 and rename to monophone
+# Duplicate hmm.280 and rename to triphone
+# Duplicate hmm.420 and rename to tiedtriphone
+
+
+## Test Result
+
+### Test Monophone
+HVite -H hmms\TR120K_W300K\monophone\macros -H hmms\TR120K_W300K\monophone\hmmdefs -S config\TR120K_W300K\test_features.txt -l mfcc_test/TR120K_W300K -i result\TR120K_W300K\result_test.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\monophones1
+
+HResults -L mfcc_test/TR120K_W300K -I output\TR120K_W300K\words_test.mlf output/monophones1 result\TR120K_W300K\result_test.mlf
+
+### Test Tiedtriphone
+HVite -H hmms\TR120K_W300K\tiedtriphone\macros -H hmms\TR120K_W300K\tiedtriphone\hmmdefs -S config\TR120K_W300K\test_features.txt -l mfcc_test/TR120K_W300K -i result\TR120K_W300K\result_test_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\TR120K_W300K\tiedlist
+
+HResults -I output\TR120K_W300K\words_test.mlf output\TR120K_W300K\tiedlist result\TR120K_W300K\result_test_tiedtriphone.mlf
