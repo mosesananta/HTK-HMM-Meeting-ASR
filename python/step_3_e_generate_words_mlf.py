@@ -8,10 +8,12 @@ nims = [
     13519192,
     13519196
 ]
+
+EXPERIMENT = "TRAINZ"
 transcripts_dir = "data/transcripts/"
-script_tr_path = "config/MFCC_0_D_A_Z/script_tr.hcopy"
-script_te_path = "config/MFCC_0_D_A_Z/script_te.hcopy"
-output_filename = "output/MFCC_0_D_A_Z/words_test.mlf"
+script_tr_path = f"config/{EXPERIMENT}/script_tr.hcopy"
+script_te_path = f"config/{EXPERIMENT}/script_te.hcopy"
+output_filename = f"output/{EXPERIMENT}/words_test.mlf"
 valid_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
 
 with open(script_tr_path, mode="r") as file:

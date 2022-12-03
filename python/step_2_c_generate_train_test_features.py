@@ -1,9 +1,11 @@
 MFCC_HYPERPARAMETER=["MFCC_0_D_A_Z", "MFCC_D_A_E_Z", "MFCC_0_D_Z", "MFCC_0_D_A_T_Z", "MFCC_D_A_Z"]
-curr_mfcc = MFCC_HYPERPARAMETER[4]
-train_map_config_path = f"config/script_tr_{curr_mfcc}.hcopy"
-test_map_config_path = f"config/script_te_{curr_mfcc}.hcopy"
-train_features_config_path = f"config/train_features_{curr_mfcc}.txt"
-test_features_config_path = f"config/test_features_{curr_mfcc}.txt"
+EXPERIMENT="TRAINZ"
+
+experiment = EXPERIMENT
+train_map_config_path = f"config/{experiment}/script_tr.hcopy"
+test_map_config_path = f"config/{experiment}/script_te.hcopy"
+train_features_config_path = f"config/{experiment}/train_features.txt"
+test_features_config_path = f"config/{experiment}/test_features.txt"
 
 with open(train_map_config_path, mode="r") as file:
     raw_data = file.read()

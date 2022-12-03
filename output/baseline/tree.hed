@@ -1,4 +1,4 @@
-RO 200.0 output/baseline/stats
+RO 200.0 output/TRAINZ/stats
 TB 350 "ST_sil_2_" {("sil","*-sil+*","sil+*","*-sil").state[2]}
 TB 350 "ST_sp_2_" {("sp","*-sp+*","sp+*","*-sp").state[2]}
 TB 350 "ST_a_2_" {("a","*-a+*","a+*","*-a").state[2]}
@@ -129,6 +129,6 @@ TB 350 "ST_rt_4_" {("rt","*-rt+*","rt+*","*-rt").state[4]}
 TB 350 "ST_sy_4_" {("sy","*-sy+*","sy+*","*-sy").state[4]}
 TB 350 "ST_ls_4_" {("ls","*-ls+*","ls+*","*-ls").state[4]}
 TR 1
-AU "output/baseline/fulllist"
-CO "output/baseline/tiedlist"
-ST "output/baseline/trees"
+AU "output/TRAINZ/fulllist"
+CO "output/TRAINZ/tiedlist"
+ST "output/TRAINZ/trees"
