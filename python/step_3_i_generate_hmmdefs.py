@@ -1,4 +1,6 @@
-base_dir = "hmms/TRAINZ/hmm.0"
+from const import EXPERIMENT
+
+base_dir = f"hmms/{EXPERIMENT}/hmm.0"
 monophones0_path = "output/monophones0"
 
 with open("{}/proto".format(base_dir), mode="r") as file:

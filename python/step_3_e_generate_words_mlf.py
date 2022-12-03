@@ -1,3 +1,5 @@
+from const import EXPERIMENT
+
 nims = [
     13519062,
     13519076, 
@@ -9,11 +11,11 @@ nims = [
     13519196
 ]
 
-EXPERIMENT = "TRAINZ"
 transcripts_dir = "data/transcripts/"
 script_tr_path = f"config/{EXPERIMENT}/script_tr.hcopy"
 script_te_path = f"config/{EXPERIMENT}/script_te.hcopy"
-output_filename = f"output/{EXPERIMENT}/words_test.mlf"
+output_filename_train = f"output/{EXPERIMENT}/words_train.mlf"
+output_filename_test = f"output/{EXPERIMENT}/words_test.mlf"
 valid_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
 
 with open(script_tr_path, mode="r") as file:
@@ -54,6 +56,25 @@ for nim in nims:
 
 #print(transcripts)
 lines = ["#!MLF!#"]
+for wav_filename, mfc_filename in train_pairs:
+    lab_filename = mfc_filename.replace(".mfc", ".lab")
+    lines.append("\"{}\"".format(lab_filename))
+
+    transcript_filename = wav_filename.split("/")[-1]
+    sentence = transcripts[transcript_filename]
+    clean_sentence = "".join([char.lower() if char in valid_chars else " " for char in sentence])
+    for word in clean_sentence.split(" "):
+        if word != "":
+            lines.append(word)
+
+    lines.append(".")
+
+lines.append("") # For newline
+
+with open(output_filename_train, mode="w") as file:
+    file.write("\n".join(lines))
+
+lines = ["#!MLF!#"]
 for wav_filename, mfc_filename in test_pairs:
     lab_filename = mfc_filename.replace(".mfc", ".lab")
     lines.append("\"{}\"".format(lab_filename))
@@ -69,5 +90,5 @@ for wav_filename, mfc_filename in test_pairs:
 
 lines.append("") # For newline
 
-with open(output_filename, mode="w") as file:
+with open(output_filename_test, mode="w") as file:
     file.write("\n".join(lines))

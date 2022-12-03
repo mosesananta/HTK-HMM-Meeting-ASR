@@ -1,6 +1,8 @@
 import os
 import random
 
+from const import EXPERIMENT
+
 random.seed(120) # For reproducibility
 
 nims = [
@@ -14,7 +16,6 @@ nims = [
     13519196
 ]
 MFCC_HYPERPARAMETER=["MFCC_0_D_A_Z", "MFCC_D_A_E_Z", "MFCC_0_D_Z", "MFCC_0_D_A_T_Z", "MFCC_D_A_Z"]
-EXPERIMENT="TRAINZ"
 
 experiment = EXPERIMENT
 audio_list_dir = "data/audios/"

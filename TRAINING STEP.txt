@@ -1,26 +1,28 @@
 NOTES: Whenever life gets you down, just remember the magic word: mkdir
 
-#Run Step 3E Generate Words MLF for train and Test (Python)
-# Fix file in config (script_te and test_features)
-#Rename folder destination (script and output) acccording to current test
+# Define experiment name on the EXPERIMENT variable inside python/const.py
+# Change all "MFCC_0_D_A_T"s inside this file into your experiment name
+
+# Fix missing "/" in folder paths inside config/MFCC_0_D_A_T/script_te.hcopy and config/MFCC_0_D_A_T/test_features.hcopy
 #Run Step 3E 2 times, first with for loop train_pairs (line 55) and words_train (line 14), second with test_pairs (line 55) and words_test (line 14)
 
-HLEd -l * -d output/dict -i output/BOYZ/phones0_train.mlf mkphones0.led output/BOYZ/words_train.mlf
-HLEd -l * -d output/dict -i output/BOYZ/phones0_test.mlf mkphones0.led output/BOYZ/words_test.mlf
+HLEd -l * -d output/dict -i output/MFCC_0_D_A_T/phones0_train.mlf mkphones0.led output/MFCC_0_D_A_T/words_train.mlf
+HLEd -l * -d output/dict -i output/MFCC_0_D_A_T/phones0_test.mlf mkphones0.led output/MFCC_0_D_A_T/words_test.mlf
 
-#Make config_feature and config_train file
+# Copy config_feature.hcopy and config_train.hcopy from config/baseline into config/MFCC_0_D_A_T
 #mkdir mfcc_train
-HCopy -T 1 -C config/BOYZ/config_feature.hcopy -S config/BOYZ/script_tr.hcopy
+HCopy -T 1 -C config/MFCC_0_D_A_T/config_feature.hcopy -S config/MFCC_0_D_A_T/script_tr.hcopy
 #mkdir mfcc_test
-HCopy -T 1 -C config/BOYZ/config_feature.hcopy -S config/BOYZ/script_te.hcopy
+HCopy -T 1 -C config/MFCC_0_D_A_T/config_feature.hcopy -S config/MFCC_0_D_A_T/script_te.hcopy
 
-mkdir hmms\BOYZ\hmm.0
-mkdir hmms\BOYZ\hmm.1
-mkdir hmms\BOYZ\hmm.2
-mkdir hmms\BOYZ\hmm.3
+mkdir hmms\MFCC_0_D_A_T\hmm.0
+mkdir hmms\MFCC_0_D_A_T\hmm.1
+mkdir hmms\MFCC_0_D_A_T\hmm.2
+mkdir hmms\MFCC_0_D_A_T\hmm.3
 
-#Make proto (name must be proto, error otherwise, please try to backup available proto)
-HCompV -C config\BOYZ\config_train.hcopy -f 0.01 -m -S config\BOYZ\train_features.txt -M hmms\BOYZ\hmm.0 config\proto
+#Make proto file inside config (name must be proto, error otherwise, please try to backup available proto)
+# Configure proto to have appropriate number of features (default is 39, also don't forget to manually adjust the number of elements + adjust the number of 0.0 and 1.0s inside mean and variance vectors)
+HCompV -C config\MFCC_0_D_A_T\config_train.hcopy -f 0.01 -m -S config\MFCC_0_D_A_T\train_features.txt -M hmms\MFCC_0_D_A_T\hmm.0 config\proto
 
 
 :: Tutorial - Step 3.i
@@ -32,11 +34,11 @@ py python/step_3_i_generate_hmmdefs.py
 py python/step_3_j_generate_macros.py
 
 # Use Generate herest or commands below:
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.0\macros -H hmms\BOYZ\hmm.0\hmmdefs -M hmms\BOYZ\hmm.1 output/monophones0
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.0\macros -H hmms\MFCC_0_D_A_T\hmm.0\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.1 output/monophones0
 
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.1\macros -H hmms\BOYZ\hmm.1\hmmdefs -M hmms\BOYZ\hmm.2 output/monophones0
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.1\macros -H hmms\MFCC_0_D_A_T\hmm.1\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.2 output/monophones0
 
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.2\macros -H hmms\BOYZ\hmm.2\hmmdefs -M hmms\BOYZ\hmm.3 output/monophones0
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.2\macros -H hmms\MFCC_0_D_A_T\hmm.2\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.3 output/monophones0
 
 Lakukan pelatihan model lagi dengan menduplikat dulu model hmm terakhir yang
 dibuat, misalnya model terlatih terakhir hmm.3, maka buat salinannya yaitu hmm.4
@@ -46,85 +48,86 @@ dengan perubahan berikut:
 - edit <NUMSTATES> dari 5 jadi 3, <STATES> 3 jadi 2, dan <TRANSP> dari
 5 jadi 3
 ubah matriks di <TRANSP> dari 5x5 jadi 3x3 seperti berikut:
-0.0 1.0 0.0
-0.0 0.9 0.1
-0.0 0.0 0.0
+ 0.0 1.0 0.0
+ 0.0 0.9 0.1
+ 0.0 0.0 0.0
+^perhatikan bahwa ada spasi sebelum matriksnya, ini penting :D
 
-mkdir hmms\BOYZ\hmm.5
-mkdir hmms\BOYZ\hmm.6
-mkdir hmms\BOYZ\hmm.7
-HHEd -H hmms\BOYZ\hmm.4\macros -H hmms\BOYZ\hmm.4\hmmdefs -M hmms\BOYZ\hmm.5 config\sil.hed output\monophones1
+mkdir hmms\MFCC_0_D_A_T\hmm.5
+mkdir hmms\MFCC_0_D_A_T\hmm.6
+mkdir hmms\MFCC_0_D_A_T\hmm.7
+HHEd -H hmms\MFCC_0_D_A_T\hmm.4\macros -H hmms\MFCC_0_D_A_T\hmm.4\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.5 config\sil.hed output\monophones1
 
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.5\macros -H hmms\BOYZ\hmm.5\hmmdefs -M hmms\BOYZ\hmm.6 output\monophones1
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.5\macros -H hmms\MFCC_0_D_A_T\hmm.5\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.6 output\monophones1
 
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.6\macros -H hmms\BOYZ\hmm.6\hmmdefs -M hmms\BOYZ\hmm.7 output\monophones1
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\phones0_train.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.6\macros -H hmms\MFCC_0_D_A_T\hmm.6\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.7 output\monophones1
 
-HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\BOYZ\config_train.hcopy -a -H hmms\BOYZ\hmm.7\macros -H hmms\BOYZ\hmm.7\hmmdefs -i output\BOYZ\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I output/BOYZ/words_train.mlf -S config\BOYZ\train_features.txt output\dict output\monophones1 > log\HVite_log
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config\MFCC_0_D_A_T\config_train.hcopy -a -H hmms\MFCC_0_D_A_T\hmm.7\macros -H hmms\MFCC_0_D_A_T\hmm.7\hmmdefs -i output\MFCC_0_D_A_T\aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -I output/MFCC_0_D_A_T/words_train.mlf -S config\MFCC_0_D_A_T\train_features.txt output\dict output\monophones1 > log\HVite_log
 
-mkdir hmms\BOYZ\hmm.8
-mkdir hmms\BOYZ\hmm.9
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\aligned.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.7\macros -H hmms\BOYZ\hmm.7\hmmdefs -M hmms\BOYZ\hmm.8 output\monophones1
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\aligned.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.8\macros -H hmms\BOYZ\hmm.8\hmmdefs -M hmms\BOYZ\hmm.9 output\monophones1
+mkdir hmms\MFCC_0_D_A_T\hmm.8
+mkdir hmms\MFCC_0_D_A_T\hmm.9
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\aligned.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.7\macros -H hmms\MFCC_0_D_A_T\hmm.7\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.8 output\monophones1
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\aligned.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.8\macros -H hmms\MFCC_0_D_A_T\hmm.8\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.9 output\monophones1
 
-HLEd -n output\BOYZ\triphones1 -l * -i output\BOYZ\wintri.mlf config\mktri.led output\BOYZ\aligned.mlf
+HLEd -n output\MFCC_0_D_A_T\triphones1 -l * -i output\MFCC_0_D_A_T\wintri.mlf config\mktri.led output\MFCC_0_D_A_T\aligned.mlf
 
-mkdir hmms\BOYZ\hmm.10
+mkdir hmms\MFCC_0_D_A_T\hmm.10
 
-perl perl/maketrihed.pl output/monophones1 output/BOYZ/triphones1
+perl perl/maketrihed.pl output/monophones1 output/MFCC_0_D_A_T/triphones1
 
-move mktri.hed output/BOYZ/
+move mktri.hed output/MFCC_0_D_A_T/
 
-HHEd -B -H hmms\BOYZ\hmm.9\macros -H hmms\BOYZ\hmm.9\hmmdefs -M hmms\BOYZ\hmm.10 output\BOYZ\mktri.hed output\monophones1
+HHEd -B -H hmms\MFCC_0_D_A_T\hmm.9\macros -H hmms\MFCC_0_D_A_T\hmm.9\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.10 output\MFCC_0_D_A_T\mktri.hed output\monophones1
 
-mkdir hmms\BOYZ\hmm.11
-mkdir hmms\BOYZ\hmm.12
+mkdir hmms\MFCC_0_D_A_T\hmm.11
+mkdir hmms\MFCC_0_D_A_T\hmm.12
 
-HERest -B -C config\BOYZ\config_train.hcopy -I output\BOYZ\wintri.mlf -t 250.0 150.0 1000.0 -s output\BOYZ\stats -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.10\macros -H hmms\BOYZ\hmm.10\hmmdefs -M hmms\BOYZ\hmm.11 output/BOYZ/triphones1
+HERest -B -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\wintri.mlf -t 250.0 150.0 1000.0 -s output\MFCC_0_D_A_T\stats -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.10\macros -H hmms\MFCC_0_D_A_T\hmm.10\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.11 output/MFCC_0_D_A_T/triphones1
 
-HERest -B -C config\BOYZ\config_train.hcopy -I output\BOYZ\wintri.mlf -t 250.0 150.0 1000.0 -s output\BOYZ\stats -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.11\macros -H hmms\BOYZ\hmm.11\hmmdefs -M hmms\BOYZ\hmm.12 output/BOYZ/triphones1
+HERest -B -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\wintri.mlf -t 250.0 150.0 1000.0 -s output\MFCC_0_D_A_T\stats -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.11\macros -H hmms\MFCC_0_D_A_T\hmm.11\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.12 output/MFCC_0_D_A_T/triphones1
 
-mkdir hmms\BOYZ\hmm.13
+mkdir hmms\MFCC_0_D_A_T\hmm.13
 
-HDMan -b sp -n output/BOYZ/fulllist -g output/BOYZ/global.ded output/BOYZ/dict-tri output\dict
+HDMan -b sp -n output/MFCC_0_D_A_T/fulllist -g output/MFCC_0_D_A_T/global.ded output/MFCC_0_D_A_T/dict-tri output\dict
 
 Copy output/(folder)/triphones1 contents to fullist not including sil
-perl perl/mkclscript.prl TB 350 output/monophones1 >> output/BOYZ/tree.hed
+perl perl/mkclscript.prl TB 350 output/monophones1 >> output/MFCC_0_D_A_T/tree.hed
 
-# FOR NOW USE THE tree.hed from baseline:
+# FOR NOW USE THE tree.hed from output/baseline:
 Add the following content to the bottom of output/(folder)/tree.hed file:
 TR 1
-AU "output/BOYZ/fulllist"
-CO "output/BOYZ/tiedlist"
-ST "output/BOYZ/trees"
+AU "output/MFCC_0_D_A_T/fulllist"
+CO "output/MFCC_0_D_A_T/tiedlist"
+ST "output/MFCC_0_D_A_T/trees"
 
 and to top of the tree.hed file:
-RO 200.0 output/BOYZ/stats
+RO 200.0 output/MFCC_0_D_A_T/stats
 
-HHEd -B -H hmms\BOYZ\hmm.12\macros -H hmms\BOYZ\hmm.12\hmmdefs -M hmms\BOYZ\hmm.13 output/BOYZ/tree.hed output/BOYZ/triphones1
+HHEd -B -H hmms\MFCC_0_D_A_T\hmm.12\macros -H hmms\MFCC_0_D_A_T\hmm.12\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.13 output/baseline/tree.hed output/MFCC_0_D_A_T/triphones1
 
-mkdir hmms\BOYZ\hmm.14
-mkdir hmms\BOYZ\hmm.15
+mkdir hmms\MFCC_0_D_A_T\hmm.14
+mkdir hmms\MFCC_0_D_A_T\hmm.15
 
-HERest -C config\BOYZ\config_train.hcopy -I output\BOYZ\wintri.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.13\macros -H hmms\BOYZ\hmm.13\hmmdefs -M hmms\BOYZ\hmm.14 output/BOYZ/tiedlist
+HERest -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\wintri.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.13\macros -H hmms\MFCC_0_D_A_T\hmm.13\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.14 output/MFCC_0_D_A_T/tiedlist
 
-HERest -B -C config\BOYZ\config_train.hcopy -I output\BOYZ\wintri.mlf -t 250.0 150.0 1000.0 -S config\BOYZ\train_features.txt -H hmms\BOYZ\hmm.14\macros -H hmms\BOYZ\hmm.14\hmmdefs -M hmms\BOYZ\hmm.15 output/BOYZ/tiedlist
+HERest -B -C config\MFCC_0_D_A_T\config_train.hcopy -I output\MFCC_0_D_A_T\wintri.mlf -t 250.0 150.0 1000.0 -S config\MFCC_0_D_A_T\train_features.txt -H hmms\MFCC_0_D_A_T\hmm.14\macros -H hmms\MFCC_0_D_A_T\hmm.14\hmmdefs -M hmms\MFCC_0_D_A_T\hmm.15 output/MFCC_0_D_A_T/tiedlist
 
-# Duplicate hmm.9 and rename to monophone
-# Duplicate hmm.12 and rename to triphone
-# Duplicate hmm.15 and rename to tiedtriphone
-
-### DNN Section
-HVite -C config\BOYZ\config_train.hcopy -H hmms\BOYZ\tiedtriphone\macros -H hmms\BOYZ\tiedtriphone\hmmdefs -i output\BOYZ\train.tri.aligned.mlf -f -o MW -a -y lab -I output\BOYZ\words_train.mlf -S config\BOYZ\train_features.txt output\dict output/BOYZ/tiedlist 
-
+# Duplicate hmms/MFCC_0_D_A_T/hmm.9 and rename to monophone
+# Duplicate hmms/MFCC_0_D_A_T/hmm.12 and rename to triphone
+# Duplicate hmms/MFCC_0_D_A_T/hmm.15 and rename to tiedtriphone
 
 ## Test Result
 
-### Test Monophone
-HVite -H hmms\BOYZ\monophone\macros -H hmms\BOYZ\monophone\hmmdefs -S config\BOYZ\test_features.txt -l mfcc_test/BOYZ -i result\BOYZ\result_test.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\monophones1
+# Fix missing "/" in folder paths inside output/MFCC_0_D_A_T/words_test.mlf
 
-HResults -L mfcc_test/BOYZ -I output\BOYZ\words_test.mlf output/monophones1 result\BOYZ\result_test.mlf
+mkdir result/MFCC_0_D_A_T
+
+### Test Monophone
+HVite -H hmms\MFCC_0_D_A_T\monophone\macros -H hmms\MFCC_0_D_A_T\monophone\hmmdefs -S config\MFCC_0_D_A_T\test_features.txt -l mfcc_test/MFCC_0_D_A_T -i result\MFCC_0_D_A_T\result_test.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\monophones1
+
+HResults -L mfcc_test/MFCC_0_D_A_T -I output\MFCC_0_D_A_T\words_test.mlf output/monophones1 result\MFCC_0_D_A_T\result_test.mlf
 
 ### Test Tiedtriphone
-HVite -H hmms\BOYZ\tiedtriphone\macros -H hmms\BOYZ\tiedtriphone\hmmdefs -S config\BOYZ\test_features.txt -l mfcc_test/BOYZ -i result\BOYZ\result_test_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\BOYZ\tiedlist
+HVite -H hmms\MFCC_0_D_A_T\tiedtriphone\macros -H hmms\MFCC_0_D_A_T\tiedtriphone\hmmdefs -S config\MFCC_0_D_A_T\test_features.txt -l mfcc_test/MFCC_0_D_A_T -i result\MFCC_0_D_A_T\result_test_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\MFCC_0_D_A_T\tiedlist
 
-HResults -I output\BOYZ\words_test.mlf output\BOYZ\tiedlist result\BOYZ\result_test_tiedtriphone.mlf
+HResults -I output\MFCC_0_D_A_T\words_test.mlf output\MFCC_0_D_A_T\tiedlist result\MFCC_0_D_A_T\result_test_tiedtriphone.mlf
