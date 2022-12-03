@@ -933,3 +933,16 @@ HResults -L mfcc_test/TRAINZ -I output\TRAINZ\words_test.mlf output/monophones1 
 HVite -H hmms\TRAINZ\tiedtriphone\macros -H hmms\TRAINZ\tiedtriphone\hmmdefs -S config\TRAINZ\test_features.txt -l mfcc_test/TRAINZ -i result\TRAINZ\result_test_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\TRAINZ\tiedlist
 
 HResults -I output\TRAINZ\words_test.mlf output\TRAINZ\tiedlist result\TRAINZ\result_test_tiedtriphone.mlf
+
+### Train
+
+HVite -H hmms\TRAINZ\monophone\macros -H hmms\TRAINZ\monophone\hmmdefs -S config\TRAINZ\train_features.txt -l mfcc_train/TRAINZ -i result\TRAINZ\result_train.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\monophones1
+
+HResults -L mfcc_train/TRAINZ -I output\TRAINZ\words_train.mlf output/monophones1 result\TRAINZ\result_train.mlf
+
+
+
+
+HVite -H hmms\TRAINZ\tiedtriphone\macros -H hmms\TRAINZ\tiedtriphone\hmmdefs -S config\TRAINZ\train_features.txt -l mfcc_train/TRAINZ -i result\TRAINZ\result_train_tiedtriphone.mlf -w output\wdnet.slf -p 0.0 -s 5.0 output\dict output\TRAINZ\tiedlist
+
+HResults -I output\TRAINZ\words_train.mlf output\TRAINZ\tiedlist result\TRAINZ\result_train_tiedtriphone.mlf
